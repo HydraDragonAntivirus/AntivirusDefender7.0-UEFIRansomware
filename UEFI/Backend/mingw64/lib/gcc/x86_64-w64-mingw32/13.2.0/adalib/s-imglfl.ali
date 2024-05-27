@@ -1,0 +1,147 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.img_lflt%s	s-imglfl.ads		98a65700 NE OL PK
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.double_real%s
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.float_control%s  s-flocon.adb		s-flocon.ali
+W system.image_r%s
+W system.img_llu%s	s-imgllu.ads		s-imgllu.ali
+Z system.img_util%s	s-imguti.adb		s-imguti.ali
+W system.powten_lflt%s	s-powlfl.ads		s-powlfl.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-dourea.ads		20230727081304 8a0ecf55 system.double_real%s
+D s-dourea.adb		20230727081304 be38c14a system.double_real%b
+D s-dorepr.adb		20230727081304 e195a66d system.double_real.product
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-fatgen.ads		20230727081304 d28c6cfe system.fat_gen%s
+D s-fatlfl.ads		20230727081304 378cba9f system.fat_lflt%s
+D s-flocon.ads		20230727081304 e0fc433c system.float_control%s
+D s-imager.ads		20230727081304 45c7157d system.image_r%s
+D s-imager.adb		20230727081304 5ded40b2 system.image_r%b
+D s-imageu.ads		20230727081304 631c6ed0 system.image_u%s
+D s-imglfl.ads		20230727081304 941be202 system.img_lflt%s
+D s-imgllu.ads		20230727081304 ef081208 system.img_llu%s
+D s-imguti.ads		20230727081304 7719a4b9 system.img_util%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-powlfl.ads		20230727081304 ac0852c8 system.powten_lflt%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-valllu.ads		20230727081304 ca6e26ce system.val_llu%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+D s-widllu.ads		20230727081304 a6620b19 system.wid_llu%s
+D s-widthu.ads		20230727081304 b32f15e2 system.width_u%s
+G a e
+G c Z s s [image_fixed_point system__img_lflt__impl 52 14 49_4]
+G c Z s s [image_floating_point system__img_lflt__impl 65 14 49_4]
+G c Z s s [set_image_real system__img_lflt__impl 76 14 49_4]
+G c Z s s [to_double system__img_lflt__impl__double_real 49 13 61_4_49_4]
+G c Z s s [to_single system__img_lflt__impl__double_real 52 13 61_4_49_4]
+G c Z s s [quick_two_sum system__img_lflt__impl__double_real 55 13 61_4_49_4]
+G c Z s s [two_sum system__img_lflt__impl__double_real 59 13 61_4_49_4]
+G c Z s s [two_diff system__img_lflt__impl__double_real 62 13 61_4_49_4]
+G c Z s s [two_prod system__img_lflt__impl__double_real 65 13 61_4_49_4]
+G c Z s s [two_sqr system__img_lflt__impl__double_real 68 13 61_4_49_4]
+G c Z s s [Oadd system__img_lflt__impl__double_real 71 13 61_4_49_4]
+G c Z s s [Osubtract system__img_lflt__impl__double_real 72 13 61_4_49_4]
+G c Z s s [Omultiply system__img_lflt__impl__double_real 73 13 61_4_49_4]
+G c Z s s [Odivide system__img_lflt__impl__double_real 74 13 61_4_49_4]
+G c Z s s [Oadd system__img_lflt__impl__double_real 78 13 61_4_49_4]
+G c Z s s [Osubtract system__img_lflt__impl__double_real 79 13 61_4_49_4]
+G c Z s s [Omultiply system__img_lflt__impl__double_real 80 13 61_4_49_4]
+G c Z s s [Odivide system__img_lflt__impl__double_real 81 13 61_4_49_4]
+G c Z s s [sqr system__img_lflt__impl__double_real 85 13 61_4_49_4]
+G c Z s s [Oeq system__img_lflt__impl__double_real 88 13 61_4_49_4]
+G c Z s s [Olt system__img_lflt__impl__double_real 90 13 61_4_49_4]
+G c Z s s [Ole system__img_lflt__impl__double_real 92 13 61_4_49_4]
+G c Z s s [Ogt system__img_lflt__impl__double_real 94 13 61_4_49_4]
+G c Z s s [Oge system__img_lflt__impl__double_real 96 13 61_4_49_4]
+G c Z s s [Oeq system__img_lflt__impl__double_real 100 13 61_4_49_4]
+G c Z s s [Olt system__img_lflt__impl__double_real 102 13 61_4_49_4]
+G c Z s s [Ole system__img_lflt__impl__double_real 104 13 61_4_49_4]
+G c Z s s [Ogt system__img_lflt__impl__double_real 106 13 61_4_49_4]
+G c Z s s [Oge system__img_lflt__impl__double_real 108 13 61_4_49_4]
+G c Z s s [double_tIP system__img_lflt__impl__double_real 45 9 61_4_49_4]
+G c Z s s [is_nan system__img_lflt__impl__double_real 34 13 61_4_49_4]
+G c Z s s [is_infinity system__img_lflt__impl__double_real 37 13 61_4_49_4]
+G c Z s s [is_zero system__img_lflt__impl__double_real 41 13 61_4_49_4]
+G c Z s s [two_prod system__img_lflt__impl__double_real__product 46 16 61_4_49_4]
+G c Z s s [two_sqr system__img_lflt__impl__double_real__product 47 16 61_4_49_4]
+G c Z s s [split system__img_lflt__impl__double_real__product 40 14 61_4_49_4]
+G c Z s s [from_unsignedR system__img_lflt__impl__from_unsignedGP4015 67 13 49_4]
+G c Z s s [from_unsigned system__img_lflt__impl 67 13 49_4]
+G c Z s s [to_unsignedR system__img_lflt__impl__to_unsignedGP4081 68 13 49_4]
+G c Z s s [to_unsigned system__img_lflt__impl 68 13 49_4]
+G c Z s s [is_negative system__img_lflt__impl 71 13 49_4]
+X 9 system.ads
+37K9*System 192e11 22|35r6 36r6 37r6 38r6 40r9 51r7 52r7 54r7 79r5
+X 19 s-imager.ads
+50k16*Image_R 91e19 22|36w13 49r24
+52U14*Image_Fixed_Point 22|61r19[49]
+65U14*Image_Floating_Point 22|68r19[49]
+76U14*Set_Image_Real 22|77r19[49]
+X 22 s-imglfl.ads
+40K16*Img_LFlt 9|37k9 22|79l12 79e20
+49K12*Impl[19|50] 61r14 68r14 77r14
+56U14*Image_Fixed=61:19
+57f7 V{long_float}
+58a7 S{string}
+59i7 P{natural}
+60i7 Aft{natural}
+63U14*Image_Long_Float=68:19
+64f7 V{long_float}
+65a7 S{string}
+66i7 P{natural}
+67i7 Digs{natural}
+70U14*Set_Image_Long_Float=77:19
+71f7 V{long_float}
+72a7 S{string}
+73i7 P{natural}
+74i7 Fore{natural}
+75i7 Aft{natural}
+76i7 Exp{natural}
+X 23 s-imgllu.ads
+53K16*Img_LLU 22|35w13 54r14 23|76e19
+70U14*Set_Image_Long_Long_Unsigned=74:19 22|54r22
+X 26 s-powlfl.ads
+34K16*Powten_LFlt 22|37w13 51r14 52r14 26|148e23
+42N4*Maxpow 22|51r26
+101a4*Powten(long_float) 22|52r26
+X 29 s-unstyp.ads
+38K16*Unsigned_Types 22|38w13 53r7 29|249e26
+46M9*Long_Long_Unsigned 22|53r22
+

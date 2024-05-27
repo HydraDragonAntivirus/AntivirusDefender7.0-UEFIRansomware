@@ -1,0 +1,93 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_RECURSION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.containers.stable_sorting%b  a-costso.adb	fb575acb NE OL PK
+W ada.containers%s	a-contai.ads		a-contai.ali
+
+U ada.containers.stable_sorting%s  a-costso.ads	f29ff792 BN NE OL PU RT PK
+W ada.containers%s	a-contai.ads		a-contai.ali
+N A40:4 codepeer skip_analysis
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-contai.ads		20230727081304 61e5e089 ada.containers%s
+D a-costso.ads		20230727081304 937a171b ada.containers.stable_sorting%s
+D a-costso.adb		20230727081304 682d4dd0 ada.containers.stable_sorting%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 3|39r17 71r5 4|32r14 191r5
+X 2 a-contai.ads
+16K13*Containers 1|16k9 2|28e19 3|39r21 71r9 4|32r18 191r9
+22I9*Count_Type<integer> 3|54r27 4|65r38
+X 3 a-costso.ads
+39K32*Stable_Sorting 2|16k13 3|71l20 71e34 4|32b29 191l20 191t34
+47+12 Node_Ref 48r13 53r27 61r34 61r51 62r39 62r56 63r39 63r56 64r36 4|64r24
+. 92r55 101r55 122r31
+48*7 Nil{47+12} 53r39 4|36r48 36r53 80r38 81r39 112r49 113r42
+49k12*List_Descriptors 47z12 48z7 69l8 69e24 4|33b17 190l8 190t24
+51R12*List_Descriptor 55e20 66r50 67r49 4|34r49 36r28 38r37 38r61 46r37 46r61
+. 49r26 49r62 54r31 54r55 62r26 62r62 89r31 89r55 91r58 100r58 117r25 118r25
+. 119r25 166r31
+53*13 First{47+12} 4|64r44 71m26 71r44 75m26 81r32 103r38 108r46 136r41 136r52
+. 146m33
+53*20 Last{47+12} 4|72m26 76m26 76r43 80r32 109r40 146m41 148r49 149r39 150m29
+54i13 Length{2|22I9} 4|65r61 73m26 77m26 77r44 77r59 105r29 110r40 127r26
+. 127r46 128r25 130r28 145r29 146m59 151m29 151r46 160r30 180r18
+61V24 Next{47+12} 61>30 4|68s28 75s35 108s33 112s32
+61*30 N{47+12}
+62U25 Set_Next 62>35 62>49 4|80s16 113s22 149s22
+62*35 N{47+12}
+62*49 Next{47+12}
+63U25 Set_Prev 63>35 63>49 4|81s16 112s22 148s22
+63*35 N{47+12}
+63*49 Prev{47+12}
+64V25 "<"{boolean} 64>29 64>32 4|136s47
+64*29 L{47+12}
+64*32 R{47+12}
+66U25 Update_Container 66>43 4|185s13 187s13
+66r43 List{51R12}
+67u17*Doubly_Linked_List_Sort 67>42 4|34b17 189l11 189t34
+67r42 List{51R12} 4|34b42 180r13 187r43
+X 4 a-costso.adb
+36r10 Empty{3|51R12} 106r32 119r44 185r31
+38V19 Merge_Sort{3|51R12} 38>31 46b19 170s25 171s25 175l14 175t24 187s31
+38r31 Arg{3|51R12} 46b31 160r26 162r23 168r39
+48U23 Split_List 49>16 49<43 49<50 61b23 82l17 82t27 168s16
+49r16 Unsplit{3|51R12} 62b16 64r36 65r53 71r36 76r35 77r36 168r28
+49r43 Part1{3|51R12} 62b43 71m16 77r53 80r26 168r44
+49r50 Part2{3|51R12} 62b50 75m16 81r26 168r60
+53V22 Merge_Parts{3|51R12} 54>16 54>23 88b22 155l17 155t28 173s23
+54r16 Part1{3|51R12} 89b16 117r44
+54r23 Part2{3|51R12} 89b23 118r44
+64*16 Rover{3|47+12} 68m19 68r34 72r36 75r41
+65i16 Bump_Count{2|22I9} 67r33 73r36
+67i20 Iter<integer>
+91U26 Detach_First 91=40 92<40 100b26 115l20 115t32 140s22 142s22
+91r40 Source{3|51R12} 100b40 103r31 105r22 106m22 108m22 108r39 109r33 110r33
+92*40 Detached{3|47+12} 101b40 103m19 112r38 113r32
+117r16 P1{3|51R12} 127r23 128r22 136r49 142m36 142r36
+118r16 P2{3|51R12} 127r43 130r25 136r38 140m36 140r36
+119r16 Merged{3|51R12} 145r22 146m22 148r42 149r32 150m22 151m22 151r39 154r23
+121b16 Take_From_P2{boolean} 129m22 131m22 136m22 139r22
+122*16 Detached{3|47+12} 140m40 142m40 146r49 148r32 149r45 150r37
+166r16 Part1{3|51R12} 168m53 170m16 170r37 173r36
+166r23 Part2{3|51R12} 168m69 171m16 171r37 173r43
+

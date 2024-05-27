@@ -1,0 +1,43 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.traceback_entries%b  s-traent.adb	5f6b6486 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.traceback_entries%s  s-traent.ads	384c206a BN NE OL PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-traent.adb		20230727081304 9777db0a system.traceback_entries%b
+G a e
+G c Z s b [pc_for system__traceback_entries 52 13 none]
+G c Z s b [tb_entry_for system__traceback_entries 57 13 none]
+G c Z s s [tracebacks_arrayIP system__traceback_entries 50 9 none]
+X 1 system.ads
+37K9*System 192e11 2|41r9 44r31 47r48 52r56 57r32 61r5 3|32r14 38r56 47r32
+. 52r5
+67M9*Address 2|44r38 52r63 57r39 3|38r63 47r39
+69m4*Null_Address{67M9} 2|47r55
+X 2 s-traent.ads
+41K16*Traceback_Entries 1|37k9 2|61l12 61e29 3|32b21 52l12 52t29
+44M12*Traceback_Entry{1|67M9} 47r29 50r58 52r32 57r55 3|38r32 47r55
+47m4*Null_TB_Entry{44M12}
+50A9*Tracebacks_Array(44M12)<integer>
+52V13*PC_For{1|67M9} 52>21 53r19 3|38b13 41l8 41t14
+52m21 TB_Entry{44M12} 3|38b21 40r14
+57V13*TB_Entry_For{44M12} 57>27 58r19 3|47b13 50l8 50t20
+57m27 PC{1|67M9} 3|47b27 49r14
+

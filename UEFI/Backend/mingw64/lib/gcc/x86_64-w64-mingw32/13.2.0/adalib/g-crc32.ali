@@ -1,0 +1,120 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_UNCHECKED_CONVERSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U gnat.crc32%b		g-crc32.adb		379b6f91 NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.unchecked_conversion%s
+W gnat%s		gnat.ads		gnat.ali
+
+U gnat.crc32%s		g-crc32.ads		6556a779 BN EE NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gnat%s		gnat.ads		gnat.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.crc32%s	s-crc32.adb		s-crc32.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-crc32.ads		20230727081304 f06a8e9a gnat.crc32%s
+D g-crc32.adb		20230727081304 c96ac664 gnat.crc32%b
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-crc32.ads		20230727081304 24c8b3b5 system.crc32%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [update gnat__crc32 76 14 none]
+G c Z s b [wide_update gnat__crc32 81 14 none]
+G c Z s b [wide_update gnat__crc32 87 14 none]
+G c Z s b [update gnat__crc32 92 14 none]
+G c Z s b [update gnat__crc32 97 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|57r6 94r15 99r15 11|32r6 47r48 48r31 49r10 57r15 71r29
+X 3 a-stream.ads
+36K13*Streams 87e16 10|57w10 94r19 99r19 11|47r52 49r14 57r19
+42M9*Stream_Element 10|94r27 11|47r60 49r22
+54A9*Stream_Element_Array(42M9)<44I9> 10|99r27 11|57r27
+X 8 a-unccon.ads
+20v14*Unchecked_Conversion 11|32w10 48r35 71r33
+X 9 gnat.ads
+37K9*GNAT 60e9 10|61r9 111r5 11|34r14 85r5
+X 10 g-crc32.ads
+61K14*CRC32 9|37k9 10|111l10 111e15 11|34b19 85l10 85t15
+63M12*CRC32{14|61M9} 66r34 71r22 77r22 82r22 88r22 93r22 98r22 102r28 11|40r33
+. 47r33 56r22 69r38 78r38
+66U14*Initialize=67:27
+66m26 C{63M12}
+70U14*Update=73:27 11|43s10 52s7 74s7 75s7
+71m7 C{63M12}
+72e7 Value{character}
+76U14*Update 77=7 78>7 11|40b14 45l8 45t14
+77m7 C{63M12} 11|40b22 43m18
+78a7 Value{string} 11|40b40 42r16 43r21
+81U14*Wide_Update 82=7 83>7 11|69b14 76l8 76t19 81s10
+82m7 C{63M12} 11|69b27 74m15 75m15
+83e7 Value{wide_character} 11|69b45 72r34
+87U14*Wide_Update 88=7 89>7 11|78b14 83l8 83t19
+88m7 C{63M12} 11|78b27 81m23
+89a7 Value{wide_string} 11|78b45 80r16 81r26
+92U14*Update 93=7 94>7 11|47b14 53l8 53t14 61s10
+93m7 C{63M12} 11|47b22 52m15
+94m7 Value{3|42M9} 11|47b40 50r42
+97U14*Update 98=7 99>7 11|55b14 63l8 63t14
+98m7 C{63M12} 11|56b7 61m18
+99a7 Value{3|54A9} 11|57b7 60r16 61r21
+102V13*Get_Value=103:27{12|80M9}
+102m24 C{63M12}
+X 11 g-crc32.adb
+42i11 K{integer} 43r28
+48V16 To_Char[8|20]{character} 50s33
+50e7 V{character} 52r18
+60i11 K<long_long_integer> 61r28
+70A15 S2{string}<integer> 71r71 72r21
+71V16 To_S2[8|20]{string} 72s27
+72a7 VS{70A15} 74r18 75r18
+80i11 K{integer} 81r33
+X 12 interfac.ads
+38K9*Interfaces 10|58w6 102r42 12|232e15
+80M9*Unsigned_32 10|102r53
+X 13 system.ads
+37K9*System 10|59r6 63r21 67r14 73r14 103r14 13|192e11
+X 14 s-crc32.ads
+59K16*CRC32 10|59w13 63r28 67r21 73r21 103r21 14|81e17
+61M9*CRC32<12|80M9> 10|63r34
+64U14*Initialize 10|67r27
+68U14*Update 10|73r27
+74V13*Get_Value{12|80M9} 10|103r27
+

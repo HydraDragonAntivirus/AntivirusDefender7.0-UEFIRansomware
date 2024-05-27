@@ -1,0 +1,113 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.wide_text_io.enumeration_io%b  a-wtenio.adb  9c1bd640 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+W ada.wide_text_io.enumeration_aux%s  a-wtenau.adb  a-wtenau.ali
+
+U ada.wide_text_io.enumeration_io%s  a-wtenio.ads  53e2b0b3 BN NE OL PK GE
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20230727081304 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-witeio.ads		20230727081304 0f9cff17 ada.wide_text_io%s
+D a-wtenau.ads		20230727081304 f5f2a529 ada.wide_text_io.enumeration_aux%s
+D a-wtenio.ads		20230727081304 5c7e4fa4 ada.wide_text_io.enumeration_io%s
+D a-wtenio.adb		20230727081304 35973ccd ada.wide_text_io.enumeration_io%b
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-cstrea.ads		20230727081304 e53d8b8e interfaces.c_streams%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-crtl.ads		20230727081304 8a0692f8 system.crtl%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230727081304 dc5161d4 system.file_control_block%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20230727081304 d9032363 system.wch_con%s
+G a e
+G c Z s b [enumeration_io ada__wide_text_io 25 26 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|25r9 54r5 13|32r6 34r14 36r24 104r5
+X 10 a-witeio.ads
+52K13*Wide_Text_IO 1|16k9 10|492e21 12|25r13 54r9 13|32r10 34r18 36r28 104r9
+54P9*File_Type 12|30r26 34r15 13|42r26 75r15
+75I12*Field{integer} 12|27r20 36r15 41r15 13|77r15 87r15
+79E9*Type_Set 79e45 12|28r22 37r15 42r15 52r14 13|78r15 88r15 97r14
+79n34*Upper_Case{79E9} 12|28r34
+297X4*Data_Error 13|49r38 67r38
+452p4 Current_In{54P9} 13|54r12
+453p4 Current_Out{54P9} 13|91r12
+X 11 a-wtenau.ads
+35K34*Enumeration_Aux 69e37 13|32w23 36r41
+37U14*Get_Enum_Lit 13|46s11
+46U14*Scan_Enum_Lit 13|64s11
+54U14*Put 13|82s11
+62U14*Puts 13|101s11
+X 12 a-wtenio.ads
+23E9 Enum 30r48 31r30 35r15 40r15 46r18 51r14 13|42r48 43r34 47r15 52r30
+. 59r18 65r15 76r15 80r39 86r15 96r14 99r39
+25k26*Enumeration_IO 10|52k13 12|23z9 54l22 54e36 13|34b31 104l22 104t36
+27i4*Default_Width{10|75I12} 36r24 41r24 13|77r24 87r24
+28e4*Default_Setting{10|79E9} 37r27 42r27 52r26 13|78r27 88r27 97r26
+30U14*Get 30>19 30<37 13|42b14 50l8 50t11 54s7
+30p19 File{10|54P9} 13|42b19 46r25
+30*37 Item{23E9} 13|42b37 47m7
+31U14*Get 31<19 13|52b14 55l8 55t11
+31*19 Item{23E9} 13|52b19 54m24
+33U14*Put 34>7 35>7 36>7 37>7 13|74b14 83l8 83t11 91s7
+34p7 File{10|54P9} 13|75b7 82r16
+35*7 Item{23E9} 13|76b7 80r56
+36i7 Width{10|75I12} 13|77b7 82r29
+37e7 Set{10|79E9} 13|78b7 82r36
+39U14*Put 40>7 41>7 42>7 13|85b14 92l8 92t11
+40*7 Item{23E9} 13|86b7 91r25
+41i7 Width{10|75I12} 13|87b7 91r31
+42e7 Set{10|79E9} 13|88b7 91r38
+44U14*Get 45>7 46<7 47<7 13|57b14 68l8 68t11
+45a7 From{wide_string} 13|58b7 64r26 65r32
+46*7 Item{23E9} 13|59b7 65m7
+47i7 Last{positive} 13|60b7 64m39 65r47
+49U14*Put 50<7 51>7 52>7 13|94b14 102l8 102t11
+50a7 To{wide_string} 13|95b7 101m17
+51*7 Item{23E9} 13|96b7 99r56
+52e7 Set{10|79E9} 13|97b7 101r28
+X 13 a-wtenio.adb
+36K12 Aux=36:41 46r7 64r7 82r7 101r7
+43a7 Buf{wide_string} 46m31 47r32
+44i7 Buflen{natural} 46m36 47r42
+62i7 Start{natural} 64m32 65r38
+80a7 Image{wide_string} 82r22
+99a7 Image{wide_string} 101r21
+

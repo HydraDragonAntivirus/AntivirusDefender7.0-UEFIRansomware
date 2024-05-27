@@ -1,0 +1,123 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+
+U system.bit_ops%b	s-bitops.adb		96b40646 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U system.bit_ops%s	s-bitops.ads		3da333da NE OL PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-bitops.ads		20230727081304 cdf3ac3c system.bit_ops%s
+D s-bitops.adb		20230727081304 858b7f3c system.bit_ops%b
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [bit_and system__bit_ops 42 14 none]
+G c Z s b [bit_eq system__bit_ops 53 13 none]
+G c Z s b [bit_not system__bit_ops 64 14 none]
+G c Z s b [bit_or system__bit_ops 73 14 none]
+G c Z s b [bit_xor system__bit_ops 84 14 none]
+G c Z b b [to_bits system__bit_ops 51 13 none]
+G c Z b b [raise_error system__bit_ops 72 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 6|34r6 34r34 35r6 51r28
+X 2 a-except.ads
+44K13*Exceptions 295e19 6|34w10 34r38
+80U14*Raise_Exception 6|213s7
+X 3 a-unccon.ads
+20v14*Unchecked_Conversion 6|35w10 51r32
+X 4 system.ads
+37K9*System 192e11 5|34r9 43r16 45r16 47r16 54r15 56r15 65r16 67r16 74r16
+. 76r16 78r16 85r16 87r16 89r16 95r5 6|32r6 32r33 37r14 39r26 144r16 146r16
+. 217r5
+67M9*Address 5|43r23 45r23 47r23 54r22 56r22 65r23 67r23 74r23 76r23 78r23
+. 85r23 87r23 89r23 6|51r54 81r16 83r16 85r16 106r15 108r15 144r23 146r23
+. 162r16 164r16 166r16 187r16 189r16 191r16
+X 5 s-bitops.ads
+34K16*Bit_Ops 4|37k9 5|95l12 95e19 6|37b21 217l12 217t19
+42U14*Bit_And 43>7 44>7 45>7 46>7 47>7 6|80b14 99l8 99t15
+43m7 Left{4|67M9} 6|81b7 87r43
+44i7 Llen{natural} 6|82b7 92r10
+45m7 Right{4|67M9} 6|83b7 88r43
+46i7 Rlen{natural} 6|84b7 92r18 96r22
+47m7 Result{4|67M9} 6|85b7 89r43
+53V13*Bit_Eq{boolean} 54>7 55>7 56>7 57>7 6|105b13 137l8 137t14
+54m7 Left{4|67M9} 6|106b7 111r42
+55i7 Llen{natural} 6|107b7 115r10 120r40 121r40
+56m7 Right{4|67M9} 6|108b7 112r42
+57i7 Rlen{natural} 6|109b7 115r18
+64U14*Bit_Not 65>7 66>7 67>7 6|143b14 155l8 155t15
+65m7 Opnd{4|67M9} 6|144b7 148r43
+66i7 Len{natural} 6|145b7 152r22
+67m7 Result{4|67M9} 6|146b7 149r43
+73U14*Bit_Or 74>7 75>7 76>7 77>7 78>7 6|161b14 180l8 180t14
+74m7 Left{4|67M9} 6|162b7 168r43
+75i7 Llen{natural} 6|163b7 173r10
+76m7 Right{4|67M9} 6|164b7 169r43
+77i7 Rlen{natural} 6|165b7 173r18 177r22
+78m7 Result{4|67M9} 6|166b7 170r43
+84U14*Bit_Xor 85>7 86>7 87>7 88>7 89>7 6|186b14 205l8 205t15
+85m7 Left{4|67M9} 6|187b7 193r43
+86i7 Llen{natural} 6|188b7 198r10
+87m7 Right{4|67M9} 6|189b7 194r43
+88i7 Rlen{natural} 6|190b7 198r18 202r22
+89m7 Result{4|67M9} 6|191b7 195r43
+X 6 s-bitops.adb
+39A12 Bits_Array{10|56A9}<integer> 48r24
+48P9 Bits(39A12) 51r63 87r26 88r26 89r26 111r25 112r25 148r26 149r26 168r26
+. 169r26 170r26 193r26 194r26 195r26
+51V13 To_Bits[3|20]{48P9} 87s34 88s34 89s34 111s33 112s33 148s34 149s34 168s34
+. 169s34 170s34 193s34 194s34 195s34
+53N4 LE 60r11 60r32 61r11 61r32 62r11 62r32 63r11 63r32 64r11 64r32 65r11
+. 65r32 66r11 66r32
+59a4 Masks(10|49M9) 130r24
+72U14 Raise_Error 73r22 93s10 174s10 199s10 211b14 215l8 215t19
+87p7 LeftB{48P9} 97r25
+88p7 RightB{48P9} 97r39
+89p7 ResultB{48P9} 97r10
+96i11 J{integer} 97r19 97r32 97r47
+111p7 LeftB{48P9} 124r16 129r20
+112p7 RightB{48P9} 124r37 129r41
+120i13 BLen{natural} 124r28 124r50 129r27 129r49
+121i13 Bitc{natural} 127r19 130r31
+148p7 OpndB{48P9} 153r29
+149p7 ResultB{48P9} 153r10
+152i11 J{integer} 153r19 153r36
+168p7 LeftB{48P9} 178r25
+169p7 RightB{48P9} 178r38
+170p7 ResultB{48P9} 178r10
+177i11 J{integer} 178r19 178r32 178r46
+193p7 LeftB{48P9} 203r25
+194p7 RightB{48P9} 203r39
+195p7 ResultB{48P9} 203r10
+202i11 J{integer} 203r19 203r32 203r47
+X 10 s-unstyp.ads
+38K16*Unsigned_Types 6|32w13 32r40 39r33 10|249e26
+49M9*Packed_Byte 6|59r39
+56A9*Packed_Bytes1(49M9)<integer> 6|39r48
+

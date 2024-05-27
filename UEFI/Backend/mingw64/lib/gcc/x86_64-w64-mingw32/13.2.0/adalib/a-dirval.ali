@@ -1,0 +1,94 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.directories.validity%b  a-dirval.adb	c97ffcf7 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.directories%s	a-direct.adb		a-direct.ali
+
+U ada.directories.validity%s  a-dirval.ads	0877bcae NE OL PK
+W ada.directories%s	a-direct.adb		a-direct.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-calend.ads		20230727081304 f55c50a3 ada.calendar%s
+D a-charac.ads		20230727081304 2d3ec45b ada.characters%s
+D a-chlat1.ads		20230727081304 e0d72e76 ada.characters.latin_1%s
+D a-direct.ads		20230727081304 467e87a1 ada.directories%s
+D a-dirval.ads		20230727081304 4e093b0f ada.directories.validity%s
+D a-dirval.adb		20230727081304 67a1e98e ada.directories.validity%b
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230727081304 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-strmap.ads		20230727081304 ed8acfdb ada.strings.maps%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20230727081304 7bfb7010 ada.strings.unbounded%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atocou.ads		20230727081304 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-retsta.ads		20230727081304 0f6b06cb system.return_stack%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20230727081304 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [is_valid_simple_name ada__directories__validity 37 13 none]
+G c Z s b [is_valid_path_name ada__directories__validity 40 13 none]
+G c Z s b [is_path_name_case_sensitive ada__directories__validity 43 13 none]
+G c Z s b [windows ada__directories__validity 46 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 6|35r17 49r5 7|35r6 35r34 37r14 175r5
+X 3 a-charac.ads
+16K13*Characters 18e19 7|35r10 35r38
+X 4 a-chlat1.ads
+16K24*Latin_1 294e27 7|35w21 35r49
+23e4*NUL{character} 7|40r7
+55e4*US{character} 7|40r14
+128e4*DEL{character} 7|43r7
+X 5 a-direct.ads
+76K13*Directories 1|16k9 5|524e20 6|35r21 49r9 7|37r18 175r9
+X 6 a-dirval.ads
+35K33*Validity 5|76k13 6|49l21 49e29 7|37b30 175l21 175t29
+37V13*Is_Valid_Simple_Name{boolean} 37>35 7|119s20 138b13 164l8 164t28
+37a35 Name{string} 7|138b35 145r10 145r34 152r19 153r35 155r19
+40V13*Is_Valid_Path_Name{boolean} 40>33 7|62b13 132l8 132t26
+40a33 Name{string} 7|62b33 63r27 71r10 71r34 77r13 78r21 80r15 80r50 88r24
+. 89r24 89r53 98r28 99r25 99r47 106r31 112r26 113r26 113r51 119r42
+43V13*Is_Path_Name_Case_Sensitive{boolean} 7|53b13 56l8 56t35
+46V13*Windows{boolean} 7|170b13 173l8 173t15
+X 7 a-dirval.adb
+39a4 Invalid_Character(boolean) 153r16
+63i7 Start{positive} 78r27 80r21 80r56 82m13 82r22 88r16 89r30 89r59 98r19
+. 99r31 99r53 101m16 101r25 106r23 108r21 119r48 125m13
+64i7 Last{natural} 108m13 112r19 113r32 113r57 114m16 114r24 119r57 125r22
+139b7 Only_Spaces{boolean} 151m10 156m16 162r21
+152i14 J{integer} 153r41 155r25
+

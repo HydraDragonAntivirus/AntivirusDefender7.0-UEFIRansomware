@@ -1,0 +1,83 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+
+U ada.strings.wide_wide_bounded.wide_wide_hash%b  a-szbzha.adb  6aaace4b NE OL SU GE
+W ada.strings.wide_wide_bounded%s  a-stzbou.adb	a-stzbou.ali
+W system%s		system.ads		system.ali
+W system.string_hash%s	s-strhas.adb		s-strhas.ali
+
+U ada.strings.wide_wide_bounded.wide_wide_hash%s  a-szbzha.ads  30275a92 BN NE OL PR GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings.wide_wide_bounded%s  a-stzbou.adb	a-stzbou.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-contai.ads		20230727081304 61e5e089 ada.containers%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-stzbou.ads		20230727081304 15aec47b ada.strings.wide_wide_bounded%s
+D a-szbzha.ads		20230727081304 446c7e60 ada.strings.wide_wide_bounded.wide_wide_hash%s
+D a-szbzha.adb		20230727081304 085a68bf ada.strings.wide_wide_bounded.wide_wide_hash%b
+D a-stzmap.ads		20230727081304 f60a1f4d ada.strings.wide_wide_maps%s
+D a-stzsup.ads		20230727081304 7cfe5f93 ada.strings.wide_wide_superbounded%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-retsta.ads		20230727081304 0f6b06cb system.return_stack%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20230727081304 f7dfd786 system.stream_attributes%s
+D s-strhas.ads		20230727081304 269cd894 system.string_hash%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [wide_wide_hash ada__strings__wide_wide_bounded 24 40 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|18r6 22r10 24r10 28r22 11|32r10 36r8 41r5
+X 2 a-contai.ads
+16K13*Containers 28e19 10|18w10 26r10 11|34r10 36r12
+19M9*Hash_Type 10|26r21 11|34r21 38r46
+X 6 a-string.ads
+16K13*Strings 35e16 10|22r14 24r14 28r26 11|32r14 41r9
+X 9 a-stzbou.ads
+39K21*Wide_Wide_Bounded 937e34 10|22r22 24r22 28r34 11|32r22 41r17
+46k12*Generic_Bounded_Length 935e30 10|22r40
+50R12 Bounded_Wide_Wide_String<13|52R9> 10|25r18[21] 11|33r18[10|21]
+67V16 To_Wide_Wide_String{wide_wide_string} 11|40s25[10|21]
+X 10 a-szbzha.ads
+21K17 Bounded[9|46] 25r10 11|33r10 40r17
+24v40*Wide_Wide_Hash 9|39k21 10|25>4 28r52 11|32b40 41l35 41t49
+25r4 Key{9|50R12[21]} 11|33b4 40r46
+X 11 a-szbzha.adb
+37V13 Hash[30|60]{2|19M9} 40s11
+X 17 system.ads
+37K9*System 11|30r6 37r25 17|192e11
+X 30 s-strhas.ads
+45K16*String_Hash 11|30w13 37r32 30|64e23
+60v13*Hash 11|37r44
+

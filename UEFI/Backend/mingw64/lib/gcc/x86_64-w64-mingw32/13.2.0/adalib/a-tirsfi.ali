@@ -1,0 +1,62 @@
+V "GNAT Lib v13"
+M P W=b
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IO
+
+U ada.text_io.reset_standard_files%b  a-tirsfi.adb  7d493014 NE OL SU
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U ada.text_io.reset_standard_files%s  a-tirsfi.ads  0bb3808c NE OL SU
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20230727081304 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-textio.ads		20230727081304 5c2c6153 ada.text_io%s
+D a-tirsfi.ads		20230727081304 579fe1df ada.text_io.reset_standard_files%s
+D a-tirsfi.adb		20230727081304 2ad6d1cb ada.text_io.reset_standard_files%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-cstrea.ads		20230727081304 e53d8b8e interfaces.c_streams%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-crtl.ads		20230727081304 8a0692f8 system.crtl%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230727081304 dc5161d4 system.file_control_block%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20230727081304 d9032363 system.wch_con%s
+G a e
+G c Z s b [reset_standard_files ada__text_io 39 23 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|39r11 11|36r11 38r4 39r5
+X 9 a-textio.ads
+58K13*Text_IO 787e16 10|39r15 11|36r15 38r8 39r9
+782U14 Initialize_Standard_Files 11|38s16
+X 10 a-tirsfi.ads
+39U23*Reset_Standard_Files 9|58k13 11|36b23 39l17 39t37
+

@@ -1,0 +1,43 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.string_hash%b	s-strhas.adb		1f1abe38 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.string_hash%s	s-strhas.ads		d6cc4772 BN NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-strhas.ads		20230727081304 269cd894 system.string_hash%s
+D s-strhas.adb		20230727081304 398666ac system.string_hash%b
+G a e
+X 1 system.ads
+37K9*System 192e11 2|45r9 64r5 3|32r14 67r5
+X 2 s-strhas.ads
+45K16*String_Hash 1|37k9 2|64l12 64e23 3|32b21 67l12 67t23
+49E12 Char_Type 52r53 3|60r15
+52A12 Key_Type(49E12)<integer> 60r25 3|42r25
+55M12 Hash_Type 60r42 3|42r42 45r10 46r19 47r19 51r19 52r35 55r11
+60v13*Hash 60>19 61r19 3|42b13 65l8 65t12
+60*19 Key{52A12} 3|42b19 59r16 60r30
+X 3 s-strhas.adb
+50V16*Shift_Left{2|55M12} 51>10 52>10 53b33 61s19 61s39
+51*10 Value{2|55M12}
+52i10 Amount{natural}
+55*7 H{2|55M12} 58m7 60m10 61r31 61r51 61r60 64r14
+59i11 J{integer} 60r35
+

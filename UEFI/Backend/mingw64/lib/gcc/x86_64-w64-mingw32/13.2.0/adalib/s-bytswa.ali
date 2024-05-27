@@ -1,0 +1,50 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.byte_swapping%s  s-bytswa.ads		f8f370cc NE OL PU PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-bytswa.ads		20230727081304 1d5476e8 system.byte_swapping%s
+G a e
+G c Z s s [bswap_16 system__byte_swapping 47 13 none]
+G c Z s s [bswap_32 system__byte_swapping 50 13 none]
+G c Z s s [bswap_64 system__byte_swapping 53 13 none]
+G c Z s s [bswap_128 system__byte_swapping 56 13 none]
+X 1 interfac.ads
+38K9*Interfaces 232e15 3|36w6 42r20 43r20 44r20 45r20
+72M9*Unsigned_16 3|42r31
+80M9*Unsigned_32 3|43r31
+83M9*Unsigned_64 3|44r31
+87M9*Unsigned_128 3|45r31
+X 2 system.ads
+37K9*System 192e11 3|38r9 59r5
+X 3 s-bytswa.ads
+38K16*Byte_Swapping 2|37k9 3|59l12 59e25
+42M12*U16{1|72M9} 47r27 47r39
+43M12*U32{1|80M9} 50r27 50r39
+44M12*U64{1|83M9} 53r27 53r39
+45M12*U128{1|87M9} 56r28 56r41
+47V13*Bswap_16{42M12} 47>23 48b30
+47m23 X{42M12}
+50V13*Bswap_32{43M12} 50>23 51b30
+50m23 X{43M12}
+53V13*Bswap_64{44M12} 53>23 54b30
+53m23 X{44M12}
+56V13*Bswap_128{45M12} 56>24 57b30
+56m24 X{45M12}
+

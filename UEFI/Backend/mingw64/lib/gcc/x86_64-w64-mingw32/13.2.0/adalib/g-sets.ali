@@ -1,0 +1,121 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U gnat.sets%b		g-sets.adb		6ffde2e6 NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+
+U gnat.sets%s		g-sets.ads		f203e24e BN EE NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+W gnat.dynamic_htables%s  g-dynhta.adb		g-dynhta.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-dynhta.ads		20230727081304 968f1a08 gnat.dynamic_htables%s
+D g-dynhta.adb		20230727081304 7fd61abe gnat.dynamic_htables%b
+D g-sets.ads		20230727081304 d1147461 gnat.sets%s
+D g-sets.adb		20230727081304 bee99687 gnat.sets%b
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+X 4 gnat.ads
+37K9*GNAT 60e9 7|35r6 35r32 37r9 180r5 8|32r14 169r5
+43M9*Bucket_Range_Type 7|66r54
+X 5 g-dynhta.ads
+52K14*Dynamic_HTables 518e25 7|35w11 35r37
+301F12*Threshold_Type{long_float}
+304+12 Key_Type 7|163r10
+305+12 Value_Type 7|164r10
+308*7 No_Value{305+12} 7|165r10
+311f7 Expansion_Threshold{301F12} 7|166r10
+312m7 Expansion_Factor{296M12} 7|167r10
+322f7 Compression_Threshold{301F12} 7|168r10
+323m7 Compression_Factor{296M12} 7|169r10
+333V22 "="{boolean} 7|170r11
+337U22 Destroy_Value 7|171r10
+340V21 Hash{4|43M9} 7|172r10
+343k12*Dynamic_Hash_Tables 516e27 7|162r33
+352P12 Dynamic_Hash_Table 7|174r45[162] 8|49r49[7|162] 67r40[7|162] 86r41[7|162]
+. 107r37[7|162] 116r49[7|162] 126r53[7|162] 147r48[7|162] 156r39[7|162] 165r45[7|162]
+353p7 Nil{352P12[7|162]} 7|175r67[162]
+355V16 Contains{boolean} 8|49s28[7|162]
+360V16 Create{352P12[7|162]} 8|58s44[7|162]
+364U17 Delete 8|67s21[7|162]
+373U17 Destroy 8|86s21[7|162]
+385V16 Is_Empty{boolean} 8|116s28[7|162]
+388V16 Present{boolean} 8|147s28[7|162]
+391U17 Put 8|107s21[7|162]
+402U17 Reset 8|156s21[7|162]
+407V16 Size{natural} 8|165s28[7|162]
+427R12 Iterator 7|177r39[162] 8|95r49[7|162] 138r38[7|162]
+429V16 Has_Next{boolean} 8|95s28[7|162]
+434V16 Iterate{427R12[7|162]} 8|126s33[7|162]
+438U17 Next 8|138s21[7|162]
+X 7 g-sets.ads
+37K14*Sets 4|37k9 7|180l10 180e14 8|32b19 169l10 169t14
+60+12 Element_Type 63r23 64r23 66r33 83r17 92r17 105r17 151r58 163r35 8|46r17
+. 65r52 104r17 135r21
+62V22 "="{boolean} 63>15 64>15 170r36
+63*15 Left{60+12}
+64*15 Right{60+12}
+66V21 Hash{4|43M9} 66>27 172r35
+66*27 Key{60+12}
+69k12*Membership_Sets 60z12 62z22 66z21 159E17 178l8 178e23 8|38b17 167l8
+. 167t23
+78P12*Membership_Set<5|352P12[162]> 79r22 82r17 86r56 91r17 97r37 104r17
+. 110r30 113r29 116r28 121r26 142r29 174c12 175r22 175r40 8|45r17 56r56 58r17
+. 65r29 84r37 103r17 114r30 123r29 145r29 154r28 163r26
+79p7*Nil{78P12} 175c7
+81V16*Contains{boolean}<5|355p16> 82>10 83>10 8|44b16 50l11 50t19
+82p10 S{78P12} 8|45b10 49r69
+83*10 Elem{60+12} 8|46b10 49r73
+86V16*Create{78P12}<5|360p16> 86>24 8|56b16 59l11 59t17
+86i24 Initial_Size{positive} 8|56b24 58r52
+90U17*Delete<5|364p17> 91>10 92>10 8|65b17 68l11 68t17
+91p10 S{78P12} 8|65b25 67r60
+92*10 Elem{60+12} 8|65b45 67r64
+97U17*Destroy<5|373p17> 97=26 8|84b17 87l11 87t18
+97p26 S{78P12} 8|84b26 86m61 86r61
+103U17*Insert 104>10 105>10 8|102b17 108l11 108t17
+104p10 S{78P12} 8|103b10 107r57
+105*10 Elem{60+12} 8|104b10 107r61
+110V16*Is_Empty{boolean}<5|385p16> 110>26 8|114b16 117l11 117t19
+110p26 S{78P12} 8|114b26 116r69
+113V16*Present{boolean}<5|388p16> 113>25 8|145b16 148l11 148t18
+113p25 S{78P12} 8|145b25 147r68
+116U17*Reset<5|402p17> 116>24 8|154b17 157l11 157t16
+116p24 S{78P12} 8|154b24 156r59
+121V16*Size{natural}<5|407p16> 121>22 8|163b16 166l11 166t15
+121p22 S{78P12} 8|163b22 165r65
+140R12*Iterator<5|427R12[162]> 142r52 146r33 151r37 177c12 8|93r33 123r52
+. 126r12 134r24
+142V16*Iterate{140R12} 142>25 8|123b16 127l11 127t18
+142p25 S{78P12} 8|123b25 126r73
+146V16*Has_Next{boolean}<5|429p16> 146>26 8|93b16 96l11 96t19
+146r26 Iter{140R12} 8|93b26 95r59
+151U17*Next<5|438p17> 151=23 151<47 8|133b17 139l11 139t15
+151r23 Iter{140R12} 8|134b10 138m48 138r48
+151*47 Elem{60+12} 8|135b10 138m55
+159U17 Destroy 159=26 171r35 8|74b17 78l11 78t18
+159b26 B{boolean} 8|74b26 75r31
+162K15 Hashed_Set[5|343] 174r34 175r56 177r28 8|49r17 49r38 58r33 67r10 67r29
+. 86r10 86r30 95r17 95r38 107r10 107r26 116r17 116r38 126r22 126r42 138r10
+. 138r27 147r17 147r37 156r10 156r28 165r17 165r34
+

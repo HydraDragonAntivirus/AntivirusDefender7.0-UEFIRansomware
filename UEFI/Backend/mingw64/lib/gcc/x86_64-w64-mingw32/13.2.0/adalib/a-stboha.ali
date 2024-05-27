@@ -1,0 +1,80 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+
+U ada.strings.bounded.hash%b  a-stboha.adb	cd1a1295 NE OL SU GE
+W ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
+W system%s		system.ads		system.ali
+W system.string_hash%s	s-strhas.adb		s-strhas.ali
+
+U ada.strings.bounded.hash%s  a-stboha.ads	5ab201cf BN NE OL PR GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-charac.ads		20230727081304 2d3ec45b ada.characters%s
+D a-chlat1.ads		20230727081304 e0d72e76 ada.characters.latin_1%s
+D a-contai.ads		20230727081304 61e5e089 ada.containers%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-strbou.ads		20230727081304 1b38415e ada.strings.bounded%s
+D a-stboha.ads		20230727081304 206fa018 ada.strings.bounded.hash%s
+D a-stboha.adb		20230727081304 cbe96a19 ada.strings.bounded.hash%b
+D a-strmap.ads		20230727081304 ed8acfdb ada.strings.maps%s
+D a-strsea.ads		20230727081304 2d394feb ada.strings.search%s
+D a-strsup.ads		20230727081304 8a2a893f ada.strings.superbounded%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-strhas.ads		20230727081304 269cd894 system.string_hash%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [hash ada__strings__bounded 22 30 none]
+X 1 ada.ads
+16K9*Ada 20e8 8|16r6 20r10 22r10 25r22 9|32r10 35r8 40r5
+X 4 a-contai.ads
+16K13*Containers 28e19 8|16w10 23r12 9|33r10 35r12
+19M9*Hash_Type 8|23r23 9|33r21 37r26
+X 6 a-string.ads
+16K13*Strings 35e16 8|20r14 22r14 25r26 9|32r14 40r9
+X 7 a-strbou.ads
+50K21*Bounded 2995e24 8|20r22 22r22 25r34 9|32r22 40r17
+58k12*Generic_Bounded_Length 2993e30 8|20r30
+76R12 Bounded_String<12|62R9> 8|22r50[19] 9|32r50[8|19]
+127V16 To_String{string} 9|39s29[8|19]
+X 8 a-stboha.ads
+19K17 Bounded[7|58] 22r42 9|32r42 39r21
+22v30*Hash 7|50k21 8|22>36 25r42 9|32b30 40l25 40t29
+22r36 Key{7|76R12[19]} 9|32b36 39r40
+X 9 a-stboha.adb
+36V13 Hash_Fun[27|60]{4|19M9} 39s11
+X 18 system.ads
+37K9*System 9|30r6 36r29 18|192e11
+X 27 s-strhas.ads
+45K16*String_Hash 9|30w13 36r36 27|64e23
+60v13*Hash 9|36r48
+

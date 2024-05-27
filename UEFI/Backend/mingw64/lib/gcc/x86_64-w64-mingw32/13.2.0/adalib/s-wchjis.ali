@@ -1,0 +1,63 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+
+U system.wch_jis%b	s-wchjis.adb		e538de43 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.wch_jis%s	s-wchjis.ads		9a2414df NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-wchjis.ads		20230727081304 6a748b39 system.wch_jis%s
+D s-wchjis.adb		20230727081304 8f4c557a system.wch_jis%b
+G a e
+G c Z s b [euc_to_jis system__wch_jis 38 13 none]
+G c Z s b [jis_to_euc system__wch_jis 43 14 none]
+G c Z s b [jis_to_shift_jis system__wch_jis 56 14 none]
+G c Z s b [shift_jis_to_jis system__wch_jis 71 13 none]
+X 1 system.ads
+37K9*System 192e11 2|35r9 76r5 3|32r14 187r5
+X 2 s-wchjis.ads
+35K16*WCh_JIS 1|37k9 2|76l12 76e19 3|32b21 187l12 187t19
+38V13*EUC_To_JIS{wide_character} 38>25 38>31 3|42b13 62l8 62t18
+38e25 EUC1{character} 3|42b25 43r48
+38e31 EUC2{character} 3|42b31 44r48
+43U14*JIS_To_EUC 44>7 45<7 46<7 3|68b14 103l8 103t18
+44e7 J{wide_character} 3|69b7 73r54 74r54
+45e7 EUC1{character} 3|70b7 88m10 100m10
+46e7 EUC2{character} 3|71b7 89m10 101m10
+56U14*JIS_To_Shift_JIS 57>7 58<7 59<7 3|109b14 141l8 141t24
+57e7 J{wide_character} 3|110b7 122r50 123r50
+58e7 SJ1{character} 3|111b7 130m10 138m10
+59e7 SJ2{character} 3|112b7 131m10 139m10
+71V13*Shift_JIS_To_JIS{wide_character} 71>31 71>36 3|147b13 185l8 185t24
+71e31 SJ1{character} 3|147b31 158r31
+71e36 SJ2{character} 3|147b36 159r31
+X 3 s-wchjis.adb
+34M9 Byte 36r32 43r25 44r25 114r14 115r14 122r15 123r15 148r15 149r15 150r15
+. 151r15
+36m4 EUC_Hankaku_Kana{34M9} 51r18 88r33
+43m7 EUC1B{34M9} 51r10 55r13 59r31
+44m7 EUC2B{34M9} 47r10 52r37 59r60
+73i7 JIS1{natural} 79r10 94r13 100r33
+74i7 JIS2{natural} 84r13 89r33 94r35 101r33
+114m7 JIS1{34M9} 122m7 125r10 126m10 126r18 129r11 130r33 138r33
+115m7 JIS2{34M9} 123m7 131r32 134r13 135m13 135r21 139r32
+148m7 SJIS1{34M9} 158m7 161r10 162m10 162r19 166r19 174r19
+149m7 SJIS2{34M9} 159m7 165r10 167r18 170r13 171m13 171r22 175r18
+150m7 JIS1{34M9} 166m10 174m10 178r10 183r52
+151m7 JIS2{34M9} 167m10 175m10 179r17 183r69
+

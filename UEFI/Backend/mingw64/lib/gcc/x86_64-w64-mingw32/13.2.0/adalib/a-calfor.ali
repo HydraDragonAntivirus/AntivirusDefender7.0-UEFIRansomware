@@ -1,0 +1,414 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.calendar.formatting%b  a-calfor.adb	2bf67233 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.time_zones%s  a-catizo.adb	a-catizo.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_fixed_64%s	s-vafi64.ads		s-vafi64.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+
+U ada.calendar.formatting%s  a-calfor.ads	10be3024 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.time_zones%s  a-catizo.adb	a-catizo.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-calend.ads		20230727081304 f55c50a3 ada.calendar%s
+D a-calfor.ads		20230727081304 0f4707d1 ada.calendar.formatting%s
+D a-calfor.adb		20230727081304 ce1412b4 ada.calendar.formatting%b
+D a-catizo.ads		20230727081304 eaa56756 ada.calendar.time_zones%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-arit64.ads		20230727081304 90488c35 system.arith_64%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-vafi64.ads		20230727081304 2ff3dc11 system.val_fixed_64%s
+D s-valint.ads		20230727081304 1f610d7a system.val_int%s
+D s-valuns.ads		20230727081304 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuef.ads		20230727081304 44d93748 system.value_f%s
+D s-valuei.ads		20230727081304 11081e09 system.value_i%s
+D s-vaispe.ads		20230727081304 44130d39 system.value_i_spec%s
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+G a e
+G c Z s b [day_of_week ada__calendar__formatting 31 13 none]
+G c Z s b [year ada__calendar__formatting 40 13 none]
+G c Z s b [month ada__calendar__formatting 44 13 none]
+G c Z s b [day ada__calendar__formatting 48 13 none]
+G c Z s b [hour ada__calendar__formatting 52 13 none]
+G c Z s b [minute ada__calendar__formatting 56 13 none]
+G c Z s b [second ada__calendar__formatting 60 13 none]
+G c Z s b [sub_second ada__calendar__formatting 63 13 none]
+G c Z s b [seconds_of ada__calendar__formatting 66 13 none]
+G c Z s b [split ada__calendar__formatting 78 14 none]
+G c Z s b [split ada__calendar__formatting 88 14 none]
+G c Z s b [time_of ada__calendar__formatting 102 13 none]
+G c Z s b [time_of ada__calendar__formatting 121 13 none]
+G c Z s b [split ada__calendar__formatting 137 14 none]
+G c Z s b [split ada__calendar__formatting 157 14 none]
+G c Z s b [image ada__calendar__formatting 176 13 none]
+G c Z s b [value ada__calendar__formatting 189 13 none]
+G c Z s b [image ada__calendar__formatting 197 13 none]
+G c Z s s [local_image ada__calendar__formatting 209 13 none]
+G c Z s b [value ada__calendar__formatting 217 13 none]
+G c Z b b [check_char ada__calendar__formatting 43 14 none]
+G c Z b b [check_digit ada__calendar__formatting 48 14 none]
+G c Z b b [split_duration ada__calendar__formatting 54 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 4|22r6 24r9 223r5 5|32r6 32r35 34r14 893r5
+X 3 a-calend.ads
+36K13*Calendar 1|16k9 3|413e17 4|22r10 24r13 223r9 5|32r10 32r39 34r18 893r9
+42I9*Time<226I9> 4|31r33 41r19 45r19 49r19 53r19 57r19 61r14 64r14 89r20
+. 111r57 127r57 138r21 158r21 177r31 191r56 210r31 5|90r19 111r33 121r19
+. 200r31 277r19 299r19 320r28 423r21 469r20 518r21 566r32 591r57 666r57 709r55
+. 876r19
+48I12*Year_Number{integer} 4|42r55 90r24 103r21 122r21 139r25 159r25 5|93r12
+. 124r12 206r21 280r12 302r12 321r12 424r25 470r24 519r25 567r12 586r21 593r19
+. 658r21 712r20 766r17 766r32 877r55 879r12
+49I12*Month_Number{integer} 4|46r55 91r24 104r21 123r21 140r25 160r25 5|94r12
+. 125r12 207r21 281r12 300r55 303r12 322r12 425r25 471r24 520r25 568r12 587r21
+. 594r19 659r21 713r20 767r17 767r32 880r12
+50I12*Day_Number{integer} 4|50r55 92r24 105r21 124r21 141r25 161r25 5|91r55
+. 95r12 126r12 208r21 282r12 304r12 323r12 426r25 472r24 521r25 569r12 588r21
+. 595r19 660r21 714r20 768r17 768r32 881r12
+54O12*Day_Duration{duration} 4|38r31 70r51 79r20 125r21 162r25 5|343r51 356r14
+. 357r14 358r14 395r20 427r25 479r12 529r12 589r21 668r21 668r37
+125X4*Time_Error 5|378r16 412r16 460r16 509r16 558r16
+226I9 Time_Rep<long_long_integer>
+244a4 Days_In_Month(50I12) 5|619r19
+251V13 Is_Leap{boolean} 5|620s21
+348K12 Formatting_Operations 399e29 5|113r28 438r7 484r7 533r7 637r9 687r9
+350V16*Day_Of_Week{integer} 5|113s50
+354U17*Split 5|438s29 484s29 533s29
+355i10 Date{42I9} 5|439r10 485r10 534r9
+356i10 Year{48I12} 5|440r10 486r10 535r9
+357i10 Month{49I12} 5|441r10 487r10 536r9
+358i10 Day{50I12} 5|442r10 488r10 537r9
+359o10 Day_Secs{54O12} 5|443r10 489r10 538r9
+360i10 Hour{integer} 5|444r10 490r10 539r9
+361i10 Minute{integer} 5|445r10 491r10 540r9
+362i10 Second{integer} 5|446r10 492r10 541r9
+363o10 Sub_Sec{duration} 5|447r10 493r10 542r9
+364b10 Leap_Sec{boolean} 5|448r10 494r10 543r9
+365b10 Use_TZ{boolean} 5|449r10 495r10 544r9
+366b10 Is_Historic{boolean} 5|450r10 496r10 545r9
+367i10 Time_Zone{long_integer} 5|451r10 497r10 546r9
+375V16*Time_Of{42I9} 5|637s31 687s31
+376i10 Year{48I12} 5|638r12 688r12
+377i10 Month{49I12} 5|639r12 689r12
+378i10 Day{50I12} 5|640r12 690r12
+379o10 Day_Secs{54O12} 5|641r12 691r12
+380i10 Hour{integer} 5|642r12 692r12
+381i10 Minute{integer} 5|643r12 693r12
+382i10 Second{integer} 5|644r12 694r12
+383o10 Sub_Sec{duration} 5|645r12 695r12
+384b10 Leap_Sec{boolean} 5|646r12 696r12
+385b10 Use_Day_Secs{boolean} 5|647r12 697r12
+386b10 Use_TZ{boolean} 5|648r12 698r12
+387b10 Is_Historic{boolean} 5|649r12 699r12
+388i10 Time_Zone{long_integer} 5|650r12 700r12
+X 4 a-calfor.ads
+24K22*Formatting 3|36k13 4|223l18 223e28 5|34b27 893l18 893t28
+28E9*Day_Name 29e70 31r46 5|111r46 113r14
+29n7*Monday{28E9}
+29n15*Tuesday{28E9}
+29n24*Wednesday{28E9}
+29n35*Thursday{28E9}
+29n45*Friday{28E9}
+29n53*Saturday{28E9}
+29n63*Sunday{28E9}
+31V13*Day_Of_Week{28E9} 31>26 5|111b13 114l8 114t19
+31i26 Date{3|42I9} 5|111b26 113r63
+35I12*Hour_Number{natural} 54r55 67r20 80r24 93r24 106r21 142r25 5|96r12
+. 122r55 127r12 209r21 283r12 305r12 324r12 340r20 396r24 411r27 473r24 522r25
+. 570r12 661r21 715r20 769r17 769r32 805r20 845r17 845r32 882r12
+36I12*Minute_Number{natural} 58r55 68r20 81r24 94r24 107r21 143r25 5|57r24
+. 97r12 128r12 148r20 210r21 278r55 284r12 306r12 325r12 341r20 369r24 386r21
+. 397r24 474r24 523r25 571r12 662r21 716r20 770r17 770r32 806r20 846r17 846r32
+. 883r12
+37I12*Second_Number{natural} 61r55 69r20 82r24 95r24 108r21 144r25 5|58r24
+. 98r12 129r12 149r20 211r21 285r12 307r12 320r41 326r12 342r20 370r24 387r21
+. 398r24 475r24 524r25 572r12 663r21 717r20 771r17 771r32 807r20 847r17 847r32
+. 884r12
+38O12*Second_Duration{3|54O12} 64r55 70r20 83r24 96r24 109r21 145r25 5|59r24
+. 99r12 130r12 286r12 308r12 327r12 343r20 371r24 383r21 399r24 476r24 525r25
+. 566r45 573r12 664r21 718r20 776r24 776r41 808r20 852r24 852r41 885r12
+40V13*Year{3|48I12} 41>7 42>7 5|875b13 891l8 891t12
+41i7 Date{3|42I9} 5|876b7 889r14
+42i7 Time_Zone{6|23I9} 5|877b7 889r49
+44V13*Month{3|49I12} 45>7 46>7 5|298b13 314l8 314t13
+45i7 Date{3|42I9} 5|299b7 312r14
+46i7 Time_Zone{6|23I9} 5|300b7 312r49
+48V13*Day{3|50I12} 49>7 50>7 5|89b13 105l8 105t11
+49i7 Date{3|42I9} 5|90b7 103r14
+50i7 Time_Zone{6|23I9} 5|91b7 103r49
+52V13*Hour{35I12} 53>7 54>7 5|120b13 136l8 136t12
+53i7 Date{3|42I9} 5|121b7 134r14
+54i7 Time_Zone{6|23I9} 5|122b7 134r49
+56V13*Minute{36I12} 57>7 58>7 5|276b13 292l8 292t14
+57i7 Date{3|42I9} 5|277b7 290r14
+58i7 Time_Zone{6|23I9} 5|278b7 290r49
+60V13*Second{37I12} 61>7 5|320b13 333l8 333t14
+61i7 Date{3|42I9} 5|320b21 331r14
+63V13*Sub_Second{38O12} 64>7 5|566b13 579l8 579t18
+64i7 Date{3|42I9} 5|566b25 577r14
+66V13*Seconds_Of{3|54O12} 67>7 68>7 69>7 70>7 5|339b13 360l8 360t18 865s14
+67i7 Hour{35I12} 5|340b7 348r21 356r28
+68i7 Minute{36I12} 5|341b7 349r21 357r28
+69i7 Second{37I12} 5|342b7 350r21 358r28
+70o7 Sub_Second{38O12} 5|343b7 351r21 359r14
+78U14*Split 79>7 80<7 81<7 82<7 83<7 5|394b14 416l8 416t13
+79o7 Seconds{3|54O12} 5|395b7 405r14 409r23
+80i7 Hour{35I12} 5|396b7 415m7
+81i7 Minute{36I12} 5|397b7 409m48
+82i7 Second{37I12} 5|398b7 409m56
+83o7 Sub_Second{38O12} 5|399b7 409m64
+88U14*Split 89>7 90<7 91<7 92<7 93<7 94<7 95<7 96<7 97>7 5|468b14 511l8 511t13
+89i7 Date{3|42I9} 5|469b7 485r25
+90i7 Year{3|48I12} 5|470b7 486m25 501r14
+91i7 Month{3|49I12} 5|471b7 487m25 502r21
+92i7 Day{3|50I12} 5|472b7 488m25 503r21
+93i7 Hour{35I12} 5|473b7 490m25 504r21
+94i7 Minute{36I12} 5|474b7 491m25 505r21
+95i7 Second{37I12} 5|475b7 492m25 506r21
+96o7 Sub_Second{38O12} 5|476b7 493m25 507r21
+97i7 Time_Zone{6|23I9} 5|477b7 481r51
+102V13*Time_Of{3|42I9} 103>7 104>7 105>7 106>7 107>7 108>7 109>7 110>7 111>7
+. 5|657b13 701l8 701t15 792s14
+103i7 Year{3|48I12} 5|658b7 674r14 688r28
+104i7 Month{3|49I12} 5|659b7 675r21 689r28
+105i7 Day{3|50I12} 5|660b7 676r21 690r28
+106i7 Hour{35I12} 5|661b7 677r21 692r28
+107i7 Minute{36I12} 5|662b7 678r21 693r28
+108i7 Second{37I12} 5|663b7 679r21 694r28
+109o7 Sub_Second{38O12} 5|664b7 680r21 695r28
+110b7 Leap_Second{boolean} 5|665b7 696r28
+111i7 Time_Zone{6|23I9} 5|666b7 669r51 681r21
+121V13*Time_Of{3|42I9} 122>7 123>7 124>7 125>7 126>7 127>7 5|585b13 651l8
+. 651t15
+122i7 Year{3|48I12} 5|586b7 593r35 606r14 620r30 631r29
+123i7 Month{3|49I12} 5|587b7 594r35 607r21 619r34 621r32 627r16 628r29
+124i7 Day{3|50I12} 5|588b7 595r35 608r21 619r13 623r24
+125o7 Seconds{3|54O12} 5|589b7 609r21 618r10 641r28
+126b7 Leap_Second{boolean} 5|590b7 646r28
+127i7 Time_Zone{6|23I9} 5|591b7 601r51 610r21
+137U14*Split 138>7 139<7 140<7 141<7 142<7 143<7 144<7 145<7 146<7 147>7
+. 5|103s7 134s7 223s7 290s7 312s7 331s7 517b14 560l8 560t13 577s7 889s7
+138i7 Date{3|42I9} 5|518b7 534r24
+139i7 Year{3|48I12} 5|519b7 535m24 550r14
+140i7 Month{3|49I12} 5|520b7 536m24 551r21
+141i7 Day{3|50I12} 5|521b7 537m24 552r21
+142i7 Hour{35I12} 5|522b7 539m24 553r21
+143i7 Minute{36I12} 5|523b7 540m24 554r21
+144i7 Second{37I12} 5|524b7 541m24 555r21
+145o7 Sub_Second{38O12} 5|525b7 542m24 556r21
+146b7 Leap_Second{boolean} 5|526b7 543m24
+147i7 Time_Zone{6|23I9} 5|527b7 530r51
+157U14*Split 158>7 159<7 160<7 161<7 162<7 163<7 164>7 5|422b14 462l8 462t13
+158i7 Date{3|42I9} 5|423b7 439r25
+159i7 Year{3|48I12} 5|424b7 440m25 455r14
+160i7 Month{3|49I12} 5|425b7 441m25 456r21
+161i7 Day{3|50I12} 5|426b7 442m25 457r21
+162o7 Seconds{3|54O12} 5|427b7 443m25 458r21
+163b7 Leap_Second{boolean} 5|428b7 448m25
+164i7 Time_Zone{6|23I9} 5|429b7 435r51
+176V13*Image{string} 177>7 178>7 179>7 212s8 5|199b13 270l8 270t13
+177i7 Date{3|42I9} 5|200b7 223r14
+178b7 Include_Time_Fraction{boolean} 5|201b7 220r27 258r10
+179i7 Time_Zone{6|23I9} 5|202b7 224r61
+189V13*Value{3|42I9} 190>7 191>7 5|707b13 797l8 797t13
+190a7 Date{string} 5|708b7 729r10 730r18 738r15 738r31 748r10 760r10 775r10
+191i7 Time_Zone{6|23I9} 5|709b7 723r14 793r64
+197V13*Image{string} 198>7 199>7 5|142b13 193l8 193t13
+198o7 Elapsed_Time{duration} 5|143b7 156r40 162r27
+199b7 Include_Time_Fraction{boolean} 5|144b7 157r40 181r10
+209V13*Local_Image{string} 210>7 211>7
+210i7 Date{3|42I9} 212r15 214r45
+211b7 Include_Time_Fraction{boolean} 213r15
+217V13*Value{duration} 217>20 5|803b13 869l8 869t13
+217a20 Elapsed_Time{string} 5|803b20 813r10 814r18 822r15 822r39 829r10 839r10
+. 851r10
+X 5 a-calfor.adb
+43U14 Check_Char 43>26 43>38 43>53 67b14 72l8 72t18 742s7 743s7 744s7 745s7
+. 746s7 749s10 826s7 827s7 830s10
+43a26 S{string} 67b26 69r10
+43e38 C{character} 67b38 69r23
+43i53 Index{integer} 67b53 69r13
+48U14 Check_Digit 48>27 48>39 78b14 83l8 83t19 754s7 755s7 756s7 757s7 758s7
+. 761s10 835s7 836s7 837s7 840s10
+48a27 S{string} 78b27 80r10
+48i39 Index{integer} 78b39 80r13
+54U14 Split_Duration 55>7 56<7 57<7 58<7 59<7 162s7 366b14 388l8 388t22 409s7
+55o7 Seconds{duration} 367b7 377r10 381r19 381r54 383r38
+56i7 Hour{natural} 368b7 384m7
+57i7 Minute{4|36I12} 369b7 386m7
+58i7 Second{4|37I12} 370b7 387m7
+59o7 Sub_Second{4|38O12} 371b7 383m7
+93i7 Y{3|48I12} 103m20
+94i7 Mo{3|49I12} 103m23
+95i7 D{3|50I12} 103m27 104r14
+96i7 H{4|35I12} 103m30
+97i7 Mi{4|36I12} 103m33
+98i7 Se{4|37I12} 103m37
+99o7 Ss{4|38O12} 103m41
+100b7 Le{boolean} 103m45
+124i7 Y{3|48I12} 134m20
+125i7 Mo{3|49I12} 134m23
+126i7 D{3|50I12} 134m27
+127i7 H{4|35I12} 134m30 135r14
+128i7 Mi{4|36I12} 134m33
+129i7 Se{4|37I12} 134m37
+130o7 Ss{4|38O12} 134m41
+131b7 Le{boolean} 134m45
+146a7 To_Char(character) 166r21 167r21 171r21 172r21 176r21 177r21 188r25
+. 189r25
+147i7 Hour{natural} 162m41 166r30 167r30
+148i7 Minute{4|36I12} 162m47 171r30 172r30
+149i7 Second{4|37I12} 162m55 176r30 177r30
+150o7 Sub_Second{duration} 162m63 181r41 186r39
+151i7 SS_Nat{natural} 186m10 188r34 189r34
+156i7 First{integer} 192r22
+157i7 Last{integer} 192r31
+159a7 Result{string} 166m7 167m7 171m7 172m7 176m7 177m7 188m10 189m10 192r14
+204a7 To_Char(character) 228r21 229r21 230r21 231r21 235r21 236r21 240r22
+. 241r22 243r22 244r22 248r22 249r22 253r22 254r22 265r25 266r25
+206i7 Year{3|48I12} 223m20 228r30 229r30 230r30 231r30
+207i7 Month{3|49I12} 223m26 235r30 236r30
+208i7 Day{3|50I12} 223m33 240r31 241r31
+209i7 Hour{4|35I12} 224m14 243r31 244r31
+210i7 Minute{4|36I12} 224m20 248r31 249r31
+211i7 Second{4|37I12} 224m28 253r31 254r31
+212o7 Sub_Second{duration} 224m36 258r41 263r39
+213i7 SS_Nat{natural} 263m10 265r34 266r34
+214b7 Leap_Second{boolean} 224m48
+218a7 Result{string} 220r9 228m7 229m7 230m7 231m7 235m7 236m7 240m7 241m7
+. 243m7 244m7 248m7 249m7 253m7 254m7 265m10 266m10 269r14 269r22
+219i7 Last{positive} 269r38
+280i7 Y{3|48I12} 290m20
+281i7 Mo{3|49I12} 290m23
+282i7 D{3|50I12} 290m27
+283i7 H{4|35I12} 290m30
+284i7 Mi{4|36I12} 290m33 291r14
+285i7 Se{4|37I12} 290m37
+286o7 Ss{4|38O12} 290m41
+287b7 Le{boolean} 290m45
+302i7 Y{3|48I12} 312m20
+303i7 Mo{3|49I12} 312m23 313r14
+304i7 D{3|50I12} 312m27
+305i7 H{4|35I12} 312m30
+306i7 Mi{4|36I12} 312m33
+307i7 Se{4|37I12} 312m37
+308o7 Ss{4|38O12} 312m41
+309b7 Le{boolean} 312m45
+321i7 Y{3|48I12} 331m20
+322i7 Mo{3|49I12} 331m23
+323i7 D{3|50I12} 331m27
+324i7 H{4|35I12} 331m30
+325i7 Mi{4|36I12} 331m33
+326i7 Se{4|37I12} 331m37 332r14
+327o7 Ss{4|38O12} 331m41
+328b7 Le{boolean} 331m45
+373i7 Secs{natural} 381m7 383r58 384r30 385m7 385r21 386r36 387r36
+401i7 Unchecked_Hour{natural} 409m32 411r10 415r15
+431i7 H{integer} 444m25
+432i7 M{integer} 445m25
+433i7 Se{integer} 446m25
+434o7 Su{duration} 447m25
+435i7 Tz{long_integer} 451r25
+479o7 Dd{3|54O12} 489m25
+480b7 Le{boolean} 494m25
+481i7 Tz{long_integer} 497r25
+529o7 Dd{3|54O12} 538m24
+530i7 Tz{long_integer} 546r24
+567i7 Y{3|48I12} 577m20
+568i7 Mo{3|49I12} 577m23
+569i7 D{3|50I12} 577m27
+570i7 H{4|35I12} 577m30
+571i7 Mi{4|36I12} 577m33
+572i7 Se{4|37I12} 577m37
+573o7 Ss{4|38O12} 577m41 578r14
+574b7 Le{boolean} 577m45
+593i7 Adj_Year{3|48I12} 631m16 638r28
+594i7 Adj_Month{3|49I12} 628m16 630m16 639r28
+595i7 Adj_Day{3|50I12} 623m13 625m13 640r28
+597i7 H{integer} 642r28
+598i7 M{integer} 643r28
+599i7 Se{integer} 644r28
+600o7 Ss{duration} 645r28
+601i7 Tz{long_integer} 650r28
+668o7 Dd{3|54O12} 691r28
+669i7 Tz{long_integer} 700r28
+711a7 D{string} 738m7 742r19 743r19 744r19 745r19 746r19 749r22 754r20 755r20
+. 756r20 757r20 758r20 761r23 766r53 767r53 768r53 769r53 770r53 771r53 776r64
+712i7 Year{3|48I12} 766m7 781r14 792r23
+713i7 Month{3|49I12} 767m7 782r21 792r29
+714i7 Day{3|50I12} 768m7 783r21 792r36
+715i7 Hour{4|35I12} 769m7 784r21 793r23
+716i7 Minute{4|36I12} 770m7 785r21 793r29
+717i7 Second{4|37I12} 771m7 786r21 793r37
+718o7 Sub_Second{4|38O12} 776m10 787r21 793r45
+804a7 D{string} 822m7 826r19 827r19 830r22 835r20 836r20 837r20 840r23 845r53
+. 846r53 847r53 852r64
+805i7 Hour{4|35I12} 845m7 857r14 865r26
+806i7 Minute{4|36I12} 846m7 858r21 865r32
+807i7 Second{4|37I12} 847m7 859r21 865r40
+808o7 Sub_Second{4|38O12} 852m10 860r21 865r48
+879i7 Y{3|48I12} 889m20 890r14
+880i7 Mo{3|49I12} 889m23
+881i7 D{3|50I12} 889m27
+882i7 H{4|35I12} 889m30
+883i7 Mi{4|36I12} 889m33
+884i7 Se{4|37I12} 889m37
+885o7 Ss{4|38O12} 889m41
+886b7 Le{boolean} 889m45
+X 6 a-catizo.ads
+19K22*Time_Zones 4|22w19 42r19 46r19 50r19 54r19 58r19 97r20 111r21 127r21
+. 147r21 164r21 179r31 191r20 214r15 5|32w19 32r48 91r19 122r19 202r31 278r19
+. 300r19 429r21 477r20 527r21 591r21 666r21 709r19 877r19 6|35e28
+23I9*Time_Offset<short_integer> 4|42r30 46r30 50r30 54r30 58r30 97r31 111r32
+. 127r32 147r32 164r32 179r42 191r31 5|91r30 122r30 202r42 278r30 300r30
+. 429r32 477r31 527r32 591r32 666r32 709r30 877r30
+28V13*Local_Time_Offset{23I9} 4|214s26
+X 12 interfac.ads
+56I9*Integer_64<long_long_integer>
+X 14 s-arit64.ads
+59I12*Int64{12|56I9}
+92V13*Multiply_With_Ovflo_Check64{59I12} 96i<c,__gnat_mulv64>22
+

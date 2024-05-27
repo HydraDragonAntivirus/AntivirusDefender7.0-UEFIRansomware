@@ -1,0 +1,44 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_RECURSION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.exn_flt%s	s-exnflt.ads		5540b01f NE OL PK
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.double_real%s
+W system.exponr%s
+
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-dourea.ads		20230727081304 8a0ecf55 system.double_real%s
+D s-dourea.adb		20230727081304 be38c14a system.double_real%b
+D s-dorepr.adb		20230727081304 e195a66d system.double_real.product
+D s-exnflt.ads		20230727081304 84371ff2 system.exn_flt%s
+D s-exponr.ads		20230727081304 2127300b system.exponr%s
+D s-exponr.adb		20230727081304 7c6b8c30 system.exponr%b
+G a e
+G c Z s s [exn_floatR system__exn_flt__exn_floatGP2470 38 13 none]
+G c Z s s [exn_float system__exn_flt 38 13 none]
+X 2 system.ads
+37K9*System 192e11 6|34r6 36r9 41r5
+X 6 s-exnflt.ads
+36K16*Exn_Flt 2|37k9 6|41l12 41e19
+38V13*Exn_Float[7|38]{float} 39r26 8|52b17
+X 7 s-exponr.ads
+38v17*Exponr 2|37k9 6|34w13 38r30
+

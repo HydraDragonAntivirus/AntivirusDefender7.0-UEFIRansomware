@@ -1,0 +1,70 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_LONG_LONG_INTEGERS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.bitfields%s	s-bitfie.ads		07b741b8 NE OL PK
+W system%s		system.ads		system.ali
+W system.bitfield_utils%s  s-bituti.adb		s-bituti.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-bituti.ads		20230727081304 797cbcce system.bitfield_utils%s
+D s-bituti.adb		20230727081304 5643e8bc system.bitfield_utils%b
+D s-bitfie.ads		20230727081304 8e9b6290 system.bitfields%s
+G a e
+G c Z s s [val_arrayIP system__bitfields__utils 91 12 55_4]
+G c Z s s [copy_bitfield system__bitfields__utils 107 17 55_4]
+G c Z s s [fast_copy_bitfield system__bitfields__utils 130 16 55_4]
+G c Z s s [get_val_2 system__bitfields__utils 47 16 55_4]
+G c Z s s [set_val_2 system__bitfields__utils 55 17 55_4]
+G c Z s s [get_bitfield system__bitfields__utils 70 16 55_4]
+G c Z s s [set_bitfield system__bitfields__utils 76 16 55_4]
+G c Z s s [set_bitfield system__bitfields__utils 86 17 55_4]
+G c Z s s [copy_small_bitfield system__bitfields__utils 93 17 55_4]
+G c Z s s [copy_large_bitfield system__bitfields__utils 103 17 55_4]
+X 1 system.ads
+37K9*System 192e11 4|32r6 34r9 44r39 55r25 73r5
+67M9*Address 4|58r22 60r22
+71N4*Storage_Unit 4|44r46
+X 2 s-bituti.ads
+32K16*Bitfield_Utils 146e26 4|32w13 55r32
+78k12*G 144e9 4|55r47
+100I15*Bit_Size{natural} 4|62r28[55]
+101I15*Small_Size{100I15[4|55]} 4|70r27[55]
+103I15*Bit_Offset{integer} 4|67r27[55] 69r27[55]
+105I15*Bit_Offset_In_Byte{103I15[4|55]} 4|59r28[55] 61r28[55]
+107U17*Copy_Bitfield 4|63r20[55]
+130V16*Fast_Copy_Bitfield{4|46M9} 4|71r33[55]
+X 4 s-bitfie.ads
+34K16*Bitfields 1|37k9 4|73l12 73e21
+43N4*Val_Bits 44r28 46r26 48r23
+44N4*Val_Bytes 46r58 48r50
+46M9*Val_2 47r36 55r55 66r21 68r21 71r13
+48M9*Val 55r50
+55K12*Utils[2|78] 59r22 61r22 62r22 63r14 67r21 69r21 70r21 71r27
+57U14*Copy_Bitfield=63:20
+58m7 Src_Address{1|67M9}
+59i7 Src_Offset{2|105I15[55]}
+60m7 Dest_Address{1|67M9}
+61i7 Dest_Offset{2|105I15[55]}
+62i7 Size{2|100I15[55]}
+65V13*Fast_Copy_Bitfield=71:33{46M9}
+66m7 Src{46M9}
+67i7 Src_Offset{2|103I15[55]}
+68m7 Dest{46M9}
+69i7 Dest_Offset{2|103I15[55]}
+70i7 Size{2|101I15[55]}
+

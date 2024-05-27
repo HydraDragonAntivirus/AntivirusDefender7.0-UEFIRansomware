@@ -1,0 +1,91 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.containers.red_black_trees%s  a-crbltr.ads  f4ca97ce NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-contai.ads		20230727081304 61e5e089 ada.containers%s
+D a-conhel.ads		20230727081304 46fe1ce3 ada.containers.helpers%s
+D a-conhel.adb		20230727081304 854d323e ada.containers.helpers%b
+D a-crbltr.ads		20230727081304 d3d16ba4 ada.containers.red_black_trees%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atocou.ads		20230727081304 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 5|32r6 34r9 78r5
+X 2 a-contai.ads
+16K13*Containers 1|16k9 2|28e19 5|32r10 34r13 78r9
+22I9*Count_Type<integer> 5|48r19 58r33 65r34 66r19 67r19 68r19 69r19 71r19
+X 3 a-conhel.ads
+31K24*Helpers 181e27 5|32w21 49r27 52r37 70r27 75r37
+43R9*Tamper_Counts 46e14 5|49r35 70r35
+55k12*Generic_Implementation 179e30 5|52r45 75r45
+X 5 a-crbltr.ads
+34K24*Red_Black_Trees 2|16k13 5|78l20 78e35
+37E9*Color_Type 37e35
+37n24*Red{37E9}
+37n29*Black{37E9}
+40+12 Node_Type 41r34
+41P12 Node_Access(40+12) 45r19 46r19 47r19
+42k12*Generic_Tree_Types 40z12 41z12 53l8 53e26
+44R12*Tree_Type 50e17
+45*10 First{41P12}
+46*10 Last{41P12}
+47*10 Root{41P12}
+48i10 Length{2|22I9}
+49r10 TC{3|43R9}
+52K15*Implementation[3|55]
+56+12 Node_Type 58r57
+57k12*Generic_Bounded_Tree_Types 56z12 76l8 76e34
+58A12*Nodes_Type(56+12)<2|22I9> 72r19
+65R12*Tree_Type 65d23 73e17
+65i23 Capacity{2|22I9} 72r36
+66i10 First{2|22I9}
+67i10 Last{2|22I9}
+68i10 Root{2|22I9}
+69i10 Length{2|22I9}
+70r10 TC{3|43R9}
+71i10 Free<integer>
+72a10 Nodes{58A12}
+75K15*Implementation[3|55]
+

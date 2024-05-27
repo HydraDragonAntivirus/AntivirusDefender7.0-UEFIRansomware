@@ -1,0 +1,39 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U ada.numerics.aux_compat%s  a-nuauco.ads	beebd2d7 NE OL PU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.aux_long_long_float%s  a-nallfl.ads  a-nallfl.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nuauco.ads		20230727081304 569a10d7 ada.numerics.aux_compat%s
+D a-naliop.ads		20230727081304 6b421e5f ada.numerics.aux_linker_options%s
+D a-nallfl.ads		20230727081304 6ccf65a3 ada.numerics.aux_long_long_float%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 3|38r6 39r9 39r41
+X 2 a-numeri.ads
+16K13*Numerics 1|16k9 2|35e17 3|38r10 39r13 39r45
+X 3 a-nuauco.ads
+39K22*Aux_Compat=39:54
+X 5 a-nallfl.ads
+43K22*Aux_Long_Long_Float 3|38w19 39r54 5|90e37
+

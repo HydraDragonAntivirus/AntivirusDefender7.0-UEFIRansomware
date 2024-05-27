@@ -1,0 +1,86 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U gnat.binary_search%b	g-binsea.adb		48ff19ab NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+
+U gnat.binary_search%s	g-binsea.ads		86d54afc BN EE NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-binsea.ads		20230727081304 334dc6db gnat.binary_search%s
+D g-binsea.adb		20230727081304 7bb2df70 gnat.binary_search%b
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+X 3 gnat.ads
+37K9*GNAT 60e9 4|31r9 93r5 5|28r14 123r5
+X 4 g-binsea.ads
+31K14*Binary_Search 3|37k9 4|93l10 93e23 5|28b19 40r34 123l10 123t23
+34E12 Index_Type 36r34 40r28 41r49 5|31r28 32r49 37r24 41r16 49r48 52r45
+35+12 Element_Type 36r53 37r43 41r28 5|32r28 37r46 41r28 49r26 52r57
+36V21 Get{35+12} 36>26 5|38s25 50s34
+36*26 Index{34E12}
+37V21 Before{boolean} 37>29 37>35 5|38s17 50s17
+37*29 Left{35+12}
+37*35 Right{35+12}
+38b7 Leftmost{boolean} 5|34r10
+39v13*Index 40>7 40>14 40>20 41>7 5|30b13 57l8 57t13
+40*7 First{34E12} 5|31b7 43r26 54r26
+40*14 Last{34E12} 5|31b14 43r33 54r33
+40*20 Start{34E12} 5|31b20 43r39 54r39
+41*7 Element{35+12} 5|32b7 43r46 54r46
+60E12 Index_Type 63r18 65r28 66r49 70r37 5|64r28 65r49 67r11 68r11 68r25
+. 69r11 74r21 81r18 82r16 83r17 83r38
+61+12 Element_Type 63r40 66r28 5|65r28
+62V21 Before{boolean} 63>10 63>30 71s49 5|73s16
+63*10 Index{60E12}
+63*30 Element{61+12}
+64v13*Leftmost 65>7 65>14 65>20 66>7 5|40r48 63b13 88l8 88t16
+65*7 First{60E12} 67r18 68r36 5|64b7 67r25 71r10
+65*14 Last{60E12} 67r26 68r45 70r60 71r57 5|64b14 68r42 71r19
+65*20 Start{60E12} 68r27 5|64b20 69r25
+66*7 Element{61+12} 71r63 5|65b7 73r27
+77E12 Index_Type 80r42 82r28 83r49 87r37 5|95r28 96r49 98r11 99r11 99r25
+. 100r11 109r21 114r18 115r16 116r17 116r38 120r14
+78+12 Element_Type 80r20 83r28 5|96r28
+79V21 Before{boolean} 80>10 80>34 88s49 5|106s16
+80*10 Element{78+12}
+80*34 Index{77E12}
+81v13*Rightmost 82>7 82>14 82>20 83>7 5|52r34 94b13 121l8 121t17
+82*7 First{77E12} 84r18 85r36 87r61 88r66 5|95b7 98r25 102r10
+82*14 Last{77E12} 84r26 85r45 5|95b14 99r42 102r18 103r17
+82*20 Start{77E12} 85r27 5|95b20 100r25
+83*7 Element{78+12} 88r57 5|96b7 106r24
+X 5 g-binsea.adb
+36V22 Before{boolean} 37>16 37>36 41r42
+37*16 Index{4|34E12} 38r30
+37*36 Element{4|35+12} 38r38
+40V22 Find[4|64] 43s20
+48V22 Before{boolean} 49>16 49>40 52r71
+49*16 Element{4|35+12} 50r25
+49*40 Index{4|34E12} 50r39
+52V22 Find[4|81] 54s20
+67*7 L{4|60E12} 74m16 79r23 82r32 83r54 87r14
+68*7 R{4|60E12} 76m16 79r28 83r33
+69*7 M{4|60E12} 73r24 74r38 76r21 81m13
+98*7 L{4|77E12} 109m16 112r23 115r32 116r54
+99*7 R{4|77E12} 107m16 112r28 116r33 120r31
+100*7 M{4|77E12} 106r33 107r21 109r38 114m13
+

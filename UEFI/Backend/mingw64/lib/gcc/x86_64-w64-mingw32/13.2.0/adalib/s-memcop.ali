@@ -1,0 +1,43 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.memory_copy%s	s-memcop.ads		0506362a NE OL PR PK
+W system%s		system.ads		system.ali
+W system.crtl%s		s-crtl.ads		s-crtl.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-crtl.ads		20230727081304 8a0692f8 system.crtl%s
+D s-memcop.ads		20230727081304 7f503b34 system.memory_copy%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+G a e
+X 1 system.ads
+37K9*System 192e11 3|43r6 46r9 49r54 50r14 55r55 56r15 72r5
+67M9*Address 3|49r27 49r41 55r28 55r42
+X 2 s-crtl.ads
+36K16*CRTL 239e16 3|43w13 49r61 50r21 55r62 56r22
+58M9*size_t 3|49r66 55r67
+175U14*memcpy 3|50r26
+178U14*memmove 3|56r27
+X 3 s-memcop.ads
+46K16*Memory_Copy 1|37k9 3|72l12 72e23
+49U14*memcpy=50:26
+49m22 S1{1|67M9}
+49m36 S2{1|67M9}
+49m50 N{2|58M9}
+55U14*memmove=56:27
+55m23 S1{1|67M9}
+55m37 S2{1|67M9}
+55m51 N{2|58M9}
+

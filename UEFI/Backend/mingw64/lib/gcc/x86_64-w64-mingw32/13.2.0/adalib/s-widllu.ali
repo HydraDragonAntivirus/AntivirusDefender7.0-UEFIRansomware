@@ -1,0 +1,66 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.wid_llu%s	s-widllu.ads		1f37fe44 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W system.width_u%s
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20230727081304 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-widllu.ads		20230727081304 a6620b19 system.wid_llu%s
+D s-widthu.ads		20230727081304 b32f15e2 system.width_u%s
+D s-widthu.adb		20230727081304 6d87d7d1 system.width_u%b
+G a e
+G c Z s s [to_big_integer system__wid_llu__width_uns__unsigned_conversion 123 16 62_4_53_4]
+G c Z s s [from_big_integer system__wid_llu__width_uns__unsigned_conversion 127 16 62_4_53_4]
+G c Z s s [max_log10 system__wid_llu__width_uns 71 13 53_4]
+G c Z s s [width system__wid_llu__width_uns 81 13 53_4]
+X 9 system.ads
+37K9*System 192e11 16|45r6 46r6 48r9 60r5
+X 15 s-unstyp.ads
+38K16*Unsigned_Types 249e26 16|46w13 51r34
+46M9*Long_Long_Unsigned 16|51r49
+X 16 s-widllu.ads
+48K16*Wid_LLU 9|37k9 16|60l12 60e19
+51M12*Long_Long_Unsigned{15|46M9} 53r38 56r16
+53K12*Width_Uns[17|53] 58r15
+55V13*Width_Long_Long_Unsigned=58:25{natural}
+56m7 Lo{15|46M9}
+56m11 Hi{15|46M9}
+X 17 s-widthu.ads
+53k16*Width_U 16|45w13 53r29 17|93e19
+81V13*Width{natural} 16|58r25[53]
+

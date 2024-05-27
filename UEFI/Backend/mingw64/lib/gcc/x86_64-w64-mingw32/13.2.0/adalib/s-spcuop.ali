@@ -1,0 +1,37 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U system.spark.cut_operations%b  s-spcuop.adb	812db2df NE OL PK
+W system.spark%s	s-spark.ads		s-spark.ali
+
+U system.spark.cut_operations%s  s-spcuop.ads	46c019b4 NE OL PU PK
+W system.spark%s	s-spark.ads		s-spark.ali
+N A48:3 gnatprove always_return entity:cut_operations
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-spark.ads		20230727081304 53f1c39d system.spark%s
+D s-spcuop.ads		20230727081304 1531da29 system.spark.cut_operations%s
+D s-spcuop.adb		20230727081304 941c68f6 system.spark.cut_operations%b
+G a e
+G c Z s b [by system__spark__cut_operations 51 13 none]
+G c Z s b [so system__spark__cut_operations 55 13 none]
+X 1 system.ads
+37K9*System 192e11 3|45r9 59r5 4|32r14 42r5
+X 2 s-spark.ads
+32K16*SPARK 1|37k9 2|36e17 3|45r16 59r12 4|32r21 42r12
+X 3 s-spcuop.ads
+45K22*Cut_Operations 2|32k16 3|59l18 59e32 4|32b27 42l18 42t32
+

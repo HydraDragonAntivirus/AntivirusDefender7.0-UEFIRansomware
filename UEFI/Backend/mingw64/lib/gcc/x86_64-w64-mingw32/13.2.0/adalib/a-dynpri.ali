@@ -1,0 +1,131 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+
+U ada.dynamic_priorities%b  a-dynpri.adb	6f917299 NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+W system.task_primitives.operations%s  s-taprop.adb  s-taprop.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+U ada.dynamic_priorities%s  a-dynpri.ads	88324a78 NE OL PR PK
+W ada%s			ada.ads			ada.ali
+W ada.task_identification%s  a-taside.adb	a-taside.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-dynpri.ads		20230727081304 cebd80e7 ada.dynamic_priorities%s
+D a-dynpri.adb		20230727081304 10e8c736 ada.dynamic_priorities%b
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-taside.ads		20230727081304 c0a7c8d8 ada.task_identification%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20230727081304 f40c8db4 interfaces.c.strings%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atacco.ads		20230727081304 903317eb system.address_to_access_conversions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-multip.ads		20230727081304 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20230727081304 97504df8 system.os_interface%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20230727081304 5be75682 system.stack_usage%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-tasinf.ads		20230727081304 601f6b72 system.task_info%s
+D s-taspri.ads		20230727081304 a1350802 system.task_primitives%s
+D s-taprop.ads		20230727081304 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20230727081304 0ec7ab0b system.tasking%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20230727081304 15ac53fb system.win32%s
+G a e
+G c Z s b [set_priority ada__dynamic_priorities 23 14 none]
+G c Z s b [get_priority ada__dynamic_priorities 28 13 none]
+G c Z b b [convert_ids ada__dynamic_priorities 45 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 2|17r6 19r9 25r18 26r20 29r18 30r20 33r5 3|36r6 38r14 46r6
+. 56r11 57r9 63r32 82r18 83r9 90r32 154r5
+X 2 a-dynpri.ads
+19K13*Dynamic_Priorities 1|16k9 2|33l9 33e27 3|38b18 154l9 154t27
+23U14*Set_Priority 24>7 25>7 3|80b14 152l8 152t20
+24i7 Priority{10|100I12} 3|81b7 106r38 117r55 119r13 121r40 128r37
+25p7 T{5|53P9} 3|82b7 85r56 98r45
+28V13*Get_Priority{10|100I12} 29>7 3|55b13 72l8 72t20
+29p7 T{5|53P9} 3|56b7 59r49 67r45
+X 3 a-dynpri.adb
+40K12 STPO=40:48 104r7 121r13 128r10 132r13 136r7 138r10 148r10
+41K12 SSL=41:31 102r7 151r7
+45V13 Convert_Ids[6|20]{25|109P9} 59s36 63s19 85s43 90s19
+59p7 Target{25|109P9} 63r10 71r14
+60a7 Error_Message{string} 64r35 68r35
+85p7 Target{25|109P9} 90r10 104r24 106r7 108r10 110r11 117r10 119r25 121r32
+. 128r29 130r13 131r13 132r26 132r34 136r20 138r22
+86a7 Error_Message{string} 91r35
+87b7 Yield_Needed{boolean} 120m13 123m13 127m10 138r38
+X 5 a-taside.ads
+45K13*Task_Identification 2|17w10 25r22 26r24 29r22 30r24 3|47r9 56r15 57r13
+. 63r36 67r10 82r22 83r13 90r36 98r10 5|106e28
+53P9*Task_Id<25|109P9> 2|25r42 29r42 3|47r29 56r35 82r42
+56p4*Null_Task_Id{53P9} 3|63r56 90r56
+65V13*Current_Task{53P9} 2|26s44 30s44 3|57s33 83s33
+81V13*Is_Terminated{boolean} 3|67s30 98s30
+X 6 a-unccon.ads
+20v14*Unchecked_Conversion 3|36w10 46r10
+X 10 system.ads
+37K9*System 2|16w6 24r18 31r13 3|32r6 33r6 34r6 40r25 41r24 43r8 47r38 57r54
+. 81r18 10|192e11
+100I12*Any_Priority{integer} 2|24r25 31r20 3|57r61 81r25
+X 17 s-soflin.ads
+45K16*Soft_Links 3|34w13 41r31 17|414e22
+62P9*No_Param_Proc
+172p4*Abort_Defer{62P9} 3|102r11
+176p4*Abort_Undefer{62P9} 3|151r11
+X 19 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 23 s-taspri.ads
+37K16*Task_Primitives 3|32r13 40r32 23|115e27
+X 24 s-taprop.ads
+39K32*Operations 3|32w29 40r48 24|556e38
+135V13*Self{25|109P9} 3|138s15
+185U14*Write_Lock 3|104s12
+233U14*Unlock 3|136s12
+302U14*Yield 3|148s15
+310U14*Set_Priority 3|121s18 128s15
+385U14*Wakeup 3|132s18
+X 25 s-taskin.ads
+47K16*Tasking 3|33w13 43r15 47r45 25|1221e19
+109P9*Task_Id(107R9) 3|47r53 59r25 85r32
+167n7*Entry_Caller_Sleep{132E9} 3|130r35
+242P9*Entry_Call_Link(240R9)
+503e7*State{132E9} 3|130r27 132r48
+515i7*Base_Priority{10|100I12} 3|71r28 106m21
+526i7*Current_Priority{10|100I12} 3|119r39
+563p7*Call{242P9} 3|108r24 110r25 117r24
+781i4*Priority_Not_Boosted{integer} 3|110r56
+784I12*Rendezvous_Priority{integer}
+922i7*Acceptor_Prev_Priority{784I12} 3|110r30 117m29
+978r7*Common{502R9} 3|71r21 106m14 108r17 110r18 117m17 119r32 130r20 132r41
+1094b7*Pending_Priority_Change{boolean} 3|131m20
+

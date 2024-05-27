@@ -1,0 +1,118 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+
+U system.generic_vector_operations%b  s-geveop.adb  6bb008c3 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.address_operations%s  s-addope.adb	s-addope.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U system.generic_vector_operations%s  s-geveop.ads  52bece04 BN NE OL PU PK GE
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.vectors%s	s-vector.ads		s-vector.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-addope.ads		20230727081304 7e342ca0 system.address_operations%s
+D s-geveop.ads		20230727081304 747f96b6 system.generic_vector_operations%s
+D s-geveop.adb		20230727081304 c434fd5e system.generic_vector_operations%b
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-vector.ads		20230727081304 7dc5afb0 system.vectors%s
+G a e
+G c Z s b [generic_vector_operations system 50 16 none]
+X 1 ada.ads
+16K9*Ada 20e8 6|35r6 65r26 66r26 117r26 118r26
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 6|35w10 65r30 66r30 117r30 118r30
+X 3 system.ads
+37K9*System 192e11 5|42r6 43r6 50r9 57r17 58r17 64r17 65r17 66r5 6|32r6 32r37
+. 33r6 33r37 37r14 48r17 49r17 101r17 102r17 146r5
+67M9*Address 5|57r24 64r24 6|40r18 40r29 41r18 41r29 48r24 51r12 52r12 53r12
+. 65r52 66r52 75r21 101r24 104r12 105r12 117r52 118r52 127r21
+71N4*Storage_Unit 6|39r38
+77V14*"<"{boolean} 6|81r16 88r16 133r16 139r16
+81V14*"="{boolean} 6|59r68 111r58
+X 4 s-addope.ads
+43K16*Address_Operations 85e30 6|32w13 32r44
+63V13*AddA{3|67M9} 6|76s14 83s16 84s16 85s16 90s16 91s16 92s16 128s14 135s16
+. 136s16 141s16 142s16
+67V13*ModA{3|67M9} 6|59s34 111s34
+75V13*OrA{3|67M9} 6|59s40 59s45 111s40
+X 5 s-geveop.ads
+46E9 Element 48r52 54r40 54r56 61r37 61r53 6|63r38 115r38
+47E9 Index 48r33
+48A9 Element_Array(46E9)<47E9> 6|41r38
+50k16*Generic_Vector_Operations 3|37k9 5|46z9 47z9 48z9 66l12 66e37 6|37b21
+. 146l12 146t37
+54V21 Element_Op{46E9} 54>33 54>36 6|89s25
+54*33 X{46E9}
+54*36 Y{46E9}
+55V21 Vector_Op{8|44M9} 55>32 55>35 6|82s25
+55m32 X{8|44M9}
+55m35 Y{8|44M9}
+56u14*Binary_Operation 57>7 57>10 57>13 58>7 6|47b14 94l8 94t24
+57m7 R{3|67M9} 6|48b7 51r23
+57m10 X{3|67M9} 6|48b10 52r23 88r18
+57m13 Y{3|67M9} 6|48b13 53r23
+58i7 Length{7|61I12} 6|49b7 77r45 88r22
+61V21 Element_Op{46E9} 61>33 6|140s25
+61*33 X{46E9}
+62V21 Vector_Op{8|44M9} 62>32 6|134s25
+62m32 X{8|44M9}
+63u14*Unary_Operation 64>7 64>10 65>7 6|100b14 144l8 144t23
+64m7 R{3|67M9} 6|101b7 104r23
+64m10 X{3|67M9} 6|101b10 105r23 139r18
+65i7 Length{7|61I12} 6|102b7 129r45 139r22
+X 6 s-geveop.adb
+39i4 IU{integer} 40r60 41r69
+40m4 VU{3|67M9} 56r52 59r64 83r26 84r26 85r26 108r52 111r54 135r26 136r26
+41m4 EU{3|67M9} 90r26 91r26 92r26 141r26 142r26
+51m7 RA{3|67M9} 59r50 82r14 85m10 85r22 89r14 92m10 92r22
+52m7 XA{3|67M9} 59r54 76r20 81r13 82r40 83m10 83r22 88r13 89r41 90m10 90r22
+53m7 YA{3|67M9} 59r59 82r53 84m10 84r22 89r54 91m10 91r22
+56m7 VI{7|104M9} 68r22 77r55 77r60
+58m7 Unaligned{7|104M9} 77r68
+62P12 Vector_Ptr(8|44M9) 65r61
+63P12 Element_Ptr(5|46E9) 66r61
+65V16 VP[2|20]{62P12} 82s10 82s36 82s49
+66V16 EP[2|20]{63P12} 89s10 89s37 89s50
+75m7 SA{3|67M9} 81r18
+104m7 RA{3|67M9} 111r45 134r14 136m10 136r22 140r14 142m10 142r22
+105m7 XA{3|67M9} 111r49 128r20 133r13 134r40 135m10 135r22 139r13 140r41
+. 141m10 141r22
+108m7 VI{7|104M9} 120r22 129r55 129r60
+110m7 Unaligned{7|104M9} 129r68
+114P12 Vector_Ptr(8|44M9) 117r61
+115P12 Element_Ptr(5|46E9) 118r61
+117V16 VP[2|20]{114P12} 134s10 134s36
+118V16 EP[2|20]{115P12} 140s10 140s37
+127m7 SA{3|67M9} 133r18
+X 7 s-stoele.ads
+40K16*Storage_Elements 5|43w13 58r24 65r24 6|33w13 33r44 49r24 102r24 7|116e28
+54I9*Storage_Offset<long_long_integer>
+61I12*Storage_Count{54I9} 5|58r41 65r41 6|49r41 102r41
+75V14*"+"{3|67M9} 6|88s20 139s20
+104M9*Integer_Address 6|56r21 58r28 77r28 108r21 110r28 129r28
+106V13*To_Address{3|67M9} 6|76s24 128s24
+111V13*To_Integer{104M9} 6|56s40 108s40
+X 8 s-vector.ads
+41K16*Vectors 5|42w13 55r39 55r62 62r36 62r59 6|40r38 62r37 114r37 8|49e19
+44M9*Vector 5|55r47 55r70 62r44 62r67 6|40r46 62r45 114r45
+

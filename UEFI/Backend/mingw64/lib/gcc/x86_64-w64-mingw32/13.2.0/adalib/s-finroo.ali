@@ -1,0 +1,74 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+
+U system.finalization_root%b  s-finroo.adb	95817ed8 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.finalization_root%s  s-finroo.ads	bfa2ec76 EE OL PR PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-finroo.adb		20230727081304 da730d48 system.finalization_root%b
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [adjust system__finalization_root 42 14 none]
+G c Z s b [finalize system__finalization_root 43 14 none]
+G c Z s b [initialize system__finalization_root 44 14 none]
+G c Z s s [root_controlledDA system__finalization_root 40 9 none]
+G c Z s s [root_controlledDF system__finalization_root 40 9 none]
+G c Z s s [root_controlledIP system__finalization_root 40 9 none]
+X 10 system.ads
+37K9*System 192e11 12|34r9 46r5 13|32r14 63r5
+X 12 s-finroo.ads
+34K16*Finalization_Root 10|37k9 12|46l12 46e29 13|32b21 63l12 63t29
+40H9*Root_Controlled 40e55 42p14 42r42 43p14 43r42 44p14 44r42 13|40r38 49r40
+. 58r42
+42U14*Adjust 42=26 13|40b14 43l8 43t14
+42r26 Object{40R9} 13|40b22
+43U14*Finalize 43=26 13|49b14 52l8 52t16
+43r26 Object{40R9} 13|49b24
+44U14*Initialize 44=26 13|58b14 61l8 61t18
+44r26 Object{40R9} 13|58b26
+

@@ -1,0 +1,79 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DEFAULT_INITIALIZATION
+
+U gnat.most_recent_exception%b  g-moreex.adb	24be9790 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.exceptions.is_null_occurrence%s  a-einuoc.adb  a-einuoc.ali
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U gnat.most_recent_exception%s  g-moreex.ads	8a0c3f35 EE NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-einuoc.ads		20230727081304 c8ce44ba ada.exceptions.is_null_occurrence%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-moreex.ads		20230727081304 15e93e62 gnat.most_recent_exception%s
+D g-moreex.adb		20230727081304 26eeea76 gnat.most_recent_exception%b
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [occurrence gnat__most_recent_exception 44 13 none]
+G c Z s b [occurrence_access gnat__most_recent_exception 50 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 6|37r6 45r13 51r13 7|32r6 41r31 42r22 45r16 48r23 50r13 52r26
+. 54r13 66r13 68r11
+X 2 a-except.ads
+44K13*Exceptions 295e19 6|37w10 45r17 51r17 7|32r10 41r35 42r26 45r20 48r27
+. 50r17 52r30 54r17 66r17 68r15
+53R9*Exception_Occurrence 267e14 6|45r28 7|41r46 48r38
+56P9*Exception_Occurrence_Access(53R9) 6|51r28 7|42r37 45r31 66r28 70r22
+58r4*Null_Occurrence{53R9} 7|52r41
+113U14*Save_Occurrence 7|50s28 54s28
+114r7 Target{53R9} 7|51r16 55r16
+115r7 Source{53R9} 7|52r16 56r16
+X 3 a-einuoc.ads
+37V25*Is_Null_Occurrence{boolean} 7|32w21 77s13
+X 5 gnat.ads
+37K9*GNAT 60e9 6|38r9 74r5 7|35r14 43r15 85r5
+X 6 g-moreex.ads
+38K14*Most_Recent_Exception 5|37k9 6|74l10 74e31 7|35b19 43r20 85l10 85t31
+44V13*Occurrence{2|53R9} 7|41b13 59l8 59t18
+50V13*Occurrence_Access{2|56P9} 7|43s42 65b13 83l8 83t25
+X 7 g-moreex.adb
+42p7 EOA{2|56P9} 49r13 56r26
+48r14 Result{2|53R9} 51m26 55m26
+70p7 EOA{2|56P9} 74r10 77r33 81r17
+X 8 system.ads
+37K9*System 7|33r6 71r15 8|192e11
+X 12 s-soflin.ads
+45K16*Soft_Links 7|33w13 71r22 12|414e22
+87P9*Get_EOA_Call(2|56P9)
+248p4*Get_Current_Excep{87P9} 7|71r33
+

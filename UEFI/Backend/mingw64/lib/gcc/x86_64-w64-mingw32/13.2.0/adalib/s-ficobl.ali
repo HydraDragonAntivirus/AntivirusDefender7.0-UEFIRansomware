@@ -1,0 +1,115 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_ELABORATION_CODE
+
+U system.file_control_block%s  s-ficobl.ads	52a168f7 EE OL PR PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+W system.crtl%s		s-crtl.ads		s-crtl.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-cstrea.ads		20230727081304 e53d8b8e interfaces.c_streams%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-crtl.ads		20230727081304 8a0692f8 system.crtl%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230727081304 dc5161d4 system.file_control_block%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [afcbDF system__file_control_block 84 9 none]
+G c Z s s [afcbIP system__file_control_block 84 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|38r6 84r30
+X 3 a-stream.ads
+36K13*Streams 87e16 14|38w10 84r34
+39H9*Root_Stream_Type 70e64 14|84r42
+57x14*Read
+63x14*Write
+X 9 interfac.ads
+38K9*Interfaces 232e15 14|39r6 86r16 116r23
+X 10 i-cstrea.ads
+37K20*C_Streams 315e25 14|39w17 86r27 116r34
+41M12*FILEs{12|48M12} 14|86r37
+230E9*Content_Encoding 230e79 14|116r44
+X 11 system.ads
+37K9*System 192e11 14|40r6 42r9 94r18 159r5
+67M9*Address
+X 12 s-crtl.ads
+36K16*CRTL 239e16 14|40w13 94r25
+48M12*FILEs{11|67M9}
+70E9*Filename_Encoding 70e62 14|94r30
+X 14 s-ficobl.ads
+42K16*File_Control_Block 11|37k9 14|159l12 159e30
+60P9*Pstring(string) 89r14 97r14
+63E9*File_Mode 63e66 64r30 102r14
+63n23*In_File{63E9} 64r46
+63n32*Inout_File{63E9} 64r57
+63n44*Out_File{63E9}
+63n54*Append_File{63E9}
+64E12*Read_File_Mode{63E9}
+69E9*Shared_Status_Type 69e46 119r23
+69n32*Yes{69E9}
+69n37*No{69E9}
+69n41*None{69E9}
+81R9*AFCB 82r32 84c9 141r44 147r49 153r48
+82P9*AFCB_Ptr(84R9) 126r14 127r14 141r57
+84H9*AFCB<3|39R9> 3|57p14 63p14 14|131e14 141p13 147p14 153p14
+86m7*Stream{10|41M12}
+89p7*Name{60P9}
+94e7*Encoding{12|70E9}
+97p7*Form{60P9}
+102e7*Mode{63E9}
+106b7*Is_Regular_File{boolean}
+109b7*Is_Temporary_File{boolean}
+113b7*Is_System_File{boolean}
+116e7*Text_Encoding{10|230E9}
+119e7*Shared_Status{69E9}
+122e7*Access_Method{character}
+126p7*Next{82P9}
+127p7*Prev{82P9}
+141y13*AFCB_Allocate{82P9} 141>28
+141r28 Control_Block{84R9}
+147x14*AFCB_Close 147^26
+147p26 File(84R9)
+153x14*AFCB_Free 153^25
+153p25 File(84R9)
+

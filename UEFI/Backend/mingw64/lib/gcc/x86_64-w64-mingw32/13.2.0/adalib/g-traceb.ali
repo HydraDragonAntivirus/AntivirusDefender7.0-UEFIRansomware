@@ -1,0 +1,84 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U gnat.traceback%b	g-traceb.adb		931654a0 NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.traceback%s	s-traceb.adb		s-traceb.ali
+
+U gnat.traceback%s	g-traceb.ads		20149972 EB NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.exceptions.traceback%s  a-exctra.adb	a-exctra.ali
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-exctra.ads		20230727081304 0966bad0 ada.exceptions.traceback%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-traceb.ads		20230727081304 6cba3063 gnat.traceback%s
+D g-traceb.adb		20230727081304 b12a2ff2 gnat.traceback%b
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-traceb.ads		20230727081304 4e864b31 system.traceback%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [call_chain gnat__traceback 91 14 none]
+G c Z s b [call_chain gnat__traceback 99 13 none]
+G c Z s s [executable_load_address gnat__traceback 109 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 6|76r6 84r32
+X 2 a-except.ads
+44K13*Exceptions 295e19 6|76r10 84r36
+X 3 a-exctra.ads
+40K24*Traceback 63e29 6|76w21 84r47
+47A12*Tracebacks_Array{15|50A9}<integer> 6|84r57
+X 5 gnat.ads
+37K9*GNAT 60e9 6|78r9 119r5 7|36r14 62r5
+X 6 g-traceb.ads
+78K14*Traceback 5|37k9 6|119l10 119e19 7|36b19 62l10 62t19
+81M12*Code_Loc{8|67M9}
+84A12*Tracebacks_Array{3|47A12}<integer> 91r42 101r42 7|43r23 52r42 54r19
+91U14*Call_Chain 91<26 91<60 7|42b14 48l8 48t18
+91a26 Traceback{84A12} 7|43b7 47m36 47r47
+91i60 Len{natural} 7|44b7 47m65
+99V13*Call_Chain{84A12} 100>7 101>7 7|50b13 60l8 60t18
+100i7 Max_Len{positive} 7|51b7 54r42 58r21
+101i7 Skip_Frames{natural} 7|52b7 58r50
+109V13*Executable_Load_Address{8|67M9} 111b<c,__gnat_get_executable_load_address>19
+X 7 g-traceb.adb
+54a7 Traceback{6|84A12} 58m10 58r10 59r14
+55i7 Len{natural} 58m30 59r30
+X 8 system.ads
+37K9*System 6|75w6 81r24 109r44 7|34r6 47r7 57r7 8|192e11
+67M9*Address 6|81r31 109r51
+X 14 s-traceb.ads
+38K16*Traceback 7|34w13 47r14 57r14 14|81e21
+44U14*Call_Chain 7|47s24 57s24
+50i7 Skip_Frames{natural} 7|58r35
+75V13*C_Call_Chain{natural} 78i<c,system__traceback__c_call_chain>22
+X 15 s-traent.ads
+44M12*Traceback_Entry{8|67M9}
+50A9*Tracebacks_Array(44M12)<integer>
+

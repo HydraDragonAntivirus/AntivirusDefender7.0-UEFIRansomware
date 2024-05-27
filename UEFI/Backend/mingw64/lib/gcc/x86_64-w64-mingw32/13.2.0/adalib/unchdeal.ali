@@ -1,0 +1,26 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U unchecked_deallocation%s  unchdeal.ads	214516a4 NE OL GE
+
+D system.ads		20230727081304 f0509fe6 system%s
+D unchdeal.ads		20230727081304 214516a4 unchecked_deallocation%s
+G a e
+X 2 unchdeal.ads
+17+9 Object 18r24
+18P9 Name(17+9) 20r46
+20u11*Unchecked_Deallocation 20=35 21b27
+20*35 X{18P9}
+

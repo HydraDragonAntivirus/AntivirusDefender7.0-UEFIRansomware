@@ -1,0 +1,41 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.tags.generic_dispatching_constructor%s  a-tgdico.ads  c5011198 NE OL PR GE
+W ada.tags%s		a-tags.adb		a-tags.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-tgdico.ads		20230727081304 5bab295e ada.tags.generic_dispatching_constructor%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 3|25r10
+X 2 a-tags.ads
+70K13*Tags 1|16k9 2|668e13 3|25r14
+74P9*Tag 3|26r14
+X 3 a-tgdico.ads
+20H9 T 22r75 27r49
+21+9 Parameters 22r56 27r30
+22y18 Constructor{20R9} 22^31
+22p31 Params(21+9)
+25v19*Generic_Dispatching_Constructor 26>4 27^4 28r22 29b27
+26p4 The_Tag{2|74P9}
+27p4 Params(21+9)
+

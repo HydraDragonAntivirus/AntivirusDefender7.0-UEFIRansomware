@@ -1,0 +1,26 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.atomic_operations%s  s-atoope.ads	3733e5c3 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atoope.ads		20230727081304 c7637a25 system.atomic_operations%s
+G a e
+X 1 system.ads
+37K9*System 192e11 2|36r9 39r5
+X 2 s-atoope.ads
+36K16*Atomic_Operations 1|37k9 2|39l12 39e29
+

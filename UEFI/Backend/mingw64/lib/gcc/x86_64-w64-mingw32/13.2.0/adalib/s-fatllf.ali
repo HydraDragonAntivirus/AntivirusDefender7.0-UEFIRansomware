@@ -1,0 +1,71 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.fat_llf%s	s-fatllf.ads		6f80e76d NE OL PU PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.fat_gen%s
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-fatgen.ads		20230727081304 d28c6cfe system.fat_gen%s
+D s-fatgen.adb		20230727081304 6cc1fec9 system.fat_gen%b
+D s-fatllf.ads		20230727081304 4d5c1475 system.fat_llf%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [adjacent system__fat_llf__attr_long_long_float 53 13 45_4]
+G c Z s s [ceiling system__fat_llf__attr_long_long_float 55 13 45_4]
+G c Z s s [compose system__fat_llf__attr_long_long_float 57 13 45_4]
+G c Z s s [copy_sign system__fat_llf__attr_long_long_float 59 13 45_4]
+G c Z s s [exponent system__fat_llf__attr_long_long_float 61 13 45_4]
+G c Z s s [floor system__fat_llf__attr_long_long_float 63 13 45_4]
+G c Z s s [fraction system__fat_llf__attr_long_long_float 65 13 45_4]
+G c Z s s [leading_part system__fat_llf__attr_long_long_float 67 13 45_4]
+G c Z s s [machine system__fat_llf__attr_long_long_float 69 13 45_4]
+G c Z s s [machine_rounding system__fat_llf__attr_long_long_float 71 13 45_4]
+G c Z s s [model system__fat_llf__attr_long_long_float 73 13 45_4]
+G c Z s s [pred system__fat_llf__attr_long_long_float 75 13 45_4]
+G c Z s s [remainder system__fat_llf__attr_long_long_float 77 13 45_4]
+G c Z s s [rounding system__fat_llf__attr_long_long_float 79 13 45_4]
+G c Z s s [scaling system__fat_llf__attr_long_long_float 81 13 45_4]
+G c Z s s [succ system__fat_llf__attr_long_long_float 83 13 45_4]
+G c Z s s [truncation system__fat_llf__attr_long_long_float 85 13 45_4]
+G c Z s s [unbiased_rounding system__fat_llf__attr_long_long_float 87 13 45_4]
+G c Z s s [valid system__fat_llf__attr_long_long_float 89 13 45_4]
+G c Z s s [decompose system__fat_llf__attr_long_long_float 150 14 45_4]
+G c Z s s [finite_succ system__fat_llf__attr_long_long_float 156 13 45_4]
+X 4 system.ads
+37K9*System 192e11 7|35r6 37r9 45r40 47r5
+X 5 s-fatgen.ads
+40k16*Fat_Gen 117e19 7|35w13 45r47
+X 7 s-fatllf.ads
+37K16*Fat_LLF 4|37k9 7|47l12 47e19
+45K12*Attr_Long_Long_Float[5|40]
+

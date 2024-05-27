@@ -1,0 +1,102 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U gnat.signals%b	g-signal.adb		fa360d46 NE OL PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.interrupts%s	s-interr.adb		s-interr.ali
+
+U gnat.signals%s	g-signal.ads		ac13b012 EE NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.interrupts%s	a-interr.adb		a-interr.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-interr.ads		20230727081304 bdf68b51 ada.interrupts%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-taside.ads		20230727081304 c0a7c8d8 ada.task_identification%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-signal.ads		20230727081304 a47db764 gnat.signals%s
+D g-signal.adb		20230727081304 b51da3ca gnat.signals%b
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20230727081304 f40c8db4 interfaces.c.strings%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atacco.ads		20230727081304 903317eb system.address_to_access_conversions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-interr.ads		20230727081304 eb5619e8 system.interrupts%s
+D s-multip.ads		20230727081304 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20230727081304 97504df8 system.os_interface%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20230727081304 5be75682 system.stack_usage%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-tasinf.ads		20230727081304 601f6b72 system.task_info%s
+D s-taspri.ads		20230727081304 a1350802 system.task_primitives%s
+D s-taskin.ads		20230727081304 0ec7ab0b system.tasking%s
+D s-taprob.ads		20230727081304 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20230727081304 60ad3dae system.tasking.protected_objects.entries%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20230727081304 15ac53fb system.win32%s
+G a e
+G c Z s b [block_signal gnat__signals 43 14 none]
+G c Z s b [unblock_signal gnat__signals 46 14 none]
+G c Z s b [is_blocked gnat__signals 49 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|39r6 43r37 46r39 49r34 14|42r37 51r34 60r39
+X 4 a-interr.ads
+40K13*Interrupts 100e19 13|39w10 43r41 46r43 49r38 14|42r41 51r38 60r43
+42I9*Interrupt_ID<22|64I9> 13|43r52 46r54 49r49 14|42r52 51r49 60r54
+X 12 gnat.ads
+37K9*GNAT 60e9 13|41r9 52r5 14|34r14 65r5
+X 13 g-signal.ads
+41K14*Signals 12|37k9 13|52l10 52e17 14|34b19 65l10 65t17
+43U14*Block_Signal 43>28 14|42b14 45l8 45t20
+43i28 Signal{4|42I9} 14|42b28 44r44
+46U14*Unblock_Signal 46>30 14|60b14 63l8 63t22
+46i30 Signal{4|42I9} 14|60b30 62r46
+49V13*Is_Blocked{boolean} 49>25 14|51b13 54l8 54t18
+49i25 Signal{4|42I9} 14|51b25 53r46
+X 14 g-signal.adb
+36K12 SI=36:30 44r7 44r27 53r14 53r29 62r7 62r29
+X 18 system.ads
+37K9*System 14|32r6 36r23 18|192e11
+X 22 s-interr.ads
+50K16*Interrupts 14|32w13 36r30 22|278e22
+64I9*Ada_Interrupt_ID<short_short_integer>
+67I9*Interrupt_ID<short_short_integer> 14|44r30 53r32 62r32
+136U14*Block_Interrupt 14|44s10
+139U14*Unblock_Interrupt 14|62s10
+147V13*Is_Blocked{boolean} 14|53s17
+X 30 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+

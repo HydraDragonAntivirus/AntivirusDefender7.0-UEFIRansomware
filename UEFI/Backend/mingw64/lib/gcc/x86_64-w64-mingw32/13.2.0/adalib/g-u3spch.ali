@@ -1,0 +1,60 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U gnat.utf_32_spelling_checker%b  g-u3spch.adb	6d20e7bd NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+W gnat.spelling_checker_generic%s  g-spchge.adb	g-spchge.ali
+
+U gnat.utf_32_spelling_checker%s  g-u3spch.ads	c825da6e NE OL PU PK
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.wch_cnv%s	s-wchcnv.adb		s-wchcnv.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-spchge.ads		20230727081304 091f88cd gnat.spelling_checker_generic%s
+D g-spchge.adb		20230727081304 fb9c05db gnat.spelling_checker_generic%b
+D g-u3spch.ads		20230727081304 7b7d9c39 gnat.utf_32_spelling_checker%s
+D g-u3spch.adb		20230727081304 1f42f349 gnat.utf_32_spelling_checker%b
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-wchcnv.ads		20230727081304 06c0ca70 system.wch_cnv%s
+D s-wchcon.ads		20230727081304 d9032363 system.wch_con%s
+G a e
+G c Z s b [is_bad_spelling_of gnat__utf_32_spelling_checker 42 13 none]
+G c Z b b [ibsR gnat__utf_32_spelling_checker__ibsGP2466 36 13 none]
+G c Z b b [ibs gnat__utf_32_spelling_checker 36 13 none]
+X 3 gnat.ads
+37K9*GNAT 60e9 6|39r9 55r5 7|32r6 34r14 37r6 49r5
+X 4 g-spchge.ads
+40K14*Spelling_Checker_Generic 63e34 7|32w11 37r11
+49v13*Is_Bad_Spelling_Of 7|37r36
+X 6 g-u3spch.ads
+39K14*UTF_32_Spelling_Checker 3|37k9 6|55l10 55e33 7|34b19 49l10 49t33
+42V13*Is_Bad_Spelling_Of{boolean} 43>7 44>7 7|44b13
+43a7 Found{11|55A9} 7|45b7
+44a7 Expect{11|55A9} 7|46b7
+X 7 g-u3spch.adb
+36V13 IBS[4|49]{boolean} 5|38b13 7|47r12
+X 8 system.ads
+37K9*System 6|37r6 43r16 44r16 7|38r9 38r37 45r16 46r16 8|192e11
+X 11 s-wchcnv.ads
+48K16*WCh_Cnv 6|37w13 43r23 44r23 7|38r16 38r44 45r23 46r23 11|114e19
+51I9*UTF_32_Code<integer> 7|38r24
+55A9*UTF_32_String(51I9)<integer> 6|43r31 44r31 7|38r52 45r31 46r31
+

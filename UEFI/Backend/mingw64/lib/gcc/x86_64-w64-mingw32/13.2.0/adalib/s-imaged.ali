@@ -1,0 +1,54 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.image_d%b	s-imaged.adb		05127537 NE OL PK GE
+W system%s		system.ads		system.ali
+W system.img_util%s	s-imguti.adb		s-imguti.ali
+
+U system.image_d%s	s-imaged.ads		e3678675 BN NE OL PK GE
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-imaged.ads		20230727081304 13371993 system.image_d%s
+D s-imaged.adb		20230727081304 613cc81d system.image_d%b
+D s-imguti.ads		20230727081304 7719a4b9 system.img_util%s
+G a e
+G c Z s b [image_d system 40 16 none]
+X 1 system.ads
+37K9*System 192e11 2|40r9 71r5 3|32r6 32r27 34r14 81r5
+X 2 s-imaged.ads
+38I9 Int 43r15 55r15 3|41r15 66r15 74r24
+40k16*Image_D 1|37k9 2|38z9 71l12 71e19 3|34b21 81l12 81t19
+42U14*Image_Decimal 43>7 44=7 45<7 46>7 3|40b14 59l8 59t21
+43*7 V{38I9} 3|41b7 51r10 58r26
+44a7 S{string} 3|42b7 46r22 52m10 58m29
+45i7 P{natural} 3|43b7 53m10 55m10 58m32
+46i7 Scale{integer} 3|44b7 58r35 58r61
+54U14*Set_Image_Decimal 55>7 56=7 57=7 58>7 59>7 60>7 61>7 3|58s7 65b14 79l8
+. 79t25
+55*7 V{38I9} 3|66b7 74r35
+56a7 S{string} 3|67b7 78m46
+57i7 P{natural} 3|68b7 78m49
+58i7 Scale{integer} 3|69b7 78r52
+59i7 Fore{natural} 3|70b7 78r59
+60i7 Aft{natural} 3|71b7 78r65
+61i7 Exp{natural} 3|72b7 78r70
+X 3 s-imaged.adb
+74a7 Digs{string} 78m27 78r27 78r33
+X 4 s-imguti.ads
+34K16*Img_Util 3|32w13 32r34 4|80e20
+41U14*Set_Decimal_Digits 3|78s7
+

@@ -1,0 +1,50 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.val_char%b	s-valcha.adb		aad14284 NE OL PK
+W system%s		system.ads		system.ali
+Z system.img_char%s	s-imgcha.adb		s-imgcha.ali
+W system.val_util%s	s-valuti.adb		s-valuti.ali
+
+U system.val_char%s	s-valcha.ads		41876717 NE OL PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-imgcha.ads		20230727081304 9c3458e7 system.img_char%s
+D s-valcha.ads		20230727081304 b1d7f8f1 system.val_char%s
+D s-valcha.adb		20230727081304 e7d0b9ad system.val_char%b
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+G a e
+G c Z s b [value_character system__val_char 35 13 none]
+X 1 system.ads
+37K9*System 192e11 4|32r9 38r5 5|32r6 32r27 34r14 76r5
+X 4 s-valcha.ads
+32K16*Val_Char 1|37k9 4|38l12 38e20 5|34b21 76l12 76t20
+35V13*Value_Character{character} 35>30 5|40b13 74l8 74t23
+35a30 Str{string} 5|40b30 43r19 43r33 72r21
+X 5 s-valcha.adb
+41i7 F{natural} 46m28 50r14 50r32 51r50 57r19 63r19 68r16
+42i7 L{natural} 46m31 50r10 50r53 57r24 63r24 68r21
+43a7 S{string} 46m25 46r25 50r29 50r50 51r47 57r16 63r16 68r13
+56e14 C{character} 57r46 58r23
+62e14 C{character} 63r46 64r23
+X 6 s-valuti.ads
+47K16*Val_Util 5|32w13 32r34 6|675e20
+52U14*Bad_Value 5|72s10
+82U14*Normalize_String 5|46s7
+

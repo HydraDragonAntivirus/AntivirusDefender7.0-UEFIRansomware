@@ -1,0 +1,98 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U system.img_lllu%s	s-imglllu.ads		c1ac2796 EE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+W system.image_u%s
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W system.val_lllu%s	s-vallllu.ads		s-vallllu.ali
+Z system.val_util%s	s-valuti.adb		s-valuti.ali
+W system.wid_lllu%s	s-widlllu.ads		s-widlllu.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20230727081304 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-imageu.ads		20230727081304 631c6ed0 system.image_u%s
+D s-imageu.adb		20230727081304 8fd3e2a4 system.image_u%b
+D s-imglllu.ads		20230727081304 91c530b7 system.img_lllu%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-vallllu.ads		20230727081304 fcd04714 system.val_lllu%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+D s-widlllu.ads		20230727081304 c5dfde5a system.wid_lllu%s
+D s-widthu.ads		20230727081304 b32f15e2 system.width_u%s
+G a e
+G c Z s s [image_unsigned system__img_lllu__impl 65 14 58_4]
+G c Z s s [set_image_unsigned system__img_lllu__impl 80 14 58_4]
+G c Z s s [to_big_integer system__img_lllu__impl__unsigned_conversion 123 16 47_4_58_4]
+G c Z s s [from_big_integer system__img_lllu__impl__unsigned_conversion 127 16 47_4_58_4]
+G c Z s s [max_log10 system__img_lllu__impl 58 13 58_4]
+G c Z s s [lemma_non_zero system__img_lllu__impl 72 14 58_4]
+G c Z s s [lemma_div_commutation system__img_lllu__impl 78 14 58_4]
+G c Z s s [lemma_div_twice system__img_lllu__impl 84 14 58_4]
+G c Z s s [lemma_unsigned_width_ghost system__img_lllu__impl 89 14 58_4]
+X 9 system.ads
+37K9*System 192e11 15|48r6 49r6 50r6 51r6 53r9 63r31 77r5
+X 13 s-imageu.ads
+52M9 Uns 15|59r7
+56i4 Unsigned_Width_Ghost{natural} 15|60r7
+62k16*Image_U 102e19 15|48w13 58r24
+65U14*Image_Unsigned 15|69r19[58]
+80U14*Set_Image_Unsigned 15|75r19[58]
+X 15 s-imglllu.ads
+53K16*Img_LLLU 9|37k9 15|77l12 77e20
+56M12*Long_Long_Long_Unsigned{19|47M9} 59r31 62r13 66r11 72r11
+58K12*Impl[13|62] 69r14 75r14
+65U14*Image_Long_Long_Long_Unsigned=69:19
+66m7 V{19|47M9}
+67a7 S{string}
+68i7 P{natural}
+71U14*Set_Image_Long_Long_Long_Unsigned=75:19
+72m7 V{19|47M9}
+73a7 S{string}
+74i7 P{natural}
+X 19 s-unstyp.ads
+38K16*Unsigned_Types 15|49w13 56r39 19|249e26
+47M9*Long_Long_Long_Unsigned 15|56r54
+X 20 s-vallllu.ads
+50K16*Val_LLLU 15|50w13 63r38 20|75e20
+55K12*Impl[22|54] 15|63r47
+X 24 s-widlllu.ads
+48K16*Wid_LLLU 15|51w13 61r10 24|60e20
+55V13*Width_Long_Long_Long_Unsigned=58:25{natural} 15|61s19
+

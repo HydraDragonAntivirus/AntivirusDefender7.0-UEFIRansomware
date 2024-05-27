@@ -1,0 +1,107 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.val_llu%s	s-valllu.ads		d863c536 NE OL PR PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W system.value_u%s
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-valllu.ads		20230727081304 ca6e26ce system.val_llu%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuti.adb		20230727081304 a525408f system.val_util%b
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-valueu.adb		20230727081304 41f6c2f1 system.value_u%b
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+D s-vauspe.adb		20230727081304 8779ba2d system.value_u_spec%b
+G a e
+G c Z s s [wrap_option system__val_llu__impl__spec 69 13 57_4_55_4]
+G c Z s s [only_decimal_ghost system__val_llu__impl__spec 72 13 57_4_55_4]
+G c Z s s [only_hexa_ghost system__val_llu__impl__spec 83 13 57_4_55_4]
+G c Z s s [last_hexa_ghost system__val_llu__impl__spec 92 13 57_4_55_4]
+G c Z s s [is_based_format_ghost system__val_llu__impl__spec 105 13 57_4_55_4]
+G c Z s s [hexa_to_unsigned_ghost system__val_llu__impl__spec 120 13 57_4_55_4]
+G c Z s s [scan_overflows_ghost system__val_llu__impl__spec 131 13 57_4_55_4]
+G c Z s s [scan_based_number_ghost system__val_llu__impl__spec 143 13 57_4_55_4]
+G c Z s s [lemma_scan_based_number_ghost_base system__val_llu__impl__spec 160 14 57_4_55_4]
+G c Z s s [lemma_scan_based_number_ghost_underscore system__val_llu__impl__spec 177 14 57_4_55_4]
+G c Z s s [lemma_scan_based_number_ghost_overflow system__val_llu__impl__spec 194 14 57_4_55_4]
+G c Z s s [lemma_scan_based_number_ghost_step system__val_llu__impl__spec 214 14 57_4_55_4]
+G c Z s s [exponent_unsigned_ghost system__val_llu__impl__spec 236 13 57_4_55_4]
+G c Z s s [lemma_exponent_unsigned_ghost_base system__val_llu__impl__spec 246 14 57_4_55_4]
+G c Z s s [lemma_exponent_unsigned_ghost_overflow system__val_llu__impl__spec 257 14 57_4_55_4]
+G c Z s s [lemma_exponent_unsigned_ghost_step system__val_llu__impl__spec 269 14 57_4_55_4]
+G c Z s s [is_raw_unsigned_format_ghost system__val_llu__impl__spec 282 13 57_4_55_4]
+G c Z s s [scan_split_no_overflow_ghost system__val_llu__impl__spec 322 13 57_4_55_4]
+G c Z s s [scan_split_value_ghost system__val_llu__impl__spec 370 13 57_4_55_4]
+G c Z s s [raw_unsigned_no_overflow_ghost system__val_llu__impl__spec 421 13 57_4_55_4]
+G c Z s s [scan_raw_unsigned_ghost system__val_llu__impl__spec 444 13 57_4_55_4]
+G c Z s s [raw_unsigned_last_ghost system__val_llu__impl__spec 462 13 57_4_55_4]
+G c Z s s [slide_to_1 system__val_llu__impl__spec 499 13 57_4_55_4]
+G c Z s s [slide_if_necessary system__val_llu__impl__spec 507 13 57_4_55_4]
+G c Z s s [is_unsigned_ghost system__val_llu__impl__spec 511 13 57_4_55_4]
+G c Z s s [is_value_unsigned_ghost system__val_llu__impl__spec 530 13 57_4_55_4]
+G c Z s s [prove_scan_based_number_ghost_eq system__val_llu__impl__spec 545 14 57_4_55_4]
+G c Z s s [prove_scan_only_decimal_ghost system__val_llu__impl__spec 566 14 57_4_55_4]
+G c Z s s [scan_raw_unsigned system__val_llu__impl 59 14 55_4]
+G c Z s s [scan_unsigned system__val_llu__impl 142 14 55_4]
+G c Z s s [value_unsigned system__val_llu__impl 176 13 55_4]
+G c Z s s [lemma_digit_not_last system__val_llu__impl 49 14 55_4]
+G c Z s s [lemma_underscore_not_last system__val_llu__impl 66 14 55_4]
+X 4 system.ads
+37K9*System 192e11 10|47r6 48r6 50r9 75r5
+X 9 s-unstyp.ads
+38K16*Unsigned_Types 249e26 10|47w13 53r34
+46M9*Long_Long_Unsigned 10|53r49
+X 10 s-valllu.ads
+50K16*Val_LLU 4|37k9 10|75l12 75e19
+53M12*Long_Long_Unsigned{9|46M9} 55r33 61r17 68r17 72r28
+55K12*Impl[13|54] 62r14 69r14 73r14
+57U14*Scan_Raw_Long_Long_Unsigned=62:19
+58a7 Str{string}
+59p7 Ptr(integer)
+60i7 Max{integer}
+61m7 Res{9|46M9}
+64U14*Scan_Long_Long_Unsigned=69:19
+65a7 Str{string}
+66p7 Ptr(integer)
+67i7 Max{integer}
+68m7 Res{9|46M9}
+71V13*Value_Long_Long_Unsigned=73:19{9|46M9}
+72a7 Str{string}
+X 13 s-valueu.ads
+54k16*Value_U 10|48w13 55r24 13|190e19
+59U14*Scan_Raw_Unsigned 10|62r19[55]
+142U14*Scan_Unsigned 10|69r19[55]
+176V13*Value_Unsigned{9|46M9} 10|73r19[55]
+

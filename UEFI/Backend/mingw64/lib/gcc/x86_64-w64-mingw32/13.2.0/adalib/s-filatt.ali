@@ -1,0 +1,75 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_LONG_LONG_INTEGERS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+
+U system.file_attributes%s  s-filatt.ads	81641203 NE OL PK
+W system%s		system.ads		system.ali
+W system.os_constants%s	s-oscons.ads		s-oscons.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-filatt.ads		20230727081304 748e249b system.file_attributes%s
+D s-oscons.ads		20231201205036 aeeec19a system.os_constants%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-win32.ads		20230727081304 15ac53fb system.win32%s
+G a e
+G c Z s s [reset_attributes system__file_attributes 41 14 none]
+G c Z s s [error_attributes system__file_attributes 43 13 none]
+G c Z s s [file_exists_attr system__file_attributes 45 13 none]
+G c Z s s [file_length_attr system__file_attributes 49 13 none]
+G c Z s s [is_regular_file_attr system__file_attributes 54 13 none]
+G c Z s s [is_directory_attr system__file_attributes 58 13 none]
+G c Z s s [Tfile_attributesBIP system__file_attributes 65 4 none]
+X 5 system.ads
+37K9*System 192e11 7|34r6 35r6 37r9 46r11 51r12 55r11 59r11 63r25 66r6 77r5
+67M9*Address 7|46r18 51r19 55r18 59r18
+X 7 s-filatt.ads
+37K16*File_Attributes 5|37k9 7|63E12 77l12 77e27
+39A9*File_Attributes<11|69A9> 41r43 43r42 47r18 52r19 56r18 60r18 65c9 68r8
+41U14*Reset_Attributes 41^32 70b<c,__gnat_reset_attributes>22
+41p32 A(39A9)
+43V13*Error_Attributes{integer} 43^31 71b<c,__gnat_error_attributes>22
+43p31 A(39A9)
+45V13*File_Exists_Attr{integer} 46>7 47^7 72b<c,__gnat_file_exists_attr>22
+46m7 N{5|67M9}
+47p7 A(39A9)
+49V13*File_Length_Attr{long_long_integer} 50>7 51>7 52^7 73b<c,__gnat_file_length_attr>22
+50i7 FD{integer}
+51m7 N{5|67M9}
+52p7 A(39A9)
+54V13*Is_Regular_File_Attr{integer} 55>7 56^7 74b<c,__gnat_is_regular_file_attr>22
+55m7 N{5|67M9}
+56p7 A(39A9)
+58V13*Is_Directory_Attr{integer} 59>7 60^7 75b<c,__gnat_is_directory_attr>22
+59m7 N{5|67M9}
+60p7 A(39A9)
+63K12 SOSC=63:32 67r14
+X 8 s-oscons.ads
+45K16*OS_Constants 7|34w13 63r32 8|405e24
+391N4*SIZEOF_struct_file_attributes 7|67r19
+X 11 s-stoele.ads
+40K16*Storage_Elements 7|35w13 66r13 11|116e28
+63M9*Storage_Element
+69A9*Storage_Array(63M9)<54I9> 7|66r30
+

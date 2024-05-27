@@ -1,0 +1,40 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.exponu%b	s-exponu.adb		76ffbe23 NE OL SU GE
+W system%s		system.ads		system.ali
+
+U system.exponu%s	s-exponu.ads		afba6341 BN NE OL GE
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exponu.ads		20230727081304 5feafca7 system.exponu%s
+D s-exponu.adb		20230727081304 29154284 system.exponu%b
+G a e
+G c Z s b [exponu system 49 17 none]
+X 1 system.ads
+37K9*System 192e11 2|49r10 52r11 3|32r10 84r5
+X 2 s-exponu.ads
+47M9 Int 49r32 49r61 3|32r32 32r61 49r13 50r13
+49v17*Exponu 1|37k9 2|49>25 49>37 52r18 3|32b17 84l12 84t18
+49*25 Left{47M9} 52r34 3|32b25 50r24 65r58 70r58 72r58
+49i37 Right{natural} 52r42 3|32b37 51r24 65r66 70r66 72r66
+X 3 s-exponu.adb
+49*4 Result{2|47M9} 65r33 70r16 72r17 74m13 74r23 83r11
+50*4 Factor{2|47M9} 65r42 70r26 70r35 72r26 72r36 74r32 79m10 79r20 79r29
+51i4 Exp{natural} 62r7 64r33 65r52 66r44 68r13 70r46 72r47 77m10 77r17 78r20
+63l7 loop 80e15
+

@@ -1,0 +1,124 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.containers.bounded_holders%b  a-coboho.adb  41713379 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.put_images%s	s-putima.adb		s-putima.ali
+
+U ada.containers.bounded_holders%s  a-coboho.ads  3937e8fc BN NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W system%s		system.ads		system.ali
+N A42:4 codepeer skip_analysis
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-contai.ads		20230727081304 61e5e089 ada.containers%s
+D a-coboho.ads		20230727081304 592ff031 ada.containers.bounded_holders%s
+D a-coboho.adb		20230727081304 01ecfbc3 ada.containers.bounded_holders%b
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [bounded_holders ada__containers 41 24 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|33r14 41r9 111r18 126r5 4|28r6 31r14 57r6 93r18 136r5
+X 2 a-contai.ads
+16K13*Containers 1|16k9 2|28e19 3|41r13 126r9 4|31r18 136r9
+X 3 a-coboho.ads
+36+9 Element_Type 38r6 39r37 75r16 79r35 80r29 82r45 84r58 87r67 90r66 97r19
+. 113r38 4|33r49 42r49 73r67 83r45 98r7 107r66 117r58 129r35
+37i4 Max_Size_In_Storage_Elements{natural} 103r34 4|43r34
+39V19 "="{boolean} 39>23 39>29 4|65s25
+39*23 Left{36+9}
+39*29 Right{36+9}
+41k24*Bounded_Holders 2|16k13 3|36z9 37z4 39z19 100E9 126l20 126e35 4|31b29
+. 136l20 136t35
+73R9*Holder 77r32 79r56 80r50 82r30 84r38 87r27 90r35 102c9 105e6 111r71
+. 4|63r32 73r27 83r30 93r71 107r35 117r38 129r56 131r23
+77V14*"="{boolean} 77>18 77>24 4|63b14 66l9 66t11
+77r18 Left{73R9} 4|63b18 65r19
+77r24 Right{73R9} 4|63b24 65r32
+79V13*To_Holder{73R9} 79>24 80r65 4|129b13 134l8 134t17
+79*24 New_Item{36+9} 4|129b24 132r23
+80V14*"+"=80:65{73R9}
+80*18 New_Item{36+9}
+82V13*Get{36+9} 82>18 4|65s14 65s27 83b13 86l8 86t11 98s34
+82r18 Container{73R9} 4|83b18 85r20
+84U14*Set 84=19 84>46 4|117b14 123l8 123t11 132s10
+84r19 Container{73R9} 4|117b19 122m7
+84*46 New_Item{36+9} 4|117b46 119r41 120r22
+86V13*Constant_Reference(36+9) 87>7 4|72b13 77l8 77t26
+87r7 Container{73R9} 4|73b7 76r20
+89V13*Reference(36+9) 90^7 4|106b13 111l8 111t17
+90p7 Container(73R9) 4|107b7 110r20
+100M9 Storage_Element 101r55
+101A9 Storage_Array(100M9)<integer> 103r14 4|118r17
+103a7 Data{101A9} 4|122m17
+110U14 Put_Image 105r65 111=7 111>67 4|92b14 100l8 100t17
+111c7 S<7|26R9> 4|93b7 97m21 98r31 99m20
+111r67 V{73R9} 4|93b67 98r39
+113P9 Element_Access(36+9) 114r19 121r31 4|57r48
+X 4 a-coboho.adb
+33V13 Size_In_Storage_Elements{natural} 33>39 42b13 54l8 54t32 119s15
+33*39 Element{3|36+9} 42b39 46r38 48r13
+43i7 Max_Size=43:34{natural} 52r18 52r64
+46i14 S{natural} 52r13 52r49
+56V13 Cast[10|20]{3|113P9} 76s14 85s14 110s14
+118a7 Storage{3|101A9} 122r23 122r41
+131r14 Result{3|73R9} 132m15 132r15
+X 6 a-string.ads
+16K13*Strings 3|33r18 111r22 4|93r22 6|35e16
+X 7 a-sttebu.ads
+17K21*Text_Buffers 3|33w26 111r30 4|93r30 7|152e29
+26H9*Root_Buffer_Type 3|111r43 4|93r43 7|104e14
+X 10 a-unccon.ads
+20v14*Unchecked_Conversion 4|28w10 57r10
+X 12 system.ads
+37K9*System 3|32w14 100r37 4|29r6 46r53 48r30 57r32 95r11 12|192e11
+67M9*Address 4|57r39
+71N4*Storage_Unit 3|100r44 4|46r60 48r37
+X 15 s-putima.ads
+35K16*Put_Images 4|29w13 95r18 15|120e22
+102U14*Array_Before 4|97s7
+104U14*Array_After 4|99s7
+

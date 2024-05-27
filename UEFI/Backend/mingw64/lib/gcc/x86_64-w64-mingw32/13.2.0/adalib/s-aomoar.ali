@@ -1,0 +1,104 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.atomic_operations.modular_arithmetic%b  s-aomoar.adb  9c040ed3 NE OL PK GE
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+W system.atomic_operations%s  s-atoope.ads	s-atoope.ali
+W system.atomic_operations.exchange%s
+W system.atomic_primitives%s  s-atopri.adb	s-atopri.ali
+
+U system.atomic_operations.modular_arithmetic%s  s-aomoar.ads  20d54f9f BN NE OL PU PK GE
+W system.atomic_operations%s  s-atoope.ads	s-atoope.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atoope.ads		20230727081304 c7637a25 system.atomic_operations%s
+D s-atopex.ads		20230727081304 997451f6 system.atomic_operations.exchange%s
+D s-atopex.adb		20230727081304 f2dd6756 system.atomic_operations.exchange%b
+D s-aomoar.ads		20230727081304 e7b635ba system.atomic_operations.modular_arithmetic%s
+D s-aomoar.adb		20230727081304 a58f22be system.atomic_operations.modular_arithmetic%b
+D s-atopri.ads		20230727081304 1b132436 system.atomic_primitives%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [modular_arithmetic system__atomic_operations 38 34 none]
+X 3 interfac.ads
+38K9*Interfaces 232e15 10|34r6 34r24 166r16
+X 4 i-c.ads
+29K20*C 597e17 10|34w17 166r27
+88M9*size_t 10|166r29
+X 5 system.ads
+37K9*System 192e11 9|38r9 66r5 10|32r6 32r36 33r6 36r14 38r28 76r16 123r16
+. 171r5
+67M9*Address 10|76r23 123r23
+X 6 s-atoope.ads
+36K16*Atomic_Operations 5|37k9 6|39e29 9|38r16 66r12 10|33r13 36r21 38r35
+. 171r12
+X 7 s-atopex.ads
+38k34*Exchange 57e38 10|33w31 38r53
+45V13 Atomic_Compare_And_Exchange{boolean} 10|102s32[38] 149s32[38]
+X 9 s-aomoar.ads
+37M9 Atomic_Type 42r30 43r15 46r30 47r15 50r30 51r15 51r35 54r30 55r15 55r35
+. 58r22 10|38r63 45r30 46r15 48r25 58r30 59r15 61r25 71r30 72r15 72r35 76r38
+. 77r16 85r10 85r34 86r18 87r18 87r40 89r13 97r33 98r25 118r30 119r15 119r35
+. 123r38 124r16 132r10 132r34 133r18 134r18 134r40 136r13 144r33 145r25 164r42
+. 168r39
+38k34*Modular_Arithmetic 6|36k16 9|37z9 66l30 66e48 10|36b39 171l30 171t48
+41U14*Atomic_Add 42=7 43>7 61r26 10|44b14 51l8 51t18
+42*7 Item{37M9} 10|45b7 48m62 48r62
+43*7 Value{37M9} 10|46b7 48r68
+45U14*Atomic_Subtract 46=7 47>7 62r26 10|57b14 64l8 64t23
+46*7 Item{37M9} 10|58b7 61m67 61r67
+47*7 Value{37M9} 10|59b7 61r73
+49V13*Atomic_Fetch_And_Add{37M9} 50=7 51>7 63r26 10|48s40 70b13 111l8 111t28
+50*7 Item{37M9} 10|71b7 90m38 90r38 97r48 103m26 103r26
+51*7 Value{37M9} 10|72b7 90r52 98r52 105r41
+53V13*Atomic_Fetch_And_Subtract{37M9} 54=7 55>7 64r26 10|61s40 117b13 158l8
+. 158t33
+54*7 Item{37M9} 10|118b7 137m38 137r38 144r48 150m26 150r26
+55*7 Value{37M9} 10|119b7 137r52 145r52 152r41
+57V13*Is_Lock_Free{boolean} 58>7 65r26 10|164b13 169l8 169t20
+58*7 Item{37M9} 10|164b27 165r28
+X 10 s-aomoar.adb
+38K12 Exchange[7|38] 102r23 149r23
+48*7 Ignore{9|37M9}
+61*7 Ignore{9|37M9}
+75V16*Atomic_Fetch_Add{9|37M9} 76>10 76>32 76>51 78b33 90s20
+76m10 Ptr{5|67M9}
+76*32 Val{9|37M9}
+76i51 Model{11|63I12}
+97*13 Old_Value{9|37M9} 98r40 103m32 103r32 105r29 108r20
+98*13 New_Value{9|37M9} 103r43 105m16
+122V16*Atomic_Fetch_Sub{9|37M9} 123>10 123>32 123>51 125b33 137s20
+123m10 Ptr{5|67M9}
+123*32 Val{9|37M9}
+123i51 Model{11|63I12}
+144*13 Old_Value{9|37M9} 145r40 150m32 150r32 152r29 155r20
+145*13 New_Value{9|37M9} 150r43 152m16
+X 11 s-atopri.ads
+38K16*Atomic_Primitives 10|32w13 32r43 11|154e29
+60N4*Seq_Cst 10|76r72 123r72
+63I12*Mem_Model{integer} 10|76r59 123r59
+108V13*Atomic_Always_Lock_Free{boolean} 10|168s14
+

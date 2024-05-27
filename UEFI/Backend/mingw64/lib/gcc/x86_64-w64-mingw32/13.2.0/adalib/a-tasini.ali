@@ -1,0 +1,39 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.task_initialization%b  a-tasini.adb	2d236812 NE OL PK
+W ada%s			ada.ads			ada.ali
+
+U ada.task_initialization%s  a-tasini.ads	d7b0c315 NE OL PR PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-tasini.ads		20230727081304 a1c85eb4 ada.task_initialization%s
+D a-tasini.adb		20230727081304 8ceb36a6 ada.task_initialization%b
+D system.ads		20230727081304 f0509fe6 system%s
+G a e
+G c Z s b [set_initialization_handler ada__task_initialization 38 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 2|32r9 47r5 3|29r14 46r5
+X 2 a-tasini.ads
+32K13*Task_Initialization 1|16k9 2|47l9 47e28 3|29b18 46l9 46t28
+36P9*Initialization_Handler 38r52 46r28 3|31r36 41r52
+38U14*Set_Initialization_Handler 38>42 3|41b14 44l8 44t34
+38p42 Handler{36P9} 3|41b42 43r40
+X 3 a-tasini.adb
+31p4 Global_Initialization_Handler{2|36P9} 32r19 33m24 33r24 43m7
+

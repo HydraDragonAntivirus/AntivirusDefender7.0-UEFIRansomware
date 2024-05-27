@@ -1,0 +1,47 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U gnat.generic_fast_math_functions%s  g-gfmafu.ads  a6ea09ca NE OL PU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.aux_generic_float%s
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nuaufl.ads		20230727081304 020cac40 ada.numerics.aux_float%s
+D a-nagefl.ads		20230727081304 53f456a7 ada.numerics.aux_generic_float%s
+D a-naliop.ads		20230727081304 6b421e5f ada.numerics.aux_linker_options%s
+D a-nalofl.ads		20230727081304 6d8e51a4 ada.numerics.aux_long_float%s
+D a-nallfl.ads		20230727081304 6ccf65a3 ada.numerics.aux_long_long_float%s
+D a-nashfl.ads		20230727081304 b54ed4fb ada.numerics.aux_short_float%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-gfmafu.ads		20230727081304 4086d34a gnat.generic_fast_math_functions%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 11|32r6 35r12
+X 2 a-numeri.ads
+16K13*Numerics 35e17 11|32r10 35r16
+X 4 a-nagefl.ads
+46k22*Aux_Generic_Float 171e35 11|32w19 35r25
+X 10 gnat.ads
+37K9*GNAT 60e9 11|34r17
+X 11 g-gfmafu.ads
+34k22*Generic_Fast_Math_Functions
+

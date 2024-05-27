@@ -1,0 +1,106 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U system.vectors.boolean_operations%b  s-veboop.adb  2ace38f2 NE OL PK
+W system.vectors%s	s-vector.ads		s-vector.ali
+
+U system.vectors.boolean_operations%s  s-veboop.ads  8cf7e456 BN NE OL PU PK
+W system.vectors%s	s-vector.ads		s-vector.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-vector.ads		20230727081304 7dc5afb0 system.vectors%s
+D s-veboop.ads		20230727081304 f1324be6 system.vectors.boolean_operations%s
+D s-veboop.adb		20230727081304 dbfc7314 system.vectors.boolean_operations%b
+G a e
+G c Z s s [shift_right system__vectors__boolean_operations 67 13 none]
+G c Z s s [element system__vectors__boolean_operations 70 13 none]
+G c Z s s [valid system__vectors__boolean_operations 78 13 none]
+G c Z s s [model system__vectors__boolean_operations 85 13 none]
+G c Z s s [Tvector_boolean_arrayBIP system__vectors__boolean_operations 64 4 none]
+G c Z s b [Onot system__vectors__boolean_operations 99 13 none]
+G c Z s b [nand system__vectors__boolean_operations 116 13 none]
+G c Z s b [nor system__vectors__boolean_operations 120 13 none]
+G c Z s b [nxor system__vectors__boolean_operations 124 13 none]
+G c Z s b [nand system__vectors__boolean_operations 128 13 none]
+G c Z s b [nor system__vectors__boolean_operations 137 13 none]
+G c Z s b [nxor system__vectors__boolean_operations 146 13 none]
+G c Z b b [boolean_arrayIP system__vectors__boolean_operations 52 9 none]
+X 1 system.ads
+37K9*System 192e11 3|45r9 59r6 59r25 62r36 71r49 72r35 159r5 4|40r14 229r5
+71N4*Storage_Unit 3|59r32 62r43 71r56 72r42 4|44r21 77r33
+72N4*Word_Size 3|59r13
+78V14*"<="{boolean} 4|77r46
+81V14*"="{boolean} 4|75r43 76r42
+X 2 s-vector.ads
+41K16*Vectors 1|37k9 2|49e19 3|45r16 67r30 67r66 70r26 78r24 85r24 90r24
+. 99r27 99r50 128r33 128r56 137r32 137r55 146r33 146r56 159r12 4|40r21 88r27
+. 88r50 90r37 99r37 121r33 121r56 123r37 134r37 160r32 160r55 162r36 173r36
+. 199r33 199r56 201r37 212r37 229r12
+44M9*Vector 3|67r38 67r74 70r34 78r32 85r32 90r32 99r35 99r58 128r41 128r64
+. 137r40 137r63 146r41 146r64 4|60r24 77r19 88r35 88r58 90r45 99r45 121r41
+. 121r64 123r45 134r45 160r40 160r63 162r44 173r44 199r41 199r64 201r45 212r45
+X 3 s-veboop.ads
+45K24*Boolean_Operations 2|41k16 3|159l20 159e38 4|40b29 229l20 229t38
+79i15 J{integer} 80r21
+91i11 J{integer} 91r56
+99V14*"not"{2|44M9} 99>20 4|88b14 110l9 110t13 148s14 187s14 226s14
+99m20 Item{2|44M9} 101r21 104r58 4|88b20 93r24 94r30 97r55 103r51 108r18
+. 109r14
+103i26 J{integer} 104r42 104r65
+116V13*Nand{boolean} 116>19 116>25 135s22 4|116b13 119l8 119t12
+116b19 Left{boolean} 118r33 4|116b19 118r19
+116b25 Right{boolean} 118r42 4|116b25 118r28
+120V13*Nor{boolean} 120>19 120>25 144s22 4|155b13 158l8 158t11
+120b19 Left{boolean} 122r32 4|155b18 157r19
+120b25 Right{boolean} 122r40 4|155b24 157r27
+124V13*Nxor{boolean} 124>19 124>25 153s22 4|194b13 197l8 197t12
+124b19 Left{boolean} 126r33 4|194b19 196r19
+124b25 Right{boolean} 126r42 4|194b25 196r28
+128V13*Nand{2|44M9} 128>19 128>25 4|121b13 149l8 149t12
+128m19 Left{2|44M9} 130r21 135r35 4|121b19 126r24 128r30 132r35 139r31 147r18
+. 148r19
+128m25 Right{2|44M9} 131r24 135r53 4|121b25 127r27 128r39 132r56 140r34 147r27
+. 148r28
+133i26 J{integer} 134r41 135r42 135r61
+137V13*Nor{2|44M9} 137>18 137>24 4|160b13 188l8 188t11
+137m18 Left{2|44M9} 139r21 144r34 4|160b18 165r24 167r30 171r35 178r31 186r17
+. 187r19
+137m24 Right{2|44M9} 140r24 144r52 4|160b24 166r27 167r38 171r55 179r33 186r25
+. 187r27
+142i26 J{integer} 143r40 144r41 144r60
+146V13*Nxor{2|44M9} 146>19 146>25 4|199b13 227l8 227t12
+146m19 Left{2|44M9} 148r21 153r35 4|199b19 204r24 206r30 210r35 217r31 225r18
+. 226r19
+146m25 Right{2|44M9} 149r24 153r53 4|199b25 205r27 206r39 210r56 218r34 225r27
+. 226r28
+151i26 J{integer} 152r41 153r42 153r61
+X 4 s-veboop.adb
+44N4 SU 54r39 61r66 62r67 63r67 64r67 65r67 66r67 67r67
+52A9 Boolean_Array(boolean)<integer> 54r7
+60m4 True_Val{2|44M9} 94r39 108r27 109r23
+96i29 J{integer} 97r39 97r62
+101i14 J{integer} 103r33 103r57
+130i31 J{integer} 131r41 132r42 132r64
+136i14 J{integer} 138r33 139r37 140r41
+169i31 J{integer} 170r41 171r42 171r63
+175i14 J{integer} 177r33 178r37 179r40
+208i31 J{integer} 209r41 210r42 210r64
+214i14 J{integer} 216r33 217r37 218r41
+

@@ -1,0 +1,41 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.fore_d%b	s-fore_d.adb		319d1bda NE OL PK GE
+W system%s		system.ads		system.ali
+
+U system.fore_d%s	s-fore_d.ads		fdfd5ddf BN NE OL PU PK GE
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-fore_d.ads		20230727081304 0dadc239 system.fore_d%s
+D s-fore_d.adb		20230727081304 3c30d9e3 system.fore_d%b
+G a e
+G c Z s b [fore_d system 39 16 none]
+X 1 system.ads
+37K9*System 192e11 2|39r9 47r5 3|32r14 62r5
+X 2 s-fore_d.ads
+37I9 Int 42r36 3|38r36 40r36 40r48 44r11 44r18
+39k16*Fore_D 1|37k9 2|37z9 47l12 47e18 3|32b21 62l12 62t18
+42V13*Fore_Decimal{natural} 42>27 42>31 42>41 3|38b13 60l8 60t20
+42*27 Lo{37I9} 3|38b27 44r41
+42*31 Hi{37I9} 3|38b31 44r60
+42i41 Scale{integer} 3|38b41 59r31
+X 3 s-fore_d.adb
+40V16 Negative_Abs{2|37I9} 40>30 44s27 44s46
+40*30 Val{2|37I9} 41r13 41r27 41r37
+44*7 T{2|37I9} 54r13 55m10 55r15
+45i7 F{natural} 50m7 56m10 56r15 59r27
+

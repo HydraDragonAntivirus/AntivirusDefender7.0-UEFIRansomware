@@ -1,0 +1,35 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U system.exceptions%s	s-except.ads		c2f520d4 EE OL PR PK
+W system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-except.ads		20230727081304 32a5bf32 system.exceptions%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+X 3 system.ads
+37K9*System 192e11 5|32r9 44r5
+X 5 s-except.ads
+32K16*Exceptions 3|37k9 5|39E4 44l12 44e22
+39X4 Foreign_Exception 40r25
+

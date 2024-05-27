@@ -1,0 +1,39 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.concat_2%b	s-conca2.adb		ca878138 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.concat_2%s	s-conca2.ads		45abec11 NE OL PK
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-conca2.ads		20230727081304 b5fb73f7 system.concat_2%s
+D s-conca2.adb		20230727081304 7f7cf2cf system.concat_2%b
+G a e
+G c Z s b [str_concat_2 system__concat_2 37 14 none]
+X 1 system.ads
+37K9*System 192e11 2|35r9 43r5 3|32r14 53r5
+X 2 s-conca2.ads
+35K16*Concat_2 1|37k9 2|43l12 43e20 3|32b21 53l12 53t20
+37U14*Str_Concat_2 37<28 37>44 37>48 3|40b14 51l8 51t20
+37a28 R{string} 3|40b28 44r12 46m7 50m7
+37a44 S1{string} 3|40b44 45r16 46r21
+37a48 S2{string} 3|40b48 49r16 50r21
+X 3 s-conca2.adb
+41i7 F{natural} 44m7 45r12 46r10 48m7 49r12 50r10
+41i10 L{natural} 45m7 46r15 48r12 49m7 50r15
+

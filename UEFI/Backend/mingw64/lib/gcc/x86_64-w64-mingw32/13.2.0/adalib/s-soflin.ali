@@ -1,0 +1,227 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_FIXED_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U system.soft_links%b	s-soflin.adb		fd5f5f4c NE OL PK
+W system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.soft_links.initialize%s  s-soliin.adb	s-soliin.ali
+
+U system.soft_links%s	s-soflin.ads		8dcd0905 BN EE OL PR PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.stack_checking%s  s-stache.adb		s-stache.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-soflin.adb		20230727081304 d38e2ecb system.soft_links%b
+D s-soliin.ads		20230727081304 f1a676b9 system.soft_links.initialize%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s s [current_target_exception system__soft_links 53 13 none]
+G c Z s b [abort_defer_nt system__soft_links 145 14 none]
+G c Z s b [abort_undefer_nt system__soft_links 148 14 none]
+G c Z s b [abort_handler_nt system__soft_links 151 14 none]
+G c Z s b [check_abort_status_nt system__soft_links 155 13 none]
+G c Z s b [task_lock_nt system__soft_links 159 14 none]
+G c Z s b [task_unlock_nt system__soft_links 162 14 none]
+G c Z s b [task_termination_nt system__soft_links 165 14 none]
+G c Z s b [adafinal_nt system__soft_links 169 14 none]
+G c Z s b [get_jmpbuf_address_nt system__soft_links 234 14 none]
+G c Z s b [set_jmpbuf_address_nt system__soft_links 235 14 none]
+G c Z s b [get_sec_stack_nt system__soft_links 240 14 none]
+G c Z s b [set_sec_stack_nt system__soft_links 241 14 none]
+G c Z s b [get_current_excep_nt system__soft_links 246 13 none]
+G c Z s b [get_stack_info_nt system__soft_links 250 13 none]
+G c Z s b [current_master_nt system__soft_links 262 13 none]
+G c Z s b [enter_master_nt system__soft_links 263 14 none]
+G c Z s b [complete_master_nt system__soft_links 264 14 none]
+G c Z s b [task_name_nt system__soft_links 283 13 none]
+G c Z s b [save_library_occurrence system__soft_links 314 14 none]
+G c Z s b [create_tsd system__soft_links 352 14 none]
+G c Z s b [destroy_tsd system__soft_links 360 14 none]
+G c Z s b [get_gnat_exception system__soft_links 365 13 none]
+G c Z s b [get_jmpbuf_address_soft system__soft_links 376 14 none]
+G c Z s b [set_jmpbuf_address_soft system__soft_links 377 14 none]
+G c Z s b [get_sec_stack_soft system__soft_links 381 14 none]
+G c Z s b [set_sec_stack_soft system__soft_links 382 14 none]
+G c Z s s [tsdIP system__soft_links 326 9 none]
+G c Z s s [dummy_communication_blockIP system__soft_links 401 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 7|40r6 50r19 51r18 365r39 8|85r37 168r39 170r14 223r11 228r13
+X 2 a-except.ads
+44K13*Exceptions 295e19 7|40w10 50r23 51r22 365r43 8|85r41 168r43 170r18
+. 223r15 228r17
+48P9*Exception_Id<11|82P9> 7|365r54 8|168r54
+53R9*Exception_Occurrence 267e14 7|51r33
+56P9*Exception_Occurrence_Access(53R9) 7|50r34
+58r4*Null_Occurrence{53R9} 8|85r52
+92V13*Exception_Identity{48P9} 8|170s29
+113U14*Save_Occurrence 8|228s28
+X 4 system.ads
+37K9*System 192e11 7|41r6 42r6 43r6 45r9 48r24 138r28 333r24 355r24 414r5
+. 8|36r6 39r14 41r26 41r44 119r24 301r5
+67M9*Address 7|69r55 74r53 76r55 79r17 79r33 138r35 234r44 235r44 333r31
+. 376r46 377r46 402r16 8|41r33 177r43 186r45 237r44 242r46
+69m4*Null_Address{67M9} 8|41r51 122r33
+X 5 s-parame.ads
+49K16*Parameters 190e22 7|41w13 355r31 8|119r31
+56I9*Size_Type<long_long_integer> 7|355r42 8|119r42
+X 6 s-secsta.ads
+35K16*Secondary_Stack 429e27 7|42w13 48r31
+50P9*SS_Stack_Ptr(43R9) 7|94r57 96r60 240r43 241r44 339r27 354r28 381r45
+. 382r46 8|118r28 195r41 204r43 251r44 260r46
+56U14*SS_Init 8|125s11
+88U14*SS_Free 8|143s11
+X 7 s-soflin.ads
+45K16*Soft_Links 4|37k9 7|408E4 414l12 414e22 8|36r13 39b21 301l12 301t22
+48K12*SST=48:31 94r53 96r56 240r39 241r40 339r23 354r24 381r41 382r42 8|118r24
+. 125r7 143r7 195r37 204r39 251r40 260r42
+50P12*EOA{2|56P9} 87r53 89r56 246r41 314r43 8|159r41 222r43
+51R12*EO{2|53R9} 53r45 71r56 91r56 100r25 165r43 291r24 342r31 8|287r43
+53V13*Current_Target_Exception{51R12} 55b<ada,__gnat_current_target_exception>12
+. 100s31
+62P9*No_Param_Proc 63r28 64r36 118r35 172r18 176r20 180r20 187r16 197r18
+. 226r31 231r15 267r22 268r22
+69P9*Addr_Param_Proc 69>48 70r28 119r35
+69m48 Addr{4|67M9}
+71P9*EO_Param_Proc 71>48 72r28 120r35 223r31
+71r48 Excep{51R12}
+74P9*Get_Address_Call(4|67M9) 75r28 121r35 237r25
+76P9*Set_Address_Call 76>48 77r28 122r35 238r25
+76m48 Addr{4|67M9}
+78P9*Set_Address_Call2 79>7 79>26 80r28 123r35
+79m7 Self_ID{4|67M9}
+79m26 Addr{4|67M9}
+82P9*Get_Integer_Call(integer) 83r28 124r35 183r25 266r22
+84P9*Set_Integer_Call 84>48 85r28 125r35
+84i48 Len{integer}
+87P9*Get_EOA_Call(2|56P9) 88r28 126r35 248r24
+89P9*Set_EOA_Call 89>48 90r28 127r35
+89p48 Excep{50P12}
+91P9*Set_EO_Call 91>48 92r28
+91r48 Excep{51R12}
+94P9*Get_Stack_Call(6|50P9) 95r28 128r35 243r20
+96P9*Set_Stack_Call 96>48 97r28 129r35 244r20
+96p48 Stack{6|50P9}
+99P9*Special_EO_Call 100>17 101r28
+100r17 Excep{51R12}
+103P9*Timed_Delay_Call 104>17 104>34 105r28 130r35 277r18
+104o17 Time{duration}
+104i34 Mode{integer}
+107P9*Get_Stack_Access_Call(10|58P9) 109r28 131r35 252r21
+111P9*Task_Name_Call(string) 113r28 132r35 285r16
+137P9*Traceback_Decorator_Wrapper_Call(string) 138>16 139>16 141r28 299r34
+138m16 Traceback{4|67M9}
+139i16 Len{natural}
+145U14*Abort_Defer_NT 172r35 8|50b14 53l8 53t22
+148U14*Abort_Undefer_NT 176r37 8|68b14 71l8 71t24
+151U14*Abort_Handler_NT 180r37 8|59b14 62l8 62t24
+155V13*Check_Abort_Status_NT{integer} 183r45 8|98b13 101l8 101t29
+159U14*Task_Lock_NT 187r33 8|269b14 272l8 272t20
+162U14*Task_Unlock_NT 197r35 8|297b14 300l8 300t22
+165U14*Task_Termination_NT 165>35 223r48 8|287b14 291l8 291t27
+165r35 Excep{51R12} 8|287b35 288r28
+169U14*Adafinal_NT 231r32 8|77b14 92l8 92t19
+172p4*Abort_Defer{62P9} 173r35
+176p4*Abort_Undefer{62P9} 177r35
+180p4*Abort_Handler{62P9}
+183p4*Check_Abort_Status{82P9}
+187p4*Lock_Task{62P9}
+197p4*Unlock_Task{62P9}
+223p4*Task_Termination_Handler{71P9} 8|85r7
+226p4*Finalize_Library_Objects{62P9} 227m22 227r22 8|89r10 90r10
+231p4*Adafinal{62P9}
+234V14*Get_Jmpbuf_Address_NT{4|67M9} 237r45 8|177b13 180l8 180t29
+235U14*Set_Jmpbuf_Address_NT 235>37 238r45 8|237b14 240l8 240t29
+235m37 Addr{4|67M9} 8|237b37 239r32
+237p4*Get_Jmpbuf_Address{74P9} 8|188r14
+238p4*Set_Jmpbuf_Address{76P9} 8|244r7
+240V14*Get_Sec_Stack_NT{6|50P9} 243r38 8|195b13 198l8 198t24
+241U14*Set_Sec_Stack_NT 241>32 244r38 8|251b14 254l8 254t24
+241p32 Stack{6|50P9} 8|251b32 253r31
+243p4*Get_Sec_Stack{94P9} 8|206r14
+244p4*Set_Sec_Stack{96P9} 8|262r7
+246V13*Get_Current_Excep_NT{50P12} 248r40 8|159b13 162l8 162t28
+248p4*Get_Current_Excep{87P9} 8|170r49
+250V13*Get_Stack_Info_NT{10|58P9} 252r46 8|213b13 216l8 216t25
+252p4*Get_Stack_Info{107P9}
+262V13*Current_Master_NT{integer} 266r42 8|132b13 135l8 135t25
+263U14*Enter_Master_NT 267r42 8|150b14 153l8 153t23
+264U14*Complete_Master_NT 268r42 8|107b14 110l8 110t26
+266p4*Current_Master{82P9}
+267p4*Enter_Master{62P9}
+268p4*Complete_Master{62P9}
+277p4*Timed_Delay{103P9}
+283V13*Task_Name_NT{string} 285r34 8|278b13 281l8 281t20
+285p4*Task_Name{111P9}
+291r4*Library_Exception{51R12} 8|228m45
+295b4*Library_Exception_Set{boolean} 8|225r14 226m10
+299p4*Traceback_Decorator_Wrapper{137P9} 308r19
+314U14*Save_Library_Occurrence 314>39 8|222b14 231l8 231t31
+314p39 E{50P12} 8|222b39 227r13 228r64
+326R9*TSD 350e14 353r31 360r44 408r13 8|117r31 141r44
+327r7*Pri_Stack_Info{10|48R9} 8|215m21
+333m7*Jmpbuf_Address{4|67M9} 8|122m15 179r21 239m14
+339p7*Sec_Stack_Ptr{6|50P9} 8|124m15 125m28 143m28 197r21 253m14
+342r7*Current_Excep{51R12} 8|161m21
+352U14*Create_TSD 353=7 354>7 355>7 356r19 8|116b14 126l8 126t18
+353r7 New_TSD{326R9} 8|117b7 122m7 124m7 125m20 125r20
+354p7 Sec_Stack{6|50P9} 8|118b7 124r32
+355i7 Sec_Stack_Size{5|56I9} 8|119b7 125r43
+360U14*Destroy_TSD 360=27 361r19 8|141b14 144l8 144t19
+360r27 Old_TSD{326R9} 8|141b27 143m20 143r20
+365V13*Get_GNAT_Exception{2|48P9} 366r19 8|168b13 171l8 171t26
+376V14*Get_Jmpbuf_Address_Soft{4|67M9} 378r19 8|186b13 189l8 189t31
+377U14*Set_Jmpbuf_Address_Soft 377>39 379r19 8|242b14 245l8 245t31
+377m39 Addr{4|67M9} 8|242b39 244r27
+381V14*Get_Sec_Stack_Soft{6|50P9} 383r19 8|204b13 207l8 207t26
+382U14*Set_Sec_Stack_Soft 382>34 384r19 8|260b14 263l8 263t26
+382p34 Stack{6|50P9} 8|260b34 262r22
+401R9*Dummy_Communication_Block 405e14
+402m7*Comp_1{4|67M9}
+403b7*Comp_2{boolean}
+404b7*Comp_3{boolean}
+408r4 NT_TSD{326R9} 8|161m14 161r14 179r14 197r14 215m14 215r14 239m7 253m7
+X 8 s-soflin.adb
+41m4 Stack_Limit{4|67M9} 42m22 42r22
+X 9 s-soliin.ads
+45K27*Initialize 8|36w24 9|48e33
+X 10 s-stache.ads
+40K16*Stack_Checking 7|43w13 108r22 250r38 327r32 8|213r38 10|80e26
+48R9*Stack_Info 7|327r47 10|52e14
+58P9*Stack_Access(48R9) 7|108r37 250r53 8|213r53
+X 11 s-stalib.ads
+82P9*Exception_Data_Ptr(81R9)
+

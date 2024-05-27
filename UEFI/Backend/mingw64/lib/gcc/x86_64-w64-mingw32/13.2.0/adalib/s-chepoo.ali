@@ -1,0 +1,83 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+
+U system.checked_pools%s  s-chepoo.ads		c9ffedc7 EE OL PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-chepoo.ads		20230727081304 7b01371d system.checked_pools%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230727081304 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [checked_poolDF system__checked_pools 57 9 none]
+G c Z s s [checked_poolIP system__checked_pools 57 9 none]
+X 3 a-finali.ads
+53U14*Initialize<14|44p14>
+54U14*Finalize<14|43p14>
+X 11 system.ads
+37K9*System 192e11 12|32r6 33r6 35r9 38r10 46r34 47r34 58r10 59r5
+67M9*Address 12|45r34
+X 12 s-chepoo.ads
+35K16*Checked_Pools 11|37k9 12|57E9 59l12 59e25
+37H9*Checked_Pool<23|42R9> 3|53P14 54P14 12|43p14 44r41 57c9 58e65 14|42p14
+. 23|46p14 53p14 60p13
+43x14*Dereference 44=7 45>7 46>7 47>7
+44r7 Pool{37R9}
+45m7 Storage_Address{11|67M9}
+46i7 Size_In_Storage_Elements{21|61I12}
+47i7 Alignment{21|61I12}
+X 14 s-finroo.ads
+42U14*Adjust
+X 21 s-stoele.ads
+40K16*Storage_Elements 12|32w13 46r41 47r41 21|116e28
+54I9*Storage_Offset<long_long_integer>
+61I12*Storage_Count{54I9} 12|46r58 47r58
+X 23 s-stopoo.ads
+39K16*Storage_Pools 12|33w13 38r17 58r17 23|100e25
+42H9*Root_Storage_Pool<3|50R9> 12|38r31 58r31 23|67e62
+46x14*Allocate
+53x14*Deallocate
+60y13*Storage_Size{21|61I12}
+

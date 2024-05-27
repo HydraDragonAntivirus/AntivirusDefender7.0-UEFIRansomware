@@ -1,0 +1,63 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+
+U ada.calendar.time_zones%b  a-catizo.adb	974d849e NE OL PK
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U ada.calendar.time_zones%s  a-catizo.ads	1ff937f5 EE OL PK
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-calend.ads		20230727081304 f55c50a3 ada.calendar%s
+D a-catizo.ads		20230727081304 eaa56756 ada.calendar.time_zones%s
+D a-catizo.adb		20230727081304 7de8e3c8 ada.calendar.time_zones%b
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [local_time_offset ada__calendar__time_zones 28 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|19r9 35r5 4|32r14 69r5
+X 2 a-calend.ads
+36K13*Calendar 1|16k9 2|413e17 3|19r13 35r9 4|32r18 69r9
+42I9*Time<226I9> 3|28r39 29r37 4|45r39
+56V13*Clock{42I9} 3|28s47 29s45 4|45s47
+226I9 Time_Rep<long_long_integer>
+248i4 Invalid_Time_Zone_Offset{long_integer} 4|51r21
+405K12 Time_Zones_Operations 411e29 4|47r9
+407V16*UTC_Time_Offset{long_integer} 4|47s31
+X 3 a-catizo.ads
+19K22*Time_Zones 2|36k13 3|35l18 35e28 4|32b27 69l18 69t28
+23I9*Time_Offset<short_integer> 28r61 29r59 4|45r61 48r18 58r17
+26X4*Unknown_Zone_Error 4|52r16 63r16
+28V13*Local_Time_Offset{23I9} 28>32 30r14 4|45b13 67l8 67t25
+28i32 Date{2|42I9} 4|45b32 47r48
+29V13*UTC_Time_Offset=30:14{23I9}
+29i30 Date{2|42I9}
+X 4 a-catizo.adb
+46i7 Offset_L{long_integer} 51r10 58r30
+48i7 Offset{3|23I9} 58m7 62r14 66r14
+

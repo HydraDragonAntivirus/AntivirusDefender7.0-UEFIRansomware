@@ -1,0 +1,102 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U ada.numerics.aux_short_float%s  a-nashfl.ads	33fcdf18 NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.aux_float%s  a-nuaufl.ads	a-nuaufl.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nuaufl.ads		20230727081304 020cac40 ada.numerics.aux_float%s
+D a-naliop.ads		20230727081304 6b421e5f ada.numerics.aux_linker_options%s
+D a-nashfl.ads		20230727081304 b54ed4fb ada.numerics.aux_short_float%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s s [sin ada__numerics__aux_short_float 48 13 none]
+G c Z s s [cos ada__numerics__aux_short_float 51 13 none]
+G c Z s s [tan ada__numerics__aux_short_float 54 13 none]
+G c Z s s [exp ada__numerics__aux_short_float 57 13 none]
+G c Z s s [sqrt ada__numerics__aux_short_float 60 13 none]
+G c Z s s [log ada__numerics__aux_short_float 63 13 none]
+G c Z s s [acos ada__numerics__aux_short_float 66 13 none]
+G c Z s s [asin ada__numerics__aux_short_float 69 13 none]
+G c Z s s [atan ada__numerics__aux_short_float 72 13 none]
+G c Z s s [sinh ada__numerics__aux_short_float 75 13 none]
+G c Z s s [cosh ada__numerics__aux_short_float 78 13 none]
+G c Z s s [tanh ada__numerics__aux_short_float 81 13 none]
+G c Z s s [pow ada__numerics__aux_short_float 84 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 5|37r6 39r9 43r24 87r5
+X 2 a-numeri.ads
+16K13*Numerics 1|16k9 2|35e17 5|37r10 39r13 43r28 87r9
+X 3 a-nuaufl.ads
+43K22*Aux_Float 90e27 5|37w19 43r37
+46F12*T{float} 5|44r21
+51V13*Sin{46F12} 5|49s15
+54V13*Cos{46F12} 5|52s15
+57V13*Tan{46F12} 5|55s15
+60V13*Exp{46F12} 5|58s15
+63V13*Sqrt{46F12} 5|61s15
+66V13*Log{46F12} 5|64s15
+69V13*Acos{46F12} 5|67s15
+72V13*Asin{46F12} 5|70s15
+75V13*Atan{46F12} 5|73s15
+78V13*Sinh{46F12} 5|76s15
+81V13*Cosh{46F12} 5|79s15
+84V13*Tanh{46F12} 5|82s15
+87V13*Pow{46F12} 5|85s15
+X 5 a-nashfl.ads
+39K22*Aux_Short_Float 2|16k13 5|87l18 87e33
+42F12*T{short_float} 48r22 48r32 49r8 51r22 51r32 52r8 54r22 54r32 55r8 57r22
+. 57r32 58r8 60r23 60r33 61r8 63r22 63r32 64r8 66r23 66r33 67r8 69r23 69r33
+. 70r8 72r23 72r33 73r8 75r23 75r33 76r8 78r23 78r33 79r8 81r23 81r33 82r8
+. 84r25 84r35 85r8
+43K12*Aux=43:37 44r17 49r11 52r11 55r11 58r11 61r11 64r11 67r11 70r11 73r11
+. 76r11 79r11 82r11 85r11
+44F12*W{3|46F12} 49r20 52r20 55r20 58r20 61r21 64r20 67r21 70r21 73r21 76r21
+. 79r21 82r21 85r20 85r27
+48V13*Sin{42F12} 48>18
+48f18 X{42F12} 49r23
+51V13*Cos{42F12} 51>18
+51f18 X{42F12} 52r23
+54V13*Tan{42F12} 54>18
+54f18 X{42F12} 55r23
+57V13*Exp{42F12} 57>18
+57f18 X{42F12} 58r23
+60V13*Sqrt{42F12} 60>19
+60f19 X{42F12} 61r24
+63V13*Log{42F12} 63>18
+63f18 X{42F12} 64r23
+66V13*Acos{42F12} 66>19
+66f19 X{42F12} 67r24
+69V13*Asin{42F12} 69>19
+69f19 X{42F12} 70r24
+72V13*Atan{42F12} 72>19
+72f19 X{42F12} 73r24
+75V13*Sinh{42F12} 75>19
+75f19 X{42F12} 76r24
+78V13*Cosh{42F12} 78>19
+78f19 X{42F12} 79r24
+81V13*Tanh{42F12} 81>19
+81f19 X{42F12} 82r24
+84V13*Pow{42F12} 84>18 84>21
+84f18 X{42F12} 85r23
+84f21 Y{42F12} 85r30
+

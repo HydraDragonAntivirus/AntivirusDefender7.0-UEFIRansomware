@@ -1,0 +1,152 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_ELABORATION_CODE
+
+U ada.streams.storage.unbounded%b  a-ststun.adb	041aaa2b NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.streams.storage%s	a-strsto.ads		a-strsto.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+
+U ada.streams.storage.unbounded%s  a-ststun.ads	8e639a39 EE OL PF PR PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+W ada.streams.storage%s	a-strsto.ads		a-strsto.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-strsto.ads		20230727081304 3276a52d ada.streams.storage%s
+D a-ststun.ads		20230727081304 035abf7f ada.streams.storage.unbounded%s
+D a-ststun.adb		20230727081304 c4e8b931 ada.streams.storage.unbounded%b
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [stream_typePartial_DIC ada__streams__storage__unbounded 37 9 none]
+G c Z s s [stream_typeDIC ada__streams__storage__unbounded 37 9 none]
+G c Z s b [read ada__streams__storage__unbounded 40 25 none]
+G c Z s b [write ada__streams__storage__unbounded 54 25 none]
+G c Z s b [element_count ada__streams__storage__unbounded 59 24 none]
+G c Z s b [clear ada__streams__storage__unbounded 62 25 none]
+G c Z s s [elements_typeIP ada__streams__storage__unbounded 70 9 none]
+G c Z s b [finalize ada__streams__storage__unbounded 83 25 none]
+G c Z s s [controlled_elements_accessDF ada__streams__storage__unbounded 78 9 none]
+G c Z s s [controlled_elements_accessIP ada__streams__storage__unbounded 78 9 none]
+G c Z s s [stream_typeDF ada__streams__storage__unbounded 85 9 none]
+G c Z s s [stream_typeDI ada__streams__storage__unbounded 85 9 none]
+G c Z s s [stream_typeIP ada__streams__storage__unbounded 85 9 none]
+G c Z b b [free ada__streams__storage__unbounded 33 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 6|33r14 35r9 91r5 7|29r6 31r14 33r26 151r5
+X 3 a-finali.ads
+40K13*Finalization 68e21 6|33w18 79r10 87r10
+50H9*Limited_Controlled<17|40R9> 66e55 6|79r23 87r23
+53U14*Initialize<17|44p14>
+X 4 a-stream.ads
+36K13*Streams 1|16k9 4|87e16 6|35r13 91r9 7|31r18 151r9
+42M9*Stream_Element
+44I9*Stream_Element_Offset<long_long_integer> 6|42r23 7|53r23
+51I12*Stream_Element_Count{44I9} 6|45r33 46r15 60r36 67r36 68r17 70r31 88r15
+. 7|78r34 97r28 134r36
+54A9*Stream_Element_Array(42M9)<44I9> 6|41r47 55r43 71r12 7|52r47 55r12 95r43
+X 5 a-strsto.ads
+33K21*Storage 4|36k13 5|44e24 6|35r21 91r17 7|31r26 151r17
+35H9*Storage_Stream_Type<4|39R9> 43e78 6|37r28 85r28
+X 6 a-ststun.ads
+35K29*Unbounded 5|33k21 6|67E12 91l25 91e34 7|31b34 151l25 151t34
+37R9*Stream_Type<5|35R9> 40P25 41r23 54P25 55r23 59P24 60r16 62P25 62r48
+. 85c9 89e14 7|52r23 95r23 134r16 144r48
+40U25*Read<4|57p14> 41=7 41<36 42<7 7|51b25 88l8 88t12
+41r7 Stream{37R9} 47r33 51r28 52r30 7|52b7 56r9 56r51 64r28 65r46 67m17 79r30
+. 83r34 84r34 85m13
+41a36 Item{4|54A9} 47r46 49r31 7|52b36 58r10 59r18 64r39 65r18 66m10 66r16
+. 75r18 79r40 81m13 81r30
+42i7 Last{4|44I9} 49r13 7|53b7 59m10 65m10 66r30 75m10
+45i13 Num_Read{4|51I12} 49r20 52r44
+54U25*Write<4|63p14> 55=7 55>36 7|94b25 127l8 127t13
+55r7 Stream{37R9} 56r30 57r22 7|95b7 98r24 105r22 108r19 109r21 110r47 116m13
+. 119m16 119r16 125m7 125r7 125r44 126m7
+55a36 Item{4|54A9} 57r36 7|95b36 98r34 125r73
+59V24*Element_Count{4|51I12}<5|37p13> 38s36 47s18 51s13 52s15 56s15 57s7
+. 60>7 63s15 7|56s36 64s13 65s31 79s15 83s19 84s19 98s9 125s29 133b24 138l8
+. 138t21
+60r7 Stream{37R9} 7|134b7 137r14
+62U25*Clear<5|40p14> 62=32 7|67s10 144b25 149l8 149t13
+62r32 Stream{37R9} 63r30 7|144b32 146m7
+67I12 Stream_Element_Index{4|51I12} 7|107r24
+70R9 Elements_Type 70d24 72e14 74r29 76r39 7|34r7 116r38
+70i24*Last{4|51I12} 71r39 7|105r40 108r37 109r39
+71a7*EA{4|54A9} 7|56m27 119m34 119r51 119r77 125m25
+74r4 Empty_Elements{70R9} 87m52 87r52 7|42m17 42r17 118m32 118r32
+76P9 Elements_Access(70R9) 80r11 7|34r22 110r28
+78R9 Controlled_Elements_Access<3|50R9> 3|53P14 6|81e14 83P25 83r46 86r18
+. 7|40r46 17|42p14
+80p7*A{76P9} 87m47 7|42r12 43m18 56r25 105r38 108r35 109r37 110r63 116m29
+. 119r32 125r23
+83U25 Finalize<3|54p14> 83=35 7|40b25 45l8 45t16
+83r35 X{78R9} 7|40b35 42r10 43m16 43r16
+86r7 Elements{78R9} 7|56m16 105r29 108r26 109r28 110r54 116m20 119m23 125m14
+88i7 Count{4|51I12} 7|85m20 126m14 137r21 146m14
+X 7 a-ststun.adb
+33U14 Free[13|20] 43s10 120s16
+55a7 EA{4|54A9} 66r39 81r21 82r13 83r15
+78i13 New_Count{4|51I12} 82r22 83r44 85r29
+97i7 New_Count{4|51I12} 105r10 112r27 113r28 125r59 126r23
+107i13 New_Last{6|67I12} 112r16 113m16 116r61
+110p13 Old_Elements{6|76P9} 118r16 119r38 119r64 120m22 120r22
+X 13 a-uncdea.ads
+20u15*Unchecked_Deallocation 7|29w10 33r30
+X 17 s-finroo.ads
+42U14*Adjust
+

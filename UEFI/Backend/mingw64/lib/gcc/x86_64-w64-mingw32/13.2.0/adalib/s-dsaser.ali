@@ -1,0 +1,66 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+
+U system.dsa_services%s	s-dsaser.ads		658033dc NE OL PK
+W system%s		system.ads		system.ali
+W system.partition_interface%s  s-parint.adb	s-parint.ali
+W system.rpc%s		s-rpc.adb		s-rpc.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-dsaser.ads		20230727081304 d15176d8 system.dsa_services%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-parint.ads		20230727081304 249c047e system.partition_interface%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-retsta.ads		20230727081304 0f6b06cb system.return_stack%s
+D s-rpc.ads		20230727081304 601dde9c system.rpc%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20230727081304 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+X 10 system.ads
+37K9*System 192e11 11|35r6 36r6 38r9 54r5
+X 11 s-dsaser.ads
+38K16*DSA_Services 10|37k9 11|54l12 54e24
+40V13*Get_Active_Partition_ID=42:34{17|44I9}
+41a7 Name{14|69A12}
+45V13*Get_Local_Partition_ID=46:34{17|44I9}
+49V13*Get_Passive_Partition_ID=51:34{17|44I9}
+50a7 Name{14|69A12}
+X 14 s-parint.ads
+40K16*Partition_Interface 11|35w13 41r14 42r14 46r14 50r14 51r14 14|191e31
+69A12*Unit_Name{string}<integer> 11|41r34 50r34
+125V13*Get_Active_Partition_ID{17|44I9} 11|42r34
+131V13*Get_Local_Partition_ID{17|44I9} 11|46r34
+134V13*Get_Passive_Partition_ID{17|44I9} 11|51r34
+X 17 s-rpc.ads
+42K16*RPC 11|36w13 41r52 45r43 50r52 17|91e15
+44I9*Partition_ID<integer> 11|41r56 45r47 50r56
+

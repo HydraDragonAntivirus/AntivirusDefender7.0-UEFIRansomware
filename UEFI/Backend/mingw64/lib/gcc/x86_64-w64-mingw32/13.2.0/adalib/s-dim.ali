@@ -1,0 +1,26 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.dim%s		s-dim.ads		1c60e82a NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-dim.ads		20230727081304 ec3077cc system.dim%s
+G a e
+X 1 system.ads
+37K9*System 192e11 2|65r9 68r5
+X 2 s-dim.ads
+65K16*Dim 1|37k9 2|68l12 68e15
+

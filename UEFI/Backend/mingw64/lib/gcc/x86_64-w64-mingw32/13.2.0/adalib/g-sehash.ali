@@ -1,0 +1,141 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U gnat.secure_hashes.sha1%b  g-sehash.adb	906723bc NE OL PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gnat.secure_hashes%s	g-sechas.adb		g-sechas.ali
+Z system%s		system.ads		system.ali
+
+U gnat.secure_hashes.sha1%s  g-sehash.ads	bd0fd2c4 EE NE OL PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.byte_swapping%s	g-bytswa.adb		g-bytswa.ali
+W gnat.secure_hashes%s	g-sechas.adb		g-sechas.ali
+W interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-bytswa.ads		20230727081304 a4d21639 gnat.byte_swapping%s
+D g-sechas.ads		20230727081304 302163b5 gnat.secure_hashes%s
+D g-sechas.adb		20230727081304 0824c9fb gnat.secure_hashes%b
+D g-sehash.ads		20230727081304 3c0b3e8a gnat.secure_hashes.sha1%s
+D g-sehash.adb		20230727081304 ac6c1d36 gnat.secure_hashes.sha1%b
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [to_hash gnat__secure_hashes__sha1__hash_state 87 17 45_4]
+G c Z s s [stateIP gnat__secure_hashes__sha1__hash_state 84 12 45_4]
+G c Z s b [transform gnat__secure_hashes__sha1 54 14 none]
+G c Z b b [f0 gnat__secure_hashes__sha1 41 13 none]
+G c Z b b [f1 gnat__secure_hashes__sha1 44 13 none]
+G c Z b b [f2 gnat__secure_hashes__sha1 47 13 none]
+G c Z b b [f3 gnat__secure_hashes__sha1 50 13 none]
+X 3 a-stream.ads
+42M9*Stream_Element
+54A9*Stream_Element_Array(42M9)<44I9>
+X 9 gnat.ads
+37K9*GNAT 60e9 13|40r6 43r9 47r25 72r5 14|32r14 35r8 179r5
+X 10 g-bytswa.ads
+162K14*Byte_Swapping 206e23 13|40w11 47r30 14|35r13
+196U14*Swap4 13|47r44 14|117s13
+X 11 g-sechas.ads
+45K14*Secure_Hashes 9|37k9 11|242e23 13|43r14 72r10 14|32r19 179r10
+47A9*Buffer_Type<3|54A9>(3|42M9)<3|44I9>
+55R9*Message_State 64e14 13|56r18 14|100r18
+62a7*Buffer{47A9} 14|107m27
+73M12 Word 13|46r7
+76U22 Swap 13|47r7
+79e7 Hash_Bit_Order{16|91E9} 13|48r7
+82k12*Hash_Function_State 94e27 13|45r30
+84A12*State(15|80M9)<3|44I9> 13|55r29[45] 59r40[45] 64r40[45] 14|99r29[13|45]
+X 13 g-sehash.ads
+43K28*SHA1 11|45k14 13|64E4 72l24 72e28 14|32b33 179l24 179t28
+45K12*Hash_State[11|82] 55r18 59r29 64r29 14|99r18
+51N4*Block_Words
+54U14*Transform 55=7 56=7 14|98b14 177l8 177t17
+55a7 H{11|84A12[45]} 14|99b7 138r12 139r12 140r12 141r12 142r12 172m7 172r16
+. 173m7 173r16 174m7 174r16 175m7 175r16 176m7 176r16
+56r7 M{11|55R9} 14|100b7 107m25 107r25
+59a4*Initial_State{11|84A12[45]} 64c4
+X 14 g-sehash.adb
+41V13 F0{15|80M9} 41>17 41>20 41>23 42r19 57b13 62l8 62t10 150s39
+41m17 B{15|80M9} 58b7 61r15 61r33
+41m20 C{15|80M9} 58b10 61r21
+41m23 D{15|80M9} 58b13 61r40
+44V13 F1{15|80M9} 44>17 44>20 44>23 45r19 68b13 73l8 73t10 92r14 155s39
+44m17 B{15|80M9} 69b7 72r14
+44m20 C{15|80M9} 69b10 72r20
+44m23 D{15|80M9} 69b13 72r26
+47V13 F2{15|80M9} 47>17 47>20 47>23 48r19 79b13 84l8 84t10 160s39
+47m17 B{15|80M9} 80b7 83r15 83r28
+47m20 C{15|80M9} 80b10 83r21 83r41
+47m23 D{15|80M9} 80b13 83r34 83r47
+50V13 F3{15|80M9} 50>17 50>20 50>23 51r19 90b13 165s39
+50m17 B{15|80M9} 91b7
+50m20 C{15|80M9} 91b10
+50m23 D{15|80M9} 91b13
+104A12 Words(15|80M9)<integer> 106r11 110r11
+106a7 X{104A12} 107m11 107r11 108m27 108r27 116r19 117m20 117r20 123r22
+110a7 W{104A12} 123m7 131m10 132r13 132r27 132r41 132r56 150r58 155r58 160r58
+. 165r58
+112m7 A{15|80M9} 138m7 150r31 151r57 151m60 155r31 156r57 156m60 160r31 161r57
+. 161m60 165r31 166r57 166m60 172r24
+112m10 B{15|80M9} 139m7 150r43 151r44 151m52 155r43 156r44 156m52 160r43
+. 161r44 161m52 165r43 166r44 166m52 173r24
+112m13 C{15|80M9} 140m7 150r46 151r23 151m26 155r46 156r23 156m26 160r46
+. 161r23 161m26 165r46 166r23 166m26 174r24
+112m16 D{15|80M9} 141m7 150r49 151r15 151m18 155r49 156r15 156m18 160r49
+. 161r15 161m18 165r49 166r15 166m18 175r24
+112m19 E{15|80M9} 142m7 150r54 151m10 155r54 156m10 160r54 161m10 165r54
+. 166m10 176r24
+112m22 Temp{15|80M9} 150m10 151r65 155m10 156r65 160m10 161r65 165m10 166r65
+116i14 J{integer} 117r23
+127i11 T{integer} 131r13 132r16 132r30 132r44 132r59
+149i11 T{integer} 150r61
+154i11 T{integer} 155r61
+159i11 T{integer} 160r61
+164i11 T{integer} 165r61
+X 15 interfac.ads
+38K9*Interfaces 13|41w6 46r25 14|34r8 58r17 58r48 69r17 69r48 80r17 80r48
+. 91r17 91r48 104r49 112r29 15|232e15
+80M9*Unsigned_32 13|46r36 14|41r27 41r47 44r27 44r47 47r27 47r47 50r27 50r47
+. 58r28 58r59 69r28 69r59 80r28 80r59 91r28 91r59 104r60 112r40
+155V13*Rotate_Left{80M9} 14|131s19 150s18 151s31 155s18 156s31 160s18 161s31
+. 165s18 166s31
+X 16 system.ads
+37K9*System 13|48r25 14|102r11 16|192e11
+91n23*High_Order_First{91E9} 13|48r32 14|115r31
+92e4*Default_Bit_Order{91E9} 14|115r10
+

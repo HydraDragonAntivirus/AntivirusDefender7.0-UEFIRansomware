@@ -1,0 +1,64 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U gnat.byte_order_mark%b  g-byorma.adb		641bd22f NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+
+U gnat.byte_order_mark%s  g-byorma.ads		0475df31 EE NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-byorma.ads		20230727081304 b1ed5316 gnat.byte_order_mark%s
+D g-byorma.adb		20230727081304 d5f68139 gnat.byte_order_mark%b
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [read_bom gnat__byte_order_mark 84 14 none]
+X 3 gnat.ads
+37K9*GNAT 60e9 4|64r9 98r5 5|32r14 193r5
+X 4 g-byorma.ads
+64K14*Byte_Order_Mark 3|37k9 4|98l10 98e25 5|32b19 193l10 193t25
+66E9*BOM_Kind 82e15 87r25 5|41r25
+67n7*UTF8_All{66E9} 5|97r17
+68n7*UTF16_LE{66E9} 5|87r17 169r17
+69n7*UTF16_BE{66E9} 5|78r17 157r17
+70n7*UTF32_LE{66E9} 5|69r17
+71n7*UTF32_BE{66E9} 5|58r17
+75n7*UCS4_BE{66E9} 5|109r17
+76n7*UCS4_LE{66E9} 5|121r17
+77n7*UCS4_2143{66E9} 5|133r17
+78n7*UCS4_3412{66E9} 5|145r17
+82n7*Unknown{66E9} 5|183r17 189r17
+84U14*Read_BOM 85>7 86<7 87<7 88>7 5|38b14 191l8 191t16
+85a7 Str{string} 5|39b7 51r10 52r18 52r23 53r18 53r23 54r18 54r23 55r18 55r23
+. 62r13 63r18 63r23 64r18 64r23 65r18 65r23 66r18 66r23 73r13 74r18 74r23
+. 75r18 75r23 82r13 83r18 83r23 84r18 84r23 91r13 92r18 92r23 93r18 93r23
+. 94r18 94r23 102r18 103r18 103r23 104r18 104r23 105r18 105r23 106r18 106r23
+. 114r18 115r18 115r23 116r18 116r23 117r18 117r23 118r18 118r23 126r18 127r18
+. 127r23 128r18 128r23 129r18 129r23 130r18 130r23 138r18 139r18 139r23 140r18
+. 140r23 141r18 141r23 142r18 142r23 150r18 151r18 151r23 152r18 152r23 153r18
+. 153r23 154r18 154r23 162r18 163r18 163r23 164r18 164r23 165r18 165r23 166r18
+. 166r23 174r18 175r18 175r23 176r18 176r23 177r18 177r23 178r18 178r23
+86i7 Len{natural} 5|40b7 57m10 68m10 77m10 86m10 96m10 108m10 120m10 132m10
+. 144m10 156m10 168m10 182m10 188m10
+87e7 BOM{66E9} 5|41b7 58m10 69m10 78m10 87m10 97m10 109m10 121m10 133m10
+. 145m10 157m10 169m10 183m10 189m10
+88b7 XML_Support{boolean} 5|42b7 101r13 113r13 125r13 137r13 149r13 161r13
+. 173r13
+

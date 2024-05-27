@@ -1,0 +1,347 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_LONG_LONG_INTEGERS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+
+U gnat.sockets.poll%b	g-socpol.adb		5fc1d414 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+W gnat.sockets.poll%s	g-socpol.adb		g-socpol.ali
+W gnat.sockets.poll.g_wait%s
+W gnat.sockets.thin%s	g-socthi.adb		g-socthi.ali
+Z gnat.sockets.thin_common%s  g-sothco.adb	g-sothco.ali
+W interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c%s	i-c.adb			i-c.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U gnat.sockets.poll%s	g-socpol.ads		2c2326ab EE NE OL PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+W system%s		system.ads		system.ali
+W system.os_constants%s	s-oscons.ads		s-oscons.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-calend.ads		20230727081304 f55c50a3 ada.calendar%s
+D a-charac.ads		20230727081304 2d3ec45b ada.characters%s
+D a-chlat1.ads		20230727081304 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-strmap.ads		20230727081304 ed8acfdb ada.strings.maps%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20230727081304 7bfb7010 ada.strings.unbounded%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-socket.ads		20230727081304 e27e154b gnat.sockets%s
+D g-socpol.ads		20230727081304 60b3f27a gnat.sockets.poll%s
+D g-socpol.adb		20230727081304 345e72cb gnat.sockets.poll%b
+D g-spogwa.ads		20230727081304 3a409f9d gnat.sockets.poll.g_wait%s
+D g-spogwa.adb		20230727081304 b691f2fb gnat.sockets.poll.g_wait%b
+D g-sopowa.adb		20230727081304 07b2c606 gnat.sockets.poll.wait
+D g-socthi.ads		20230727081304 f9c2c200 gnat.sockets.thin%s
+D g-sothco.ads		20230727081304 f56d941d gnat.sockets.thin_common%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20230727081304 f40c8db4 interfaces.c.strings%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-atocou.ads		20230727081304 dc18efc3 system.atomic_counters%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-crtl.ads		20230727081304 8a0692f8 system.crtl%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finmas.ads		20230727081304 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-imagei.ads		20230727081304 c707dfd0 system.image_i%s
+D s-imgint.ads		20230727081304 d4a52a9b system.img_int%s
+D s-oscons.ads		20231201205036 aeeec19a system.os_constants%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-pooglo.ads		20230727081304 91708d21 system.pool_global%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-retsta.ads		20230727081304 0f6b06cb system.return_stack%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230727081304 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20230727081304 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20230727081304 1f610d7a system.val_int%s
+D s-valuns.ads		20230727081304 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuei.ads		20230727081304 11081e09 system.value_i%s
+D s-vaispe.ads		20230727081304 44130d39 system.value_i_spec%s
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+D s-widuns.ads		20230727081304 866a5800 system.wid_uns%s
+D s-widthu.ads		20230727081304 b32f15e2 system.width_u%s
+D s-win32.ads		20230727081304 15ac53fb system.win32%s
+G a e
+G c Z s b [create gnat__sockets__poll 74 13 none]
+G c Z s b [to_set gnat__sockets__poll 77 13 none]
+G c Z s b [append gnat__sockets__poll 85 14 none]
+G c Z s b [insert gnat__sockets__poll 91 14 none]
+G c Z s b [remove gnat__sockets__poll 101 14 none]
+G c Z s b [set_event gnat__sockets__poll 107 14 none]
+G c Z s b [set_events gnat__sockets__poll 114 14 none]
+G c Z s b [get_events gnat__sockets__poll 120 13 none]
+G c Z s s [length gnat__sockets__poll 124 13 none]
+G c Z s s [full gnat__sockets__poll 127 13 none]
+G c Z s b [wait gnat__sockets__poll 130 14 none]
+G c Z s b [next gnat__sockets__poll 138 14 none]
+G c Z s b [copy gnat__sockets__poll 143 14 none]
+G c Z s b [resize gnat__sockets__poll 146 13 none]
+G c Z s b [growth gnat__sockets__poll 149 13 none]
+G c Z s b [socket gnat__sockets__poll 152 13 none]
+G c Z s b [status gnat__sockets__poll 155 13 none]
+G c Z s b [state gnat__sockets__poll 158 14 none]
+G c Z s b [c_status gnat__sockets__poll 166 13 none]
+G c Z s s [Twait_event_setBIP gnat__sockets__poll 51 4 none]
+G c Z s s [pollfdIP gnat__sockets__poll 192 9 none]
+G c Z s s [poll_setIP gnat__sockets__poll 198 9 none]
+G c Z s s [setIP gnat__sockets__poll 200 9 none]
+G c Z s s [Tevent_setBIP gnat__sockets__poll 47 4 none]
+G c Z b b [set_mode gnat__sockets__poll 42 14 none]
+G c Z b b [set_event gnat__sockets__poll 45 14 none]
+G c Z b b [check_range gnat__sockets__poll 49 14 none]
+G c Z b b [status gnat__sockets__poll 52 13 none]
+G c Z b b [wait gnat__sockets__poll 60 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 23|32r6 325r11
+X 3 a-calend.ads
+36K13*Calendar 413e17 23|32w10 325r15
+42I9*Time<226I9> 23|334r31
+56V13*Clock{42I9} 23|334s39 368s43
+112V14*"-"{duration} 23|368s49
+226I9 Time_Rep<long_long_integer>
+X 20 gnat.ads
+37K9*GNAT 60e9 22|37r9 216r5 23|34r6 36r14 429r5 26|38r6 40r11
+X 21 g-socket.ads
+56K14*Sockets 20|37k9 21|1600e17 22|37r14 216r10 23|34r11 36r19 429r10 26|38r11
+. 40r16
+413I9*Socket_Type<integer> 22|78r16 87r16 93r20 152r58 161r20 23|89r16 103r35
+. 114r20 128r41 298r58 301r14 311r20 315r17
+457X4*Socket_Error 23|127r16
+1596U14 Raise_Socket_Error 23|382s13
+X 22 g-socpol.ads
+37K22*Poll 21|56k14 22|174E4 216l18 216e22 23|36b27 316r17 429l18 429t22
+. 26|38r19 40r24
+39E9*Event_Type 39e71 47r29 50r31
+39n24*Input{39E9} 50r48 174r47 175r47 23|39r14 53r8 53r51 191r10 191r55
+39n31*Output{39E9} 50r57 174r62 175r63 23|39r50 54r8 54r51 192r10 192r55
+39n39*Error{39E9} 23|55r8
+39n46*Hang_Up{39E9} 23|56r8
+39n55*Invalid_Request{39E9} 23|57r8
+47A9*Event_Set(boolean)<39E9> 155r58 162r20 23|52r43 312r20 412r58
+50E12*Wait_Event_Type{39E9} 51r34 110r15 23|38r27 46r34 253r15 261r34
+51A9*Wait_Event_Set(boolean)<39E9> 59r28 62r28 65r27 68r27 79r16 88r16 94r20
+. 117r16 121r44 174r28 175r28 176r28 177r28 23|42r50 90r16 103r57 115r20
+. 187r45 277r16 287r50
+59a4*Input_Event{51A9} 174c4
+62a4*Output_Event{51A9} 175c4
+65a4*Both_Events{51A9} 176c4
+68a4*Error_Event{51A9} 177c4
+71R9*Set 71d14 74r45 80r38 86r23 92r27 102r21 108r22 115r23 121r14 124r28
+. 127r26 130r34 138r27 143r29 143r47 146r28 146r57 149r28 149r40 152r28 155r28
+. 159r16 167r14 200c9 208e14 210r28 213r26 23|49r34 61r20 72r20 79r45 81r23
+. 91r38 93r23 103r21 113r27 157r34 168r29 168r47 187r14 199r28 199r40 215r21
+. 239r28 239r57 241r23 251r22 275r23 298r28 309r16 323r34 393r27 412r28 423r14
+. 26|43r17
+71i14 Size{positive} 200r14 207r31 214r13 23|119r15 170r17 203r21 206r36
+. 206r48 207r36 207r48
+74V13*Create{71R9} 74>21 23|79b13 82l8 82t14
+74i21 Size{positive} 23|79b21 81r28
+77V13*To_Set{71R9} 78>7 79>7 80>7 23|88b13 96l8 96t14
+78i7 Socket{21|413I9} 23|89b7 94r26
+79a7 Events{51A9} 23|90b7 94r34
+80i7 Size{positive} 23|91b7 93r28
+85U14*Append 86=7 87>7 88>7 23|94s10 102b14 106l8 106t14
+86r7 Self{71R9} 23|103b7 105m15 105r37
+87i7 Socket{21|413I9} 23|103b26 105r21
+88a7 Events{51A9} 23|103b48 105r29
+91U14*Insert 92=7 93>7 94>7 95>7 96>7 23|105s7 112b14 151l8 151t14
+92r7 Self{71R9} 23|113b7 119r10 119r23 122r21 131m7 131r22 133r19 135m13
+. 135r36 136r15 136r34 138m13 138r23 138r39 141m10 144m7 145m17 145r17 147r29
+. 148m10 149m10
+93i7 Socket{21|413I9} 23|114b7 126r10 128r60 144r43 147r19 148r34
+94a7 Events{51A9} 23|115b7 145r35
+95i7 Index{positive} 23|116b7 122r13 133r10 135r23 136r25 138r49 141r20 144r17
+. 145r27
+96b7 Keep_Order{boolean} 23|117b7 134r13
+101U14*Remove 102=7 102>26 102>44 23|214b14 233l8 233t14
+102r7 Self{71R9} 23|215b7 217r20 219r10 219r24 220m10 223r18 225m13 225r32
+. 226r15 226r38 228m13 228r33 228r43 232m7 232r22
+102i26 Index{positive} 23|215b26 217r26 219r34 223r10 225r23 226r25 228r23
+102b44 Keep_Order{boolean} 23|215b44 224r13
+107U14*Set_Event 108=7 109>7 110>7 111>7 23|250b14 258l8 258t17
+108r7 Self{71R9} 23|251b7 256r20 257m18 257r18
+109i7 Index{positive} 23|252b7 256r26 257r28
+110e7 Event{50E12} 23|253b7 257r36
+111b7 Value{boolean} 23|254b7 257r43
+114U14*Set_Events 115=7 116>7 117>7 23|274b14 281l8 281t18
+115r7 Self{71R9} 23|275b7 279r20 280m17 280r17
+116i7 Index{positive} 23|276b7 279r26 280r27
+117a7 Events{51A9} 23|277b7 280r35
+120V13*Get_Events{51A9} 121>7 121>19 23|186b13 193l8 193t18
+121r7 Self{71R9} 23|187b7 189r20 191r21 192r21
+121i19 Index{positive} 23|187b19 189r26 191r31 192r31
+124V13*Length{natural} 124>21 210b13
+124r21 Self{71R9} 211r8
+127V13*Full{boolean} 127>19 213b13
+127r19 Self{71R9} 214r8 214r20
+130U14*Wait 130=20 130>39 130<59 23|323b14 387l8 387t12
+130r20 Self{71R9} 23|323b20 336r10 357m16
+130o39 Timeout{duration} 23|323b39 331r34 368r32 373r37 377r35
+130i59 Count{natural} 23|323b59 337m10 386m7
+138U14*Next 138>20 138=32 23|393b14 406l8 406t12
+138r20 Self{71R9} 23|393b20 398r21 402r16
+138i32 Index{natural} 23|393b32 396m10 396r19 398r13 399m13 402r26
+143U14*Copy 143>20 143<34 23|168b14 180l8 180t12 242s10
+143r20 Source{71R9} 23|168b20 170r24 175r24 175r42 175r59 177r24 178r24 179r24
+143r34 Target{71R9} 23|168b34 170r10 175m7 177m7 178m7 179m7
+146V13*Resize{71R9} 146>21 146>33 23|201s14 239b13 244l8 244t14
+146r21 Self{71R9} 23|239b21 242r16
+146i33 Size{positive} 23|239b33 241r28
+149V13*Growth{71R9} 149>21 23|199b13 208l8 208t14
+149r21 Self{71R9} 23|199b21 202r10 203r16 206r31 206r43 207r31 207r43
+152V13*Socket{21|413I9} 152>21 152>33 23|298b13 302l8 302t14
+152r21 Self{71R9} 23|298b21 300r20 301r27
+152i33 Index{positive} 23|298b33 300r26 301r37
+155V13*Status{47A9} 155>21 155>33 23|412b13 416l8 416t14
+155r21 Self{71R9} 23|412b21 414r20 415r22
+155i33 Index{positive} 23|412b33 414r26 415r32
+158U14*State 159>7 160>7 161<7 162<7 23|308b14 317l8 317t13
+159r7 Self{71R9} 23|309b7 314r20 315r30 316r30
+160i7 Index{positive} 23|310b7 314r26 315r40 316r40
+161i7 Socket{21|413I9} 23|311b7 315m7
+162a7 Status{47A9} 23|312b7 316m7
+166V13*C_Status{30|66M9} 167>7 167>19 23|422b13 427l8 427t16
+167r7 Self{71R9} 23|423b7 425r20 426r37
+167i19 Index{positive} 23|423b19 425r26 426r47
+179K12 SOC=179:31 181r28 182r24 184r38 187r25 189r33 190r29 23|39r23 39r37
+. 39r60 55r45 56r45 57r45 366r21
+181M9 nfds_t 182r8
+184N4 FD_Type_Bound 186r27 186r44
+186I9 FD_Type<long_long_integer> 187r8 193r17 202r16 23|144r34 147r10 148r25
+. 26|47r48 57r67 60r55 68r67
+189M9 Events_Type 190r8 194r17 195r17 23|38r47
+192R9 Pollfd 196e15 198r50 23|42r35 46r18 52r28 261r18 287r35
+193i7*Socket{186I9} 23|144m24 219r41 301r44 315r47
+194m7*Events{189M9} 23|141m27 191r38 192r38 264m15 264r30 266m15 266r30
+195m7*REvents{189M9} 23|53r33 54r33 55r33 56r33 57r33 402r33 426r54
+198A9 Poll_Set(192R9)<integer> 207r16
+201i7*Length{natural} 211r13 214r25 23|105r42 119r28 122r26 131m12 131r27
+. 133r24 135r41 136r39 138r28 159r23 170r31 175r31 175r66 177m14 177r31 223r23
+. 225r37 226r43 228r48 232m12 232r27 336r15 398r26 26|47r37
+202i7*Max_FD{186I9} 23|147r34 148m15 178m14 178r31 219r15
+203b7*Max_OK{boolean} 23|149m15 179m14 179r31 220m15
+207a7*Fds{198A9} 23|135m18 136r20 138m18 138r44 141m15 144m12 145m22 175m14
+. 175r49 191r26 192r26 219r29 225m18 226r20 228m18 228r38 257m23 280m22 301r32
+. 315r35 316r35 402r21 415r27 426r42
+X 23 g-socpol.adb
+38a4 To_C(22|189M9) 53r45 54r45 191r49 192r49 264r40 266r45
+42U14 Set_Mode 42<24 42>43 145s7 280s7 287b14 292l8 292t16
+42r24 Item{22|192R9} 287b24 290m21
+42a43 Mode{22|51A9} 287b43 289r16 290r30
+45U14 Set_Event 46<7 46>26 46>51 257s7 260b14 268l8 268t17 290s10
+46r7 Item{22|192R9} 261b7 264m10 264r25 266m10 266r25
+46e26 Event{22|50E12} 261b26 264r46 266r51
+46b51 Value{boolean} 261b51 263r10
+49U14 Check_Range 49>27 49>39 157b14 162l8 162t19 189s7 217s7 256s7 279s7
+. 300s7 314s7 414s7 425s7
+49r27 Self{22|71R9} 157b27 159r18
+49i39 Index{positive} 157b39 159r10
+52V13 Status{22|47A9} 52>21 316s22 415s14
+52r21 Item{22|192R9} 53r28 54r28 55r28 56r28 57r28
+60U14 Wait 61=7 61>25 61<53 71b14 357s10 26|42b11 92l5 92t9
+61r7 Fds{22|71R9} 72b7 26|43b4 47r33 91m10
+61i25 Timeout{30|57I9} 72b25 26|43b22 91r15
+61i53 Result{integer} 72b53 26|43b50 91m24
+81r14 Result{22|71R9}
+93r14 Result{22|71R9} 94r18
+241r14 Result{22|71R9} 242r22
+289e11 J{22|39E9} 290r27 290r36
+330i7 Result{integer} 357m33 359r20 386r16
+331o7 Poll_Timeout{duration} 342r13 354r44 368m16 370r19 371m19 373r22 377m19
+332i7 C_Timeout{30|57I9} 352m13 354m13 357r22 367r16
+333i7 Errno{integer} 361m10 366r13 382r33
+334i7 Stamp{3|42I9} 368r51
+X 24 g-spogwa.ads
+41u29 G_Wait 22|37k22 26|38w24 87r26
+X 26 g-sopowa.adb
+47A9 FD_Array(22|186I9)<integer> 52r15
+50R9 FD_Set_Type 53e15 55r45 57r49 60r37 68r49 78r45 88r7
+51i7 Count{30|57I9} 70m11 70r24 71r29 80m11
+52a7 Set{47A9} 71m11
+55U14 Reset_Socket_Set 55=32 78b14 81l8 81t24 88r20
+55r32 Set{50R9} 78b32 80m7
+57U14 Insert_Socket_In_Set 57=36 57>62 68b14 72l8 72t28 88r38
+57r36 Set{50R9} 68b36 70m7 70r20 71m7 71r25
+57i62 FD{22|186I9} 68b62 71r40
+60V13*Is_Socket_In_Set{30|57I9} 60>31 60>50 88r60
+60r31 Set{50R9}
+60i50 FD{22|186I9}
+87U14 Poll[24|41] 25|34b29 26|91s4
+X 27 g-socthi.ads
+45K22*Thin 23|34w19 361r19 27|251e22
+51V13*Socket_Errno{integer} 23|361s24
+X 29 interfac.ads
+38K9*Interfaces 22|167r44 23|61r35 72r35 332r22 342r39 354r26 423r44 426r14
+. 26|43r32 45r8 29|232e15
+X 30 i-c.ads
+29K20*C 22|167r55 23|61r46 72r46 332r33 342r50 354r37 423r55 426r25 26|43r43
+. 51r15 60r71 30|597e17
+57I9*int<integer> 23|61r48 72r48 332r35 342r52 354r39 26|43r45 51r17 60r73
+66M9*unsigned 22|167r57 23|423r57 426r27
+X 32 system.ads
+37K9*System 22|35r6 179r24 32|192e11
+X 42 s-oscons.ads
+45K16*OS_Constants 22|35w13 179r31 42|405e24
+126N4*EINTR 23|366r25
+344N4*SIZEOF_nfds_t 22|181r32 182r28
+346N4*SIZEOF_fd_type 22|184r42 187r29
+347N4*SIZEOF_pollfd_events 22|189r37 190r33
+352N4*POLLIN 23|39r27
+353N4*POLLPRI 23|39r41
+354N4*POLLOUT 23|39r64
+355N4*POLLERR 23|55r49
+356N4*POLLHUP 23|56r49
+357N4*POLLNVAL 23|57r49
+

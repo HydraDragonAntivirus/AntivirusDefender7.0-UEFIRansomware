@@ -1,0 +1,45 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+
+U system.fore_decimal_32%s  s-fode32.ads	9a2cff51 NE OL PU PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.fore_d%s
+
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-fore_d.ads		20230727081304 0dadc239 system.fore_d%s
+D s-fore_d.adb		20230727081304 3c30d9e3 system.fore_d%b
+D s-fode32.ads		20230727081304 72263b4c system.fore_decimal_32%s
+G a e
+G c Z s s [fore_decimal system__fore_decimal_32__impl 42 13 43_4]
+X 1 interfac.ads
+38K9*Interfaces 232e15 5|35w6 41r21
+53I9*Integer_32<integer> 5|41r32
+X 2 system.ads
+37K9*System 192e11 5|36r6 38r9 48r5
+X 3 s-fore_d.ads
+39k16*Fore_D 47e18 5|36w13 43r24
+42V13*Fore_Decimal{natural} 5|46r19[43]
+X 5 s-fode32.ads
+38K16*Fore_Decimal_32 2|37k9 5|48l12 48e27
+41I12*Int32{1|53I9} 43r32 45r38
+43K12*Impl[3|39] 46r14
+45V13*Fore_Decimal32=46:19{natural}
+45i29 Lo{1|53I9}
+45i33 Hi{1|53I9}
+45i45 Scale{integer}
+

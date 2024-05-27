@@ -1,0 +1,58 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.atomic_operations.test_and_set%b  s-aotase.adb  6e5d049a NE OL PK
+W system%s		system.ads		system.ali
+W system.atomic_operations%s  s-atoope.ads	s-atoope.ali
+W system.atomic_primitives%s  s-atopri.adb	s-atopri.ali
+
+U system.atomic_operations.test_and_set%s  s-aotase.ads  57acee8e BN NE OL PU PK
+W system.atomic_operations%s  s-atoope.ads	s-atoope.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atoope.ads		20230727081304 c7637a25 system.atomic_operations%s
+D s-aotase.ads		20230727081304 90cf94ab system.atomic_operations.test_and_set%s
+D s-aotase.adb		20230727081304 e581b407 system.atomic_operations.test_and_set%b
+D s-atopri.ads		20230727081304 1b132436 system.atomic_primitives%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [atomic_test_and_set system__atomic_operations__test_and_set 42 13 none]
+G c Z s b [atomic_clear system__atomic_operations__test_and_set 46 14 none]
+G c Z s b [is_lock_free system__atomic_operations__test_and_set 50 13 none]
+X 5 system.ads
+37K9*System 192e11 7|36r9 58r5 8|32r6 32r36 34r14 66r5
+X 6 s-atoope.ads
+36K16*Atomic_Operations 5|37k9 6|39e29 7|36r16 58r12 8|34r21 66r12
+X 7 s-aotase.ads
+36K34*Test_And_Set 6|36k16 7|58l30 58e42 8|34b39 66l30 66t42
+39M9*Test_And_Set_Flag 43r29 47r29 51r22 8|41r29 51r29 60r42
+42V13*Atomic_Test_And_Set{boolean} 43=7 55r26 8|40b13 44l8 44t27
+43m7 Item{39M9} 8|41b7 43m35 43r35
+46U14*Atomic_Clear 47=7 56r26 8|50b14 54l8 54t20
+47m7 Item{39M9} 8|51b7 53m21 53r21
+50V13*Is_Lock_Free{boolean} 51>7 57r26 8|60b13 64l8 64t20
+51m7 Item{39M9} 8|60b27 61r28
+X 9 s-atopri.ads
+38K16*Atomic_Primitives 8|32w13 32r43 9|154e29
+98V13*Atomic_Test_And_Set{boolean} 8|43s14
+103U14*Atomic_Clear 8|53s7
+

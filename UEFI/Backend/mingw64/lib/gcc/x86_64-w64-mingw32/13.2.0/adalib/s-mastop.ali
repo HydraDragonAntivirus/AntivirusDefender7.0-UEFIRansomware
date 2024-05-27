@@ -1,0 +1,59 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.machine_state_operations%b  s-mastop.adb  85a46508 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.machine_state_operations%s  s-mastop.ads  02f96f08 NE OL PK
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-mastop.ads		20230727081304 59fd980a system.machine_state_operations%s
+D s-mastop.adb		20230727081304 dc59fd02 system.machine_state_operations%b
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+G a e
+G c Z s b [machine_state_length system__machine_state_operations 49 13 none]
+G c Z s b [allocate_machine_state system__machine_state_operations 55 13 none]
+G c Z s b [free_machine_state system__machine_state_operations 58 14 none]
+G c Z s b [get_code_loc system__machine_state_operations 67 13 none]
+G c Z s b [pop_frame system__machine_state_operations 74 14 none]
+G c Z s b [fetch_code system__machine_state_operations 80 13 none]
+G c Z s b [set_machine_state system__machine_state_operations 94 14 none]
+X 1 system.ads
+37K9*System 192e11 2|32r6 34r9 36r24 42r30 49r41 98r5 3|36r14 83r13 106r5
+67M9*Address 2|36r31 42r37
+69m4*Null_Address{67M9} 3|48r29 66r27 75r14
+X 2 s-mastop.ads
+34K16*Machine_State_Operations 1|37k9 2|98l12 98e36 3|36b21 106l12 106t36
+36M12*Code_Loc{1|67M9} 67r53 80r31 80r48 3|55r31 55r48 73r53
+42M9*Machine_State<1|67M9> 55r43 58r45 67r31 74r29 94r37
+49V13*Machine_State_Length{4|54I9} 3|82b13 86l8 86t28
+55V13*Allocate_Machine_State{42M9} 3|46b13 49l8 49t30
+58U14*Free_Machine_State 58=34 3|64b14 67l8 67t26
+58m34 M{42M9} 3|64b34 66m7
+67V13*Get_Code_Loc{36M12} 67>27 3|73b13 76l8 76t20
+67m27 M{42M9} 3|73b27
+74U14*Pop_Frame 74>25 3|92b14 95l8 95t17
+74m25 M{42M9} 3|92b25
+80V13*Fetch_Code{36M12} 80>25 3|55b13 58l8 58t18
+80m25 Loc{36M12} 3|55b25 57r14
+94U14*Set_Machine_State 94>33 3|101b14 104l8 104t25
+94m33 M{42M9} 3|101b33
+X 4 s-stoele.ads
+40K16*Storage_Elements 2|32w13 49r48 3|83r20 4|116e28
+54I9*Storage_Offset<long_long_integer> 2|49r65 3|83r37
+

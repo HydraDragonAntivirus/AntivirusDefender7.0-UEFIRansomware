@@ -1,0 +1,43 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_LONG_LONG_INTEGERS
+
+U gnat.secondary_stack_info%s  g-sestin.ads	757f640c NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-sestin.ads		20230727081304 976591de gnat.secondary_stack_info%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+G a e
+X 3 gnat.ads
+37K9*GNAT 60e9 4|37r9 42r5
+X 4 g-sestin.ads
+37K14*Secondary_Stack_Info 3|37k9 4|42l10 42e30
+39V13*SS_Get_Max=40:37{long_long_integer}
+X 5 system.ads
+37K9*System 4|35r6 40r14 5|192e11
+X 8 s-secsta.ads
+35K16*Secondary_Stack 4|35w13 40r21 8|429e27
+98V13*SS_Get_Max{long_long_integer} 4|40r37
+

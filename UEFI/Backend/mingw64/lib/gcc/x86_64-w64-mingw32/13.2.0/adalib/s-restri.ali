@@ -1,0 +1,53 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.restrictions%b	s-restri.adb		49c205ec NE OL PK
+W system%s		system.ads		system.ali
+
+U system.restrictions%s	s-restri.ads		4943a4b3 BN NE OL PR PK
+W system%s		system.ads		system.ali
+W system.rident%s
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-restri.ads		20230727081304 f38f2845 system.restrictions%s
+D s-restri.adb		20230727081304 ba4d2da9 system.restrictions%b
+D s-rident.ads		20230727081304 4a9c1310 system.rident%s
+G a e
+G c Z s s [Trestriction_flagsBIP system__restrictions__rident 327 4 47_4]
+G c Z s s [Trestriction_valuesBIP system__restrictions__rident 328 4 47_4]
+G c Z s s [Tparameter_flagsBIP system__restrictions__rident 329 4 47_4]
+G c Z s s [restrictions_infoIP system__restrictions__rident 331 9 47_4]
+G c Z s s [profile_dataIP system__restrictions__rident 408 9 47_4]
+G c Z s b [abort_allowed system__restrictions 63 13 none]
+G c Z s b [tasking_allowed system__restrictions 69 13 none]
+X 1 system.ads
+37K9*System 192e11 2|41r6 43r9 47r26 75r5 3|32r14 57r5
+X 2 s-restri.ads
+43K16*Restrictions 1|37k9 2|75l12 75e24 3|32b21 57l12 57t24
+47K12*Rident[4|76] 50r28 3|33r8
+50r4*Run_Time_Restrictions{4|331R9[47]} 3|41r14 43r14 52r14 54r14
+63V13*Abort_Allowed{boolean} 64r19 3|39b13 44l8 44t21
+69V13*Tasking_Allowed{boolean} 70r19 3|50b13 55l8 55t23
+X 4 s-rident.ads
+76k16*Rident 2|41w13 47r33 4|687e18
+87E9*Restriction_Id
+95n7*No_Abort_Statements{87E9[2|47]} 3|41r46[2|47]
+158n7*No_Tasking{87E9[2|47]} 3|54r46[2|47]
+221n7*Max_Tasks{87E9[2|47]} 3|52r46[2|47]
+228n7*Max_Asynchronous_Select_Nesting{87E9[2|47]} 3|43r46[2|47]
+327A9*Restriction_Flags(boolean)<87E9[2|47]>
+331R9*Restrictions_Info 2|50r35[47]
+345a7*Violated{327A9[2|47]} 3|41r36[2|47] 43r36[2|47] 52r36[2|47] 54r36[2|47]
+

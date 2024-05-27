@@ -1,0 +1,143 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U system.pool_local%b	s-pooloc.adb		f789b2a7 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.memory%s	s-memory.adb		s-memory.ali
+
+U system.pool_local%s	s-pooloc.ads		aac03f88 EB EE OL PF PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-memory.ads		20230727081304 5b8432d0 system.memory%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-pooglo.ads		20230727081304 91708d21 system.pool_global%s
+D s-pooloc.ads		20230727081304 60b445ab system.pool_local%s
+D s-pooloc.adb		20230727081304 c222e2b3 system.pool_local%b
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230727081304 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [allocate system__pool_local 60 14 none]
+G c Z s b [deallocate system__pool_local 66 14 none]
+G c Z s b [finalize system__pool_local 72 14 none]
+G c Z s s [unbounded_reclaim_poolDF system__pool_local 52 9 none]
+G c Z s s [unbounded_reclaim_poolIP system__pool_local 52 9 none]
+G c Z b b [to_acc_address system__pool_local 45 13 none]
+G c Z b b [next system__pool_local 52 13 none]
+G c Z b b [prev system__pool_local 56 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|34r6 46r10
+X 3 a-finali.ads
+53U14*Initialize<13|44p14>
+X 9 a-unccon.ads
+20v14*Unchecked_Conversion 18|34w10 46r14
+X 11 system.ads
+37K9*System 192e11 17|34r6 35r6 37r9 53r6 55r19 62r26 63r22 64r22 68r22 69r22
+. 70r22 74r5 18|32r6 36r14 38r24 66r26 72r28 102r22 109r28 136r19 137r19
+. 165r5
+67M9*Address 17|55r26 62r33 68r29 18|41r51 44r35 46r36 52r23 56r23 66r33
+. 72r35 102r29 109r35 136r26 137r26 151r23 160r23
+69m4*Null_Address{67M9} 17|55r37 18|81r22 86r34 88r27 112r33 117r27 118r38
+. 124r34 140r18
+71N4*Storage_Unit 18|41r66
+81V14*"="{boolean} 18|81r20 88r24 112r31 117r24 124r31 140r15
+X 13 s-finroo.ads
+42U14*Adjust
+X 14 s-memory.ads
+43K16*Memory 105e18 18|32w13 73r21 74r24 128r7 143r10
+46M9*size_t 18|74r31
+51V13*Alloc{11|67M9} 101i<c,__gnat_malloc>22 18|73s28
+66U14*Free 102i<c,__gnat_free>22 18|128s14 143s17
+74V13*Realloc{11|67M9} 103i<c,__gnat_realloc>22
+X 16 s-pooglo.ads
+38K16*Pool_Global 78e23 17|35w13 53r13
+52R9*Unbounded_No_Reclaim_Pool<26|42R9> 53e61 17|53r25
+55V24*Storage_Size{24|61I12}<26|60p13>
+X 17 s-pooloc.ads
+37K16*Pool_Local 11|37k9 17|74l12 74e22 18|36b21 165l12 165t22
+52R9*Unbounded_Reclaim_Pool<16|52R9> 3|53P14 13|42p14 16|55P24 17|56e18 60P14
+. 61r29 66P14 67r29 72P14 72r38 18|65r29 101r29 135r38
+55m11*First{11|67M9} 18|85r39 88r18 89r24 92m15 113m15 117r18 118r24 136r42
+60U14*Allocate<16|59p25> 61=7 62<7 63>7 64>7 18|64b14 94l8 94t16
+61r7 Pool{52R9} 18|65b7 85r34 88r13 89r19 92m10
+62m7 Address{11|67M9} 18|66b7 84m10
+63i7 Storage_Size{24|61I12} 18|67b7 74r39
+64i7 Alignment{24|61I12} 18|68b7 70r29
+66U14*Deallocate<16|65p25> 67=7 68>7 69>7 70>7 18|100b14 129l8 129t18
+67r7 Pool{52R9} 18|101b7 113m10 117r13 118r19
+68m7 Address{11|67M9} 18|102b7 109r46
+69i7 Storage_Size{24|61I12} 18|103b7 106r29
+70i7 Alignment{24|61I12} 18|104b7 107r29
+72U14*Finalize<3|54p14> 72=24 18|135b14 145l8 145t16
+72r24 Pool{52R9} 18|135b24 136r37
+X 18 s-pooloc.adb
+38K12 SSE=38:31 39r13 41r29 42r29 67r22 68r22 103r22 104r22
+41i4 Pointer_Size{24|54I9} 42r55 162r34
+42i4 Pointers_Size{24|54I9} 74r54 84r33 109r56
+44P9 Acc_Address(11|67M9) 46r45 52r39 56r39 151r39 160r39
+45V13 To_Acc_Address[9|20]{44P9} 153s14 162s14
+52V13 Next{44P9} 52>19 53r19 85s10 113s24 121s10 121s45 124s10 125s16 142s15
+. 151b13 154l8 154t12
+52m19 A{11|67M9} 151b19 153r30
+56V13 Prev{44P9} 56>19 57r19 86s10 89s13 112s10 118s13 121s16 125s10 125s45
+. 160b13 163l8 163t12
+56m19 A{11|67M9} 160b19 162r30
+72m7 Allocated{11|67M9} 81r10 84r21 85r16 86r16 89r38 92r24
+109m7 Allocated{11|67M9} 112r16 113r30 121r22 121r51 124r16 125r22 125r51
+. 128r20
+136m7 N{11|67M9} 140r13 141r23 142m10 142r21
+137m7 Allocated{11|67M9} 141m10 143r23
+X 24 s-stoele.ads
+40K16*Storage_Elements 17|34w13 63r29 64r29 69r29 70r29 18|38r31 24|116e28
+54I9*Storage_Offset<long_long_integer> 18|39r17 41r33 42r33
+61I12*Storage_Count{54I9} 17|63r46 64r46 69r46 70r46 18|67r26 68r26 103r26
+. 104r26
+75V14*"+"{11|67M9} 18|84s31 162s32
+85V14*"-"{11|67M9} 18|109s54
+

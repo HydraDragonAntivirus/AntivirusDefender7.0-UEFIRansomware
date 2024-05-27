@@ -1,0 +1,62 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -g
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.assertions%b	s-assert.adb		2fb34529 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.exceptions_debug%s  s-excdeb.adb	s-excdeb.ali
+
+U system.assertions%s	s-assert.ads		d653e07d NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.assertions%s	a-assert.adb		a-assert.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-assert.adb		20230727081304 b510303b system.assertions%b
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-excdeb.ads		20230727081304 2c9bd8a5 system.exceptions_debug%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [raise_assert_failure system__assertions 46 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 6|39r6 43r39 7|32r6 44r7
+X 2 a-assert.ads
+42K13*Assertions 53e19 6|39w10 43r43
+45X4*Assertion_Error 6|43r54
+X 3 a-except.ads
+44K13*Exceptions 295e19 7|32w10 44r11
+80U14*Raise_Exception 7|44s22
+X 5 system.ads
+37K9*System 192e11 6|41r9 50r5 7|33r6 35r14 43r7 47r5
+X 6 s-assert.ads
+41K16*Assertions 5|37k9 6|50l12 50e22 7|35b21 47l12 47t22
+43X4*Assert_Failure 7|44r39
+46U14*Raise_Assert_Failure 46>36 47r22 7|41b14 45l8 45t28
+46a36 Msg{string} 7|41b36 44r64
+X 9 s-excdeb.ads
+38K16*Exceptions_Debug 7|33w13 43r14 9|76e28
+60U14*Debug_Raise_Assert_Failure 7|43s31
+

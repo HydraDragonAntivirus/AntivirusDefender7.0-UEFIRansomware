@@ -1,0 +1,69 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_LONG_LONG_INTEGERS
+
+U ada.containers.generic_sort%b  a-cogeso.adb	42a1ab9e NE OL SU GE
+W ada.containers%s	a-contai.ads		a-contai.ali
+
+U ada.containers.generic_sort%s  a-cogeso.ads	9a607314 BN NE OL PU GE
+W ada.containers%s	a-contai.ads		a-contai.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-contai.ads		20230727081304 61e5e089 ada.containers%s
+D a-cogeso.ads		20230727081304 fb85939d ada.containers.generic_sort%s
+D a-cogeso.adb		20230727081304 b9243803 ada.containers.generic_sort%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [generic_sort ada__containers 39 26 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|39r11 40r14 4|32r11 125r5
+X 2 a-contai.ads
+16K13*Containers 28e19 3|39r15 40r18 4|32r15 125r9
+X 3 a-cogeso.ads
+35E9 Index_Type 36r40 37r39 39r54 4|32r54 35r37 50r37 51r30 53r14 74r15 74r39
+36V18 Before{boolean} 36>26 36>32 4|62s14
+36*26 Left{35E9}
+36*32 Right{35E9}
+37U19 Swap 37>25 37>31 4|71s7
+37*25 Left{35E9}
+37*31 Right{35E9}
+39u26*Generic_Sort 2|16k13 3|39>40 39>47 40r29 4|32b26 125l20 125t32
+39*40 First 4|32b40 51r46 74r55
+39*47 Last 4|32b47 74r31
+X 4 a-cogeso.adb
+33I12 T{long_long_integer} 35r27 38r24 41r27 44r24 50r27 51r20 51r59 60r24
+. 69r27 74r10 74r64 80r24 81r16 82r16 83r16
+35V13 To_Index{3|35E9} 35>23 36r19 50b13 54l8 54t16 62s22 62s36 71s13 71s27
+35i23 J{33I12} 50b23 51r55
+38V13 Lt{boolean} 38>17 38>20 39r19 60b13 63l8 63t10 90s16 104s13
+38i17 J{33I12} 60b17 62r32
+38i20 K{33I12} 60b20 62r46
+41U14 Xchg 41>20 41>23 42r19 69b14 72l8 72t12 97s10 105s13 121s7
+41i20 J{33I12} 69b20 71r23
+41i23 K{33I12} 69b23 71r37
+44U14 Sift 44>20 80b14 111l8 111t12 117s7 123s7
+44i20 S{33I12} 80b20 81r21 101r18
+51i7 K{long_long_integer} 53r30
+74i4 Max{33I12} 89r19 93r22 116r26 120r10 121r16 122m7 122r14
+81i7 C{33I12} 87r17 87r21 97r21 98m10 101r13 102r20 104r25 105r27 106m13
+82i7 Son{33I12} 87m10 89r13 90r20 90r25 91m16 91r23 93r16 97r16 98r15
+83i7 Father{33I12} 102m10 104r17 105r19 106r18
+116i8 J{long_long_integer} 117r13
+116l34 loop 118e12
+120l18 loop 124e12
+

@@ -1,0 +1,36 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.pure_exceptions%s  s-purexc.ads	7135dfb5 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-purexc.ads		20230727081304 81654053 system.pure_exceptions%s
+G a e
+G c Z s s [raise_exception system__pure_exceptions 63 14 none]
+G c Z s s [exception_typeIP system__pure_exceptions 39 9 none]
+X 1 system.ads
+37K9*System 192e11 2|36r9 75r5
+X 2 s-purexc.ads
+36K16*Pure_Exceptions 1|37k9 2|69E26 75l12 75e27
+39R9*Exception_Type 39e46 57r18 58r18 59r18 60r18 63r35
+57r4*CE{39R9} 69r22
+58r4*PE{39R9} 70r22
+59r4*SE{39R9} 71r22
+60r4*TE{39R9} 72r22
+63U14*Raise_Exception 63>31 63>51 64b<ada,__gnat_raise_exception>24 65r22
+63r31 E{39R9}
+63a51 Message{string}
+

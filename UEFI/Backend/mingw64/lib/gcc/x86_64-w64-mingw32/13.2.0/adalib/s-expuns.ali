@@ -1,0 +1,41 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.exp_uns%s	s-expuns.ads		1c00b6ab NE OL PK
+W system%s		system.ads		system.ali
+W system.exponu%s
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-expuns.ads		20230727081304 4990aab3 system.exp_uns%s
+D s-exponu.ads		20230727081304 5feafca7 system.exponu%s
+D s-exponu.adb		20230727081304 29154284 system.exponu%b
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [exp_unsignedR system__exp_uns__exp_unsignedGP3371 57 13 none]
+G c Z s s [exp_unsigned system__exp_uns 57 13 none]
+X 1 system.ads
+37K9*System 192e11 2|48r6 49r6 51r9 60r5
+X 2 s-expuns.ads
+51K16*Exp_Uns 1|37k9 2|60l12 60e19
+55M12*Unsigned{5|44M9} 57r41
+57V13*Exp_Unsigned[3|49]{5|44M9} 58r26 4|32b17
+X 3 s-exponu.ads
+49v17*Exponu 1|37k9 2|48w13 57r33
+X 5 s-unstyp.ads
+38K16*Unsigned_Types 2|49w13 55r24 5|249e26
+44M9*Unsigned 2|55r39
+

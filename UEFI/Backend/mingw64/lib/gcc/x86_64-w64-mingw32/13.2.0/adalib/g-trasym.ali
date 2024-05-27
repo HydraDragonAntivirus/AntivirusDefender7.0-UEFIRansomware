@@ -1,0 +1,50 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U gnat.traceback.symbolic%s  g-trasym.ads	2086345e NE OL
+W gnat.traceback%s	g-traceb.adb		g-traceb.ali
+W system%s		system.ads		system.ali
+W system.traceback%s	s-traceb.adb		s-traceb.ali
+W system.traceback.symbolic%s  s-trasym.adb	s-trasym.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-exctra.ads		20230727081304 0966bad0 ada.exceptions.traceback%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-traceb.ads		20230727081304 6cba3063 gnat.traceback%s
+D g-trasym.ads		20230727081304 f121a8ad gnat.traceback.symbolic%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traceb.ads		20230727081304 4e864b31 system.traceback%s
+D s-trasym.ads		20230727081304 bd1dac90 system.traceback.symbolic%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+X 5 gnat.ads
+37K9*GNAT 60e9 7|37r9
+X 6 g-traceb.ads
+78K14*Traceback 5|37k9 6|119e19 7|37r14
+X 7 g-trasym.ads
+37K24*Symbolic=37:58
+X 8 system.ads
+37K9*System 7|36r6 37r41 8|192e11
+X 12 s-traceb.ads
+38K16*Traceback 7|36r13 37r48 12|81e21
+75V13*C_Call_Chain{natural} 78i<c,system__traceback__c_call_chain>22
+X 13 s-trasym.ads
+77K26*Symbolic 7|36w23 37r58 13|108e30
+

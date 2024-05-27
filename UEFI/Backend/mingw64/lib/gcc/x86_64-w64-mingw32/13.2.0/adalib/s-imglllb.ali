@@ -1,0 +1,56 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_RECURSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.img_lllb%s	s-imglllb.ads		03082eb4 NE OL PR PK
+W system%s		system.ads		system.ali
+W system.image_b%s
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-imageb.ads		20230727081304 3953e0e6 system.image_b%s
+D s-imageb.adb		20230727081304 f75d5165 system.image_b%b
+D s-imglllb.ads		20230727081304 30212eed system.img_lllb%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [set_image_based_integer system__img_lllb__impl 44 14 44_4]
+G c Z s s [set_image_based_unsigned system__img_lllb__impl 60 14 44_4]
+X 1 system.ads
+37K9*System 192e11 4|36r6 37r6 39r9 63r5
+X 2 s-imageb.ads
+41k16*Image_B 75e19 4|36w13 45r9
+44U14*Set_Image_Based_Integer 4|53r19[44]
+60U14*Set_Image_Based_Unsigned 4|61r19[44]
+X 4 s-imglllb.ads
+39K16*Img_LLLB 1|37k9 4|63l12 63e20
+42M12*Long_Long_Long_Unsigned{5|47M9} 45r42 56r11
+44K12*Impl[2|41] 53r14 61r14
+47U14*Set_Image_Based_Long_Long_Long_Integer=53:19
+48i7 V{long_long_long_integer}
+49i7 B{natural}
+50i7 W{integer}
+51a7 S{string}
+52i7 P{natural}
+55U14*Set_Image_Based_Long_Long_Long_Unsigned=61:19
+56m7 V{5|47M9}
+57i7 B{natural}
+58i7 W{integer}
+59a7 S{string}
+60i7 P{natural}
+X 5 s-unstyp.ads
+38K16*Unsigned_Types 4|37w13 42r39 5|249e26
+47M9*Long_Long_Long_Unsigned 4|42r54
+

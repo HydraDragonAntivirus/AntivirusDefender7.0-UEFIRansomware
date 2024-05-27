@@ -1,0 +1,95 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RR NO_ELABORATION_CODE
+
+U system.machine_code%s	s-maccod.ads		3d9a97f8 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-maccod.ads		20230727081304 cdca081e system.machine_code%s
+G a e
+G c Z s s [asm system__machine_code 64 14 none]
+G c Z s s [asm system__machine_code 71 14 none]
+G c Z s s [asm system__machine_code 78 14 none]
+G c Z s s [asm system__machine_code 85 14 none]
+G c Z s s [asm system__machine_code 92 13 none]
+G c Z s s [asm system__machine_code 99 13 none]
+G c Z s s [asm system__machine_code 106 13 none]
+G c Z s s [asm system__machine_code 113 13 none]
+G c Z s s [asm_input_operand_listIP system__machine_code 54 9 none]
+G c Z s s [asm_output_operand_listIP system__machine_code 57 9 none]
+X 1 system.ads
+37K9*System 192e11 2|36r9 133r5
+X 2 s-maccod.ads
+36K16*Machine_Code 1|37k9 2|124E9 133l12 133e24
+46I9*Asm_Input_Operand<integer> 51r34 55r34 81r17 88r17 109r17 116r17 124c9
+. 130r34
+47I9*Asm_Output_Operand<integer> 52r34 58r34 73r17 87r17 101r17 115r17 125c9
+. 131r34
+51i4*No_Input_Operands{46I9} 81r38 88r39 109r38 116r39 130c4
+52i4*No_Output_Operands{47I9} 73r39 87r39 101r39 115r39 131c4
+54A9*Asm_Input_Operand_List(46I9)<integer> 67r17 74r17 95r17 102r17
+57A9*Asm_Output_Operand_List(47I9)<integer> 66r17 80r17 94r17 108r17
+60I9*Asm_Insn<integer> 97r42 104r42 111r42 118r42 126c9
+64U14*Asm 65>6 66>6 67>6 68>6 69>6 120b30
+65a6 Template{string}
+66a6 Outputs{57A9}
+67a6 Inputs{54A9}
+68a6 Clobber{string}
+69b6 Volatile{boolean}
+71U14*Asm 72>6 73>6 74>6 75>6 76>6 120b30
+72a6 Template{string}
+73i6 Outputs{47I9}
+74a6 Inputs{54A9}
+75a6 Clobber{string}
+76b6 Volatile{boolean}
+78U14*Asm 79>6 80>6 81>6 82>6 83>6 120b30
+79a6 Template{string}
+80a6 Outputs{57A9}
+81i6 Inputs{46I9}
+82a6 Clobber{string}
+83b6 Volatile{boolean}
+85U14*Asm 86>6 87>6 88>6 89>6 90>6 120b30
+86a6 Template{string}
+87i6 Outputs{47I9}
+88i6 Inputs{46I9}
+89a6 Clobber{string}
+90b6 Volatile{boolean}
+92V13*Asm{60I9} 93>6 94>6 95>6 96>6 97>6 120b30
+93a6 Template{string}
+94a6 Outputs{57A9}
+95a6 Inputs{54A9}
+96a6 Clobber{string}
+97b6 Volatile{boolean}
+99V13*Asm{60I9} 100>6 101>6 102>6 103>6 104>6 120b30
+100a6 Template{string}
+101i6 Outputs{47I9}
+102a6 Inputs{54A9}
+103a6 Clobber{string}
+104b6 Volatile{boolean}
+106V13*Asm{60I9} 107>6 108>6 109>6 110>6 111>6 120b30
+107a6 Template{string}
+108a6 Outputs{57A9}
+109i6 Inputs{46I9}
+110a6 Clobber{string}
+111b6 Volatile{boolean}
+113V13*Asm{60I9} 114>6 115>6 116>6 117>6 118>6 120b30
+114a6 Template{string}
+115i6 Outputs{47I9}
+116i6 Inputs{46I9}
+117a6 Clobber{string}
+118b6 Volatile{boolean}
+

@@ -1,0 +1,50 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U gnat.spelling_checker%b  g-speche.adb		5c6b6cce NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+W gnat.spelling_checker_generic%s  g-spchge.adb	g-spchge.ali
+
+U gnat.spelling_checker%s  g-speche.ads		f187db88 NE OL PU PK
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-speche.ads		20230727081304 441f57af gnat.spelling_checker%s
+D g-speche.adb		20230727081304 116bb3ac gnat.spelling_checker%b
+D g-spchge.ads		20230727081304 091f88cd gnat.spelling_checker_generic%s
+D g-spchge.adb		20230727081304 fb9c05db gnat.spelling_checker_generic%b
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [is_bad_spelling_of gnat__spelling_checker 40 13 none]
+G c Z b b [ibsR gnat__spelling_checker__ibsGP2459 36 13 none]
+G c Z b b [ibs gnat__spelling_checker 36 13 none]
+X 3 gnat.ads
+37K9*GNAT 60e9 4|37r9 53r5 5|32r6 34r14 37r6 49r5
+X 4 g-speche.ads
+37K14*Spelling_Checker 3|37k9 4|53l10 53e26 5|34b19 49l10 49t26
+40V13*Is_Bad_Spelling_Of{boolean} 41>7 42>7 5|44b13
+41a7 Found{string} 5|45b7
+42a7 Expect{string} 5|46b7
+X 5 g-speche.adb
+36V13 IBS[6|49]{boolean} 47r12 7|38b13
+X 6 g-spchge.ads
+40K14*Spelling_Checker_Generic 5|32w11 37r11 6|63e34
+49v13*Is_Bad_Spelling_Of 5|37r36
+

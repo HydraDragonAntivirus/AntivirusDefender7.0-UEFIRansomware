@@ -1,0 +1,756 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U system.perfect_hash_generators%b  s-pehage.adb  aee3a529 OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.unchecked_conversion%s
+Z ada.unchecked_deallocation%s
+W gnat%s		gnat.ads		gnat.ali
+Z gnat.dynamic_tables%s
+W gnat.heap_sort_g%s
+W gnat.table%s
+W system%s		system.ads		system.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.memory%s	s-memory.adb		s-memory.ali
+W system.os_lib%s	s-os_lib.adb		s-os_lib.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+N A1831:13 codepeer modified <expr>
+N A1991:19 codepeer false_positive "test always false" "false positive?"
+
+U system.perfect_hash_generators%s  s-pehage.ads  56128d35 EE OL PK
+W system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-dyntab.ads		20230727081304 f1e98b14 gnat.dynamic_tables%s
+D g-dyntab.adb		20230727081304 ff8fd9a6 gnat.dynamic_tables%b
+D g-hesorg.ads		20230727081304 106922da gnat.heap_sort_g%s
+D g-hesorg.adb		20230727081304 b2b1bfd0 gnat.heap_sort_g%b
+D g-table.ads		20230727081304 b4b07c4d gnat.table%s
+D g-table.adb		20230727081304 04d15fc2 gnat.table%b
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-imagei.ads		20230727081304 c707dfd0 system.image_i%s
+D s-imgint.ads		20230727081304 d4a52a9b system.img_int%s
+D s-memory.ads		20230727081304 5b8432d0 system.memory%s
+D s-os_lib.ads		20230727081304 a2467c22 system.os_lib%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-pehage.ads		20230727081304 a64212d3 system.perfect_hash_generators%s
+D s-pehage.adb		20230727081304 0e3e954f system.perfect_hash_generators%b
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-string.ads		20230727081304 582aac7d system.strings%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20230727081304 1f610d7a system.val_int%s
+D s-valuns.ads		20230727081304 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuei.ads		20230727081304 11081e09 system.value_i%s
+D s-vaispe.ads		20230727081304 44130d39 system.value_i_spec%s
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+D s-widuns.ads		20230727081304 866a5800 system.wid_uns%s
+D s-widthu.ads		20230727081304 b32f15e2 system.width_u%s
+G a e
+G c Z s b [initialize system__perfect_hash_generators 79 14 none]
+G c Z s b [finalize system__perfect_hash_generators 97 14 none]
+G c Z s b [insert system__perfect_hash_generators 100 14 none]
+G c Z s b [compute system__perfect_hash_generators 106 14 none]
+G c Z s b [define system__perfect_hash_generators 193 14 none]
+G c Z s b [value system__perfect_hash_generators 203 13 none]
+G c Z b b [new_word system__perfect_hash_generators 104 13 none]
+G c Z b b [resize_word system__perfect_hash_generators 106 14 none]
+G c Z b b [table_typeIP system__perfect_hash_generators__wt__tab 124 9 60_4_129_4]
+G c Z b b [empty_table_array_ptr_to_table_ptr system__perfect_hash_generators__wt__tab 152 13 60_4_129_4]
+G c Z b b [is_empty system__perfect_hash_generators__wt__tab 183 13 60_4_129_4]
+G c Z b b [init system__perfect_hash_generators__wt__tab 186 14 60_4_129_4]
+G c Z b b [first system__perfect_hash_generators__wt__tab 192 13 60_4_129_4]
+G c Z b b [last system__perfect_hash_generators__wt__tab 196 13 60_4_129_4]
+G c Z b b [release system__perfect_hash_generators__wt__tab 201 14 60_4_129_4]
+G c Z b b [set_last system__perfect_hash_generators__wt__tab 213 14 60_4_129_4]
+G c Z b b [increment_last system__perfect_hash_generators__wt__tab 222 14 60_4_129_4]
+G c Z b b [decrement_last system__perfect_hash_generators__wt__tab 226 14 60_4_129_4]
+G c Z b b [append system__perfect_hash_generators__wt__tab 230 14 60_4_129_4]
+G c Z b b [append_all system__perfect_hash_generators__wt__tab 237 14 60_4_129_4]
+G c Z b b [set_item system__perfect_hash_generators__wt__tab 240 14 60_4_129_4]
+G c Z b b [move system__perfect_hash_generators__wt__tab 250 14 60_4_129_4]
+G c Z b b [allocate system__perfect_hash_generators__wt__tab 253 14 60_4_129_4]
+G c Z b b [table_privateIP system__perfect_hash_generators__wt__tab 280 9 60_4_129_4]
+G c Z b b [instanceIP system__perfect_hash_generators__wt__tab 159 9 60_4_129_4]
+G c Z b b [last_allocated system__perfect_hash_generators__wt__tab 43 13 60_4_129_4]
+G c Z b b [grow system__perfect_hash_generators__wt__tab 47 14 60_4_129_4]
+G c Z b b [is_empty system__perfect_hash_generators__wt 79 13 129_4]
+G c Z b b [init system__perfect_hash_generators__wt 81 14 129_4]
+G c Z b b [free system__perfect_hash_generators__wt 83 14 129_4]
+G c Z b b [first system__perfect_hash_generators__wt 86 13 129_4]
+G c Z b b [last system__perfect_hash_generators__wt 89 13 129_4]
+G c Z b b [release system__perfect_hash_generators__wt 92 14 129_4]
+G c Z b b [set_last system__perfect_hash_generators__wt 95 14 129_4]
+G c Z b b [increment_last system__perfect_hash_generators__wt 98 14 129_4]
+G c Z b b [decrement_last system__perfect_hash_generators__wt 101 14 129_4]
+G c Z b b [append system__perfect_hash_generators__wt 104 14 129_4]
+G c Z b b [append_all system__perfect_hash_generators__wt 107 14 129_4]
+G c Z b b [set_item system__perfect_hash_generators__wt 110 14 129_4]
+G c Z b b [save system__perfect_hash_generators__wt 118 13 129_4]
+G c Z b b [restore system__perfect_hash_generators__wt 123 14 129_4]
+G c Z b b [allocate system__perfect_hash_generators__wt 128 14 129_4]
+G c Z b b [allocate system__perfect_hash_generators__wt 129 13 129_4]
+G c Z b b [table_typeIP system__perfect_hash_generators__it__tab 124 9 60_4_130_4]
+G c Z b b [empty_table_array_ptr_to_table_ptr system__perfect_hash_generators__it__tab 152 13 60_4_130_4]
+G c Z b b [is_empty system__perfect_hash_generators__it__tab 183 13 60_4_130_4]
+G c Z b b [init system__perfect_hash_generators__it__tab 186 14 60_4_130_4]
+G c Z b b [first system__perfect_hash_generators__it__tab 192 13 60_4_130_4]
+G c Z b b [last system__perfect_hash_generators__it__tab 196 13 60_4_130_4]
+G c Z b b [release system__perfect_hash_generators__it__tab 201 14 60_4_130_4]
+G c Z b b [set_last system__perfect_hash_generators__it__tab 213 14 60_4_130_4]
+G c Z b b [increment_last system__perfect_hash_generators__it__tab 222 14 60_4_130_4]
+G c Z b b [decrement_last system__perfect_hash_generators__it__tab 226 14 60_4_130_4]
+G c Z b b [append system__perfect_hash_generators__it__tab 230 14 60_4_130_4]
+G c Z b b [append_all system__perfect_hash_generators__it__tab 237 14 60_4_130_4]
+G c Z b b [set_item system__perfect_hash_generators__it__tab 240 14 60_4_130_4]
+G c Z b b [move system__perfect_hash_generators__it__tab 250 14 60_4_130_4]
+G c Z b b [allocate system__perfect_hash_generators__it__tab 253 14 60_4_130_4]
+G c Z b b [table_privateIP system__perfect_hash_generators__it__tab 280 9 60_4_130_4]
+G c Z b b [instanceIP system__perfect_hash_generators__it__tab 159 9 60_4_130_4]
+G c Z b b [last_allocated system__perfect_hash_generators__it__tab 43 13 60_4_130_4]
+G c Z b b [grow system__perfect_hash_generators__it__tab 47 14 60_4_130_4]
+G c Z b b [is_empty system__perfect_hash_generators__it 79 13 130_4]
+G c Z b b [init system__perfect_hash_generators__it 81 14 130_4]
+G c Z b b [free system__perfect_hash_generators__it 83 14 130_4]
+G c Z b b [first system__perfect_hash_generators__it 86 13 130_4]
+G c Z b b [last system__perfect_hash_generators__it 89 13 130_4]
+G c Z b b [release system__perfect_hash_generators__it 92 14 130_4]
+G c Z b b [set_last system__perfect_hash_generators__it 95 14 130_4]
+G c Z b b [increment_last system__perfect_hash_generators__it 98 14 130_4]
+G c Z b b [decrement_last system__perfect_hash_generators__it 101 14 130_4]
+G c Z b b [append system__perfect_hash_generators__it 104 14 130_4]
+G c Z b b [append_all system__perfect_hash_generators__it 107 14 130_4]
+G c Z b b [set_item system__perfect_hash_generators__it 110 14 130_4]
+G c Z b b [save system__perfect_hash_generators__it 118 13 130_4]
+G c Z b b [restore system__perfect_hash_generators__it 123 14 130_4]
+G c Z b b [allocate system__perfect_hash_generators__it 128 14 130_4]
+G c Z b b [allocate system__perfect_hash_generators__it 129 13 130_4]
+G c Z b b [image system__perfect_hash_generators 138 13 none]
+G c Z b b [image system__perfect_hash_generators 139 13 none]
+G c Z b b [trim_trailing_nuls system__perfect_hash_generators 143 13 none]
+G c Z b b [add system__perfect_hash_generators 156 14 none]
+G c Z b b [add system__perfect_hash_generators 157 14 none]
+G c Z b b [put system__perfect_hash_generators 160 14 none]
+G c Z b b [new_line system__perfect_hash_generators 179 14 none]
+G c Z b b [put system__perfect_hash_generators 182 14 none]
+G c Z b b [put_used_char_set system__perfect_hash_generators 185 14 none]
+G c Z b b [put_int_vector system__perfect_hash_generators 188 14 none]
+G c Z b b [put_int_matrix system__perfect_hash_generators 195 14 none]
+G c Z b b [put_edges system__perfect_hash_generators 204 14 none]
+G c Z b b [put_initial_keys system__perfect_hash_generators 207 14 none]
+G c Z b b [put_reduced_keys system__perfect_hash_generators 210 14 none]
+G c Z b b [put_vertex_table system__perfect_hash_generators 213 14 none]
+G c Z b b [apply_position_selection system__perfect_hash_generators 227 14 none]
+G c Z b b [parse_position_selection system__perfect_hash_generators 230 14 none]
+G c Z b b [select_character_set system__perfect_hash_generators 235 14 none]
+G c Z b b [select_char_position system__perfect_hash_generators 239 14 none]
+G c Z b b [random system__perfect_hash_generators 250 14 none]
+G c Z b b [generate_mapping_table system__perfect_hash_generators 253 14 none]
+G c Z b b [generate_mapping_tables system__perfect_hash_generators 260 14 none]
+G c Z b b [compute_edges_and_vertices system__perfect_hash_generators 271 14 none]
+G c Z b b [acyclic system__perfect_hash_generators 279 13 none]
+G c Z b b [assign_values_to_vertices system__perfect_hash_generators 283 14 none]
+G c Z b b [sum system__perfect_hash_generators 289 13 none]
+G c Z b b [allocate system__perfect_hash_generators 303 13 none]
+G c Z b b [initial system__perfect_hash_generators 314 13 none]
+G c Z b b [reduced system__perfect_hash_generators 317 13 none]
+G c Z b b [get_key system__perfect_hash_generators 320 14 none]
+G c Z b b [set_key system__perfect_hash_generators 321 14 none]
+G c Z b b [get_char_pos system__perfect_hash_generators 332 14 none]
+G c Z b b [set_char_pos system__perfect_hash_generators 333 14 none]
+G c Z b b [get_used_char system__perfect_hash_generators 346 14 none]
+G c Z b b [set_used_char system__perfect_hash_generators 347 14 none]
+G c Z b b [get_table system__perfect_hash_generators 360 14 none]
+G c Z b b [set_table system__perfect_hash_generators 361 14 none]
+G c Z b b [get_graph system__perfect_hash_generators 374 14 none]
+G c Z b b [set_graph system__perfect_hash_generators 375 14 none]
+G c Z b b [get_edges system__perfect_hash_generators 387 14 none]
+G c Z b b [set_edges system__perfect_hash_generators 388 14 none]
+G c Z b b [get_vertices system__perfect_hash_generators 402 14 none]
+G c Z b b [set_vertices system__perfect_hash_generators 403 14 none]
+G c Z b b [type_size system__perfect_hash_generators 416 13 none]
+G c Z b b [key_typeIP system__perfect_hash_generators 109 9 none]
+G c Z b b [vertex_typeIP system__perfect_hash_generators 114 9 none]
+G c Z b b [edge_typeIP system__perfect_hash_generators 121 9 none]
+X 9 gnat.ads
+37K9*GNAT 60e9 26|32r6 33r6 129r22 130r22 735r30 1820r33
+X 10 g-dyntab.ads
+102I12*Table_Last_Type{integer}
+124A9*Table_Type(integer)<integer>
+126A12*Big_Table_Type{124A9[14|60[26|129]]}<integer>
+140P9*Table_Ptr(126A12[14|60[26|129]])
+X 12 g-hesorg.ads
+78k14*Heap_Sort_G 88e21 26|32w11 735r35 1820r38
+81U14 Sort 26|799s18[735] 1841s24[1820]
+X 14 g-table.ads
+57k14*Table 150e15 26|33w11 129r27 130r27
+69I12*Table_Last_Type{10|102I12[60[26|129]]}
+70A12*Table_Type{10|124A9[60[26|130]]}<integer> 26|1744r25[130]
+76p4*Table{10|140P9[60[26|130]]} 26|534r13[130] 548r40[129] 565r27[129] 566r16[129]
+. 764r23[129] 765r23[129] 894r27[129] 1004r17[130] 1015r19[130] 1016r19[130]
+. 1017r19[130] 1027r17[130] 1037r20[130] 1048r17[130] 1058r17[130] 1069r21[130]
+. 1070r21[130] 1169r24[129] 1213r26[129] 1224r10[129] 1227r13[129] 1250r10[129]
+. 1546r44[129] 1574r22[130] 1581r25[130] 1606r31[130] 1628r44[129] 1794r23[129]
+. 1794r44[129] 1816r16[129] 1816r37[129] 1817r16[129] 1856r28[129] 1857r28[129]
+. 1900r24[129] 1923r13[129] 1923r49[129] 2023r50[129] 2053r24[129] 2079r10[130]
+. 2089r10[130] 2090r10[130] 2091r10[130] 2100r10[130] 2109r10[130] 2119r10[130]
+. 2129r10[130] 2139r10[130] 2140r10[130]
+81U14 Init 26|1172s10[130]
+89V13 Last{69I12[26|130]} 26|526s34[130] 533s28[130] 888s24[129] 1168s34[129]
+92U14*Release 26|898s10[129] 899s10[130]
+95U14 Set_Last 26|528s10[130] 1220s10[129] 1249s10[129]
+X 16 system.ads
+37K9*System 192e11 25|67r9 210r5 26|35r6 35r25 37r14 146r37 2235r5
+67M9*Address
+X 22 s-memory.ads
+51V13*Alloc{16|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{16|67M9} 103i<c,__gnat_realloc>22
+X 23 s-os_lib.ads
+53K16*OS_Lib 1128e18 26|35w13 35r32 146r44
+64P12*String_Access{30|43P9} 26|102r26
+201I9*File_Descriptor<integer> 26|146r13 161r12 179r31 182r26 185r40 189r16
+. 196r15 204r32 207r39 210r39 213r39 1266r31 1397r26 1415r12 1507r33 1532r39
+. 1556r16 1593r16 1614r39 1637r40 1655r39
+205i4*Standout{201I9} 26|146r51
+669V13*Write{integer} 26|1268s10 1405s10
+X 25 s-pehage.ads
+67K16*Perfect_Hash_Generators 16|37k9 25|210l12 210e35 26|37b21 2235l12 2235t35
+69E9*Optimization 69e49 82r15 26|261r14 271r48 292r15 406r10 703r48 955r14
+. 1154r15 2150r15
+69n26*Memory_Space{69E9} 26|2165r15
+69n40*CPU_Time{69E9} 26|968r22 2157r15
+74b4*Verbose{boolean} 26|633r10 650r10 660r10 667r10 673r10 786r13 801r13
+. 830r13 880r10 988r10 1158r10 1239r10 1963r19 2009r16
+79U14*Initialize 80>7 81>7 82>7 83>7 26|1151b14 1229l8 1229t18
+80i7 Seed{natural} 26|1152b7 1203r15
+81i7 V{positive} 26|1153b7 1196r10 1201r19
+82e7 Optim{69E9} 26|1154b7 1204r15
+83i7 Tries{positive} 26|1155b7 1205r15
+97U14*Finalize 26|878b14 929l8 929t16
+100U14*Insert 100>22 26|1235b14 1260l8 1260t14
+100a22 Value{string} 26|1235b22 1236r33 1240r40 1244r16 1245r25 1250r34
+103X4*Too_Many_Tries 26|693r16
+106U14*Compute 106>23 26|642b14 697l8 697t15
+106a23 Position{string} 26|642b23 654r10 655r36
+186E9*Table_Name 191e19 194r19 204r14 26|843r19 2212r14
+187n7*Character_Position{186E9} 26|850r15 2218r15
+188n7*Used_Character_Set{186E9} 26|855r15 2221r15
+189n7*Function_Table_1{186E9} 26|860r15 2224r15
+190n7*Function_Table_2{186E9} 26|861r15 2227r15
+191n7*Graph_Table{186E9} 26|867r15 2230r15
+193U14*Define 194>7 195<7 196<7 197<7 26|842b14 872l8 872t14
+194e7 Name{186E9} 26|843b7 849r12
+195i7 Item_Size{natural} 26|844b7 851m13 856m13 863m13 868m13
+196i7 Length_1{natural} 26|845b7 852m13 857m13 864m13 869m13
+197i7 Length_2{natural} 26|846b7 853m13 858m13 865m13 870m13
+203V13*Value{natural} 204>7 205>7 206>7 26|2211b13 2233l8 2233t13
+204e7 Name{186E9} 26|2212b7 2217r12
+205i7 J{natural} 26|2213b7 2219r34 2222r50 2225r35 2228r35 2231r31
+206i7 K{natural} 26|2214b7 2225r38 2228r38
+X 26 s-pehage.adb
+92I12 Word_Id{integer} 129r45 314r41 317r41 1142r41 1698r41
+93I12 Key_Id{integer} 124r13 314r26 317r26 320r27 321r27 437r23 1034r26 1142r26
+. 1698r26 2107r27
+94I12 Vertex_Id{integer} 98r25 122r13 123r13 424r38 426r49 435r49 438r23
+. 439r23 577r11 579r29 587r29
+95I12 Edge_Id{integer} 99r25 110r14 115r15 116r15 426r33 435r33
+96I12 Table_Id{integer} 100r25 198r15 254r14 291r15 303r61 310r11 328r23
+. 340r24 353r13 354r13 367r12 383r16 396r15 525r61 2149r15
+98i4 No_Vertex{94I12} 424r62 446r20 478r30 484r30 754r28 754r39
+99i4 No_Edge{95I12} 567r34 761r22 815r27 822r31
+100i4 No_Table{96I12} 310r23 328r35 340r36 353r25 354r25 367r24 383r28 396r27
+. 609r14 745r18 749r21 903r15 905r27 908r28 911r13 912r13 917r16 920r20 923r19
+. 962r15 962r38 1176r15 1178r27 1181r28 1184r13 1185r13 1190r16 1193r20 1200r19
+102P9 Word_Type<30|43P9> 103r36 104r42 106r38 129r34 290r15 1277r42 1707r38
+. 2148r15
+103U14 Free_Word=103:55 565s13 894s13 1169s10 1713s10
+103p25 W<30|43P9>
+104V13 New_Word{102P9} 104>23 566s39 1250s24 1277b13 1280l8 1280t16 1715s15
+. 1923s36
+104a23 S{string} 1277b23 1279r26
+106U14 Resize_Word 106=27 106>49 1213s10 1707b14 1717l8 1717t19
+106p27 W{102P9} 1707b27 1708r31 1713m21 1715m10
+106i49 Len{natural} 1707b49 1709r25 1712r15
+109R9 Key_Type 111e14 320r42 321r42 706r21 1034r41 1035r11 1536r12 1618r12
+. 2107r42
+110i7*Edge{95I12} 567m26 619r38 761m14 815r20 816m20 1037m9 1545r30 1627r30
+. 2109r35
+114R9 Vertex_Type 117e14 402r48 403r48 440r14 589r23 708r21 1065r47 1067r11
+. 1659r12 1725r61 2136r48
+115i7*First{95I12} 450r24 592r21 822r23 823m23 1069m9 1668r30 1833r22 1834r27
+. 1840r41 1841r49 1843r27 1845r31 1899r32 2019r46 2139r32
+116i7*Last{95I12} 450r35 592r32 826m20 1070m9 1669r30 1833r36 1835r27 1841r36
+. 1845r46 1849r32 1899r51 2020r46 2140r32
+121R9 Edge_Type 125e14 387r45 388r45 436r23 465r15 588r14 707r21 720r24 721r24
+. 1011r44 1013r11 1508r12 2086r45
+122i7*X{94I12} 478r25 479r25 479r36 485r43 619r44 723r20 723r27 723r41 723r48
+. 820r42 827r32 1015m9 1522r30 2089r32
+123i7*Y{94I12} 438r38 439r45 484r25 595r29 597r29 598r26 723r62 723r69 1016m9
+. 1523r30 2090r32
+124i7*Key{93I12} 437r38 454r33 597r35 813r35 817r30 1017m9 1524r30 2091r32
+129K12 WT[14|57] 548r37 565r24 566r13 764r20 765r20 888r21 894r24 898r7 1168r31
+. 1169r21 1213r23 1220r7 1224r7 1227r10 1249r7 1250r7 1546r41 1628r41 1794r20
+. 1794r41 1816r13 1816r34 1817r13 1856r25 1857r25 1900r21 1923r10 1923r46
+. 2023r47 2053r21
+130K12 IT[14|57] 526r31 528r7 533r25 534r10 899r7 1004r14 1015r16 1016r16
+. 1017r16 1027r14 1037r17 1048r14 1058r14 1069r18 1070r18 1172r7 1574r19
+. 1581r22 1606r28 1744r22 2079r7 2089r7 2090r7 2091r7 2100r7 2109r7 2119r7
+. 2129r7 2139r7 2140r7
+138V13 Image{string} 138>20 138>35 1078b13 1111l8 1111t13 1521s21 1522s21
+. 1523s21 1524s21 1544s21 1545s21 1575s24 1582s27 1606s21 1626s21 1627s21
+. 1647s19 1667s21 1668s21 1669s21
+138i20 Int{integer} 1078b20 1102r10 1105r16 1107r15
+138i35 W{natural} 1078b35 1110r33
+139V13 Image{string} 139>20 139>35 1110s14 1117b13 1136l8 1136t13
+139a20 Str{string} 1117b20 1118r33 1131r40 1131r45
+139i35 W{natural} 1117b34 1122r16 1123r17
+143V13 Trim_Trailing_Nuls{string} 143>33 1546s21 1628s21 2023s27 2181b13
+. 2190l8 2190t26
+143a33 Str{string} 2181b33 2183r24 2184r13 2185r20 2185r25 2189r14
+146i4 Output=146:51{23|201I9} 634r26 651r28 662r13 668r28 674r29 787r29 788r29
+. 790r29 802r29 803r29 805r29 831r31 832r31 833r31 881r15 882r20 989r29 990r26
+. 992r26 1159r15 1160r20 1240r15 1241r20 1964r24 1968r29 2010r21 2014r26
+. 2015r21 2016r26 2022r27 2024r32 2026r24 2027r29
+149e4 EOL{character} 1268r23
+151N4 Max 153r24 1447r28 1511r32 1535r32 1617r32 1658r32
+152i4 Last{natural} 501r13 502m7 502r15 517r13 517r25 518m7 518r15 1435r29
+. 1437m10 1444m10 1447r10 1451r10
+153a4 Line{string} 501m7 517m7 1435r18
+156U14 Add 156>19 498b14 503l8 503t11 1456s16 1463s16 1469s10 1476s10 1482s10
+. 1485s13 1489s13 1493s13 1494s13 1499s10
+156e19 C{character} 498b19 499r22 501r26
+157U14 Add 157>19 509b14 519l8 519t11 1452s10 1459s19 1472s13 1479s7
+157a19 S{string} 509b19 510r33 512r16 513r25 517r40
+160U14 Put 161>7 162>7 163>7 164>7 165>7 166>7 167>7 168>7 1414b14 1501l8
+. 1501t11 1521s10 1522s10 1523s10 1524s10 1544s10 1545s10 1546s10 1575s13
+. 1582s16 1606s10 1626s10 1627s10 1628s10 1646s10 1667s10 1668s10 1669s10
+161i7 F{23|201I9} 1415b7 1435r15 1436r20
+162a7 S{string} 1416b7 1424r33 1479r12
+163i7 F1{natural} 1417b7 1443r15 1454r13 1455r21 1458r19 1484r13
+164i7 L1{natural} 1418b7 1454r19 1458r24 1484r18 1488r22
+165i7 C1{natural} 1419b7 1443r10 1455r16 1488r16
+166i7 F2{natural} 1420b7 1443r32 1455r38 1468r15 1471r13
+167i7 L2{natural} 1421b7 1471r18 1481r15
+168i7 C2{natural} 1422b7 1443r27 1455r33 1468r10 1481r10
+179U14 New_Line 179>24 882s10 1160s10 1241s10 1266b14 1271l8 1271t16 1436s10
+. 1515s7 1540s7 1570s7 1603s7 1622s7 1643s7 1663s7 1968s19 2014s16 2016s16
+. 2024s22 2027s19
+179i24 File{23|201I9} 1266b24 1268r17
+182U14 Put 182>19 182>43 881s10 1159s10 1240s10 1397b14 1408l8 1408t11 1435s10
+. 1514s7 1539s7 1569s7 1602s7 1621s7 1642s7 1662s7 1964s19 2010s16 2015s16
+. 2022s22 2026s19
+182i19 File{23|201I9} 1397b19 1405r17
+182a43 Str{string} 1397b43 1398r33 1400r16 1401r25 1405r23
+185U14 Put_Used_Char_Set 185>33 185>57 674s10 989s10 1637b14 1649l8 1649t25
+185i33 File{23|201I9} 1637b33 1642r12 1643r17 1647r13
+185a57 Title{string} 1637b57 1642r18
+188U14 Put_Int_Vector 189>7 190>7 191>7 192>7 634s10 661s10 1592b14 1608l8
+. 1608t22
+189i7 File{23|201I9} 1593b7 1602r12 1603r17 1606r15
+190a7 Title{string} 1594b7 1602r18
+191i7 Vector{integer} 1595b7 1606r38
+192i7 Length{natural} 1596b7 1599r32
+195U14 Put_Int_Matrix 196>7 197>7 198>7 199>7 200>7 788s13 790s13 803s13
+. 805s13 990s10 992s10 1555b14 1586l8 1586t22
+196i7 File{23|201I9} 1556b7 1569r12 1570r17 1575r18 1582r21
+197a7 Title{string} 1557b7 1569r18
+198i7 Table{96I12} 1558b7 1574r29 1581r32
+199i7 Len_1{natural} 1559b7 1563r32 1581r48
+200i7 Len_2{natural} 1560b7 1565r32 1572r10
+204U14 Put_Edges 204>25 204>49 787s13 802s13 832s13 1507b14 1526l8 1526t17
+204i25 File{23|201I9} 1507b25 1514r12 1515r17 1521r15 1522r15 1523r15 1524r15
+204a49 Title{string} 1507b50 1514r18
+207U14 Put_Initial_Keys 207>32 207>56 651s10 1532b14 1549l8 1549t24
+207i32 File{23|201I9} 1532b32 1539r12 1540r17 1544r15 1545r15 1546r15
+207a56 Title{string} 1532b56 1539r18
+210U14 Put_Reduced_Keys 210>32 210>56 668s10 831s13 1614b14 1631l8 1631t24
+210i32 File{23|201I9} 1614b32 1621r12 1622r17 1626r15 1627r15 1628r15
+210a56 Title{string} 1614b56 1621r18
+213U14 Put_Vertex_Table 213>32 213>56 833s13 1655b14 1671l8 1671t24
+213i32 File{23|201I9} 1655b32 1662r12 1663r17 1667r15 1668r15 1669r15
+213a56 Title{string} 1655b56 1662r18
+227U14 Apply_Position_Selection 544b14 570l8 570t32 665s7
+230U14 Parse_Position_Selection 230>40 655s10 1286b14 1391l8 1391t32
+230a40 Argument{string} 1286b40 1287r31 1288r31 1301r27 1318r18 1348r35 1362r16
+235U14 Select_Character_Set 671s7 2045b14 2070l8 2070t28
+239U14 Select_Char_Position 657s10 1723b14 2039l8 2039t28
+250U14 Random 250=22 944s13 1677b14 1692l8 1692t14
+250i22 Seed{natural} 1677b22 1687r12 1688r12 1691m7
+253U14 Generate_Mapping_Table 254>7 255>7 256>7 257=7 935b14 948l8 948t30
+. 985s7 986s7
+254i7 Tab{96I12} 936b7 945r24
+255i7 L1{natural} 937b7 942r21
+256i7 L2{natural} 938b7 943r24
+257i7 Seed{natural} 939b7 944m21 945r35
+260U14 Generate_Mapping_Tables 261>7 262=7 680s10 954b14 995l8 995t31
+261e7 Opt{25|69E9} 955b7 968r16
+262i7 Seed{natural} 956b7 985m51 986m51
+271U14 Compute_Edges_And_Vertices 271>42 681s10 703b14 836l8 836t34
+271e42 Opt{25|69E9} 703b42 764r48 765r48
+279V13 Acyclic{boolean} 423b13 492l8 492t15 686s36
+283U14 Assign_Values_To_Vertices 576b14 636l8 636t33 696s7
+289V13 Sum{natural} 290>7 291>7 292>7 764s15 765s15 2147b13 2175l8 2175t11
+290p7 Word{102P9} 2148b7 2159r26 2160r57 2167r26 2170r45
+291i7 Table{96I12} 2149b7 2160r32 2168r32
+292e7 Opt{25|69E9} 2150b7 2156r12
+303V13 Allocate{96I12} 303>23 303>36 525b13 538l8 538t16 611s15 746s19 750s22
+. 980s19 981s19 1207s15 1331s26 1381s26 2034s23 2060s24
+303i23 N{natural} 525b23 528r24
+303i36 S{natural} 525b36 528r28
+310i4 Keys{96I12} 903m7 1037r27 1176m7 1207m7 2109r17
+311i4 NK{natural} 546r21 596r31 597r60 618r21 646r10 743r24 759r21 868r37
+. 893r18 926m7 1196r19 1207r25 1212r21 1220r29 1224r17 1226r21 1249r20 1250r17
+. 1251m7 1251r13 1534r32 1616r32 1700r18 1784r25 1788r25 1806r26 1810r26
+. 1922r21 1932r57 1940r42 2002r41 2051r21
+314V13 Initial{92I12} 314>22 315r19 548s47 1142b13 1145l8 1145t15 1213s33
+. 1546s51 1923s56 2053s31
+314i22 K{93I12} 1142b22 1144r14
+317V13 Reduced{92I12} 317>22 318r19 565s34 566s23 764s30 765s30 1168s16 1220s20
+. 1227s20 1628s51 1698b13 1701l8 1701t15 1840s26 1856s35 1857s35 1900s31
+. 1923s20 2023s57
+317i22 K{93I12} 1698b22 1700r14
+320V14 Get_Key{109R9} 320>23 619s26 760s17 813s21 1034b13 1039l8 1039t15
+. 1543s15 1625s15
+320i23 N{93I12} 1034b22 1037r34
+321U14 Set_Key 321>23 321>35 567s13 762s10 817s16 2107b14 2110l8 2110t15
+321i23 N{93I12} 2107b23 2109r24
+321r35 Item{109R9} 2107b35 2109r30
+328i4 Char_Pos_Set{96I12} 662r42 905m7 1002r31 1178m7 1331m10 1381m10 2034m7
+. 2077r31
+329i4 Char_Pos_Set_Len{natural} 556r27 662r56 852r26 906m7 978r23 1179m7
+. 1330m10 1331r36 1333r24 1380m10 1381r36 2033m7 2034r33 2052r24
+332V14 Get_Char_Pos{natural} 332>28 557s30 559s30 1001b13 1005l8 1005t20
+. 2053s44 2219s20
+332i28 P{natural} 1001b27 1002r46
+333U14 Set_Char_Pos 333>28 333>41 1334s13 1386s16 2037s10 2076b14 2080l8
+. 2080t20
+333i28 P{natural} 2076b28 2077r46
+333i41 Item{natural} 2076b41 2079r23
+340i4 Used_Char_Set{96I12} 908m7 1056r31 1181m7 2060m7 2127r31
+341i4 Used_Char_Set_Len{natural} 909m7 1182m7 2059m7 2060r34
+346V14 Get_Used_Char{natural} 346>29 970s32 1055b13 1059l8 1059t21 1647s26
+. 2160s42 2222s20
+346e29 C{character} 1055b28 1056r62
+347U14 Set_Used_Char 347>29 347>44 2064s13 2067s13 2126b14 2130l8 2130t21
+347e29 C{character} 2126b29 2127r62
+347i44 Item{natural} 2126b44 2129r23
+353i4 T1{96I12} 764r44 788r57 803r57 911m7 962r10 980m13 985r31 990r54 1184m7
+. 2225r31
+354i4 T2{96I12} 765r44 790r57 805r57 912m7 962r33 981m13 986r31 992r54 1185m7
+. 2228r31
+355i4 T1_Len{natural} 789r29 791r29 804r29 806r29 864r26 914m7 978m13 980r29
+. 981r29 985r35 986r35 991r25 993r25 1046r40 1187m7 2117r41 2158r27 2166r27
+356i4 T2_Len{natural} 789r37 791r37 804r37 806r37 865r26 915m7 979m13 980r38
+. 981r38 985r43 986r43 991r33 993r33 1188m7
+360V14 Get_Table{natural} 360>25 360>38 360>41 1045b13 1049l8 1049t17 2160s21
+. 2168s21 2225s20 2228s20
+360i25 T{integer} 1045b24 1046r31
+360i38 X{natural} 1045b37 1046r50
+360i41 Y{natural} 1045b40 1046r36
+361U14 Set_Table 361>25 361>38 361>41 361>54 945s13 2116b14 2120l8 2120t17
+361i25 T{integer} 2116b25 2117r31
+361i38 X{natural} 2116b38 2117r51
+361i41 Y{natural} 2116b41 2117r37
+361i54 Item{natural} 2116b54 2119r23
+367i4 G{96I12} 609r10 611m10 634r63 917m7 1027r24 1190m7 2100r17
+368i4 G_Len{natural} 610m10 611r25 614r21 627r21 634r66 918m7 1191m7
+371i4 NT{natural} 679r21 1205m7
+374V14 Get_Graph{integer} 374>25 595s16 597s41 621s13 628s13 1025b13 1028l8
+. 1028t17 2231s20
+374i25 N{natural} 1025b24 1027r28
+375U14 Set_Graph 375>25 375>38 597s16 615s10 622s13 629s13 2098b14 2101l8
+. 2101t17
+375i25 N{natural} 2098b25 2100r21
+375i38 Item{integer} 2098b38 2100r27
+382N4 Edge_Size 746r40 1012r44 2087r44
+383i4 Edges{96I12} 745r10 746m10 920m7 1012r31 1193m7 2087r31
+384i4 Edges_Len{natural} 472r21 686r17 743m7 746r29 783m10 799r24 811r24
+. 921m7 1194m7 1510r32
+387V14 Get_Edges{121R9} 387>25 436s36 454s19 474s18 593s18 619s15 720s37
+. 721s37 732s25 812s21 1011b13 1019l8 1019t17 1520s15
+387i25 F{natural} 1011b24 1012r40
+388U14 Set_Edges 388>25 388>38 732s10 776s10 777s10 2086b14 2092l8 2092t17
+388i25 F{natural} 2086b25 2087r40
+388r38 Item{121R9} 2086b38 2089r27 2090r27 2091r27
+394N4 Vertex_Size 750r36 1066r47 2137r47
+396i4 Vertices{96I12} 749r10 750m10 923m7 1066r31 1200m7 2137r31
+399i4 NV{natural} 424r27 610r19 750r32 753r21 863r37 869r26 924m7 945r44
+. 1201m7 1657r32 2161r31 2162r33 2169r31 2170r64
+402V14 Get_Vertices{114R9} 402>28 448s18 589s38 820s23 1065b13 1072l8 1072t20
+. 1666s15
+402i28 F{natural} 1065b27 1066r43
+403U14 Set_Vertices 403>28 403>41 754s10 827s13 2136b14 2141l8 2141t20
+403i28 F{natural} 2136b28 2137r43
+403r41 Item{114R9} 2136b41 2139r27 2140r27
+406e4 Opt{25|69E9} 680r35 681r38 1204m7
+409i4 Max_Key_Len{natural} 927m7 1213r47 1253r10 1254m10 1289r31 1744r42
+. 1953r58
+410i4 Min_Key_Len{natural} 928m7 1257r10 1257r40 1258m10 1953r41
+413i4 S{natural} 680m40 680r40 1203m7
+416V13 Type_Size{natural} 416>24 863s26 868s26 2196b13 2205l8 2205t17
+416i24 L{natural} 2196b24 2198r10 2200r13
+424a7 Marks(94I12) 439r36 447m13 478r13 479m13 484r13
+426V16 Traverse{boolean} 426>26 426>42 435b16 455s31 463l11 463t19 485s25
+426i26 Edge{95I12} 435b26 436r47
+426i42 Mark{94I12} 435b42 443r17 447r26 455r44
+436r10 E{121R9} 437r36 438r36 439r43
+437i10 K{93I12} 454r40
+438i10 Y{94I12} 447r20 448r32
+439i10 M{94I12} 443r13 446r16
+440r10 V{114R9} 448m13 450r22 450r33
+450i17 J{integer} 454r30 455r41
+465r7 Edge{121R9} 474m10 478r20 479r20 479r31 484r20 485r38
+472i11 J{integer} 474r29 485r35
+510i7 Len{natural} 517r32 518r22
+512i11 J{integer} 513r28
+526i7 L{integer} 528r20 533r16 537r14
+533i11 J{integer} 534r20
+546i11 J{integer} 548r56 565r43 566r32 567r22
+548a13 IW{string} 549r31 550r29 557r26 559r26
+549a13 RW{string} 559m16 566r49
+550i13 N{natural} 558m16 558r21 559r20
+556i17 C{integer} 557r44 559r44
+577i7 X{94I12} 619m10 621r24 622r24 623r21
+579U17 Assign 579>25 587b17 598s16 601l11 601t17 623s13
+579i25 X{94I12} 587b25 589r52 597r52
+588r10 E{121R9} 593m13 595r27 597r27 597r33 598r24
+589r10 V{114R9} 592r19 592r30
+592i14 J{integer} 593r29
+614i11 J{integer} 615r21
+618i11 K{integer} 619r35
+627i11 J{integer} 628r24 629r24
+643b7 Success{boolean} 687m13 692r14
+679i11 J{integer}
+704i7 X{natural} 764m10 769r13 776r33 777r36
+705i7 Y{natural} 765m10 769r17 776r36 777r33
+706r7 Key{109R9} 760m10 761m10 762r22 813m13 815r16 816m16 817r35
+707r7 Edge{121R9} 812m13 813r30 817r25 820r37 827r27
+708r7 Vertex{114R9} 820m13 822r16 823m16 826m13 827r35
+709b7 Not_Acyclic{boolean} 770m13 782r10
+711U17 Move 711>23 711>39 730b17 733l11 733t15 735r48
+711i23 From{natural} 730b23 732r36
+711i39 To{natural} 730b39 732r21
+712V16 Lt{boolean} 712>20 712>23 719b16 724l11 724t13 735r54
+712i20 L{natural} 719b20 720r48
+712i23 R{natural} 719b23 721r48
+720r10 EL{121R9} 723r17 723r38 723r59
+721r10 ER{121R9} 723r24 723r45 723r66
+735K15 Sorting[12|78] 799r10
+753i11 J{integer} 754r24
+759i11 J{integer} 760r26 762r19 764r39 765r39 776r25 776r39 777r25 777r39
+811i14 E{integer} 812r32 816r28 823r32 826r28
+888i11 W{integer} 893r13 894r34
+942i11 J{integer} 945r29
+943i14 K{integer} 945r32
+964i13 Used_Char_Last{natural} 972m22 979r23
+965i13 Used_Char{natural} 970m19 971r22 972r40
+969e20 P{character} 970r47
+1002i7 N{natural} 1004r24
+1012i7 N{natural} 1015r26 1016r26 1017r26
+1013r7 E{121R9} 1015m7 1016m7 1017m7 1018r14
+1035r7 K{109R9} 1037m7 1038r14
+1046i7 N{natural} 1048r24
+1056i7 N{natural} 1058r24
+1066i7 N{natural} 1069r28 1070r28
+1067r7 V{114R9} 1069m7 1070m7 1071r14
+1079a7 B{string} 1096m10 1104m10 1110r21
+1080i7 L{natural} 1095m10 1095r15 1096r13 1103m10 1103r15 1104r13 1110r29
+1082U17 Img 1082>22 1089b17 1092s13 1097l11 1097t14 1105s10 1107s10
+1082i22 V{natural} 1089b22 1091r13 1092r18 1096r35
+1118i7 Len{natural} 1119r24 1130r24 1131r24
+1119i7 Max{natural} 1122r10 1123m10 1127r29 1127r43 1131r18
+1127a10 Buf{string} 1131m13 1134r17
+1130i14 J{integer} 1131r34 1131r57
+1168i11 W{integer} 1169r31
+1212i11 K{integer} 1213r42
+1226i11 W{integer} 1227r29
+1236i7 Len{natural} 1253r24 1254r25 1257r34 1258r25
+1244i11 J{integer} 1245r32
+1287i7 N{natural} 1301r37 1306m13 1306r18 1316m13 1316r18 1317r27 1318r28
+. 1329r14 1348r19 1348r45 1349m19 1349r24 1360r27 1362r26 1366m13 1366r18
+. 1371m10 1374m16 1374r21 1380r30 1383m10 1386r30 1387m16 1387r21
+1288i7 L{natural} 1317r23 1329r10 1348r24 1360r23
+1289i7 M{natural} 1291r23 1307r20 1330r30
+1291a7 T(boolean) 1356m19 1372r19 1373r16 1384r19 1385r16
+1293V16 Parse_Index{natural} 1300b16 1322l11 1322t22 1343s25 1350s27
+1301e10 C{character} 1305r13 1310r13 1314r16 1315r43 1318m13
+1302i10 V{natural} 1315m13 1315r18 1321r17
+1333i14 C{integer} 1334r27 1334r30
+1340i16 First{natural} 1343m16 1344r25 1355r25
+1340i23 Last{natural} 1344m16 1350m19 1355r34
+1355i20 J{integer} 1356r22
+1372i14 J{integer} 1373r19
+1384i14 J{integer} 1385r19 1386r33
+1398i7 Len{natural} 1405r36 1405r44
+1400i11 J{integer} 1401r30
+1424i7 Len{natural} 1447r17
+1426U17 Flush 1433b17 1438l11 1438t16 1448s10 1486s13 1490s13 1495s13
+1508r7 E{121R9} 1520m10 1522r28 1523r28 1524r28
+1509i7 F1{natural} 1519r16 1521r39 1522r39 1523r39 1524r39
+1510i7 L1{natural} 1519r22 1521r43 1522r43 1523r43 1524r43
+1511i7 M{natural} 1521r31 1522r33 1523r33 1524r35
+1519i11 J{integer} 1520r26 1521r28 1521r47 1522r47 1523r47 1524r47
+1533i7 F1{natural} 1542r16 1544r45 1545r45 1547r21
+1534i7 L1{natural} 1542r22 1544r49 1545r49 1547r25
+1535i7 M{natural} 1544r31 1545r36
+1536r7 K{109R9} 1543m10 1545r28
+1542i11 J{integer} 1543r24 1544r28 1544r53 1545r53 1546r60 1547r29
+1562i7 F1{integer} 1573r19 1575r45 1579r19 1582r39
+1563i7 L1{integer} 1573r25 1575r49 1579r25 1582r43
+1564i7 F2{integer} 1580r22 1582r50
+1565i7 L2{integer} 1580r28 1582r54
+1566i7 Ix{natural} 1574m13 1575r31 1581m16 1582r34
+1573i14 J{integer} 1574r37 1575r53
+1579i14 J{integer} 1581r40 1582r47
+1580i17 K{integer} 1581r44 1582r58
+1598i7 F2{natural} 1605r16 1606r61
+1599i7 L2{natural} 1605r22 1606r65
+1605i11 J{integer} 1606r47 1606r69
+1615i7 F1{natural} 1624r16 1626r45 1627r45 1629r21
+1616i7 L1{natural} 1624r22 1626r49 1627r49 1629r25
+1617i7 M{natural} 1626r31 1627r36
+1618r7 K{109R9} 1625m10 1627r28
+1624i11 J{integer} 1625r24 1626r28 1626r53 1627r53 1628r60 1629r29
+1638i7 F{natural} 1647r55
+1639i7 L{natural} 1647r58
+1645e11 J{character} 1647r41 1647r76
+1656i7 F1{natural} 1665r16 1667r41 1668r41 1669r41
+1657i7 L1{natural} 1665r22 1667r45 1668r45 1669r45
+1658i7 M{natural} 1667r31 1668r37 1669r36
+1659r7 V{114R9} 1666m10 1668r28 1669r28
+1665i11 J{integer} 1666r29 1667r28 1667r49 1668r49 1669r49
+1682i7 R{natural} 1687m7 1689r20
+1683i7 Q{natural} 1688m7 1689r31
+1684i7 X{integer} 1689m7 1691r19 1691r30 1691r50
+1708a7 S1{string} 1710r32 1714r25
+1709a7 S2{string} 1714m10 1715r25
+1710i7 L{natural} 1712r10 1714r19
+1725A12 Vertex_Table_Type(114R9)<integer> 1728r25 1738r18 1753r25 1757r23
+. 1880r18 1932r33
+1727U17 Build_Identical_Keys_Sets 1728=10 1729=10 1730>10 1752b17 1873l11
+. 1873t36 2004s13
+1728a10 Table{1725A12} 1753b10 1757r44 1757r51 1837m16 1851m22 1866m22
+1729i10 Last{natural} 1754b10 1757r66 1825m10 1836m16 1836r24 1837r23 1850m22
+. 1850r30 1851r29 1865m22 1865r30 1866r29
+1730i10 Pos{natural} 1755b10 1758r44 1778r41
+1737V16 Count_Different_Keys{natural} 1738>10 1739>10 1740>10 1879b16 1915l11
+. 1915t31 1958s31
+1738a10 Table{1725A12} 1880b10 1899r22 1899r41
+1739i10 Last{natural} 1881b10 1894r24
+1740i10 Pos{natural} 1882b10 1900r44
+1744a7 Sel_Position{14|70A12[130]} 1936r19 1937m13 1961r19 1965r47 1973r43
+. 1985m13 1986r15 1987m13 1990r38 1995m19 1996r21 1997m19 2037r31
+1745i7 Last_Sel_Pos{natural} 1953r19 1957r22 1984m13 1984r29 1985r27 1986r29
+. 1987r27 1989r27 1995r42 1996r40 2033r27 2036r21
+1746i7 Max_Sel_Pos{natural} 1952m13 1957r42
+1757a10 S{1725A12} 1830r19 1831r50 1833r16 1833r30 1834r21 1835r21 1840r35
+. 1841r30 1841r43 1843r21 1845r25 1845r40 1849r26
+1758i10 C{natural} 1856r48 1857r52
+1761i10 F{integer} 1834m16 1837r33 1843m16 1844r21 1851r39 1866r39 1867m22
+. 1868r27
+1762i10 L{integer} 1835m16 1837r36 1844m16 1859m22 1866r42 1868m22
+1765i10 Offset{natural} 1785r25 1787r25 1790r25 1791r25 1807r26 1809r26 1812r26
+. 1813r26 1840m16
+1769V19 Lt{boolean} 1769>23 1769>26 1777b19 1795l14 1795t16 1820r57
+1769i23 L{natural} 1777b23 1783r16 1787r34 1790r34
+1769i26 R{natural} 1777b26 1785r34 1786r19 1791r34
+1770U20 Move 1770>26 1770>42 1801b20 1818l14 1818t18 1820r51
+1770i26 From{natural} 1801b26 1805r16 1809r35 1812r35
+1770i42 To{natural} 1801b42 1807r35 1808r19 1813r35
+1778i13 C{natural} 1794r36 1794r58
+1779i13 Left{natural} 1784m16 1787m16 1790m16 1794r30
+1780i13 Right{natural} 1785m16 1788m16 1791m16 1794r51
+1802i13 Target{natural} 1807m16 1810m16 1813m16 1816r23
+1802i21 Source{natural} 1806m16 1809m16 1812m16 1816r44 1817r23
+1820K18 Sorting[12|78] 1841r16
+1830i14 J{integer} 1831r53 1833r19 1833r33 1834r24 1835r24 1840r38 1841r33
+. 1841r46 1843r24 1845r28 1845r43 1849r29
+1845i20 N{integer} 1849r22 1851r42 1856r44 1857r44 1859r27 1867r27
+1884a10 N(natural) 1898m13 1901m16 1901r25 1907r22 1908r19
+1885e10 C{character} 1900m16 1901r19 1901r28
+1886i10 T{natural} 1909m19 1909r24 1914r17
+1894i14 S{integer} 1899r29 1899r48
+1899i17 K{integer} 1900r40
+1907e17 J{character} 1908r22
+1922i11 K{integer} 1923r29 1923r65
+1927i10 Differences{natural} 1958m16 1966r42 1971r19 1972r43
+1928i10 Max_Differences{natural} 1947r32 1971r33 1972m19 1978r34 2002r23
+. 2012r39
+1929i10 Old_Differences{natural} 1947m13 1978r16
+1930i10 Max_Diff_Sel_Pos{natural} 1973m19 1987r44 1990r19 1997r39 2007r16
+. 2011r44
+1931i10 Max_Diff_Sel_Pos_Idx{natural} 1974m19 1985r47 1986r45
+1932a10 Same_Keys_Sets_Table{1725A12} 1940m10 1959r19 2005m16 2005r16 2019r21
+. 2020r21
+1933i10 Same_Keys_Sets_Last{natural} 1960r19 2006m16 2006r16 2017r30
+1936i14 C{integer} 1937r27 1937r33
+1957i17 J{integer} 1961r33 1965r61 1973r57 1974r43
+1989i17 P{integer} 1990r52 1995r33 1996r35 1997r33
+2017i20 J{integer} 2019r43 2020r43
+2018i23 K{integer} 2023r66
+2036i11 C{integer} 2037r24 2037r45
+2046i7 Last{natural} 2064r31 2065m13 2065r21
+2047a7 Used(boolean) 2055m13 2062r16 2063r13
+2048e7 Char{character} 2053m13 2054r23 2055r19
+2051i11 J{integer} 2053r40
+2052i14 K{integer} 2053r58
+2062e11 J{character} 2063r19 2064r28 2067r28
+2077i7 N{natural} 2079r17
+2087i7 N{natural} 2089r17 2090r17 2091r17
+2117i7 N{natural} 2119r17
+2127i7 N{natural} 2129r17
+2137i7 N{natural} 2139r17 2140r17
+2152i7 S{natural} 2162m16 2162r22 2170m16 2170r22 2174r14
+2153i7 R{natural} 2160m16 2162r26 2168m16 2170r26
+2158i17 J{integer} 2159r32 2160r39 2160r63
+2166i17 J{integer} 2167r32 2168r39 2170r51
+2183i11 J{integer} 2184r18 2185r38
+X 30 s-string.ads
+43P9*String_Access(string)
+

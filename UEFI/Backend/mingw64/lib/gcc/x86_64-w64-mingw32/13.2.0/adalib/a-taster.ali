@@ -1,0 +1,143 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+
+U ada.task_termination%b  a-taster.adb		b4d8ba17 NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+W system.task_primitives.operations%s  s-taprop.adb  s-taprop.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+U ada.task_termination%s  a-taster.ads		629d52c1 NE OL PR PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.task_identification%s  a-taside.adb	a-taside.ali
+Z system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-taside.ads		20230727081304 c0a7c8d8 ada.task_identification%s
+D a-taster.ads		20230727081304 fe3f8ac8 ada.task_termination%s
+D a-taster.adb		20230727081304 fb230597 ada.task_termination%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20230727081304 f40c8db4 interfaces.c.strings%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atacco.ads		20230727081304 903317eb system.address_to_access_conversions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-multip.ads		20230727081304 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20230727081304 97504df8 system.os_interface%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20230727081304 5be75682 system.stack_usage%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-tasinf.ads		20230727081304 601f6b72 system.task_info%s
+D s-taspri.ads		20230727081304 a1350802 system.task_primitives%s
+D s-taprop.ads		20230727081304 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20230727081304 0ec7ab0b system.tasking%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20230727081304 15ac53fb system.win32%s
+G a e
+G c Z s b [set_dependents_fallback_handler ada__task_termination 29 14 none]
+G c Z s b [current_task_fallback_handler ada__task_termination 31 13 none]
+G c Z s b [set_specific_handler ada__task_termination 33 14 none]
+G c Z s b [specific_handler ada__task_termination 36 13 none]
+G c Z s s [E3sIP ada__task_termination 24 4 none]
+G c Z b b [to_tt ada__task_termination 49 13 none]
+G c Z b b [to_st ada__task_termination 52 13 none]
+G c Z b b [to_task_id ada__task_termination 55 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 4|16r6 17r6 19r9 26r15 27r15 34r17 37r11 39r5 5|36r6 38r14
+. 40r13 49r26 52r26 55r31 56r7 95r17 103r14 105r13 128r11 135r14 137r13 158r5
+X 2 a-except.ads
+44K13*Exceptions 295e19 4|17w10 27r19
+53R9*Exception_Occurrence 267e14 4|27r30
+X 3 a-taside.ads
+45K13*Task_Identification 106e28 4|16w10 26r19 34r21 37r15 5|40r17 56r11
+. 95r21 103r18 105r17 128r15 135r18 137r17
+53P9*Task_Id<25|109P9> 4|26r39 34r41 37r35 5|40r37 56r31 95r41 128r35
+56p4*Null_Task_Id{53P9} 5|103r38 135r38
+58V14*"="{boolean} 5|103s12 135s12
+81V13*Is_Terminated{boolean} 5|105s37 137s37
+X 4 a-taster.ads
+19K13*Task_Termination 1|16k9 4|20r25 39l9 39e25 5|38b18 158l9 158t25
+22E9*Cause_Of_Termination 22e72 25r15
+22n34*Normal{22E9}
+22n42*Abnormal{22E9}
+22n52*Unhandled_Exception{22E9}
+24P9*Termination_Handler 25>7 26>7 27>7 30r17 31r50 35r17 37r51 5|50r43 53r7
+. 62r50 76r17 96r17 128r51 142r22
+25e7 Cause{22E9}
+26p7 T{3|53P9}
+27r7 X{2|53R9}
+29U14*Set_Dependents_Fallback_Handler 30>7 5|75b14 88l8 88t39
+30p7 Handler{24P9} 5|76b7 84r47
+31V13*Current_Task_Fallback_Handler{24P9} 5|62b13 69l8 69t37
+33U14*Set_Specific_Handler 34>7 35>7 5|94b14 121l8 121t28
+34p7 T{3|53P9} 5|95b7 103r10 105r52 109r69
+35p7 Handler{24P9} 5|96b7 115r54
+36V13*Specific_Handler{24P9} 37>7 5|127b13 156l8 156t24
+37p7 T{3|53P9} 5|128b7 135r10 137r52 141r69
+X 5 a-taster.adb
+42K12 STPO=42:48 68r21 78r49 82r7 86r7 113r13 117r13 146r13 150r13
+43K12 SSL=43:32 81r7 87r7 112r13 118r13 145r13 151r13
+49V13 To_TT[6|20]{4|24P9} 68s14 148s19
+52V13 To_ST[6|20]{25|364P9} 84s40 115s47
+55V13 To_Task_Id[6|20]{25|109P9} 109s57 141s57
+78p7 Self{25|109P9} 82r24 84r7 86r20
+109p13 Target{25|109P9} 113r30 115r13 117r26
+141p13 Target{25|109P9} 146r30 148r26 150r26
+142p13 TH{4|24P9} 148m13 153r20
+X 6 a-unccon.ads
+20v14*Unchecked_Conversion 5|36w10 49r30 52r30 55r35
+X 10 system.ads
+37K9*System 5|32r6 33r6 34r6 42r25 43r25 50r7 53r28 56r40 78r23 109r31 141r31
+. 10|192e11
+X 17 s-soflin.ads
+45K16*Soft_Links 5|34w13 43r32 17|414e22
+62P9*No_Param_Proc
+172p4*Abort_Defer{62P9} 5|81r11 112r17 145r17
+176p4*Abort_Undefer{62P9} 5|87r11 118r17 151r17
+X 19 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 23 s-taspri.ads
+37K16*Task_Primitives 5|33r13 42r32 23|115e27
+X 24 s-taprop.ads
+39K32*Operations 5|33w29 42r48 24|556e38
+135V13*Self{25|109P9} 5|68s26 78s54
+185U14*Write_Lock 5|82s12 113s18 146s18
+233U14*Unlock 5|86s12 117s18 150s18
+X 25 s-taskin.ads
+47K16*Tasking 5|32w13 50r14 53r35 56r47 78r30 109r38 141r38 25|1221e19
+109P9*Task_Id(107R9) 5|56r55 78r38 109r46 141r46
+364P9*Termination_Handler 5|50r22 53r43
+681p7*Fall_Back_Handler{364P9} 5|68r38 84m19
+687p7*Specific_Handler{364P9} 5|115m27 148r40
+978r7*Common{502R9} 5|68r31 84m12 115m20 148r33
+

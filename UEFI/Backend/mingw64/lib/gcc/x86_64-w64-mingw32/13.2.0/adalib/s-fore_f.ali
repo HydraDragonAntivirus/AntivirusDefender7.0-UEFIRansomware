@@ -1,0 +1,54 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.fore_f%b	s-fore_f.adb		46789046 NE OL PK GE
+W system%s		system.ads		system.ali
+
+U system.fore_f%s	s-fore_f.ads		abd86f6f BN NE OL PU PK GE
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-fore_f.ads		20230727081304 5b88f089 system.fore_f%s
+D s-fore_f.adb		20230727081304 1df060cf system.fore_f%b
+G a e
+G c Z s b [fore_f system 44 16 none]
+X 1 system.ads
+37K9*System 192e11 2|44r9 54r5 3|32r14 136r5
+X 2 s-fore_f.ads
+37I9 Int 40r22 41r23 48r26 3|34r34 56r44 61r36 61r48 65r11 65r18 68r14
+39U19 Scaled_Divide 40>12 40>15 40>18 41<12 41<15 42>12 3|80s10 115s13
+40*12 X{37I9}
+40*15 Y{37I9}
+40*18 Z{37I9}
+41*12 Q{37I9}
+41*15 R{37I9}
+42b12 Round{boolean} 3|80r44 115r58
+44k16*Fore_F 1|37k9 2|37z9 39z19 54l12 54e18 3|32b21 136l12 136t18
+47V13*Fore_Fixed{natural} 48>7 48>11 48>15 48>20 48>31 3|56b13 134l8 134t18
+48*7 Lo{37I9} 3|56b25 65r41
+48*11 Hi{37I9} 3|56b29 65r60
+48*15 Num{37I9} 3|56b33 58r22 79r10 80r28 115r31
+48*20 Den{37I9} 3|56b38 58r39 79r17 80r33 115r36 121r25
+48i31 Scale{integer} 3|56b49 112r60
+X 3 s-fore_f.adb
+34i4 Maxdigs{natural} 112r51
+61V16 Negative_Abs{2|37I9} 61>30 65s27 65s46
+61*30 Val{2|37I9} 62r13 62r27 62r37
+65*7 T{2|37I9} 80r25 81m10 115r28 118m16 121m16 128r13 128r30 129m10 129r15
+66i7 F{natural} 73m7 119m16 119r21 130m10 130r15 133r14
+68*7 Q{2|37I9} 80m38 81r15 115m52 117r16 118r21
+68*10 R{2|37I9} 80m41 115m55 121r21
+112i13 D{integer} 115r48 119r25
+

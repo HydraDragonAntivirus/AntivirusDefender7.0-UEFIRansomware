@@ -1,0 +1,92 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U system.storage_pools.subpools.finalization%b  s-spsufi.adb  b0df1928 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U system.storage_pools.subpools.finalization%s  s-spsufi.ads  562129f7 NE OL PR PK
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finmas.ads		20230727081304 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230727081304 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20230727081304 e251976f system.storage_pools.subpools%s
+D s-spsufi.ads		20230727081304 b470be98 system.storage_pools.subpools.finalization%s
+D s-spsufi.adb		20230727081304 7a6f8ce1 system.storage_pools.subpools.finalization%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [finalize_and_deallocate system__storage_pools__subpools__finalization 39 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 27|32r6 43r29
+X 10 a-uncdea.ads
+20u15*Unchecked_Deallocation 27|32w10 43r33
+X 12 system.ads
+37K9*System 192e11 26|32r9 46r5 27|34r6 34r39 36r14 89r5
+X 14 s-finmas.ads
+36K16*Finalization_Masters 200e32 27|34w13 34r46
+90U25*Finalize<3|54p14> 27|58s7
+X 24 s-stopoo.ads
+39K16*Storage_Pools 12|37k9 24|100e25 26|32r16 46r12 27|36r21 89r12
+X 25 s-stposu.ads
+40K30*Subpools 24|39k16 25|360e34 26|32r30 46r26 27|36r35 89r26
+56P9*Subpool_Handle(51R9) 26|39r56 27|42r56
+96x14*Deallocate_Subpool 27|83R10
+160P9 Any_Storage_Pool_With_Subpools_Ptr(43R9) 27|80r27
+174R9 SP_Node 181e14 27|43r57
+175P9 SP_Node_Ptr(174R9) 27|43r66
+243p7*Owner{160P9} 27|50r25 80r73 82m18
+246r7*Master{14|65R9} 27|58m25
+249p7*Node{175P9} 27|51r25 62r23 67m21
+330U14 Detach 27|62s7
+X 26 s-spsufi.ads
+32K39*Finalization 25|40k30 26|46l35 46e47 27|36b44 89l35 89t47
+39U14*Finalize_And_Deallocate 39=39 27|42b14 87l8 87t31
+39p39 Subpool{25|56P9} 27|42b39 49r10 50r17 51r17 58r17 62r15 67r13 80r65
+. 82r10 83m41 86m7
+X 27 s-spsufi.adb
+43U17 Free[10|20] 67s7
+80p10 Owner{25|160P9} 83r30
+

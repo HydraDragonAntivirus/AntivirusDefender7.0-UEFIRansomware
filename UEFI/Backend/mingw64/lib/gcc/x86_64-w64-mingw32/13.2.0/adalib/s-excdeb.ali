@@ -1,0 +1,55 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -O0
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -g
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.exceptions_debug%b  s-excdeb.adb	7706238d NE OL PK
+W system%s		system.ads		system.ali
+
+U system.exceptions_debug%s  s-excdeb.ads	c05ec7b5 NE OL PR PK
+W system%s		system.ads		system.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-excdeb.ads		20230727081304 2c9bd8a5 system.exceptions_debug%s
+D s-excdeb.adb		20230727081304 5b9dfb28 system.exceptions_debug%b
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [debug_raise_exception system__exceptions_debug 47 14 none]
+G c Z s b [debug_unhandled_exception system__exceptions_debug 54 14 none]
+G c Z s b [debug_raise_assert_failure system__exceptions_debug 60 14 none]
+G c Z s b [local_raise system__exceptions_debug 66 14 none]
+X 3 system.ads
+37K9*System 192e11 4|36r6 38r9 43r24 66r35 76r5 5|32r14 69r35 75r5
+67M9*Address 4|66r42 5|69r42
+X 4 s-excdeb.ads
+38K16*Exceptions_Debug 3|37k9 4|76l12 76e28 5|32b21 75l12 75t28
+43K12*SSL=43:31 48r11 54r45 5|39r11 50r45
+47U14*Debug_Raise_Exception 48>7 48>35 50r12 5|38b14 44l8 44t29
+48p7 E{6|82P9} 5|39b7 41r32
+48a35 Message{string} 5|39b35 41r35
+54U14*Debug_Unhandled_Exception 54>41 56r12 5|50b14 54l8 54t33
+54p41 E{6|82P9} 5|50b41 51r32
+60U14*Debug_Raise_Assert_Failure 62r12 5|60b14 63l8 63t34
+66U14*Local_Raise 66>27 67r24 5|69b14 73l8 73t19
+66m27 Excep{3|67M9} 5|69b27 70r29
+X 6 s-stalib.ads
+49K16*Standard_Library 4|36w13 43r31 6|260e28
+82P9*Exception_Data_Ptr(81R9) 4|48r15 54r49 5|39r15 50r49
+

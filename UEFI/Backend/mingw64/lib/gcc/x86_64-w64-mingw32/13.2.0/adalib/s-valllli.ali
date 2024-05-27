@@ -1,0 +1,84 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U system.val_llli%s	s-valllli.ads		5893981f NE OL PR PK
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W system.val_lllu%s	s-vallllu.ads		s-vallllu.ali
+W system.value_i%s
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-valllli.ads		20230727081304 bf3121bd system.val_llli%s
+D s-vallllu.ads		20230727081304 fcd04714 system.val_lllu%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuti.adb		20230727081304 a525408f system.val_util%b
+D s-valuei.ads		20230727081304 11081e09 system.value_i%s
+D s-valuei.adb		20230727081304 ffacc2bb system.value_i%b
+D s-vaispe.ads		20230727081304 44130d39 system.value_i_spec%s
+D s-vaispe.adb		20230727081304 7f14ed54 system.value_i_spec%b
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+G a e
+G c Z s s [uns_is_valid_int system__val_llli__impl__spec 70 13 66_4_56_4]
+G c Z s s [is_int_of_uns system__val_llli__impl__spec 77 13 66_4_56_4]
+G c Z s s [abs_uns_of_int system__val_llli__impl__spec 91 13 66_4_56_4]
+G c Z s s [slide_to_1 system__val_llli__impl__spec 97 13 66_4_56_4]
+G c Z s s [slide_if_necessary system__val_llli__impl__spec 105 13 66_4_56_4]
+G c Z s s [is_integer_ghost system__val_llli__impl__spec 109 13 66_4_56_4]
+G c Z s s [is_value_integer_ghost system__val_llli__impl__spec 136 13 66_4_56_4]
+G c Z s s [prove_scan_only_decimal_ghost system__val_llli__impl__spec 156 14 66_4_56_4]
+G c Z s s [scan_integer system__val_llli__impl 68 14 56_4]
+G c Z s s [value_integer system__val_llli__impl 134 13 56_4]
+X 4 system.ads
+37K9*System 192e11 10|47r6 48r6 49r6 51r9 60r28 73r5
+X 9 s-unstyp.ads
+38K16*Unsigned_Types 249e26 10|47w13 54r39
+47M9*Long_Long_Long_Unsigned 10|54r54
+X 10 s-valllli.ads
+51K16*Val_LLLI 4|37k9 10|73l12 73e20
+54M12*Long_Long_Long_Unsigned{9|47M9} 58r28
+56K12*Impl[14|62] 67r14 71r14
+62U14*Scan_Long_Long_Long_Integer=67:19
+63a7 Str{string}
+64p7 Ptr(integer)
+65i7 Max{integer}
+66i7 Res{long_long_long_integer}
+69V13*Value_Long_Long_Long_Integer=71:19{long_long_long_integer}
+70a8 Str{string}
+X 11 s-vallllu.ads
+50K16*Val_LLLU 10|48w13 59r28 60r35 11|75e20
+55K12*Impl[18|54] 10|60r44
+57U14*Scan_Raw_Long_Long_Long_Unsigned=62:19 10|59r37
+X 14 s-valuei.ads
+46I9 Int 10|57r7
+48M9 Uns 10|58r7
+50U19 Scan_Raw_Unsigned 10|59r7
+62k16*Value_I 10|49w13 56r24 14|147e19
+68U14*Scan_Integer 10|67r19[56]
+134V13*Value_Integer{long_long_long_integer} 10|71r19[56]
+

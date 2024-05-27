@@ -1,0 +1,68 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.width_i%b	s-widthi.adb		5d28f35b NE OL SU GE
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+
+U system.width_i%s	s-widthi.ads		68ace114 BN NE OL GE
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20230727081304 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-widthi.ads		20230727081304 98fc7ef2 system.width_i%s
+D s-widthi.adb		20230727081304 b4ca8cdd system.width_i%b
+G a e
+G c Z s b [width_i system 39 17 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|32r6 33r5
+X 4 a-numeri.ads
+16K13*Numerics 35e17 16|32r10 33r9
+X 5 a-nubinu.ads
+16K22*Big_Numbers 21e29 16|32r19 33r18
+X 9 system.ads
+37K9*System 192e11 15|39r10 42r14 44r14 16|35r10 192r5
+X 15 s-widthi.ads
+37I9 Int 39r35 16|35r35 49r64 51r24 56r12 75r44 96r44 120r8 128r22 129r6
+. 129r20 129r33 130r20 130r33 147r12 148r19 148r32 149r19 149r32 186r27 186r40
+. 187r27 187r40
+39v17*Width_I 9|37k9 15|39>26 39>30 42r21 44r21 16|35b17 192l12 192t19
+39*26 Lo{37I9} 41r15 16|35b26 129r29 136r7 148r28 186r36
+39*30 Hi{37I9} 41r20 16|35b30 130r29 136r12 149r28 187r36
+X 16 s-widthi.adb
+119i4 W{natural} 142m7 155r52 158m10 158r15 162r33 163r50 169r49 178r49 186r69
+. 187r69 189r14
+120*4 T{15|37I9} 147m7 153r13 154r33 157m10 157r15 161r33 164r38 165r44
+153l21 loop 166e15
+168q7 declare 179e10
+

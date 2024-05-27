@@ -1,0 +1,109 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.numerics.float_random%b  a-nuflra.adb	d976e2b4 NE OL PK
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+
+U ada.numerics.float_random%s  a-nuflra.ads	51695213 NE OL PK
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W system%s		system.ads		system.ali
+W system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nuflra.ads		20230727081304 4056ab7a ada.numerics.float_random%s
+D a-nuflra.adb		20230727081304 992049ce ada.numerics.float_random%b
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-rannum.ads		20230727081304 95815eca system.random_numbers%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [random ada__numerics__float_random 51 13 none]
+G c Z s b [reset ada__numerics__float_random 53 14 none]
+G c Z s b [reset ada__numerics__float_random 54 14 none]
+G c Z s b [save ada__numerics__float_random 60 14 none]
+G c Z s b [reset ada__numerics__float_random 61 14 none]
+G c Z s b [image ada__numerics__float_random 65 13 none]
+G c Z s b [value ada__numerics__float_random 66 13 none]
+G c Z s s [TstateBIP ada__numerics__float_random 72 4 none]
+X 1 ada.ads
+16K9*Ada 20e8 4|41r9 74r5 5|32r14 104r5
+X 3 a-numeri.ads
+16K13*Numerics 1|16k9 3|35e17 4|41r13 74r9 5|32r18 104r9
+X 4 a-nuflra.ads
+41K22*Float_Random 3|16k13 4|70E9 74l18 74e30 5|32b27 104l18 104t30
+47R9*Generator<15|65R9> 51r27 53r27 54r27 60r27 61r27 70c9 5|52r27 63r27
+. 70r27 77r27 86r27
+49F12*Uniformly_Distributed{float} 51r45 5|52r45
+51V13*Random{49F12}<15|73p13> 51>21 5|52b13 55l8 55t14
+51r21 Gen{47R9} 5|52b21 54r37
+53U14*Reset<15|103p14> 53>21 5|63b14 66l8 66t13
+53r21 Gen{47R9} 5|63b21 65r29
+54U14*Reset<15|109p14> 54>21 54>38 5|70b14 73l8 73t13
+54r21 Gen{47R9} 5|70b21 72r29
+54i38 Initiator{integer} 5|70b38 72r35
+58A9*State<15|70A9> 60r55 61r51 65r34 66r49 72c9 5|43r31 77r51 86r53 95r49
+. 101r14
+60U14*Save 60>21 60<38 5|86b14 89l8 89t12
+60r21 Gen{47R9} 5|86b21 88r28
+60a38 To_State{58A9} 5|86b38 88m34
+61U14*Reset 61>21 61>38 5|77b14 80l8 80t13
+61r21 Gen{47R9} 5|77b21 79r29
+61a38 From_State{58A9} 5|77b38 79r35
+63N4*Max_Image_Width
+65V13*Image{string}<15|132p13> 65>20 5|43b13 46l8 46t13
+65a20 Of_State{58A9} 5|43b20 45r32
+66V13*Value{58A9}<15|136p13> 66>20 5|95b13 102l8 102t13
+66a20 Coded_State{string} 5|95b20 99r17
+X 5 a-nuflra.adb
+36K12 SRN=36:31 37r8 45r21 54r22 65r14 72r14 79r14 88r13 96r11 97r11
+96r7 G{15|65R9} 99r14 100r13
+97a7 S{15|70A9} 100m16 101r21
+X 11 interfac.ads
+80M9*Unsigned_32
+X 12 system.ads
+37K9*System 4|39r6 63r34 70r26 72r22 5|36r24 12|192e11
+X 15 s-rannum.ads
+62K16*Random_Numbers 4|39w13 63r41 70r33 72r29 5|36r31 15|170e26
+65R9*Generator 4|70r48 5|54r26 65r18 72r18 79r18 88r17 96r15 15|168e14
+70A9*State(147M12) 4|72r44 5|45r25 97r15
+73V13*Random{float} 5|54s14
+103U14*Reset 5|65s7
+109U14*Reset 5|72s7
+117U14*Reset 5|79s7
+118U14*Save 5|88s7 100s7
+123U14*Reset 5|99s7
+129N4*Max_Image_Width 4|63r56
+132V13*Image{string} 5|45s14
+147M12 State_Val{11|80M9}
+

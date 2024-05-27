@@ -1,0 +1,58 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.strings.wide_wide_hash%b  a-stzhas.adb	286c7c85 NE OL PU SU
+W ada.strings%s		a-string.ads		a-string.ali
+W system%s		system.ads		system.ali
+W system.string_hash%s	s-strhas.adb		s-strhas.ali
+
+U ada.strings.wide_wide_hash%s  a-stzhas.ads	b65ed0f3 NE OL PU SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings%s		a-string.ads		a-string.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-contai.ads		20230727081304 61e5e089 ada.containers%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-stzhas.ads		20230727081304 471757ed ada.strings.wide_wide_hash%s
+D a-stzhas.adb		20230727081304 49e7f3fc ada.strings.wide_wide_hash%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-strhas.ads		20230727081304 269cd894 system.string_hash%s
+D s-strhas.adb		20230727081304 398666ac system.string_hash%b
+G a e
+G c Z s b [wide_wide_hash ada__strings 18 22 none]
+X 1 ada.ads
+16K9*Ada 20e8 4|16r6 18r10 21r14 5|34r10 37r8 42r5
+X 2 a-contai.ads
+16K13*Containers 28e19 4|16w10 19r35 5|35r35 37r12
+19M9*Hash_Type 4|19r46 5|35r46 39r46
+X 3 a-string.ads
+16K13*Strings 35e16 4|18r14 21r18 5|34r14 42r9
+X 4 a-stzhas.ads
+18V22*Wide_Wide_Hash{2|19M9} 3|16k13 4|19>4 21r26 5|34b22 42l17 42t31
+19a4 Key{wide_wide_string} 5|35b4 41r21
+X 5 a-stzhas.adb
+38V13 Hash_Fun[10|60]{2|19M9} 41s11 11|42b13
+X 7 system.ads
+37K9*System 5|32r6 38r29 7|192e11
+X 10 s-strhas.ads
+45K16*String_Hash 5|32w13 38r36 10|64e23
+60v13*Hash 5|38r48
+

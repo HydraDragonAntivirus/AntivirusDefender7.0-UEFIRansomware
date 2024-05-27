@@ -1,0 +1,121 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.value_d%b	s-valued.adb		509a1fcb NE OL PK GE
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W system.val_util%s	s-valuti.adb		s-valuti.ali
+W system.value_r%s
+
+U system.value_d%s	s-valued.ads		591e055c BN NE OL PR PK GE
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valued.ads		20230727081304 a94e9aba system.value_d%s
+D s-valued.adb		20230727081304 8839c063 system.value_d%b
+D s-valuer.ads		20230727081304 77113993 system.value_r%s
+D s-valuer.adb		20230727081304 7ea6d35a system.value_r%b
+G a e
+G c Z s b [value_d system 47 16 none]
+X 1 system.ads
+37K9*System 192e11 5|47r9 90r5 6|32r6 32r33 33r6 33r33 34r6 36r14 261r5
+78V14*"<="{boolean} 6|38r28
+X 3 s-unstyp.ads
+38K16*Unsigned_Types 249e26 6|32w13 32r40
+44M9*Unsigned 6|47r16 60r16 232r15 234r15 249r15 251r15
+X 4 s-valuti.ads
+47K16*Val_Util 675e20 6|33w13 33r40
+52U14*Bad_Value 6|114s16 150s19 199s25 219s32
+X 5 s-valued.ads
+38I9 Int 43r22 44r23 54r31 82r66 6|38r19 41r45 50r32 63r32 66r19 68r19 68r31
+. 75r54 83r19 85r19 85r31 89r25 89r32 91r19 106r54 110r24 111r44 112r23 120r22
+. 125r20 162r26 162r37 167r26 230r31 248r66
+40M9 Uns 6|38r31 41r33 46r16 59r16 75r42 106r42 110r19 111r37 137r17 146r24
+. 165r17 181r31 196r30 196r41 197r34
+42U19 Scaled_Divide 43>12 43>15 43>18 44<12 44<15 45>12 6|212s13
+43*12 X{38I9}
+43*15 Y{38I9}
+43*18 Z{38I9}
+44*12 Q{38I9}
+44*15 R{38I9}
+45b12 Round{boolean} 6|212r64
+47k16*Value_D 1|37k9 5|38z9 40z9 42z19 90l12 90e19 6|36b21 261l12 261t19
+50V13*Scan_Decimal{38I9} 51>7 52^7 53>7 54>7 6|226b13 242l8 242t20
+51a7 Str{string} 6|227b7 239r34 241r34
+52p7 Ptr(integer) 6|228b7 239r39
+53i7 Max{integer} 6|229b7 239r44
+54i7 Scale{integer} 6|230b7 241r70
+82V13*Value_Decimal{38I9} 82>28 82>42 6|248b13 259l8 259t21
+82a28 Str{string} 6|248b28 256r35 258r34
+82i42 Scale{integer} 6|248b42 258r70
+X 6 s-valued.adb
+41K12 Impl[7|51] 233r15 236r15 239r14 250r15 253r15 256r14
+44V13 Integer_to_Decimal{5|38I9} 45>7 46>7 47>7 48>7 49>7 50>7 57b13 220l8
+. 220t26 241s14 258s14
+45a7 Str{string} 58b7 114r27 150r30 199r36 219r43
+46*7 Val{5|40M9} 59b7 137r28 165r24
+47m7 Base{3|44M9} 60b7 134r10 162r42
+48i7 ScaleB{integer} 61b7 134r28 136r28 163r37
+49b7 Minus{boolean} 62b7 111r16 119r16
+50i7 Scale{integer} 63b7 136r37 177r46 178r67 192r66 193r47
+65V16 Safe_Expont{5|38I9} 66>10 67=10 68>10 82b16 100l11 100t22 178s24 192s24
+66*10 Base{5|38I9} 83b10 87r25 89r43 95r32
+67i10 Exp{natural} 84b10 94r16 96m13 96r23
+68*10 Factor{5|38I9} 85b10 87r44 91r26
+75V16 Unsigned_To_Signed{5|38I9} 75>36 106b16 127l11 127t29 154s20 212s28
+75*36 Val{5|40M9} 106b36 110r13 111r31 120r27 125r25
+89*10 Max{5|38I9} 94r43
+91*10 Result{5|38I9} 94r33 95m13 95r23 99r17
+136i13 S{integer} 140r19 142m16 142r21 145r19 148m19 148r24
+137*13 V{5|40M9} 141m16 141r21 146r19 147m19 147r24 154r40
+162*13 B{5|38I9} 178r37 181r36 192r37 196r46 197r39
+163i13 S{integer} 172r16 174r36 187r19 189r35
+165*13 V{5|40M9} 181m22 181r27 196r25 197m25 197r30 212r48
+167*13 Y{5|38I9} 177m19 192m19 212r52
+167*16 Z{5|38I9} 178m19 193m19 212r55
+167*19 Q{5|38I9} 212m58 214r20
+167*22 R{5|38I9} 212m61
+174i19 LS{integer} 178m40 178r40 180r33
+180i23 J{integer}
+189i19 LS{integer} 192m40 192r40 195r33
+195i23 J{integer}
+232m7 Base{3|44M9} 239m49 239r49 241r48
+233a7 Scl{7|57A9[41]} 239m55 239r55 241r54
+234m7 Extra{3|44M9} 239m60 239r60
+235b7 Minus{boolean} 239m67 239r67 241r63
+236a7 Val{7|60A9[41]} 239m7 241r39
+249m7 Base{3|44M9} 256m40 256r40 258r48
+250a7 Scl{7|57A9[41]} 256m46 256r46 258r54
+251m7 Extra{3|44M9} 256m51 256r51
+252b7 Minus{boolean} 256m58 256r58 258r63
+253a7 Val{7|60A9[41]} 256m7 258r39
+X 7 s-valuer.ads
+48b4 Round{boolean} 6|41r60
+51k16*Value_R 6|34w13 41r24 7|120e19
+57A9 Scale_Array(integer)<integer> 6|233r20[41] 250r20[41]
+60A9 Value_Array(5|40M9)<integer> 6|236r20[41] 253r20[41]
+63V13 Scan_Raw_Real{60A9[6|41]} 6|239s19[41]
+110V13 Value_Raw_Real{60A9[6|41]} 6|256s19[41]
+

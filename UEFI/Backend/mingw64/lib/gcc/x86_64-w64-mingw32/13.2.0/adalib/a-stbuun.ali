@@ -1,0 +1,255 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_ELABORATION_CODE
+
+U ada.strings.text_buffers.unbounded%b  a-stbuun.adb  3541f20d NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.utf_encoding%s  a-stuten.adb	a-stuten.ali
+W ada.strings.utf_encoding.conversions%s  a-suenco.adb  a-suenco.ali
+W ada.strings.utf_encoding.strings%s  a-suenst.adb  a-suenst.ali
+W ada.strings.utf_encoding.wide_strings%s  a-suewst.adb  a-suewst.ali
+W ada.strings.utf_encoding.wide_wide_strings%s  a-suezst.adb  a-suezst.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U ada.strings.text_buffers.unbounded%s  a-stbuun.ads  342cb7b4 EE OL PF PR PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+W ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-charac.ads		20230727081304 2d3ec45b ada.characters%s
+D a-chahan.ads		20230727081304 278246c0 ada.characters.handling%s
+D a-chlat1.ads		20230727081304 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-sttebu.adb		20230727081304 acea8fa8 ada.strings.text_buffers%b
+D a-stbuun.ads		20230727081304 7ace507d ada.strings.text_buffers.unbounded%s
+D a-stbuun.adb		20230727081304 cf136fcd ada.strings.text_buffers.unbounded%b
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-suenco.ads		20230727081304 9bf077d7 ada.strings.utf_encoding.conversions%s
+D a-suenst.ads		20230727081304 7e912418 ada.strings.utf_encoding.strings%s
+D a-suewst.ads		20230727081304 90b69721 ada.strings.utf_encoding.wide_strings%s
+D a-suezst.ads		20230727081304 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finmas.ads		20230727081304 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-memory.ads		20230727081304 5b8432d0 system.memory%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stalib.adb		20230727081304 eb464a47 system.standard_library%b
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230727081304 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [buffer_typeDIC ada__strings__text_buffers__unbounded 80 9 none]
+G c Z s b [get ada__strings__text_buffers__unbounded 25 13 none]
+G c Z s b [wide_get ada__strings__text_buffers__unbounded 28 13 none]
+G c Z s b [wide_wide_get ada__strings__text_buffers__unbounded 32 13 none]
+G c Z s b [get_utf_8 ada__strings__text_buffers__unbounded 37 13 none]
+G c Z s b [wide_get_utf_16 ada__strings__text_buffers__unbounded 42 13 none]
+G c Z s b [put_utf_8_implementation ada__strings__text_buffers__unbounded 49 14 none]
+G c Z s s [buffer_typeDIC ada__strings__text_buffers__unbounded__mapping 132 12 54_4]
+G c Z s s [put ada__strings__text_buffers__unbounded__mapping 134 28 54_4]
+G c Z s s [wide_put ada__strings__text_buffers__unbounded__mapping 136 28 54_4]
+G c Z s s [wide_wide_put ada__strings__text_buffers__unbounded__mapping 139 28 54_4]
+G c Z s s [put_utf_8 ada__strings__text_buffers__unbounded__mapping 142 28 54_4]
+G c Z s s [wide_put_utf_16 ada__strings__text_buffers__unbounded__mapping 146 28 54_4]
+G c Z s s [new_line ada__strings__text_buffers__unbounded__mapping 149 28 54_4]
+G c Z s s [buffer_typeDF ada__strings__text_buffers__unbounded__mapping 132 12 54_4]
+G c Z s s [buffer_typeIP ada__strings__text_buffers__unbounded__mapping 132 12 54_4]
+G c Z s b [initialize ada__strings__text_buffers__unbounded 74 25 none]
+G c Z s b [finalize ada__strings__text_buffers__unbounded 77 25 none]
+G c Z s s [chunkIP ada__strings__text_buffers__unbounded 58 9 none]
+G c Z s s [managed_chunk_listDF ada__strings__text_buffers__unbounded 63 9 none]
+G c Z s s [managed_chunk_listIP ada__strings__text_buffers__unbounded 63 9 none]
+G c Z s s [buffer_typeDF ada__strings__text_buffers__unbounded 80 9 none]
+G c Z s s [buffer_typeDI ada__strings__text_buffers__unbounded 80 9 none]
+G c Z s s [buffer_typeIP ada__strings__text_buffers__unbounded 80 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|16r6 17r9 63r35 87r5 12|32r6 33r6 34r6 35r6 36r6 37r6 38r14
+. 197r29 213r5
+X 2 a-charac.ads
+16K13*Characters 18e19 12|32r10 158r27
+X 3 a-chahan.ads
+43K24*Handling 455e28 12|32w21 158r38
+178V13*Is_Space{boolean} 12|158s47
+X 6 a-finali.ads
+40K13*Finalization 68e21 11|16w10 63r39
+50H9*Limited_Controlled<25|40R9> 66e55 11|63r52
+X 8 a-string.ads
+16K13*Strings 1|16k9 8|35e16 11|17r13 87r9 12|34r10 35r10 36r10 37r10 38r18
+. 213r9
+X 9 a-sttebu.ads
+17K21*Text_Buffers 8|16k13 9|152e29 11|17r21 87r17 12|38r26 213r17
+21I9*Text_Buffer_Count<integer>
+26H9*Root_Buffer_Type 104e14 11|23r28 50r23 12|140r23
+49V13*Current_Indent{21I9} 11|26s51 30s16 35s16 40s16 45s16
+52U14*Increase_Indent
+58U14*Decrease_Indent
+67U14*Set_Trim_Leading_Spaces
+73V13*Trim_Leading_Spaces{boolean}
+80i7*Indentation{natural} 12|118m20 118r48
+83b7*Indent_Pending{boolean} 12|119m20 119r48
+86i7*UTF_8_Length{natural} 12|72r62 120m20 120r48 180m23 180r23
+89i7*UTF_8_Column{positive} 12|121m20 121r48 181m23 181r23
+93b7*All_7_Bits{boolean} 12|50r43 122m20 122r48 160m23 160r23
+95b7*All_8_Bits{boolean} 12|50r17 123m20 123r48
+98b7*Trim_Leading_White_Spaces{boolean} 12|157r27 161m23
+131k12 Output_Mapping 150e22 11|54r27
+132H12*Buffer_Type<26R9> 11|80r36[54]
+134U28*Put<29p14>
+136U28*Wide_Put<31p14>
+139U28*Wide_Wide_Put<34p14>
+142U28*Put_UTF_8<37p14>
+146U28*Wide_Put_UTF_16<41p14>
+149U28*New_Line<45p14>
+X 11 a-stbuun.ads
+17K34*Unbounded 9|17k21 11|49E14 87l30 87e39 12|38b39 213l30 213t39
+23R9*Buffer_Type<9|26R9> 9|49p13 52p14 58p14 67p14 73p13 11|25p13 25r34 28p13
+. 28r39 32p13 33r23 37p13 38r23 42p13 43r23 52r28 80c9 85e14 12|40r34 57r39
+. 62r44 69r23 102r25 106r39 131r23 143r61 147r61 188r35
+25V13*Get{string} 25=18 26r21 12|40b13 55l8 55t11
+25r18 Buffer{23R9} 26r67 12|40b18 50r10 50r36 51m57 51r57 53m28 53r28
+28V13*Wide_Get{wide_string} 28=23 29r21 12|57b13 60l8 60t16
+28r23 Buffer{23R9} 30r32 12|57b23 59m59 59r59
+32V13*Wide_Wide_Get{wide_wide_string} 33=7 34r21 12|62b13 66l8 66t21
+33r7 Buffer{23R9} 35r32 12|62b28 65m64 65r64
+37V13*Get_UTF_8{13|59A12} 38=7 39r21 12|51s46 53s17 59s48 65s53 68b13 128l8
+. 128t17 136s12
+38r7 Buffer{23R9} 40r32 12|69b7 72r55 75m35 75r35 118m13 119m13 120m13 121m13
+. 122m13 123m13 124m13 125m23 125r23
+42V13*Wide_Get_UTF_16{13|62A12} 43=7 44r21 12|130b13 137l8 137t23
+43r7 Buffer{23R9} 45r32 12|131b7 136m23 136r23
+49U14 Put_UTF_8_Implementation 50=7 51>7 54r43 12|139b14 189l8 189t32
+50c7 Buffer<9|26R9> 52r18 12|140b7 188m48 188r48
+51a7 Item{13|59A12} 12|141b7 149r22
+54K12 Mapping[9|131] 80r28
+56R9 Chunk 57r36 58c9 58d16 61e14 65r29 12|168r31 174r55 197r57
+57P9 Chunk_Access(56R9) 59r15 69r23 12|75r19 197r64 198r13 202r23
+58R9 Chunk
+58i16*Length{positive} 60r47 12|163r64
+59p7*Next{57P9} 12|92r38 96r27 173r40 174m25 175r54 198r46 204r24 209m24
+60a7*Chars{string} 12|79r50 82r63 83r54 90r42 183m42
+63R9 Managed_Chunk_List<6|50R9> 72e14 74P25 74r51 77P25 77r49 81r14 12|191r40
+. 196r38 25|42p14
+65r7*First_Chunk{58R9} 12|75m47 193m34 198r34 209m12
+69p7*Current_Chunk{57P9} 12|163r50 168r57 175m34 183r28 193m12
+74U25 Initialize<6|53p14> 74=37 12|191b14 194l8 194t18 210s7
+74r37 List{63R9} 12|191b26 193m7 193m29 193r29
+77U25 Finalize<6|54p14> 77=35 12|125s13 196b14 211l8 211t16
+77r35 List{63R9} 12|196b24 198r29 209m7 210m19
+81r7 List{63R9} 12|75m42 125m30 163r45 168r52 175m29 183m23
+83i7 Last_Used{natural} 12|124m20 124r48 163r26 176m29 182m23 182r23 183r56
+X 12 a-stbuun.adb
+72a14 Result{13|59A12} 80r34 82r19 88r24 88r48
+74i13 Target_First{positive} 79r31 82r27 83m19 83r35 88r32 93m19
+75p13 Ptr{11|57P9} 78r19 79r46 82r59 83r50 90r38 92r34 96m16 96r23
+76i13 Target_Last{positive} 79m16 80r19 82r43
+87a22 Final_Target{string} 90r22 90r54
+102r13 Defaulted{11|23R9} 118r38 119r38 120r38 121r38 122r38 123r38 124r38
+106a13 Dummy(11|23R9)
+143U17 Buffer_Type_Implementation 143=45 147b17 186l11 186t37 188s7
+143r45 Buffer{11|23R9} 147b45 157r20 160m16 161m16 163r19 163r38 168r45 175m22
+. 176m22 180m16 181m16 182m16 183m16 183r16 183r49
+149e14 Char=149:22{character} 158r57 160r63 183r70
+168r22 Cc{11|58R9} 171r55 173r37 174r22 175r51
+169i22 Max{positive} 171r46
+170i22 Length{natural} 174r72
+197U17 Free[20|20] 205s13
+198p7 Ptr{11|57P9} 200r13 202r39 204m13 204r20
+202p13 Old_Ptr{11|57P9} 205m19 205r19
+X 13 a-stuten.ads
+42K21*UTF_Encoding 11|38r43 43r43 51r14 60r15 12|34r18 35r18 36r18 37r18
+. 51r17 59r14 65r14 69r43 72r23 87r37 131r43 135r9 136r48 141r16 13|144e29
+56n29*UTF_8{56E9} 12|136r61
+59A12*UTF_8_String{string}<integer> 11|38r56 51r27 60r28 12|69r56 72r36 87r50
+. 141r29
+62A12*UTF_16_Wide_String{wide_string}<integer> 11|43r56 12|131r56
+X 14 a-suenco.ads
+20K34*Conversions 12|34w31 135r22 14|61e41
+37V13*Convert{13|62A12} 12|135s34
+39e7 Input_Scheme{13|56E9} 12|136r32
+X 15 a-suenst.ads
+20K34*Strings 12|35w31 51r30 15|65e37
+57V13*Decode{string} 12|51s38
+X 16 a-suewst.ads
+20K34*Wide_Strings 12|36w31 59r27 16|67e42
+59V13*Decode{wide_string} 12|59s40
+X 17 a-suezst.ads
+21K34*Wide_Wide_Strings 12|37w31 65r27 17|64e47
+56V13*Decode{wide_wide_string} 12|65s45
+X 20 a-uncdea.ads
+20u15*Unchecked_Deallocation 12|33w10 197r33
+X 22 system.ads
+67M9*Address
+X 25 s-finroo.ads
+42U14*Adjust
+X 26 s-memory.ads
+51V13*Alloc{22|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{22|67M9} 103i<c,__gnat_realloc>22
+X 33 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+

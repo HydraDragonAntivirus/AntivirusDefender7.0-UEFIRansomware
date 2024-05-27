@@ -1,0 +1,73 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_UNCHECKED_CONVERSION
+RV NO_ELABORATION_CODE
+
+U system.random_seed%b	s-ransee.adb		a778ef81 OL PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+
+U system.random_seed%s	s-ransee.ads		e4027d17 EE NE OL PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-calend.ads		20230727081304 f55c50a3 ada.calendar%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-ransee.ads		20230727081304 01a57b33 system.random_seed%s
+D s-ransee.adb		20230727081304 5d1ae37e system.random_seed%b
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [get_seed system__random_seed 46 13 none]
+G c Z b b [to_u64 system__random_seed 43 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 8|34r6 34r24 35r6 44r10
+X 2 a-calend.ads
+36K13*Calendar 413e17 8|34w10 34r28
+42I9*Time<226I9> 8|39r19
+48I12*Year_Number{integer}
+49I12*Month_Number{integer}
+50I12*Day_Number{integer}
+54O12*Day_Duration{duration}
+56V13*Clock{42I9} 8|52s22
+83V13*Time_Of{42I9} 8|40s12
+84i7 Year{48I12} 8|40r21
+85i7 Month{49I12} 8|40r35
+86i7 Day{50I12} 8|40r47
+87o7 Seconds{54O12} 8|40r57
+112V14*"-"{duration} 8|52s28
+226I9 Time_Rep<long_long_integer>
+X 3 a-unccon.ads
+20v14*Unchecked_Conversion 8|35w10 44r14
+X 4 interfac.ads
+38K9*Interfaces 232e15 7|42w6 46r29 8|44r46 50r29
+83M9*Unsigned_64 7|46r40 8|44r57 50r40
+X 5 system.ads
+37K9*System 192e11 7|44r9 49r5 8|37r14 55r5
+X 7 s-ransee.ads
+44K16*Random_Seed 5|37k9 7|49l12 49e23 8|37b21 55l12 55t23
+46V13*Get_Seed{4|83M9} 8|50b13 53l8 53t16
+X 8 s-ransee.adb
+39i4 Y2K{2|42I9} 52r30
+43V13 To_U64[3|20]{4|83M9} 52s14
+

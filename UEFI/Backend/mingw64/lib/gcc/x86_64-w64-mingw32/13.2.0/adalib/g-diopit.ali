@@ -1,0 +1,184 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U gnat.directory_operations.iteration%b  g-diopit.adb  c53a437b NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.directory_operations%s  g-dirope.adb	g-dirope.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+W gnat.regexp%s		g-regexp.ads		g-regexp.ali
+
+U gnat.directory_operations.iteration%s  g-diopit.ads  5d3c974b BN EE NE OL PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gnat.directory_operations%s  g-dirope.adb	g-dirope.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-charac.ads		20230727081304 2d3ec45b ada.characters%s
+D a-chahan.ads		20230727081304 278246c0 ada.characters.handling%s
+D a-chlat1.ads		20230727081304 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-strfix.ads		20230727081304 d8832344 ada.strings.fixed%s
+D a-strmap.ads		20230727081304 ed8acfdb ada.strings.maps%s
+D a-strsea.ads		20230727081304 2d394feb ada.strings.search%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-dirope.ads		20230727081304 940c4438 gnat.directory_operations%s
+D g-diopit.ads		20230727081304 c930d373 gnat.directory_operations.iteration%s
+D g-diopit.adb		20230727081304 7a2d9cf2 gnat.directory_operations.iteration%b
+D g-os_lib.ads		20230727081304 0db74523 gnat.os_lib%s
+D g-regexp.ads		20230727081304 691be386 gnat.regexp%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-os_lib.ads		20230727081304 a2467c22 system.os_lib%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-regexp.ads		20230727081304 9c7d27a7 system.regexp%s
+D s-retsta.ads		20230727081304 0f6b06cb system.return_stack%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20230727081304 f7dfd786 system.stream_attributes%s
+D s-string.ads		20230727081304 582aac7d system.strings%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 20|32r6 33r6 34r6 41r8
+X 2 a-charac.ads
+16K13*Characters 18e19 20|32r10 215r21
+X 3 a-chahan.ads
+43K24*Handling 455e28 20|32w21 215r32
+77V13*Is_Letter{boolean} 20|215s41
+X 8 a-string.ads
+16K13*Strings 35e16 20|33r10 34r10 168r21 172r19 192r21 196r19 221r24 225r22
+. 252r23 268r16 272r19 291r19
+X 9 a-strfix.ads
+49K21*Fixed 1433e22 20|33w18 172r27 196r27 225r30 252r31 272r27 291r27
+373V13*Index{natural} 20|172s33 196s33 225s36 252s37 272s33 291s33
+X 10 a-strmap.ads
+51K21*Maps 651e21 20|34w18 168r29 192r29 221r32 268r24
+63A9*Character_Set<371A9>
+182V13*Is_In{boolean} 20|168s34 192s34 221s37 268s29
+371A9 Character_Set_Internal(boolean)<character>
+X 17 gnat.ads
+37K9*GNAT 60e9 19|34r9 94r5 20|36r6 37r6 39r14 397r5
+X 18 g-dirope.ads
+43K14*Directory_Operations 17|37k9 18|262e30 19|34r14 94r10 20|39r19 397r10
+45A12*Dir_Name_Str{string}<integer> 19|42r24 20|48r24 55r45 79r45
+54P9*Dir_Type 20|83r16 324r16
+66e4*Dir_Separator{character} 20|71r26 331r46 332r36 341r45 370r43
+103A12*Path_Name{string}<integer> 19|62r40 20|136r40
+210U14*Open 20|87s10 332s13
+216U14*Close 20|106s25 125s10 362s34 383s13
+224U14*Read 20|90s13 335s16
+258a4 Dir_Seps{10|63A9} 20|168r60 174r16 192r60 197r52 221r63 226r55 253r56
+. 268r51 273r52 291r44
+X 19 g-diopit.ads
+34K35*Iteration 18|43k14 19|94l31 94e40 20|39b40 397l31 397t40
+37U22 Action 38>10 39>10 40=10 20|103s22
+38a10 Item{string}
+39i10 Index{positive}
+40b10 Quit{boolean}
+41u14*Find 42>7 43>7 20|47b14 130l8 130t12
+42a7 Root_Directory{18|45A12} 20|48b7 129r23
+43a7 File_Pattern{string} 20|49b7 51r63
+58U22 Action 59>10 60>10 61=10 20|359s31
+59a10 Item{string}
+60i10 Index{positive}
+61b10 Quit{boolean}
+62u14*Wildcard_Iterator 62>33 20|136b14 395l8 395t25
+62a33 Path{18|103A12} 20|136b33 390r10 394r23
+X 20 g-diopit.adb
+51r7 File_Regexp{30|105R9} 99r44
+52i7 Index{natural} 100m19 100r28 103r40
+53b7 Quit{boolean} 103m47 103r47 110r29 120r29
+55U17 Read_Directory 55>33 79b17 119s19 126l11 126t25 129s7
+55a33 Directory{18|45A12} 79b33 87r21 96r45
+59V16 Make_Pathname{string} 59>31 59>36 66b16 73l11 73t24 96s30
+59a31 Dir{string} 66b31 68r13 68r18 68r42 68r47 69r20 71r20
+59a36 File{string} 66b36 69r26 71r42
+80a10 Buffer{string} 90m24 94r47
+81i10 Last{natural} 90m32 91r23 94r60
+83p10 Dir{18|54P9} 84r32 87m16 87r16 90r19 106m32 106r32 125m17 125r17
+94a16 Dir_Entry{string} 96r56 99r33 115r24 115r48
+95a16 Pathname{string} 103r30 116r48 117r56 119r35
+138i7 Index{natural} 356m28 356r37 359r49
+140U17 Read 141>10 142>10 143>10 180s16 185s16 203s16 208s16 232s19 239s19
+. 259s19 264s19 279s16 283s16 297s16 301s16 316b17 385l11 385t15
+141a10 Directory{string} 317b10 331r34 332r24 341r33 370r31
+142a10 File_Pattern{string} 318b10 322r42 347r48 349r49
+143a10 Suffix_Pattern{string} 319b10 352r28 371r31
+148U17 Next_Level 149>10 150>10 158b17 307l11 307t21 369s28 394s7
+149a10 Current_Path{string} 159b10 180r22 185r22 203r22 208r22 213r16 279r22
+. 283r22 297r22 301r22
+150a10 Suffix_Path{string} 160b10 163r30
+162i10 DS{natural} 172m13 176r16 186r42 187r26 196m13 199r16 209r42 210r26
+. 225m16 228r19 240r45 241r29 252m16 255r19 264r41 264r58 272m13 275r16 284r42
+. 285r26 291m13 293r16 302r38 303r26
+163a10 SP=163:30{string} 166r13 167r21 167r25 168r41 168r45 173r16 173r20
+. 173r36 186r22 186r26 187r22 187r32 190r16 191r21 191r25 191r37 192r41 192r45
+. 197r22 197r26 197r42 209r22 209r26 210r22 210r32 214r21 215r52 215r56 216r21
+. 216r25 220r16 221r44 221r48 226r25 226r29 226r45 232r25 232r29 232r41 233r25
+. 233r29 233r45 239r25 239r29 239r41 240r25 240r29 241r25 241r35 253r26 253r30
+. 253r46 259r25 264r25 264r29 264r54 264r64 268r36 268r40 273r22 273r26 273r42
+. 279r36 279r40 279r56 284r22 284r26 285r22 285r32 291r40 297r42 302r22 302r26
+. 303r22 303r32
+313b7 Quit{boolean} 359m56 359r56 380r39
+321r10 File_Regexp{30|105R9} 351r50
+324p10 Dir{18|54P9} 325r32 332m19 332r19 335r22 362m41 362r41 383m20 383r20
+327a10 Buffer{string} 335m27 339r50
+328i10 Last{natural} 335m35 336r39 339r63
+334l13 Dir_Iterator 336r21 380r21 381l22 381e34
+339a19 Dir_Entry{string} 341r61 347r23 349r23 351r39 370r59
+340a19 Pathname{string} 359r39
+X 21 g-os_lib.ads
+51K14*OS_Lib=51:36 20|36w11 116r27 117r31 331r13
+X 22 g-regexp.ads
+70K14*Regexp=70:36 20|37w11 51r30 51r47 99r19 321r33 322r26 351r25
+X 27 s-os_lib.ads
+435V13*Is_Directory{boolean} 20|116s34 331s20
+464V13*Is_Symbolic_Link{boolean} 20|117s38
+X 30 s-regexp.ads
+105R9*Regexp<6|43R9> 20|51r37 321r40 30|133e14
+111V13*Compile{105R9} 20|51s54 322s33
+113b7 Glob{boolean} 20|322r56
+122V13*Match{boolean} 20|99s26 351s32
+

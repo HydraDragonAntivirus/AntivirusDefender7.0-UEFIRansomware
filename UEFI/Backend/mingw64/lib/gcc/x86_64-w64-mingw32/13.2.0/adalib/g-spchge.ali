@@ -1,0 +1,59 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U gnat.spelling_checker_generic%b  g-spchge.adb	f2838d16 NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+
+U gnat.spelling_checker_generic%s  g-spchge.ads	bc8704ea BN NE OL PU PK
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-spchge.ads		20230727081304 091f88cd gnat.spelling_checker_generic%s
+D g-spchge.adb		20230727081304 fb9c05db gnat.spelling_checker_generic%b
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+X 3 gnat.ads
+37K9*GNAT 60e9 4|40r9 63r5 5|32r14 159r5
+X 4 g-spchge.ads
+40K14*Spelling_Checker_Generic 3|37k9 4|63l10 63e34 5|32b19 159l10 159t34
+44E12 Char_Type 47r56 5|50r27 50r40 51r27 51r40 52r27 52r40
+47A12 String_Type(44E12)<integer> 50r16 51r16 5|39r16 40r16
+49v13*Is_Bad_Spelling_Of 50>7 51>7 5|38b13 157l8 157t26
+50*7 Found{47A12} 5|39b7 42r32 43r32 44r32 68r13 69r19 84r35 91r27 95r44
+. 96r55 100r40 101r49 102r55 116r21 117r36 128r16 129r23 142r16 143r23
+51*7 Expect{47A12} 5|40b7 46r32 47r32 48r32 68r27 69r49 84r16 90r19 95r22
+. 96r27 100r22 101r27 102r27 115r13 117r21 128r34 129r46 142r34 143r50
+X 5 g-spchge.adb
+42i7 FN{natural} 58r10 75r13 82r13 83r24 126r13 127r24 140r13
+43i7 FF{natural} 68r20 69r26 84r42 91r34 95r51 96r62 100r47 101r56 102r62
+. 128r23 129r30 142r23 143r30
+44i7 FL{natural} 96r76 102r76 116r28 117r43 129r40 143r44
+46i7 EN{natural} 59r18 61r13 75r29 82r18 126r18 140r18 141r24
+47i7 EF{natural} 68r35 69r57 84r24 90r27 95r30 96r35 100r30 101r35 102r35
+. 128r42 129r54 142r42 143r58
+48i7 EL{natural} 96r49 102r49 115r21 117r29 129r68 143r68
+50*7 Letter_o{4|44E12} 69r64
+51*7 Digit_0{4|44E12} 69r33 90r38 91r45 115r28 116r35
+52*7 Digit_9{4|44E12} 90r49 91r56 115r39 116r46
+83i14 J{integer} 84r29 84r47 90r32 91r39 95r35 95r56 96r40 96r67 100r35 100r52
+. 101r40 101r61 102r40 102r67
+127i14 J{integer} 128r28 128r47 129r35 129r59
+141i14 J{integer} 142r28 142r47 143r35 143r63
+

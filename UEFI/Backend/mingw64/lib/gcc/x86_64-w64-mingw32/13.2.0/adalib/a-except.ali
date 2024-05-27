@@ -1,0 +1,1168 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -O1
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -g
+A -fno-inline
+A -fno-toplevel-reorder
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U ada.exceptions%b	a-except.adb		5bea4c0b NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.exceptions.last_chance_handler%s  a-elchha.adb  a-elchha.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.exceptions%s	s-except.ads		s-except.ali
+W system.exceptions.machine%s  s-excmac.adb	s-excmac.ali
+W system.exceptions_debug%s  s-excdeb.adb	s-excdeb.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.traceback%s	s-traceb.adb		s-traceb.ali
+W system.traceback.symbolic%s  s-trasym.adb	s-trasym.ali
+W system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+W system.wch_stw%s	s-wchstw.adb		s-wchstw.ali
+
+U ada.exceptions%s	a-except.ads		ac4814eb EE OL PR PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.traceback_entries%s  s-traent.adb	s-traent.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-except.adb		20230727081304 3a26ae1b ada.exceptions%b
+D a-excach.adb		20230727081304 acb8be38 ada.exceptions.call_chain
+D a-exexda.adb		20230727081304 53e3aa5e ada.exceptions.exception_data
+D a-exexpr.adb		20230727081304 064253d0 ada.exceptions.exception_propagation
+D a-exextr.adb		20230727081304 de7b2b4f ada.exceptions.exception_traces
+D a-elchha.ads		20230727081304 47bffbf4 ada.exceptions.last_chance_handler%s
+D a-exstat.adb		20230727081304 0850dfd2 ada.exceptions.stream_attributes
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-except.ads		20230727081304 32a5bf32 system.exceptions%s
+D s-excmac.ads		20230727081304 9d9ccece system.exceptions.machine%s
+D s-excdeb.ads		20230727081304 2c9bd8a5 system.exceptions_debug%s
+D s-imagei.ads		20230727081304 c707dfd0 system.image_i%s
+D s-imgint.ads		20230727081304 d4a52a9b system.img_int%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traceb.ads		20230727081304 4e864b31 system.traceback%s
+D s-trasym.ads		20230727081304 bd1dac90 system.traceback.symbolic%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20230727081304 1f610d7a system.val_int%s
+D s-valuns.ads		20230727081304 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuei.ads		20230727081304 11081e09 system.value_i%s
+D s-vaispe.ads		20230727081304 44130d39 system.value_i_spec%s
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+D s-wchcon.ads		20230727081304 d9032363 system.wch_con%s
+D s-wchstw.ads		20230727081304 2d112c01 system.wch_stw%s
+D s-widuns.ads		20230727081304 866a5800 system.wid_uns%s
+D s-widthu.ads		20230727081304 b32f15e2 system.width_u%s
+G a e
+G c Z s b [exception_name ada__exceptions 60 13 none]
+G c Z s b [exception_name ada__exceptions 62 13 none]
+G c Z s b [wide_exception_name ada__exceptions 64 13 none]
+G c Z s b [wide_exception_name ada__exceptions 68 13 none]
+G c Z s b [wide_wide_exception_name ada__exceptions 72 13 none]
+G c Z s b [wide_wide_exception_name ada__exceptions 76 13 none]
+G c Z s b [raise_exception ada__exceptions 80 14 none]
+G c Z s b [exception_message ada__exceptions 84 13 none]
+G c Z s b [reraise_occurrence ada__exceptions 86 14 none]
+G c Z s b [exception_identity ada__exceptions 92 13 none]
+G c Z s b [exception_information ada__exceptions 94 13 none]
+G c Z s b [save_occurrence ada__exceptions 113 14 none]
+G c Z s b [save_occurrence ada__exceptions 117 13 none]
+G c Z s b [eid_to_string ada__exceptions 159 13 none]
+G c Z s b [string_to_eid ada__exceptions 160 13 none]
+G c Z s b [exception_name_simple ada__exceptions 170 13 none]
+G c Z s b [raise_exception_always ada__exceptions 178 14 none]
+G c Z s b [raise_from_controlled_operation ada__exceptions 191 14 none]
+G c Z s b [reraise_library_exception_if_any ada__exceptions 199 14 none]
+G c Z s b [reraise_occurrence_always ada__exceptions 206 14 none]
+G c Z s b [reraise_occurrence_no_defer ada__exceptions 213 14 none]
+G c Z s b [triggered_by_abort ada__exceptions 220 13 none]
+G c Z s b [get_exception_machine_occurrence ada__exceptions 275 13 none]
+G c Z s b [eo_to_string ada__exceptions 284 13 none]
+G c Z s b [string_to_eo ada__exceptions 285 13 none]
+G c Z s s [exception_occurrenceIP ada__exceptions 236 9 none]
+G c Z b b [code_address_for_aaa ada__exceptions 68 13 none]
+G c Z b b [code_address_for_zzz ada__exceptions 69 13 none]
+G c Z b b [call_chain ada__exceptions 92 14 none]
+G c Z b b [image ada__exceptions 96 13 none]
+G c Z b b [to_stderr ada__exceptions 99 14 none]
+G c Z b b [to_stderr ada__exceptions 104 14 none]
+G c Z b b [set_exception_c_msg ada__exceptions__exception_data 116 17 none]
+G c Z b b [set_exception_msg ada__exceptions__exception_data 131 17 none]
+G c Z b b [untailored_exception_information ada__exceptions__exception_data 143 16 none]
+G c Z b b [exception_information ada__exceptions__exception_data 169 16 none]
+G c Z b b [append_info_address ada__exceptions__exception_data 95 14 none]
+G c Z b b [append_info_character ada__exceptions__exception_data 100 14 none]
+G c Z b b [append_info_nat ada__exceptions__exception_data 105 14 none]
+G c Z b b [append_info_nl ada__exceptions__exception_data 110 14 none]
+G c Z b b [append_info_string ada__exceptions__exception_data 115 14 none]
+G c Z b b [append_info_exception_name ada__exceptions__exception_data 124 14 none]
+G c Z b b [append_info_exception_name ada__exceptions__exception_data 129 14 none]
+G c Z b b [append_info_exception_message ada__exceptions__exception_data 134 14 none]
+G c Z b b [append_info_basic_exception_information ada__exceptions__exception_data 139 14 none]
+G c Z b b [append_info_untailored_exception_traceback ada__exceptions__exception_data 144 14 none]
+G c Z b b [append_info_untailored_exception_information ada__exceptions__exception_data 149 14 none]
+G c Z b b [basic_exception_info_maxlength ada__exceptions__exception_data 163 13 none]
+G c Z b b [untailored_exception_traceback_maxlength ada__exceptions__exception_data 166 13 none]
+G c Z b b [exception_info_maxlength ada__exceptions__exception_data 169 13 none]
+G c Z b b [exception_name_length ada__exceptions__exception_data 172 13 none]
+G c Z b b [exception_name_length ada__exceptions__exception_data 175 13 none]
+G c Z b b [exception_message_length ada__exceptions__exception_data 178 13 none]
+G c Z b b [untailored_exception_traceback ada__exceptions__exception_data 185 13 none]
+G c Z b b [tailored_exception_traceback ada__exceptions__exception_data 191 13 none]
+G c Z b b [get_executable_load_address ada__exceptions__exception_data 211 13 none]
+G c Z b b [notify_handled_exception ada__exceptions__exception_traces 196 17 none]
+G c Z b b [notify_unhandled_exception ada__exceptions__exception_traces 202 17 none]
+G c Z b b [unhandled_exception_terminate ada__exceptions__exception_traces 208 17 none]
+G c Z b b [last_chance_handler ada__exceptions__exception_traces 67 14 none]
+G c Z b b [to_action ada__exceptions__exception_traces 73 13 none]
+G c Z b b [notify_exception ada__exceptions__exception_traces 80 14 none]
+G c Z b b [allocate_occurrence ada__exceptions__exception_propagation 224 16 none]
+G c Z b b [propagate_exception ada__exceptions__exception_propagation 227 17 none]
+G c Z b b [gnat_gcc_exception_cleanup ada__exceptions__exception_propagation 122 14 none]
+G c Z b b [propagate_gcc_exception ada__exceptions__exception_propagation 128 14 none]
+G c Z b b [reraise_gcc_exception ada__exceptions__exception_propagation 133 14 none]
+G c Z b b [setup_current_excep ada__exceptions__exception_propagation 140 13 none]
+G c Z b b [unhandled_except_handler ada__exceptions__exception_propagation 155 14 none]
+G c Z b b [cleanupunwind_handler ada__exceptions__exception_propagation 164 13 none]
+G c Z b b [unwind_raiseexception ada__exceptions__exception_propagation 180 14 none]
+G c Z b b [unwind_forcedunwind ada__exceptions__exception_propagation 184 14 none]
+G c Z b b [set_exception_parameter ada__exceptions__exception_propagation 190 14 none]
+G c Z b b [set_foreign_occurrence ada__exceptions__exception_propagation 198 14 none]
+G c Z b b [begin_handler_v1 ada__exceptions__exception_propagation 220 13 none]
+G c Z b b [end_handler_v1 ada__exceptions__exception_propagation 229 14 none]
+G c Z b b [claimed_cleanup ada__exceptions__exception_propagation 243 14 none]
+G c Z b b [begin_handler ada__exceptions__exception_propagation 258 14 none]
+G c Z b b [end_handler ada__exceptions__exception_propagation 263 14 none]
+G c Z b b [is_handled_by_others ada__exceptions__exception_propagation 283 13 none]
+G c Z b b [language_for ada__exceptions__exception_propagation 286 13 none]
+G c Z b b [foreign_data_for ada__exceptions__exception_propagation 289 13 none]
+G c Z b b [eid_for ada__exceptions__exception_propagation 292 13 none]
+G c Z b b [eid_to_string ada__exceptions__stream_attributes 239 16 none]
+G c Z b b [string_to_eid ada__exceptions__stream_attributes 240 16 none]
+G c Z b b [eo_to_string ada__exceptions__stream_attributes 243 16 none]
+G c Z b b [string_to_eo ada__exceptions__stream_attributes 244 16 none]
+G c Z b b [complete_occurrence ada__exceptions 250 14 none]
+G c Z b b [complete_and_propagate_occurrence ada__exceptions 254 14 none]
+G c Z b b [create_occurrence_from_signal_handler ada__exceptions 259 13 none]
+G c Z b b [create_machine_occurrence_from_signal_handler ada__exceptions 265 13 none]
+G c Z b b [raise_exception_no_defer ada__exceptions 273 14 none]
+G c Z b b [raise_from_signal_handler ada__exceptions 282 14 none]
+G c Z b b [raise_with_msg ada__exceptions 299 14 none]
+G c Z b b [raise_with_location_and_msg ada__exceptions 307 14 none]
+G c Z b b [raise_constraint_error ada__exceptions 319 14 none]
+G c Z b b [raise_constraint_error_msg ada__exceptions 324 14 none]
+G c Z b b [raise_program_error ada__exceptions 334 14 none]
+G c Z b b [raise_program_error_msg ada__exceptions 339 14 none]
+G c Z b b [raise_storage_error ada__exceptions 348 14 none]
+G c Z b b [raise_storage_error_msg ada__exceptions 353 14 none]
+G c Z b b [reraise ada__exceptions 383 14 none]
+G c Z b b [transfer_occurrence ada__exceptions 391 14 none]
+G c Z b b [rcheck_ce_access_check ada__exceptions 408 14 none]
+G c Z b b [rcheck_ce_null_access_parameter ada__exceptions 410 14 none]
+G c Z b b [rcheck_ce_discriminant_check ada__exceptions 412 14 none]
+G c Z b b [rcheck_ce_divide_by_zero ada__exceptions 414 14 none]
+G c Z b b [rcheck_ce_explicit_raise ada__exceptions 416 14 none]
+G c Z b b [rcheck_ce_index_check ada__exceptions 418 14 none]
+G c Z b b [rcheck_ce_invalid_data ada__exceptions 420 14 none]
+G c Z b b [rcheck_ce_length_check ada__exceptions 422 14 none]
+G c Z b b [rcheck_ce_null_exception_id ada__exceptions 424 14 none]
+G c Z b b [rcheck_ce_null_not_allowed ada__exceptions 426 14 none]
+G c Z b b [rcheck_ce_overflow_check ada__exceptions 428 14 none]
+G c Z b b [rcheck_ce_partition_check ada__exceptions 430 14 none]
+G c Z b b [rcheck_ce_range_check ada__exceptions 432 14 none]
+G c Z b b [rcheck_ce_tag_check ada__exceptions 434 14 none]
+G c Z b b [rcheck_pe_access_before_elaboration ada__exceptions 436 14 none]
+G c Z b b [rcheck_pe_accessibility_check ada__exceptions 438 14 none]
+G c Z b b [rcheck_pe_address_of_intrinsic ada__exceptions 440 14 none]
+G c Z b b [rcheck_pe_aliased_parameters ada__exceptions 442 14 none]
+G c Z b b [rcheck_pe_all_guards_closed ada__exceptions 444 14 none]
+G c Z b b [rcheck_pe_bad_predicated_generic_type ada__exceptions 446 14 none]
+G c Z b b [rcheck_pe_build_in_place_mismatch ada__exceptions 448 14 none]
+G c Z b b [rcheck_pe_current_task_in_entry_body ada__exceptions 450 14 none]
+G c Z b b [rcheck_pe_duplicated_entry_address ada__exceptions 452 14 none]
+G c Z b b [rcheck_pe_explicit_raise ada__exceptions 454 14 none]
+G c Z b b [rcheck_pe_implicit_return ada__exceptions 456 14 none]
+G c Z b b [rcheck_pe_misaligned_address_value ada__exceptions 458 14 none]
+G c Z b b [rcheck_pe_missing_return ada__exceptions 460 14 none]
+G c Z b b [rcheck_pe_non_transportable_actual ada__exceptions 462 14 none]
+G c Z b b [rcheck_pe_overlaid_controlled_object ada__exceptions 464 14 none]
+G c Z b b [rcheck_pe_potentially_blocking_operation ada__exceptions 466 14 none]
+G c Z b b [rcheck_pe_stubbed_subprogram_called ada__exceptions 468 14 none]
+G c Z b b [rcheck_pe_unchecked_union_restriction ada__exceptions 470 14 none]
+G c Z b b [rcheck_se_empty_storage_pool ada__exceptions 472 14 none]
+G c Z b b [rcheck_se_explicit_raise ada__exceptions 474 14 none]
+G c Z b b [rcheck_se_infinite_recursion ada__exceptions 476 14 none]
+G c Z b b [rcheck_se_object_too_large ada__exceptions 478 14 none]
+G c Z b b [rcheck_pe_stream_operation_not_allowed ada__exceptions 480 14 none]
+G c Z b b [rcheck_ce_access_check_ext ada__exceptions 482 14 none]
+G c Z b b [rcheck_ce_index_check_ext ada__exceptions 484 14 none]
+G c Z b b [rcheck_ce_invalid_data_ext ada__exceptions 486 14 none]
+G c Z b b [rcheck_ce_range_check_ext ada__exceptions 488 14 none]
+G c Z b b [rcheck_pe_finalize_raised_exception ada__exceptions 491 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|44r9 295r5 4|53r14 1093r11 1833r5 5|41r11 6|34r11 7|83r6
+. 84r6 89r11 8|32r6 35r6 39r11 73r30 10|42r11
+X 3 a-except.ads
+44K13*Exceptions 1|16k9 3|138E12 295l9 295e19 4|53b18 1093r15 1833l9 1833t19
+. 5|41r15 6|34r15 7|89r15 8|35r10 39r15 10|42r15
+48P9*Exception_Id<29|82P9> 49r41 51r23 60r34 65r12 73r12 80r35 92r66 157c9
+. 159r32 160r47 161r27 164r23 178r42 237r12 4|118r19 133r20 239r35 240r50
+. 260r11 266r11 274r17 283r11 299r34 308r11 805r32 823r40 867r34 1039r17
+. 1042r12 1060r17 1075r17 1139r11 1155r11 1167r11 1232r11 1248r34 1706r47
+. 1768r12 1796r12 6|125r14 173r12 341r14 541r41 589r16 685r17 7|293r13 680r67
+. 10|49r32 78r47 83r17 157r12
+51p4*Null_Id{48P9} 164c4 237r28 4|843r17 856r17 1611r21 6|324r17 346r15 10|51r14
+. 67r17 81r17
+53R9*Exception_Occurrence 54r41 56r51 58r31 62r33 69r11 77r11 84r36 86r38
+. 92r37 94r40 114r20 115r16 118r16 170r40 191r51 206r45 213r47 236c9 267e14
+. 269r32 276r11 284r31 285r46 286r27 289r31 4|144r14 169r43 227r46 243r34
+. 244r49 393r16 815r31 823r11 841r40 854r36 876r33 885r40 937r11 1093r26
+. 1605r12 1625r38 1638r45 1647r47 1674r20 1675r16 1695r39 1696r36 1713r46
+. 1742r16 1780r11 1808r11 6|130r14 135r14 140r14 145r14 150r14 164r11 167r11
+. 170r11 176r11 179r11 186r11 192r11 259r14 319r14 359r14 372r11 438r14 457r14
+. 497r11 510r40 531r11 549r40 559r11 574r11 705r11 734r11 7|628r43 8|45r51
+. 67r44 179r13 10|65r31 91r46 95r22
+56P9*Exception_Occurrence_Access(53R9) 119r16 141r19 4|392r16 1250r24 1741r16
+. 1753r21
+58r4*Null_Occurrence{53R9} 289c4 10|137r17
+60V13*Exception_Name{string} 60>29 4|867b13 874l8 874t22 878s14 1770s30 1798s30
+. 10|54s17
+60p29 Id{48P9} 4|867b29 869r10 872r25 872r45
+62V13*Exception_Name{string} 62>29 4|876b13 879l8 879t22 886s33 1113s51 1782s30
+. 1810s30
+62r29 X{53R9} 4|876b29 878r30
+64V13*Wide_Exception_Name{wide_string} 65>7 66r19 4|1767b13 1777l8 1777t27
+65p7 Id{48P9} 4|1768b7 1770r46
+68V13*Wide_Exception_Name{wide_string} 69>7 4|1779b13 1789l8 1789t27
+69r7 X{53R9} 4|1780b7 1782r46
+72V13*Wide_Wide_Exception_Name{wide_wide_string} 73>7 74r19 4|1795b13 1805l8
+. 1805t32
+73p7 Id{48P9} 4|1796b7 1798r46
+76V13*Wide_Wide_Exception_Name{wide_wide_string} 77>7 4|1807b13 1817l8 1817t32
+77r7 X{53R9} 4|1808b7 1810r46
+80U14*Raise_Exception 80>31 80>49 81r22 4|1038b14 1053l8 1053t23 10|109s10
+80p31 E{48P9} 4|1039b7 1042r28 1046r10
+80a49 Message{string} 4|1040b7 1052r35
+84V13*Exception_Message{string} 84>32 4|854b13 861l8 861t25 1096s47
+84r32 X{53R9} 4|854b32 856r10 859r17 859r29
+86U14*Reraise_Occurrence 86>34 4|1625b14 1632l8 1632t26
+86r34 X{53R9} 4|1625b34 1627r10 1630r37
+92V13*Exception_Identity{48P9} 92>33 4|822b13 835l8 835t26 1756s18
+92r33 X{53R9} 4|823b7 834r14
+94V13*Exception_Information{string} 94>36 4|841b13 848l8 848t29 8|125s21
+94r36 X{53R9} 4|841b36 843r10 846r55
+113U14*Save_Occurrence 114<7 115>7 4|1595s7 1662s13 1673b14 1693l8 1693t23
+. 1698s7 1745s7 7|652s13 8|189s7
+114r7 Target{53R9} 4|1674b7 1681m7 1682m7 1683m7 1684m7 1685m7 1686m7 1688m7
+. 1688r24 1689r26 1691m7 1691r31 1692r33
+115r7 Source{53R9} 4|1675b7 1681r36 1683r36 1684r36 1685r36 1686r36 1689r9
+. 1692r9
+117V13*Save_Occurrence{56P9} 118>7 4|1695b13 1700l8 1700t23
+118r7 Source{53R9} 4|1695b30 1698r36
+138K12 SSL=138:31 157r29 4|1020r21 8|171r34
+139K12 SP=139:30 143r43
+141P12 EOA{56P9} 4|92r34 117r19 132r20 196r51 202r53 208r56 224r43 250r39
+. 254r53 261r34 797r34 993r39 1028r53 1063r20 1078r20 1140r34 1142r20 1238r20
+. 1249r24 1572r20 1591r27 1658r30 1695r68 1696r25 5|42r31 6|588r16 684r17
+. 7|142r37 191r23 198r46 321r40 357r46 376r37 378r24 496r32 591r24 638r23
+. 669r15 8|80r40 90r40 151r48 160r50 178r53
+143N4 Exception_Msg_Max_Length 247r26 6|625r33 651r37 663r41 670r40 689r44
+149M12 Code_Loc{16|67M9} 154r24
+154m4 Null_Loc{149M12}
+159V13 EId_To_String{string} 159>28 161r56 4|805b13
+159p28 X{48P9} 4|805b28
+160V13 String_To_EId{48P9} 160>28 161r41 4|1706b13
+160a28 S{string} 4|1706b28
+170V13 Exception_Name_Simple{string} 170>36 4|885b13 903l8 903t29
+170r36 X{53R9} 4|885b36 886r49
+178U14 Raise_Exception_Always 178>38 178>56 179r22 180r24 187r30 4|1052s7
+. 1059b14 1068l8 1068t30
+178p38 E{48P9} 4|1060b7 1066r44
+178a56 Message{string} 4|1061b7 1066r47
+191U14 Raise_From_Controlled_Operation 191>47 192r22 194r12 4|1092b14 1132l8
+. 1132t39 1616s13
+191r47 X{53R9} 4|1093b7 1096r66 1113r67
+199U14 Reraise_Library_Exception_If_Any 201r12 4|1604b14 1619l8 1619t40
+206U14 Reraise_Occurrence_Always 206>41 207r22 4|1630s10 1638b14 1641l8 1641t33
+206r41 X{53R9} 4|1638b41 1640r36
+213U14 Reraise_Occurrence_No_Defer 213>43 214r22 4|1640s7 1647b14 1667l8
+. 1667t35
+213r43 X{53R9} 4|1647b43 1654r10 1655r53 1662r41
+220V13 Triggered_By_Abort{boolean} 4|1752b13 1757l8 1757t26
+228K12 TBE=228:31 233r32 6|484r31 10|247r18
+230N4 Max_Tracebacks 233r59 262r43 5|67r25 10|241r38
+233A12 Tracebacks_Array{34|50A9}<integer> 265r20
+237p7*Id{48P9} 4|834r16 843r12 856r12 878r32 1020r47 1253m13 1611r16 1627r12
+. 1681m14 1681r43 6|324r12 364r37 551r39 645m13 695m13 7|360m9 683r40 8|101r20
+. 133r44 135r47 171r64 10|67r12 156m12
+240m7*Machine_Occurrence{16|67M9} 290m7 4|940r16 1159r59 1592r51 1596m13
+. 1654r12 1660r57 1663m19 1682m14 7|327m22 361m9 498r44 504m24 630r56 10|255m9
+244i7*Msg_Length{natural} 4|859r31 1021r35 1260m13 1260r47 1261r29 1261r60
+. 1683m14 1683r43 1688r31 1689r33 6|534r16 625r19 626r30 627m19 627r39 634r33
+. 648m13 650r34 651r24 653m16 653r36 654r27 654r63 663r24 665m16 665r36 666r27
+. 670r27 672m19 672r39 673r30 693m13 7|363m9 10|165m12 166r24 169m12
+247a7*Msg{string} 291m7 4|859r19 1021r23 1261m13 1261r47 1688m14 1689r16
+. 6|330r48 626m19 634m22 654m16 666m16 673m19 694m13 10|166m12
+250b7*Exception_Raised{boolean} 4|1252m13 1685m14 1685r43 6|644m13 692m13
+. 7|364m9 10|260m9
+259i7*Pid{natural} 4|1255m13 1686m14 1686r43 6|289r12 291r29 647m13 697m13
+. 7|365m9 10|173m9 183m15 183r24
+262i7*Num_Tracebacks{integer} 4|1254m13 1684m14 1684r43 1691r38 1692r40 5|50r43
+. 68m31 6|464r12 483r23 485r26 646m13 696m13 725r54 741r13 7|366m9 10|191m9
+. 241r21 245m18 245r38 246r32
+265a7*Tracebacks{233A12} 292m7 4|1691m14 1692r16 5|66m31 6|484r45 725m32
+. 10|246m18
+269y14*"="{boolean} 269>18 269>24
+269r18 Left{53R9}
+269r24 Right{53R9}
+275V13 Get_Exception_Machine_Occurrence{16|67M9} 276>7 277r24 4|936b13 941l8
+. 941t40
+276r7 X{53R9} 4|937b7 940r14
+284V13 EO_To_String{string} 284>27 286r63 4|815b13
+284r27 X{53R9} 4|815b27
+285V13 String_To_EO{53R9} 285>27 286r49 4|1713b13
+285a27 S{string} 4|1713b27
+X 4 a-except.adb
+68V13 Code_Address_For_AAA{16|67M9} 782b13 791l8 791t28 5|69s25
+69V13 Code_Address_For_ZZZ{16|67M9} 1827b13 1831l8 1831t28 5|70s25
+92U14 Call_Chain 92>26 797b14 1016s7 5|42b11 74l5 74t15
+92p26 Excep{3|141P12} 797b26 5|42b23 50r37 66r25 68r25
+96V13 Image{string} 96>20 947b13 955l8 955t13 1541s28 1541s57 1542s24 1552s28
+. 1552s57 1553s24 1563s28 1563s57 1564s24
+96i20 Index{integer} 947b20 948r50
+99U14 To_Stderr 99>25 100r24 1727b14 1734l8 1734t17 6|421s10 8|114s10 118s16
+. 121s13 122s13 125s10
+99a25 S{string} 1727b25 1729r16 1730r13 1731r24
+104U14 To_Stderr 104>25 1720b14 1725l8 1725t17 1731s13 6|307s10
+104e25 C{character} 1720b25 1724r39
+110K12 Exception_Data 182l8 182e22 846r17 909b17 1066r7 1081r7 1145r7 1240r7
+. 1581r7 6|35b14 744l5 744t19 10|70r17
+116U17*Set_Exception_C_Msg 117>10 118>10 119>10 120>10 121>10 122>10 1145s22
+. 1240s22 1581s22 6|587b14 677l8 677t27
+117p10 Excep{3|141P12} 6|588b7 625r13 626r13 626r24 627r13 627r33 634r16
+. 634r27 644r7 645r7 646r7 647r7 648r7 650r28 651r18 653r10 653r30 654r10
+. 654r21 654r57 663r18 665r10 665r30 666r10 666r21 670r21 672r13 672r33 673r13
+. 673r24
+118p10 Id{3|48P9} 6|589b7 645r33
+119m10 Msg1{16|67M9} 6|590b7 650r21 654r50
+120i10 Line{integer} 6|591b7 657r22
+121i10 Column{integer} 6|592b7 658r22
+122m10 Msg2{16|67M9} 6|593b7 662r10 669r24 673r53
+131U17*Set_Exception_Msg 132>10 133>10 134>10 1066s22 1081s22 6|683b14 698l8
+. 698t25
+132p10 Excep{3|141P12} 6|684b7 692r7 693r7 694r7 695r7 696r7 697r7
+133p10 Id{3|48P9} 6|685b7 695r33
+134a10 Message{string} 6|686b7 689r28 690r35 694r33
+143V16*Untailored_Exception_Information{string} 144>10 6|573b13 581l8 581t40
+. 10|70s32
+144r10 X{3|53R9} 6|574b7 576r53 579r53
+169V16*Exception_Information{string} 169>39 846s32 6|510b13 524l8 524t29
+169r39 X{3|53R9} 6|510b36 514r70 517r59 521r48
+184K12 Exception_Traces 216l8 216e24 926b17 7|92r8 8|40b14 221l5 221t21
+196U17*Notify_Handled_Exception 196>43 198i<c,__gnat_notify_handled_exception>13
+. 8|151b14 154l8 154t32
+196p43 Excep{3|141P12} 8|151b40 153r25
+202U17*Notify_Unhandled_Exception 202>45 204i<c,__gnat_notify_unhandled_exception>13
+. 7|606s7 8|160b14 172l8 172t34
+202p45 Excep{3|141P12} 8|160b42 168r37 170r25 171r58
+208U17*Unhandled_Exception_Terminate 208>48 209r25 7|672s7 8|178b14 191l8
+. 191t37
+208p48 Excep{3|141P12} 8|178b45 189r29
+218K12 Exception_Propagation 231l8 231e29 917b17 1031r7 1063r27 1078r27 1142r27
+. 1171r7 1238r27 1249r31 1572r27 1591r34 1655r10 1659r18 7|90b14 713l5 713t26
+224V16*Allocate_Occurrence{3|141P12} 1063s49 1078s49 1142s49 1238s49 1249s53
+. 1572s49 1591s56 1659s40 7|321b13 330l8 330t27
+227U17*Propagate_Exception 227>38 228r25 1031s29 1171s29 1655s32 7|628b14
+. 631l8 631t27
+227r38 Excep{3|53R9} 7|628b35 630r50
+233K12 Stream_Attributes 248l8 248e25 806r14 816r14 961b17 1707r14 1714r14
+. 10|43b14 264l5 264t22
+239V16*EId_To_String{string} 239>31 806r32 10|49b13 56l8 56t21
+239p31 X{3|48P9} 10|49b28 51r10 54r33
+240V16*String_To_EId{3|48P9} 240>31 1707r32 10|78b13 85l8 85t21
+240a31 S{string} 10|78b28 80r10 83r51
+243V16*EO_To_String{string} 243>30 816r32 10|65b13 72l8 72t20
+243r30 X{3|53R9} 10|65b27 67r10 70r66
+244V16*String_To_EO{3|53R9} 244>30 1714r32 10|91b13 262l8 262t20
+244a30 S{string} 10|91b27 118r20 121r24 122r25 124r22 136r10 140r13 143r10
+. 152r35 157r46 161r13 166r39 175r30 176r13 184r40 194r13 208r19 209r26 218r25
+. 222r39 226r39
+250U14 Complete_Occurrence 250>35 993b14 1022l8 1022t27 1030s7 1146s7
+250p35 X{3|141P12} 993b35 1016r19 1020r45 1021r21 1021r33
+254U14 Complete_And_Propagate_Occurrence 254>49 255r22 1028b14 1032l8 1032t41
+. 1067s7 1085s7 1241s7 1263s7 1583s7 1597s7 1664s13
+254p49 X{3|141P12} 1028b49 1030r28 1031r50
+259V13 Create_Occurrence_From_Signal_Handler{3|141P12} 260>7 261>7 1138b13
+. 1148l8 1148t45 1159s14 1172s10
+260p7 E{3|48P9} 1139b7 1145r46
+261m7 M{16|67M9} 1140b7 1145r49
+265V13 Create_Machine_Occurrence_From_Signal_Handler{16|67M9} 266>7 267>7
+. 268i<c,__gnat_create_machine_occurrence_from_signal_handler>22 1154b13
+. 1160l8 1160t53
+266p7 E{3|48P9} 1155b7 1159r53
+267m7 M{16|67M9} 1156b7 1159r56
+273U14 Raise_Exception_No_Defer 274>7 275>7 277r11 279r22 1074b14 1086l8
+. 1086t32 1107s10 1119s16 1126s16 1612s13
+274p7 E{3|48P9} 1075b7 1081r44 1108r13 1120r19 1127r19 1613r16
+275a7 Message{string} 1076b7 1081r47 1109r13 1121r19 1128r19 1614r16
+282U14 Raise_From_Signal_Handler 283>7 284>7 286i<c,__gnat_raise_from_signal_handler>10
+. 287r22 1166b14 1173l8 1173t33
+283p7 E{3|48P9} 1167b7 1172r49
+284m7 M{16|67M9} 1168b7 1172r52
+299U14 Raise_With_Msg 299>30 300r22 301i<c,__gnat_raise_with_msg>22 1248b14
+. 1264l8 1264t22
+299p30 E{3|48P9} 1248b30 1253r33
+307U14 Raise_With_Location_And_Msg 308>7 309>7 310>7 311>7 312>7 313r22 971s7
+. 985s7 1184s7 1197s7 1210s7 1223s7 1231b14 1242l8 1242t35
+308p7 E{3|48P9} 1232b7 1240r46
+309m7 F{16|67M9} 1233b7 1240r49
+310i7 L{integer} 1234b7 1240r52
+311i7 C{integer} 1235b7 1240r55
+312m7 M{16|67M9} 1198r48 1224r48 1236b7 1240r58
+319U14 Raise_Constraint_Error 319>38 319>61 320r22 321i<c,__gnat_raise_constraint_error>22
+. 969b14 972l8 972t30
+319m38 File{16|67M9} 969b38 971r65
+319i61 Line{integer} 969b61 971r71
+324U14 Raise_Constraint_Error_Msg 325>7 326>7 327>7 328>7 329r22 331i<c,__gnat_raise_constraint_error_msg>10
+. 978b14 987l8 987t34 1274s7 1281s7 1288s7 1295s7 1302s7 1309s7 1316s7 1323s7
+. 1330s7 1337s7 1344s7 1351s7 1358s7 1365s7 1533s7 1544s7 1555s7 1566s7
+325m7 File{16|67M9} 979b7 986r39
+326i7 Line{integer} 980b7 986r45
+327i7 Column{integer} 981b7 986r51
+328m7 Msg{16|67M9} 982b7 986r59
+334U14 Raise_Program_Error 334>35 334>58 335r22 336i<c,__gnat_raise_program_error>22
+. 1179b14 1185l8 1185t27
+334m35 File{16|67M9} 1180b7 1184r62
+334i58 Line{integer} 1181b7 1184r68
+339U14 Raise_Program_Error_Msg 340>7 341>7 342>7 343r22 345i<c,__gnat_raise_program_error_msg>10
+. 1191b14 1199l8 1199t31 1372s7 1379s7 1386s7 1393s7 1400s7 1407s7 1414s7
+. 1421s7 1428s7 1435s7 1442s7 1449s7 1456s7 1463s7 1470s7 1477s7 1484s7 1491s7
+. 1498s7
+340m7 File{16|67M9} 1192b7 1198r36
+341i7 Line{integer} 1193b7 1198r42
+342m7 Msg{16|67M9} 1194b7 1198r53
+348U14 Raise_Storage_Error 348>35 348>58 349r22 350i<c,__gnat_raise_storage_error>22
+. 1205b14 1211l8 1211t27
+348m35 File{16|67M9} 1206b7 1210r62
+348i58 Line{integer} 1207b7 1210r68
+353U14 Raise_Storage_Error_Msg 354>7 355>7 356>7 357r22 359i<c,__gnat_raise_storage_error_msg>10
+. 1217b14 1225l8 1225t31 1505s7 1512s7 1519s7 1526s7
+354m7 File{16|67M9} 1218b7 1224r36
+355i7 Line{integer} 1219b7 1224r42
+356m7 Msg{16|67M9} 1220b7 1224r53
+383U14 Reraise 384r22 385i<c,__gnat_reraise>22 1590b14 1598l8 1598t15
+391U14 Transfer_Occurrence 392>7 393>7 394i<c,__gnat_transfer_occurrence>22
+. 1740b14 1746l8 1746t27
+392p7 Target{3|56P9} 1741b7 1745r24
+393r7 Source{3|53R9} 1742b7 1745r36
+408U14 Rcheck_CE_Access_Check 409>7 409>30 498i<c,__gnat_rcheck_CE_Access_Check>22
+. 588r22 636r30 1270b14 1275l8 1275t30
+409m7 File{16|67M9} 1271b7 1274r35
+409i30 Line{integer} 1271b30 1274r41
+410U14 Rcheck_CE_Null_Access_Parameter 411>7 411>30 500i<c,__gnat_rcheck_CE_Null_Access_Parameter>22
+. 589r22 638r30 1277b14 1282l8 1282t39
+411m7 File{16|67M9} 1278b7 1281r35
+411i30 Line{integer} 1278b30 1281r41
+412U14 Rcheck_CE_Discriminant_Check 413>7 413>30 502i<c,__gnat_rcheck_CE_Discriminant_Check>22
+. 590r22 640r30 1284b14 1289l8 1289t36
+413m7 File{16|67M9} 1285b7 1288r35
+413i30 Line{integer} 1285b30 1288r41
+414U14 Rcheck_CE_Divide_By_Zero 415>7 415>30 504i<c,__gnat_rcheck_CE_Divide_By_Zero>22
+. 591r22 642r30 1291b14 1296l8 1296t32
+415m7 File{16|67M9} 1292b7 1295r35
+415i30 Line{integer} 1292b30 1295r41
+416U14 Rcheck_CE_Explicit_Raise 417>7 417>30 506i<c,__gnat_rcheck_CE_Explicit_Raise>22
+. 592r22 644r30 1298b14 1303l8 1303t32
+417m7 File{16|67M9} 1299b7 1302r35
+417i30 Line{integer} 1299b30 1302r41
+418U14 Rcheck_CE_Index_Check 419>7 419>30 508i<c,__gnat_rcheck_CE_Index_Check>22
+. 593r22 646r30 1305b14 1310l8 1310t29
+419m7 File{16|67M9} 1306b7 1309r35
+419i30 Line{integer} 1306b30 1309r41
+420U14 Rcheck_CE_Invalid_Data 421>7 421>30 510i<c,__gnat_rcheck_CE_Invalid_Data>22
+. 594r22 648r30 1312b14 1317l8 1317t30
+421m7 File{16|67M9} 1313b7 1316r35
+421i30 Line{integer} 1313b30 1316r41
+422U14 Rcheck_CE_Length_Check 423>7 423>30 512i<c,__gnat_rcheck_CE_Length_Check>22
+. 595r22 650r30 1319b14 1324l8 1324t30
+423m7 File{16|67M9} 1320b7 1323r35
+423i30 Line{integer} 1320b30 1323r41
+424U14 Rcheck_CE_Null_Exception_Id 425>7 425>30 514i<c,__gnat_rcheck_CE_Null_Exception_Id>22
+. 596r22 652r30 1326b14 1331l8 1331t35
+425m7 File{16|67M9} 1327b7 1330r35
+425i30 Line{integer} 1327b30 1330r41
+426U14 Rcheck_CE_Null_Not_Allowed 427>7 427>30 516i<c,__gnat_rcheck_CE_Null_Not_Allowed>22
+. 597r22 654r30 1333b14 1338l8 1338t34
+427m7 File{16|67M9} 1334b7 1337r35
+427i30 Line{integer} 1334b30 1337r41
+428U14 Rcheck_CE_Overflow_Check 429>7 429>30 518i<c,__gnat_rcheck_CE_Overflow_Check>22
+. 598r22 656r30 1340b14 1345l8 1345t32
+429m7 File{16|67M9} 1341b7 1344r35
+429i30 Line{integer} 1341b30 1344r41
+430U14 Rcheck_CE_Partition_Check 431>7 431>30 520i<c,__gnat_rcheck_CE_Partition_Check>22
+. 599r22 658r30 1347b14 1352l8 1352t33
+431m7 File{16|67M9} 1348b7 1351r35
+431i30 Line{integer} 1348b30 1351r41
+432U14 Rcheck_CE_Range_Check 433>7 433>30 522i<c,__gnat_rcheck_CE_Range_Check>22
+. 600r22 660r30 1354b14 1359l8 1359t29
+433m7 File{16|67M9} 1355b7 1358r35
+433i30 Line{integer} 1355b30 1358r41
+434U14 Rcheck_CE_Tag_Check 435>7 435>30 524i<c,__gnat_rcheck_CE_Tag_Check>22
+. 601r22 662r30 1361b14 1366l8 1366t27
+435m7 File{16|67M9} 1362b7 1365r35
+435i30 Line{integer} 1362b30 1365r41
+436U14 Rcheck_PE_Access_Before_Elaboration 437>7 437>30 526i<c,__gnat_rcheck_PE_Access_Before_Elaboration>22
+. 602r22 664r30 1368b14 1373l8 1373t43
+437m7 File{16|67M9} 1369b7 1372r32
+437i30 Line{integer} 1369b30 1372r38
+438U14 Rcheck_PE_Accessibility_Check 439>7 439>30 528i<c,__gnat_rcheck_PE_Accessibility_Check>22
+. 603r22 666r30 1375b14 1380l8 1380t37
+439m7 File{16|67M9} 1376b7 1379r32
+439i30 Line{integer} 1376b30 1379r38
+440U14 Rcheck_PE_Address_Of_Intrinsic 441>7 441>30 530i<c,__gnat_rcheck_PE_Address_Of_Intrinsic>22
+. 604r22 668r30 1382b14 1387l8 1387t38
+441m7 File{16|67M9} 1383b7 1386r32
+441i30 Line{integer} 1383b30 1386r38
+442U14 Rcheck_PE_Aliased_Parameters 443>7 443>30 532i<c,__gnat_rcheck_PE_Aliased_Parameters>22
+. 605r22 670r30 1389b14 1394l8 1394t36
+443m7 File{16|67M9} 1390b7 1393r32
+443i30 Line{integer} 1390b30 1393r38
+444U14 Rcheck_PE_All_Guards_Closed 445>7 445>30 534i<c,__gnat_rcheck_PE_All_Guards_Closed>22
+. 606r22 672r30 1396b14 1401l8 1401t35
+445m7 File{16|67M9} 1397b7 1400r32
+445i30 Line{integer} 1397b30 1400r38
+446U14 Rcheck_PE_Bad_Predicated_Generic_Type 447>7 447>30 536i<c,__gnat_rcheck_PE_Bad_Predicated_Generic_Type>22
+. 607r22 674r30 1403b14 1408l8 1408t45
+447m7 File{16|67M9} 1404b7 1407r32
+447i30 Line{integer} 1404b30 1407r38
+448U14 Rcheck_PE_Build_In_Place_Mismatch 449>7 449>30 538i<c,__gnat_rcheck_PE_Build_In_Place_Mismatch>22
+. 608r22 676r30 1410b14 1415l8 1415t41
+449m7 File{16|67M9} 1411b7 1414r32
+449i30 Line{integer} 1411b30 1414r38
+450U14 Rcheck_PE_Current_Task_In_Entry_Body 451>7 451>30 540i<c,__gnat_rcheck_PE_Current_Task_In_Entry_Body>22
+. 609r22 678r30 1417b14 1422l8 1422t44
+451m7 File{16|67M9} 1418b7 1421r32
+451i30 Line{integer} 1418b30 1421r38
+452U14 Rcheck_PE_Duplicated_Entry_Address 453>7 453>30 542i<c,__gnat_rcheck_PE_Duplicated_Entry_Address>22
+. 610r22 680r30 1424b14 1429l8 1429t42
+453m7 File{16|67M9} 1425b7 1428r32
+453i30 Line{integer} 1425b30 1428r38
+454U14 Rcheck_PE_Explicit_Raise 455>7 455>30 544i<c,__gnat_rcheck_PE_Explicit_Raise>22
+. 611r22 682r30 1431b14 1436l8 1436t32
+455m7 File{16|67M9} 1432b7 1435r32
+455i30 Line{integer} 1432b30 1435r38
+456U14 Rcheck_PE_Implicit_Return 457>7 457>30 548i<c,__gnat_rcheck_PE_Implicit_Return>22
+. 612r22 684r30 1438b14 1443l8 1443t33
+457m7 File{16|67M9} 1439b7 1442r32
+457i30 Line{integer} 1439b30 1442r38
+458U14 Rcheck_PE_Misaligned_Address_Value 459>7 459>30 550i<c,__gnat_rcheck_PE_Misaligned_Address_Value>22
+. 613r22 686r30 1445b14 1450l8 1450t42
+459m7 File{16|67M9} 1446b7 1449r32
+459i30 Line{integer} 1446b30 1449r38
+460U14 Rcheck_PE_Missing_Return 461>7 461>30 552i<c,__gnat_rcheck_PE_Missing_Return>22
+. 614r22 688r30 1452b14 1457l8 1457t32
+461m7 File{16|67M9} 1453b7 1456r32
+461i30 Line{integer} 1453b30 1456r38
+462U14 Rcheck_PE_Non_Transportable_Actual 463>7 463>30 554i<c,__gnat_rcheck_PE_Non_Transportable_Actual>22
+. 615r22 690r30 1459b14 1464l8 1464t42
+463m7 File{16|67M9} 1460b7 1463r32
+463i30 Line{integer} 1460b30 1463r38
+464U14 Rcheck_PE_Overlaid_Controlled_Object 465>7 465>30 556i<c,__gnat_rcheck_PE_Overlaid_Controlled_Object>22
+. 616r22 692r30 1466b14 1471l8 1471t44
+465m7 File{16|67M9} 1467b7 1470r32
+465i30 Line{integer} 1467b30 1470r38
+466U14 Rcheck_PE_Potentially_Blocking_Operation 467>7 467>30 558i<c,__gnat_rcheck_PE_Potentially_Blocking_Operation>22
+. 617r22 694r30 1473b14 1478l8 1478t48
+467m7 File{16|67M9} 1474b7 1477r32
+467i30 Line{integer} 1474b30 1477r38
+468U14 Rcheck_PE_Stubbed_Subprogram_Called 469>7 469>30 562i<c,__gnat_rcheck_PE_Stubbed_Subprogram_Called>22
+. 619r22 698r30 1487b14 1492l8 1492t43
+469m7 File{16|67M9} 1488b7 1491r32
+469i30 Line{integer} 1488b30 1491r38
+470U14 Rcheck_PE_Unchecked_Union_Restriction 471>7 471>30 564i<c,__gnat_rcheck_PE_Unchecked_Union_Restriction>22
+. 620r22 700r30 1494b14 1499l8 1499t45
+471m7 File{16|67M9} 1495b7 1498r32
+471i30 Line{integer} 1495b30 1498r38
+472U14 Rcheck_SE_Empty_Storage_Pool 473>7 473>30 566i<c,__gnat_rcheck_SE_Empty_Storage_Pool>22
+. 622r22 704r30 1501b14 1506l8 1506t36
+473m7 File{16|67M9} 1502b7 1505r32
+473i30 Line{integer} 1502b30 1505r38
+474U14 Rcheck_SE_Explicit_Raise 475>7 475>30 568i<c,__gnat_rcheck_SE_Explicit_Raise>22
+. 623r22 706r30 1508b14 1513l8 1513t32
+475m7 File{16|67M9} 1509b7 1512r32
+475i30 Line{integer} 1509b30 1512r38
+476U14 Rcheck_SE_Infinite_Recursion 477>7 477>30 570i<c,__gnat_rcheck_SE_Infinite_Recursion>22
+. 624r22 708r30 1515b14 1520l8 1520t36
+477m7 File{16|67M9} 1516b7 1519r32
+477i30 Line{integer} 1516b30 1519r38
+478U14 Rcheck_SE_Object_Too_Large 479>7 479>30 572i<c,__gnat_rcheck_SE_Object_Too_Large>22
+. 625r22 710r30 1522b14 1527l8 1527t34
+479m7 File{16|67M9} 1523b7 1526r32
+479i30 Line{integer} 1523b30 1526r38
+480U14 Rcheck_PE_Stream_Operation_Not_Allowed 481>7 481>30 560i<c,__gnat_rcheck_PE_Stream_Operation_Not_Allowed>22
+. 618r22 696r30 1480b14 1485l8 1485t46
+481m7 File{16|67M9} 1481b7 1484r32
+481i30 Line{integer} 1481b30 1484r38
+482U14 Rcheck_CE_Access_Check_Ext 483>7 483>30 483>36 575i<c,__gnat_rcheck_CE_Access_Check_ext>22
+. 627r22 713r30 1529b14 1534l8 1534t34
+483m7 File{16|67M9} 1530b7 1533r35
+483i30 Line{integer} 1530b30 1533r41
+483i36 Column{integer} 1530b36 1533r47
+484U14 Rcheck_CE_Index_Check_Ext 485>7 485>30 485>36 485>44 485>51 485>58
+. 577i<c,__gnat_rcheck_CE_Index_Check_ext>22 628r22 715r30 1536b14 1545l8
+. 1545t33
+485m7 File{16|67M9} 1537b7 1544r35
+485i30 Line{integer} 1537b30 1544r41
+485i36 Column{integer} 1537b36 1544r47
+485i44 Index{integer} 1537b44 1541r35
+485i51 First{integer} 1537b51 1541r64
+485i58 Last{integer} 1537b58 1542r31
+486U14 Rcheck_CE_Invalid_Data_Ext 487>7 487>30 487>36 487>44 487>51 487>58
+. 579i<c,__gnat_rcheck_CE_Invalid_Data_ext>22 629r22 717r30 1547b14 1556l8
+. 1556t34
+487m7 File{16|67M9} 1548b7 1555r35
+487i30 Line{integer} 1548b30 1555r41
+487i36 Column{integer} 1548b36 1555r47
+487i44 Index{integer} 1548b44 1552r35
+487i51 First{integer} 1548b51 1552r64
+487i58 Last{integer} 1548b58 1553r31
+488U14 Rcheck_CE_Range_Check_Ext 489>7 489>30 489>36 489>44 489>51 489>58
+. 581i<c,__gnat_rcheck_CE_Range_Check_ext>22 630r22 719r30 1558b14 1567l8
+. 1567t33
+489m7 File{16|67M9} 1559b7 1566r35
+489i30 Line{integer} 1559b30 1566r41
+489i36 Column{integer} 1559b36 1566r47
+489i44 Index{integer} 1559b44 1563r35
+489i51 First{integer} 1559b51 1563r64
+489i58 Last{integer} 1559b58 1564r31
+491U14 Rcheck_PE_Finalize_Raised_Exception 492>7 492>30 546i<c,__gnat_rcheck_PE_Finalize_Raised_Exception>22
+. 621r22 702r30 1569b14 1584l8 1584t43
+492m7 File{16|67M9} 1570b7 1582r39
+492i30 Line{integer} 1570b30 1582r45
+731a4 Rmsg_00{string} 1274r50 1533r55
+732a4 Rmsg_01{string} 1281r50
+733a4 Rmsg_02{string} 1288r50
+734a4 Rmsg_03{string} 1295r50
+735a4 Rmsg_04{string} 1302r50
+736a4 Rmsg_05{string} 1309r50 1540r15 1540r24 1540r41
+737a4 Rmsg_06{string} 1316r50 1551r15 1551r24 1551r41
+738a4 Rmsg_07{string} 1323r50
+739a4 Rmsg_08{string} 1330r50
+740a4 Rmsg_09{string} 1337r50
+741a4 Rmsg_10{string} 1344r50
+742a4 Rmsg_11{string} 1351r50
+743a4 Rmsg_12{string} 1358r50 1562r15 1562r24 1562r41
+744a4 Rmsg_13{string} 1365r50
+745a4 Rmsg_14{string} 1372r44
+746a4 Rmsg_15{string} 1379r44
+747a4 Rmsg_16{string} 1386r44
+749a4 Rmsg_17{string} 1393r44
+750a4 Rmsg_18{string} 1400r44
+751a4 Rmsg_19{string} 1407r44
+753a4 Rmsg_20{string} 1421r44
+755a4 Rmsg_21{string} 1428r44
+756a4 Rmsg_22{string} 1435r44
+757a4 Rmsg_23{string} 1582r54
+758a4 Rmsg_24{string} 1442r44
+759a4 Rmsg_25{string} 1449r44
+760a4 Rmsg_26{string} 1456r44
+761a4 Rmsg_27{string} 1470r44
+762a4 Rmsg_28{string} 1477r44
+763a4 Rmsg_29{string} 1491r44
+764a4 Rmsg_30{string} 1498r44
+765a4 Rmsg_31{string} 1463r44
+767a4 Rmsg_32{string} 1505r44
+768a4 Rmsg_33{string} 1512r44
+769a4 Rmsg_34{string} 1519r44
+770a4 Rmsg_35{string} 1526r44
+771a4 Rmsg_36{string} 1484r44
+772a4 Rmsg_37{string} 1414r44
+789L9 Start_Of_AAA 790r14
+886a7 Name{string} 890r12 892r20 899r40 901r24 901r35
+887i7 P{natural} 890m7 891r13 892r26 893m10 893r15 899r54 901r30
+899A18 Rname{string}<integer> 901r17
+948a7 Result{string} 950r10 951r17 951r30 953r17
+1042p7 EF{3|48P9} 1047m10 1052r31
+1063p7 X{3|141P12} 1066r41 1067r42
+1078p7 X{3|141P12} 1081r41 1085r42
+1095a7 Prefix{string} 1098r43 1106r24 1113r42
+1096a7 Orig_Msg{string} 1098r58 1101r9 1101r19 1101r37 1109r24 1118r16 1128r47
+1097i7 Orig_Prefix_Length{natural} 1101r54
+1100a7 Orig_Prefix{string} 1106r10
+1113a13 New_Msg=1113:49{string} 1121r30 1128r30
+1142p7 X{3|141P12} 1145r43 1146r28 1147r14
+1238p7 X{3|141P12} 1240r43 1241r42
+1249p7 Excep{3|141P12} 1252r7 1253r7 1254r7 1255r7 1260r7 1261r7 1261r23
+. 1263r42
+1250p7 Ex{3|56P9} 1260r44 1261r44 1261r57
+1539a7 Msg=1542:37{string} 1544r55
+1550a7 Msg=1553:37{string} 1555r55
+1561a7 Msg=1564:37{string} 1566r55
+1572p7 X{3|141P12} 1582r10 1583r42
+1591p7 Excep{3|141P12} 1592r45 1595r24 1596r7 1597r42
+1592m7 Saved_MO{16|67M9} 1596r35
+1605r7 LE{3|53R9} 1609m10 1611r13 1616r46
+1658p13 Excep{3|141P12} 1660r51 1662r30 1663r13 1664r48
+1660m13 Saved_MO{16|67M9} 1663r41
+1696p7 Target{3|141P12} 1698r24 1699r14
+1721U17*Put_Char_Stderr 1721>34 1722b<c,put_char_stderr>25 1724s7
+1721i34 C{integer}
+1729i11 J{integer} 1730r16 1731r27
+1753p7 Ex{3|56P9} 1755r14 1756r38
+1763e4 WC_Encoding{character} 1764r22 1775r43 1787r43 1803r43 1815r43
+1770a7 S{string} 1771r29 1775r10
+1771a7 W{wide_string} 1775m13 1776r14
+1772i7 L{natural} 1775m16 1776r22
+1782a7 S{string} 1783r29 1787r10
+1783a7 W{wide_string} 1787m13 1788r14
+1784i7 L{natural} 1787m16 1788r22
+1798a7 S{string} 1799r34 1803r10
+1799a7 W{wide_wide_string} 1803m13 1804r14
+1800i7 L{natural} 1803m16 1804r22
+1810a7 S{string} 1811r34 1815r10
+1811a7 W{wide_wide_string} 1815m13 1816r14
+1812i7 L{natural} 1815m16 1816r22
+1829L9 Start_Of_ZZZ 1830r14
+X 5 a-excach.adb
+44i4*Exception_Tracebacks{integer} 45r22 50r7
+X 6 a-exexda.adb
+95U14 Append_Info_Address 96>7 97=7 98=7 220b14 245l8 245t27 474s10 484s10
+96m7 A{16|67M9} 221b7 233r24
+97a7 Info{string} 222b7 244m48
+98i7 Ptr{natural} 223b7 244m54
+100U14 Append_Info_Character 101>7 102=7 103=7 300b14 312l8 312t29 394s7
+. 407s7 486s10
+101e7 C{character} 301b7 307r21 310r24
+102a7 Info{string} 302b7 306r10 308r19 310m10
+103i7 Ptr{natural} 303b7 308r13 309m10 309r17 310r16
+105U14 Append_Info_Nat 106>7 107=7 108=7 291s10 384b14 391s10 396l8 396t23
+106i7 N{natural} 385b7 390r10 391r27 395r47
+107a7 Info{string} 386b7 391m35 395m58
+108i7 Ptr{natural} 387b7 391m41 395m64
+110U14 Append_Info_NL 111=7 112=7 113r19 284s10 292s10 402b14 408l8 408t22
+. 475s10 481s7 489s7
+111a7 Info{string} 403b7 407m40
+112i7 Ptr{natural} 404b7 407m46
+115U14 Append_Info_String 116>7 117=7 118=7 244s7 276s10 277s10 280s13 290s10
+. 332s10 354s10 414b14 431l8 431t26 473s10 480s7 522s7
+116a7 S{string} 415b7 421r21 425r34 427r39
+117a7 Info{string} 416b7 420r10 425r44 427m13
+118i7 Ptr{natural} 417b7 425r28 427r19 428m13
+124U14 Append_Info_Exception_Name 125>7 126=7 127=7 340b14 356l8 356t34 364s7
+125p7 Id{3|48P9} 341b7 346r10 351r70 352r55
+126a7 Info{string} 342b7 354m36
+127i7 Ptr{natural} 343b7 354m42
+129U14 Append_Info_Exception_Name 130>7 131=7 132=7 273s7 358b14 365l8 365t34
+130r7 X{3|53R9} 359b7 364r35
+131a7 Info{string} 360b7 364m41
+132i7 Ptr{natural} 361b7 364m47
+134U14 Append_Info_Exception_Message 135>7 136=7 137=7 202r12 281s13 318b14
+. 334l8 334t37
+135r7 X{3|53R9} 319b7 324r10 329r72 330r46
+136a7 Info{string} 320b7 332m35
+137i7 Ptr{natural} 321b7 332m41
+139U14 Append_Info_Basic_Exception_Information 140>7 141=7 142=7 258b14 294l8
+. 294t47 443s7 521s7
+140r7 X{3|53R9} 259b7 263r50 273r35 279r39 281r45 289r10 291r27
+141a7 Info{string} 260b7 276m47 277m36 280m49 281m48 284m26 290m46 291m34
+. 292m26
+142i7 Ptr{natural} 261b7 276m53 277m42 280m55 281m54 284m32 290m52 291m40
+. 292m32
+144U14 Append_Info_Untailored_Exception_Traceback 145>7 146=7 147=7 444s7
+. 456b14 490l8 490t50 565s7
+145r7 X{3|53R9} 457b7 464r10 483r21 484r43 485r24
+146a7 Info{string} 458b7 473m43 474m45 475m26 480m40 481m23 484m62 486m38
+. 489m23
+147i7 Ptr{natural} 459b7 473m49 474m51 475m32 480m46 481m29 484m68 486m44
+. 489m29
+149U14 Append_Info_Untailored_Exception_Information 150>7 151=7 152=7 205r12
+. 437b14 445l8 445t52 579s7
+150r7 X{3|53R9} 438b7 443r48 444r51
+151a7 Info{string} 439b7 443m51 444m54
+152i7 Ptr{natural} 440b7 443m57 444m60
+163V13 Basic_Exception_Info_Maxlength{natural} 164>7 376s9 496b13 504l8 504t38
+. 517s27
+164r7 X{3|53R9} 497b7 501r57 502r61
+166V13 Untailored_Exception_Traceback_Maxlength{natural} 167>7 377s11 562s30
+. 733b13 742l8 742t48
+167r7 X{3|53R9} 734b7 741r11
+169V13 Exception_Info_Maxlength{natural} 170>7 371b13 378l8 378t32 576s27
+170r7 X{3|53R9} 372b7 376r41 377r53
+172V13 Exception_Name_Length{natural} 173>7 351s47 541b13 547l8 547t29 551s14
+173p7 Id{3|48P9} 541b36 546r14
+175V13 Exception_Name_Length{natural} 176>7 263s27 501s34 549b13 552l8 552t29
+176r7 X{3|53R9} 549b36 551r37
+178V13 Exception_Message_Length{natural} 179>7 209r12 279s13 329s46 502s35
+. 530b13 535l8 535t32
+179r7 X{3|53R9} 531b7 534r14
+185V13 Untailored_Exception_Traceback{string} 186>7 558b13 567l8 567t38 723s17
+186r7 X{3|53R9} 559b7 562r72 565r51
+191V13 Tailored_Exception_Traceback{string} 192>7 514s40 704b13 727l8 727t36
+192r7 X{3|53R9} 705b7 723r49 725r30 725r52
+211V13 Get_Executable_Load_Address{16|67M9} 212b<c,__gnat_get_executable_load_address>22
+. 470s23
+225a7 S{string} 232r12 235m10 241m7 242m7 244r27 244r39
+226i7 P{natural} 232m7 235r13 236m10 236r15 241r10 242r10 244r30
+227m7 N{30|104M9} 233m7 235r31 237m10 237r15 238r20
+229a7 H(character) 235r19
+254a4 BEI_Name_Header{string} 276r30 501r9
+255a4 BEI_Msg_Header{string} 280r33 502r11
+256a4 BEI_PID_Header{string} 290r30 503r11
+263a7 Name{string} 267r29 273m38 273r38 275r10 275r16 277r30
+267i7 Name_Ptr{natural} 273m44 273r44
+329i10 Len{natural} 330r38 330r58
+330a10 Msg{string} 332r30
+351i10 Len{natural} 352r39 352r75
+352a10 Name{string} 354r30
+424i13 Last{natural} 427r30 428r20
+453a4 BETB_Header{string} 480r27 740r50
+454a4 LDAD_Header{string} 473r30 740r9
+461m7 Load_Address{16|67M9} 470m7 472r10 474r31
+483i11 J{integer} 484r57 485r20
+514a7 Tback_Info{string} 515r40 522r27
+515i7 Tback_Len{natural} 517r64
+517a7 Info{string} 518r25 521m51 521r51 522m39 522r39 523r14 523r20
+518i7 Ptr{natural} 521m57 521r57 522m45 522r45 523r34
+561a7 Info{string} 563r25 565m54 565r54 566r14 566r20
+563i7 Ptr{natural} 565m60 565r60 566r34
+576a7 Info{string} 577r25 579m56 579r56 580r14 580r20
+577i7 Ptr{natural} 579m62 579r62 580r34
+595i7 Remind{integer} 632m16 635r33
+596i7 Ptr{natural} 668m10 669r31 673r60 674m13 674r20
+598U17 Append_Number 598>32 605b17 639l11 639t24 657s7 658s7
+598i32 Number{integer} 605b32 610r13 617r17 629r20
+606i10 Val{integer} 617m10 618r16 619m13 619r20 629m13 631r19 632r26 633m16
+. 633r23
+607i10 Size{integer} 616m10 620m13 620r21 625r60 627r52 630m13 634r46 636m16
+. 636r24
+688i7 Len{natural} 693r33 694r23 694r59
+690i7 First{integer} 694r42 694r51
+718p7 Wrapper{27|137P9} 722r10 725r17
+736N7 Space_Per_Address 740r30 741r30
+X 7 a-exexpr.adb
+94B9 bool<boolean> 95r26 283r66 699r66 701r18
+97r4 Foreign_Exception{29|97R9} 98m24 98r24 360m31 360r31
+108I9 Unwind_Action<integer> 109r26 111r32 112r32 113r32 114r32 115r32 142r15
+. 166r22 376r15
+111i4 UA_SEARCH_PHASE{108I9} 398r25
+112i4 UA_CLEANUP_PHASE{108I9} 671r61
+113i4 UA_HANDLER_FRAME{108I9} 118r7
+114i4 UA_FORCE_UNWIND{108I9} 119r7
+115i4 UA_END_OF_STACK{108I9} 120r7
+122U14 GNAT_GCC_Exception_Cleanup 123>7 124>7 125r26 326r29 336b14 351l8
+. 351t34
+123e7 Reason{21|54E9} 337b7 340r28
+124p7 Excep{21|155P9} 338b7 345r43
+128U14 Propagate_GCC_Exception 129>7 130r22 574s7 584b14 622l8 622t31 630s7
+129p7 GCC_Exception{21|131P9} 585b7 592r30 599r30 614r10 621r33
+133U14 Reraise_GCC_Exception 134>7 135r22 136i<c,__gnat_reraise_zcx>22 568b14
+. 575l8 575t29
+134p7 GCC_Exception{21|131P9} 569b7 574r32
+140V13 Setup_Current_Excep{3|141P12} 141>7 142>7 143i<c,__gnat_setup_current_excep>22
+. 374b13 415l8 415t27 592s9 671s16
+141p7 GCC_Exception{21|131P9} 375b7 382r10 392r56 411r41
+142i7 Phase{108I9} 376b7 398r16 592r45 671r52
+155U14 Unhandled_Except_Handler 156>7 157r22 158i<c,__gnat_unhandled_except_handler>22
+. 621s7 666b14 673l8 673t32
+156p7 GCC_Exception{21|131P9} 667b7 671r37
+164V13 CleanupUnwind_Handler{21|54E9} 165>7 166>7 167>7 168>7 169>7 170>7
+. 171b<c,__gnat_cleanupunwind_handler>22 615r10
+165i7 UW_Version{integer}
+166i7 UW_Phases{108I9}
+167m7 UW_Eclass{21|81M9}
+168p7 UW_Exception{21|131P9}
+169m7 UW_Context{16|67M9}
+170m7 UW_Argument{16|67M9}
+180U14 Unwind_RaiseException 181>7 182b<c,__gnat_Unwind_RaiseException>22
+. 599s7
+181p7 UW_Exception{21|131P9}
+184U14 Unwind_ForcedUnwind 185>7 186>7 187>7 188b<c,__gnat_Unwind_ForcedUnwind>22
+. 613s7
+185p7 UW_Exception{21|131P9}
+186m7 UW_Handler{16|67M9}
+187m7 UW_Argument{16|67M9}
+190U14 Set_Exception_Parameter 191>7 192>7 194i<c,__gnat_set_exception_parameter>10
+. 637b14 660l8 660t31
+191p7 Excep{3|141P12} 638b7 652r30 658r34
+192p7 GCC_Exception{21|131P9} 639b7 644r10 650r56 658r41
+198U14 Set_Foreign_Occurrence 198>38 198>51 357b14 368l8 368t30 411s10 658s10
+198p38 Excep{3|141P12} 357b38 359r7
+198m51 Mo{16|67M9} 357b51 361r31
+220V13 Begin_Handler_v1{16|67M9} 221>7 223i<c,__gnat_begin_handler_v1>22
+. 421b13 430l8 430t24
+221p7 GCC_Exception{21|131P9} 422b7 424r50 428r7
+229U14 End_Handler_v1 230>7 231>7 232>7 233i<c,__gnat_end_handler_v1>22 436b14
+. 509l8 509t22
+230p7 GCC_Exception{21|131P9} 437b7 441r7 493r34 503r26 507r34
+231m7 Saved_Cleanup{16|67M9} 438b7 441r32 491r10
+232p7 Propagating_Exception{21|131P9} 439b7 493r9
+243U14 Claimed_Cleanup 244>7 245>7 246i<c,__gnat_claimed_cleanup>22 428r32
+. 491r27 515b14 537l8 537t23
+244e7 Reason{21|54E9} 516b7 518r28
+245p7 GCC_Exception{21|131P9} 517b7 519r28
+258U14 Begin_Handler 258>29 259i<c,__gnat_begin_handler>22 543b14 547l8 547t21
+258p29 GCC_Exception{21|131P9} 543b29 544r28
+263U14 End_Handler 263>27 264i<c,__gnat_end_handler>22 553b14 562l8 562t19
+263p27 GCC_Exception{21|131P9} 553b27 555r10 560r34
+283V13 Is_Handled_By_Others{94E9} 283>35 284i<c,__gnat_is_handled_by_others>22
+. 699b13 702l8 702t28
+283p35 E{29|82P9} 699b35 701r24
+286V13 Language_For{character} 286>27 287i<c,__gnat_language_for>22 708b13
+. 711l8 711t20
+286p27 E{29|82P9} 708b27 710r14
+289V13 Foreign_Data_For{16|67M9} 289>31 290i<c,__gnat_foreign_data_for>22
+. 690b13 693l8 693t24
+289p31 E{29|82P9} 690b31 692r14
+292V13 EID_For{3|48P9} 292>22 294i<c,__gnat_eid_for>22 679b13 684l8 684t15
+292p22 GNAT_Exception{21|155P9} 680b7 683r14
+305e4 Others_Value{character} 306r22
+308e4 All_Others_Value{character} 309r22
+311e4 Unhandled_Others_Value{character} 312r22
+322p7 Res{21|155P9} 325m7 326r7 327r7 327r44 329r14
+342U17 Free[15|20] 350s7
+345p7 Copy{21|155P9} 350m13 350r13
+378p7 Excep{3|141P12} 399r16 411r34 413r17
+391p13 GNAT_Occurrence{21|155P9} 399r29 401r20
+424m7 Saved_Cleanup{16|67M9} 429r14
+496p13 Current{3|141P12} 498r36 504r16
+497p13 Cur_Occ{21|131P9} 503r16
+591p7 Excep{3|141P12} 606r35
+649p13 GNAT_Occurrence{21|155P9} 652r41
+669p7 Excep{3|141P12} 671m7 672r38
+X 8 a-exextr.adb
+42a4 Nline{string} 114r21 122r24
+45P9 Exception_Action 45>47 46r28 48r20 55r30 74r21 93r35 94r35
+45r47 E{3|53R9}
+48p4 Global_Action{45P9} 49r19 51m12 51r12 93r55
+55p4 Global_Unhandled_Action{45P9} 56r19 58m12 58r12 94r55
+63b4 Raise_Hook_Initialized{boolean} 65m12 65r12 132r10
+67U14 Last_Chance_Handler 67>35 68b<c,__gnat_last_chance_handler>22 69r22
+. 190s7
+67r35 Except{3|53R9}
+73V13 To_Action[14|20]{45P9} 135s10
+80U14 Notify_Exception 80>32 80>45 90b14 145l8 145t24 153s7 170s7
+80p32 Excep{3|141P12} 90b32 101r14 125r44 133r38 135r41 135r64 139r28 143r18
+80b45 Is_Unhandled{boolean} 90b45 105r16 117r16 138r10 153r32 170r32
+93p7 Action{45P9} 142r10 143r10
+94p7 Unhandled_Action{45P9} 138r27 139r10
+179r7 Occ{3|53R9} 189m24 190r28
+X 9 a-elchha.ads
+34U26 Last_Chance_Handler 8|35w21 9|37i<c,__gnat_last_chance_handler>16
+X 10 a-exstat.adb
+92i7 From{natural} 116m10 118r13 119r19 143r13 143r21 148r44 150m10 152r16
+. 152r38 153m13 153r21 157r63 160r10 161r16 161r24 165r31 166r42 175r10 175r33
+. 176r16 176r24 180m10 180r18 182r16 184r43 185m13 185r21 193r10 194r16 200r23
+. 208r22 209r29 213m19 213r27 217r22 218r28 222r42 226r42 229m22 229r30 238m19
+. 238r27
+93i7 To{integer} 116r18 119m13 121r19 122r19 124r25 127m19 127r25 140m7 152r23
+. 160r18 165r26 166r54 175r18 182r24 193r18 194r24 200r30 217r30
+95r7 X{3|53R9} 156m10 165m10 166m10 166r22 169m10 173m7 183m13 183r22 191m7
+. 241r19 245m16 245r36 246m16 246r30 255m7 260m7 261r14
+98U17 Bad_EO 99r25 107b17 112l11 112t17 123s19 144s10 162s13 177s13 195s13
+. 211s19 233s22 242s19
+102U17 Next_String 114b17 131l11 131t22 141s7 172s7 188s10 198s10
+148i10 Name_Start{positive} 150r18 157r49
+203e16 Ch{character} 218m19 220r22 224r25 228r25
+204m16 C{30|104M9} 216m16 236m19 236r24 247r48
+205m16 N{30|104M9} 221m22 225m22 236r33
+X 14 a-unccon.ads
+20v14*Unchecked_Conversion 7|83w10 8|32w10 73r34
+X 15 a-uncdea.ads
+20u15*Unchecked_Deallocation 7|84w10 342r29
+X 16 system.ads
+37K9*System 3|39w6 40r6 41r6 42r6 138r24 139r23 149r24 154r36 228r24 240r28
+. 276r40 290r29 292r32 4|35w6 35r35 36r6 36r35 37r6 37r35 38r6 38r35 39r6
+. 39r35 40r6 40r35 41r6 41r35 46r6 68r41 69r41 119r19 122r19 122r37 261r11
+. 267r11 267r34 284r11 309r11 312r11 312r29 319r45 325r16 328r16 334r42 340r14
+. 342r14 348r42 354r14 356r14 409r14 411r14 413r14 415r14 417r14 419r14 421r14
+. 423r14 425r14 427r14 429r14 431r14 433r14 435r14 437r14 439r14 441r14 443r14
+. 445r14 447r14 449r14 451r14 453r14 455r14 457r14 459r14 461r14 463r14 465r14
+. 467r14 469r14 471r14 473r14 475r14 477r14 479r14 481r14 483r14 485r14 487r14
+. 489r14 492r14 782r41 937r40 969r45 979r16 982r16 1140r11 1156r11 1156r34
+. 1168r11 1180r14 1192r14 1194r14 1206r14 1218r14 1220r14 1233r11 1236r11
+. 1236r29 1271r14 1278r14 1285r14 1292r14 1299r14 1306r14 1313r14 1320r14
+. 1327r14 1334r14 1341r14 1348r14 1355r14 1362r14 1369r14 1376r14 1383r14
+. 1390r14 1397r14 1404r14 1411r14 1418r14 1425r14 1432r14 1439r14 1446r14
+. 1453r14 1460r14 1467r14 1474r14 1481r14 1488r14 1495r14 1502r14 1509r14
+. 1516r14 1523r14 1530r14 1537r14 1548r14 1559r14 1570r14 1592r27 1654r34
+. 1660r33 1682r36 1827r41 5|37r6 65r7 6|32r6 32r35 211r48 590r16 593r16 593r34
+. 662r18 7|86r6 86r37 87r6 87r37 97r32 169r22 170r22 186r22 187r22 198r56
+. 222r13 231r23 357r56 423r13 424r32 438r23 504r46 616r10 10|37r6 37r35 38r6
+. 38r35 255r31 16|192e11
+67M9*Address 3|149r31 240r35 276r47 4|68r48 69r48 119r26 122r26 261r18 267r18
+. 267r41 284r18 309r18 312r18 319r52 325r23 328r23 334r49 340r21 342r21 348r49
+. 354r21 356r21 409r21 411r21 413r21 415r21 417r21 419r21 421r21 423r21 425r21
+. 427r21 429r21 431r21 433r21 435r21 437r21 439r21 441r21 443r21 445r21 447r21
+. 449r21 451r21 453r21 455r21 457r21 459r21 461r21 463r21 465r21 467r21 469r21
+. 471r21 473r21 475r21 477r21 479r21 481r21 483r21 485r21 487r21 489r21 492r21
+. 782r48 937r47 969r52 979r23 982r23 1140r18 1156r18 1156r41 1168r18 1180r21
+. 1192r21 1194r21 1206r21 1218r21 1220r21 1233r18 1236r18 1271r21 1278r21
+. 1285r21 1292r21 1299r21 1306r21 1313r21 1320r21 1327r21 1334r21 1341r21
+. 1348r21 1355r21 1362r21 1369r21 1376r21 1383r21 1390r21 1397r21 1404r21
+. 1411r21 1418r21 1425r21 1432r21 1439r21 1446r21 1453r21 1460r21 1467r21
+. 1474r21 1481r21 1488r21 1495r21 1502r21 1509r21 1516r21 1523r21 1530r21
+. 1537r21 1548r21 1559r21 1570r21 1592r34 1660r40 1827r48 6|96r14 211r55
+. 221r14 461r22 590r23 593r23 7|169r29 170r29 186r29 187r29 198r63 222r20
+. 231r30 289r62 357r63 423r20 424r39 438r30 690r62
+69m4*Null_Address{67M9} 3|154r43 290r36 4|122r44 312r36 1236r36 1654r41 1682r43
+. 6|472r26 593r41 662r25 7|504r53 616r17 10|255r38
+81V14*"="{boolean} 4|1654r31 6|472r23 662r15 7|491r24
+X 19 s-exctab.ads
+38K16*Exception_Table 10|37w13 37r42 19|73e27
+54V13*Internal_Exception{29|82P9} 10|83s31 157s26
+X 20 s-except.ads
+32K16*Exceptions 4|36w13 36r42 7|87r13 87r44 20|44e22
+X 21 s-excmac.ads
+41K27*Machine 7|87w24 87r55 21|167e30
+54E9*Unwind_Reason_Code 7|123r16 170r45 244r16 337r16 516r16 21|63e27
+81M9*Exception_Class 7|167r22
+83m4*GNAT_Exception_Class{81M9} 7|382r32 644r32
+91m7*Class{81M9} 7|382r24 644r24
+92m7*Cleanup{16|67M9} 7|326m18 424r64 428m21 441m21
+131P9*GCC_Exception_Access(90R9) 7|129r32 134r32 141r32 156r32 168r31 181r31
+. 185r31 192r32 221r32 230r32 232r31 245r32 258r54 263r43 375r32 422r32 437r32
+. 439r31 497r32 517r32 543r54 553r43 569r32 585r32 639r32 667r32
+134U14*Unwind_DeleteException 7|507s10 560s10
+145R9*GNAT_GCC_Exception 7|343r10 21|151e14
+146r7*Header{90R9} 7|326m11
+149r7*Occurrence{3|53R9} 7|327m11 329m18 399r45 401m36 652r57 683r29
+155P9*GNAT_GCC_Exception_Access(145R9) 7|124r25 292r48 322r13 338r25 343r30
+. 345r14 391r40 649r40 680r33
+157V13*To_GCC_Exception[14|20]{131P9} 7|498s18 630s32
+160V13*To_GNAT_GCC_Exception[14|20]{155P9} 7|392s33 650s33
+164V13*New_Occurrence{155P9} 7|325s14
+X 22 s-excdeb.ads
+38K16*Exceptions_Debug 4|37w13 37r42 22|76e28
+47U14*Debug_Raise_Exception 4|1019s7
+48p7 E{29|82P9} 4|1020r10
+48a35 Message{string} 4|1021r10
+54U14*Debug_Unhandled_Exception 8|171s7
+X 25 s-parame.ads
+49K16*Parameters 3|40w13 139r30 25|190e22
+186N4*Default_Exception_Msg_Max_Length 3|143r46
+X 27 s-soflin.ads
+45K16*Soft_Links 4|39w13 39r42 27|414e22
+62P9*No_Param_Proc
+71P9*EO_Param_Proc
+87P9*Get_EOA_Call(3|56P9)
+137P9*Traceback_Decorator_Wrapper_Call(string) 6|718r26
+187p4*Lock_Task{62P9} 8|113r10
+197p4*Unlock_Task{62P9} 8|126r10
+223p4*Task_Termination_Handler{71P9} 8|168r7
+248p4*Get_Current_Excep{87P9} 4|1250r55 1595r35 1753r52 7|378r31 496r39
+291r4*Library_Exception{51R12} 4|1609r16
+295b4*Library_Exception_Set{boolean} 4|1608r10
+299p4*Traceback_Decorator_Wrapper{137P9} 6|719r19
+X 29 s-stalib.ads
+49K16*Standard_Library 3|41w13 138r31 4|38w13 38r42 7|97r39 29|260e28
+56A12*Big_String{string}<integer>
+63P9*Big_String_Ptr(56A12)
+70V13*To_Ptr[14|20]{63P9} 4|872s17 6|352s47 650s13 654s42 669s16 673s45
+77P9*Raise_Action 8|74r7
+81R9*Exception_Data 7|97r56 29|132e14
+82P9*Exception_Data_Ptr(81R9) 3|157r33 4|1020r25 7|283r39 286r31 289r35 690r35
+. 699r39 708r31 8|133r18 135r21 171r38
+97R9*Exception_Data
+98b7*Not_Handled_By_Others{boolean} 7|701r30 8|101r23
+105e7*Lang{character} 7|710r20
+110i7*Name_Length{natural} 4|872r48 6|546r17
+113m7*Full_Name{16|67M9} 4|872r28 6|352r58
+122m7*Foreign_Data{16|67M9} 7|692r16
+126p7*Raise_Hook{77P9} 8|133r48 135r51
+149r4*Constraint_Error_Def{97R9} 4|971m36 971r36 986m10 986r10
+167r4*Program_Error_Def{97R9} 4|1184m36 1184r36 1198m10 1198r10 1582m13 1582r13
+176r4*Storage_Error_Def{97R9} 4|1210m36 1210r36 1224m10 1224r10
+210i4*Local_Partition_ID{natural} 4|1255r33 6|647r33 697r33 7|365r31
+221n7*Every_Raise{215E9} 8|103r30
+226n7*Unhandled_Raise{215E9} 8|107r38
+231n7*Unhandled_Raise_In_Main{215E9} 8|108r47 116r32
+243e4*Exception_Trace{215E9} 8|103r12 107r20 108r29 116r13
+X 30 s-stoele.ads
+40K16*Storage_Elements 6|32w13 32r42 7|86w13 86r44 10|38w13 38r42 30|116e28
+104M9*Integer_Address 6|227r11 10|204r21 205r21
+106V13*To_Address{16|67M9} 10|247s36
+111V13*To_Integer{104M9} 6|233s12
+X 32 s-traceb.ads
+38K16*Traceback 4|46r13 5|37w13 65r14 32|81e21
+44U14*Call_Chain 5|65s24
+45a7 Traceback{34|50A9} 5|66r10
+46i7 Max_Len{natural} 5|67r10
+47i7 Len{natural} 5|68r10
+48m7 Exclude_Min{16|67M9} 5|69r10
+49m7 Exclude_Max{16|67M9} 5|70r10
+50i7 Skip_Frames{natural} 5|71r10
+75V13*C_Call_Chain{natural} 78i<c,system__traceback__c_call_chain>22
+X 33 s-trasym.ads
+77K26*Symbolic 4|46w23 33|108e30
+X 34 s-traent.ads
+41K16*Traceback_Entries 3|42w13 228r31 292r39 34|61e29
+44M12*Traceback_Entry{16|67M9}
+47m4*Null_TB_Entry{44M12} 3|292r57
+50A9*Tracebacks_Array(44M12)<integer> 3|233r36
+52V13*PC_For{16|67M9} 6|484s35
+57V13*TB_Entry_For{44M12} 10|247s22
+X 43 s-wchcon.ads
+39K16*WCh_Con 4|40w13 40r42 43|218e19
+92I9*WC_Encoding_Method<short_short_integer>
+201V13*Get_WC_Encoding_Method{92I9} 4|1775s19 1787s19 1803s19 1815s19
+X 44 s-wchstw.ads
+37K16*WCh_StW 4|41w13 41r42 44|69e19
+40U14*String_To_Wide_String 4|1774s7 1786s7
+62U14*String_To_Wide_Wide_String 4|1802s7 1814s7
+

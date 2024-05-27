@@ -1,0 +1,133 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U ada.wide_characters.unicode%b  a-wichun.adb	7059439a NE OL PK
+W ada.wide_characters%s	a-widcha.ads		a-widcha.ali
+
+U ada.wide_characters.unicode%s  a-wichun.ads	f8f0c7fa BN NE OL PU PK
+W ada.wide_characters%s	a-widcha.ads		a-widcha.ali
+W system%s		system.ads		system.ali
+W system.utf_32%s	s-utf_32.adb		s-utf_32.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-widcha.ads		20230727081304 a2b85d3d ada.wide_characters%s
+D a-wichun.ads		20230727081304 de294b78 ada.wide_characters.unicode%s
+D a-wichun.adb		20230727081304 ae7008e2 ada.wide_characters.unicode%b
+D system.ads		20230727081304 f0509fe6 system%s
+D s-utf_32.ads		20230727081304 8461d1bf system.utf_32%s
+G a e
+G c Z s b [get_category ada__wide_characters__unicode 79 13 none]
+G c Z s b [is_letter ada__wide_characters__unicode 93 13 none]
+G c Z s b [is_letter ada__wide_characters__unicode 94 13 none]
+G c Z s b [is_digit ada__wide_characters__unicode 105 13 none]
+G c Z s b [is_digit ada__wide_characters__unicode 106 13 none]
+G c Z s b [is_line_terminator ada__wide_characters__unicode 112 13 none]
+G c Z s b [is_mark ada__wide_characters__unicode 120 13 none]
+G c Z s b [is_mark ada__wide_characters__unicode 121 13 none]
+G c Z s b [is_other ada__wide_characters__unicode 129 13 none]
+G c Z s b [is_other ada__wide_characters__unicode 130 13 none]
+G c Z s b [is_punctuation ada__wide_characters__unicode 138 13 none]
+G c Z s b [is_punctuation ada__wide_characters__unicode 139 13 none]
+G c Z s b [is_space ada__wide_characters__unicode 146 13 none]
+G c Z s b [is_space ada__wide_characters__unicode 147 13 none]
+G c Z s b [is_nfkc ada__wide_characters__unicode 153 13 none]
+G c Z s b [is_non_graphic ada__wide_characters__unicode 159 13 none]
+G c Z s b [is_non_graphic ada__wide_characters__unicode 160 13 none]
+G c Z s b [is_basic ada__wide_characters__unicode 183 13 none]
+G c Z s b [to_basic ada__wide_characters__unicode 189 13 none]
+G c Z s b [to_lower_case ada__wide_characters__unicode 201 13 none]
+G c Z s b [to_upper_case ada__wide_characters__unicode 208 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|39r9 215r5 4|32r14 200r5
+X 2 a-widcha.ads
+19K13*Wide_Characters 1|16k9 2|21e24 3|39r13 215r9 4|32r18 200r9
+X 3 a-wichun.ads
+39K29*Unicode 2|19k13 3|215l25 215e32 4|32b34 200l25 200t32
+46E9*Category<6|57E9> 79r54 94r28 106r27 121r26 130r27 139r33 147r27 160r33
+. 4|40r54 42r14 63r27 77r28 100r26 114r33 137r27 151r33 165r27
+79V13*Get_Category{46E9} 79>27 4|40b13 43l8 43t20
+79e27 U{wide_character} 4|40b27 42r60
+93V13*Is_Letter{boolean} 93>24 4|72b13 75l8 75t17
+93e24 U{wide_character} 4|72b24 74r54
+94V13*Is_Letter{boolean} 94>24 4|77b13 80l8 80t17
+94e24 C{46E9} 4|77b24 79r46
+105V13*Is_Digit{boolean} 105>23 4|58b13 61l8 61t16
+105e23 U{wide_character} 4|58b23 60r53
+106V13*Is_Digit{boolean} 106>23 4|63b13 66l8 66t16
+106e23 C{46E9} 4|63b23 65r45
+112V13*Is_Line_Terminator{boolean} 112>33 113r19 4|86b13 89l8 89t26
+112e33 U{wide_character} 4|86b33 88r63
+120V13*Is_Mark{boolean} 120>22 4|95b13 98l8 98t15
+120e22 U{wide_character} 4|95b22 97r52
+121V13*Is_Mark{boolean} 121>22 4|100b13 103l8 103t15
+121e22 C{46E9} 4|100b22 102r44
+129V13*Is_Other{boolean} 129>23 4|132b13 135l8 135t16
+129e23 U{wide_character} 4|132b23 134r53
+130V13*Is_Other{boolean} 130>23 4|137b13 140l8 140t16
+130e23 C{46E9} 4|137b23 139r45
+138V13*Is_Punctuation{boolean} 138>29 4|146b13 149l8 149t22
+138e29 U{wide_character} 4|146b29 148r59
+139V13*Is_Punctuation{boolean} 139>29 4|151b13 154l8 154t22
+139e29 C{46E9} 4|151b29 153r51
+146V13*Is_Space{boolean} 146>23 4|160b13 163l8 163t16
+146e23 U{wide_character} 4|160b23 162r53
+147V13*Is_Space{boolean} 147>23 4|165b13 168l8 168t16
+147e23 C{46E9} 4|165b23 167r45
+153V13*Is_NFKC{boolean} 153>22 154r19 4|123b13 126l8 126t15
+153e22 U{wide_character} 4|123b22 125r52
+159V13*Is_Non_Graphic{boolean} 159>29 4|109b13 112l8 112t22
+159e29 U{wide_character} 4|109b29 111r59
+160V13*Is_Non_Graphic{boolean} 160>29 4|114b13 117l8 117t22
+160e29 C{46E9} 4|114b29 116r51
+183V13*Is_Basic{boolean} 183>23 184r19 4|49b13 52l8 52t16
+183e23 U{wide_character} 4|49b23 51r53
+189V13*To_Basic{wide_character} 189>23 190r19 4|174b13 177l8 177t16
+189e23 U{wide_character} 4|174b23 176r73
+201V13*To_Lower_Case{wide_character} 201>28 202r19 4|183b13 187l8 187t21
+201e28 U{wide_character} 4|183b28 186r73
+208V13*To_Upper_Case{wide_character} 208>28 209r19 4|193b13 198l8 198t21
+208e28 U{wide_character} 4|193b28 197r56
+X 4 a-wichun.adb
+34K12 G=34:29 42r24 51r14 60r14 65r14 65r33 74r14 79r14 79r34 88r14 97r14
+. 102r14 102r32 111r14 116r14 116r39 125r14 134r14 139r14 139r33 148r14 153r14
+. 153r39 162r14 167r14 167r33 176r34 186r29 197r12
+X 5 system.ads
+37K9*System 3|37r6 46r25 4|34r22 5|192e11
+X 6 s-utf_32.ads
+47K16*UTF_32 3|37w13 46r32 4|34r29 6|230e18
+50I9*UTF_32<integer>
+57E9*Category 3|46r39 4|65r35 79r36 102r34 116r41 139r35 153r41 167r35 6|88e9
+90V13*Get_Category{57E9} 4|42s26
+103V13*Is_UTF_32_Letter{boolean} 4|74s16
+104V13*Is_UTF_32_Letter{boolean} 4|79s16
+115V13*Is_UTF_32_Digit{boolean} 4|60s16
+116V13*Is_UTF_32_Digit{boolean} 4|65s16
+122V13*Is_UTF_32_Line_Terminator{boolean} 4|88s16
+130V13*Is_UTF_32_Mark{boolean} 4|97s16
+131V13*Is_UTF_32_Mark{boolean} 4|102s16
+139V13*Is_UTF_32_Other{boolean} 4|134s16
+140V13*Is_UTF_32_Other{boolean} 4|139s16
+148V13*Is_UTF_32_Punctuation{boolean} 4|148s16
+149V13*Is_UTF_32_Punctuation{boolean} 4|153s16
+156V13*Is_UTF_32_Space{boolean} 4|162s16
+157V13*Is_UTF_32_Space{boolean} 4|167s16
+163V13*Is_UTF_32_Non_Graphic{boolean} 4|111s16
+164V13*Is_UTF_32_Non_Graphic{boolean} 4|116s16
+193V13*Is_UTF_32_NFKC{boolean} 4|125s16
+199V13*Is_UTF_32_Basic{boolean} 4|51s16
+204V13*UTF_32_To_Lower_Case{50I9} 4|186s31
+214V13*UTF_32_To_Upper_Case{50I9} 4|197s14
+224V13*UTF_32_To_Basic{50I9} 4|176s36
+

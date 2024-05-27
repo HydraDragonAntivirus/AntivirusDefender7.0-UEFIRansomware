@@ -1,0 +1,143 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.numerics.short_complex_types%b  a-nscoty.ads  f086fb56 NE OL PU PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux_float%s  a-nuaufl.ads	a-nuaufl.ali
+Z ada.numerics.aux_generic_float%s
+Z ada.numerics.aux_long_float%s  a-nalofl.ads	a-nalofl.ali
+Z ada.numerics.aux_long_long_float%s  a-nallfl.ads  a-nallfl.ali
+Z ada.numerics.aux_short_float%s  a-nashfl.ads	a-nashfl.ali
+W ada.numerics.generic_complex_types%s
+Z system.exn_flt%s	s-exnflt.ads		s-exnflt.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+
+U ada.numerics.short_complex_types%s  a-nscoty.ads  93bc0325 EB NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.generic_complex_types%s
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nuaufl.ads		20230727081304 020cac40 ada.numerics.aux_float%s
+D a-nagefl.ads		20230727081304 53f456a7 ada.numerics.aux_generic_float%s
+D a-naliop.ads		20230727081304 6b421e5f ada.numerics.aux_linker_options%s
+D a-nalofl.ads		20230727081304 6d8e51a4 ada.numerics.aux_long_float%s
+D a-nallfl.ads		20230727081304 6ccf65a3 ada.numerics.aux_long_long_float%s
+D a-nashfl.ads		20230727081304 b54ed4fb ada.numerics.aux_short_float%s
+D a-ngcoty.ads		20230727081304 e7845fd0 ada.numerics.generic_complex_types%s
+D a-ngcoty.adb		20230727081304 67896b31 ada.numerics.generic_complex_types%b
+D a-nscoty.ads		20230727081304 f086fb56 ada.numerics.short_complex_types%s
+D a-nscoty.ads		20230727081304 f086fb56 ada.numerics.short_complex_types%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-exnflt.ads		20230727081304 84371ff2 system.exn_flt%s
+D s-exponr.ads		20230727081304 2127300b system.exponr%s
+D s-fatflt.ads		20230727081304 11beb392 system.fat_flt%s
+D s-fatgen.ads		20230727081304 d28c6cfe system.fat_gen%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s s [re ada__numerics__short_complex_types 54 13 18_1]
+G c Z s s [im ada__numerics__short_complex_types 55 13 18_1]
+G c Z s s [im ada__numerics__short_complex_types 56 13 18_1]
+G c Z s s [set_re ada__numerics__short_complex_types 58 14 18_1]
+G c Z s s [set_im ada__numerics__short_complex_types 59 14 18_1]
+G c Z s s [set_im ada__numerics__short_complex_types 60 14 18_1]
+G c Z s s [compose_from_cartesian ada__numerics__short_complex_types 62 13 18_1]
+G c Z s s [compose_from_cartesian ada__numerics__short_complex_types 63 13 18_1]
+G c Z s s [compose_from_cartesian ada__numerics__short_complex_types 64 13 18_1]
+G c Z s s [modulus ada__numerics__short_complex_types 66 13 18_1]
+G c Z s s [argument ada__numerics__short_complex_types 69 13 18_1]
+G c Z s s [argument ada__numerics__short_complex_types 70 13 18_1]
+G c Z s s [compose_from_polar ada__numerics__short_complex_types 72 13 18_1]
+G c Z s s [compose_from_polar ada__numerics__short_complex_types 76 13 18_1]
+G c Z s s [Oadd ada__numerics__short_complex_types 80 13 18_1]
+G c Z s s [Osubtract ada__numerics__short_complex_types 81 13 18_1]
+G c Z s s [conjugate ada__numerics__short_complex_types 82 13 18_1]
+G c Z s s [Oadd ada__numerics__short_complex_types 84 13 18_1]
+G c Z s s [Osubtract ada__numerics__short_complex_types 85 13 18_1]
+G c Z s s [Omultiply ada__numerics__short_complex_types 86 13 18_1]
+G c Z s s [Odivide ada__numerics__short_complex_types 87 13 18_1]
+G c Z s s [Oexpon ada__numerics__short_complex_types 89 13 18_1]
+G c Z s s [Oadd ada__numerics__short_complex_types 91 13 18_1]
+G c Z s s [Osubtract ada__numerics__short_complex_types 92 13 18_1]
+G c Z s s [Oabs ada__numerics__short_complex_types 94 13 18_1]
+G c Z s s [Oadd ada__numerics__short_complex_types 96 13 18_1]
+G c Z s s [Osubtract ada__numerics__short_complex_types 97 13 18_1]
+G c Z s s [Omultiply ada__numerics__short_complex_types 98 13 18_1]
+G c Z s s [Odivide ada__numerics__short_complex_types 99 13 18_1]
+G c Z s s [Oexpon ada__numerics__short_complex_types 101 13 18_1]
+G c Z s s [Olt ada__numerics__short_complex_types 103 13 18_1]
+G c Z s s [Ole ada__numerics__short_complex_types 104 13 18_1]
+G c Z s s [Ogt ada__numerics__short_complex_types 105 13 18_1]
+G c Z s s [Oge ada__numerics__short_complex_types 106 13 18_1]
+G c Z s s [Oadd ada__numerics__short_complex_types 108 13 18_1]
+G c Z s s [Oadd ada__numerics__short_complex_types 109 13 18_1]
+G c Z s s [Osubtract ada__numerics__short_complex_types 110 13 18_1]
+G c Z s s [Osubtract ada__numerics__short_complex_types 111 13 18_1]
+G c Z s s [Omultiply ada__numerics__short_complex_types 112 13 18_1]
+G c Z s s [Omultiply ada__numerics__short_complex_types 113 13 18_1]
+G c Z s s [Odivide ada__numerics__short_complex_types 114 13 18_1]
+G c Z s s [Odivide ada__numerics__short_complex_types 115 13 18_1]
+G c Z s s [Oadd ada__numerics__short_complex_types 117 13 18_1]
+G c Z s s [Oadd ada__numerics__short_complex_types 118 13 18_1]
+G c Z s s [Osubtract ada__numerics__short_complex_types 119 13 18_1]
+G c Z s s [Osubtract ada__numerics__short_complex_types 120 13 18_1]
+G c Z s s [Omultiply ada__numerics__short_complex_types 121 13 18_1]
+G c Z s s [Omultiply ada__numerics__short_complex_types 122 13 18_1]
+G c Z s s [Odivide ada__numerics__short_complex_types 123 13 18_1]
+G c Z s s [Odivide ada__numerics__short_complex_types 124 13 18_1]
+G c Z s s [Oadd ada__numerics__short_complex_types 126 13 18_1]
+G c Z s s [Oadd ada__numerics__short_complex_types 127 13 18_1]
+G c Z s s [Osubtract ada__numerics__short_complex_types 128 13 18_1]
+G c Z s s [Osubtract ada__numerics__short_complex_types 129 13 18_1]
+G c Z s s [Omultiply ada__numerics__short_complex_types 131 13 18_1]
+G c Z s s [Omultiply ada__numerics__short_complex_types 132 13 18_1]
+G c Z s s [Odivide ada__numerics__short_complex_types 133 13 18_1]
+G c Z s s [Odivide ada__numerics__short_complex_types 134 13 18_1]
+G c Z s s [complexIP ada__numerics__short_complex_types 42 9 18_1]
+G c Z s s [sin ada__numerics__short_complex_types__aux 54 13 36_4_18_1]
+G c Z s s [cos ada__numerics__short_complex_types__aux 63 13 36_4_18_1]
+G c Z s s [tan ada__numerics__short_complex_types__aux 72 13 36_4_18_1]
+G c Z s s [exp ada__numerics__short_complex_types__aux 81 13 36_4_18_1]
+G c Z s s [sqrt ada__numerics__short_complex_types__aux 90 13 36_4_18_1]
+G c Z s s [log ada__numerics__short_complex_types__aux 99 13 36_4_18_1]
+G c Z s s [acos ada__numerics__short_complex_types__aux 108 13 36_4_18_1]
+G c Z s s [asin ada__numerics__short_complex_types__aux 117 13 36_4_18_1]
+G c Z s s [atan ada__numerics__short_complex_types__aux 126 13 36_4_18_1]
+G c Z s s [sinh ada__numerics__short_complex_types__aux 135 13 36_4_18_1]
+G c Z s s [cosh ada__numerics__short_complex_types__aux 144 13 36_4_18_1]
+G c Z s s [tanh ada__numerics__short_complex_types__aux 153 13 36_4_18_1]
+G c Z s s [pow ada__numerics__short_complex_types__aux 162 13 36_4_18_1]
+X 1 ada.ads
+16K9*Ada 20e8 13|16r6 18r9 19r8
+X 3 a-numeri.ads
+16K13*Numerics 1|16k9 3|35e17 13|16r10 18r13 19r12
+X 10 a-ngcoty.ads
+39k22*Generic_Complex_Types 157e39 13|16w19 19r21
+X 13 a-nscoty.ads
+18K22*Short_Complex_Types[10|39] 3|16k13 13|21r14
+

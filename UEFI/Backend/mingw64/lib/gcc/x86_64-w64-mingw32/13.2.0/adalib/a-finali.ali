@@ -1,0 +1,101 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U ada.finalization%s	a-finali.ads		86c56e5a EE OL PU PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-memory.ads		20230727081304 5b8432d0 system.memory%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stalib.adb		20230727081304 eb464a47 system.standard_library%b
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [initialize ada__finalization 46 14 none]
+G c Z s s [adjust ada__finalization 47 14 none]
+G c Z s s [finalize ada__finalization 48 14 none]
+G c Z s s [initialize ada__finalization 53 14 none]
+G c Z s s [finalize ada__finalization 54 14 none]
+G c Z s s [controlledDA ada__finalization 59 9 none]
+G c Z s s [controlledDF ada__finalization 59 9 none]
+G c Z s s [controlledIP ada__finalization 59 9 none]
+G c Z s s [limited_controlledDF ada__finalization 65 9 none]
+G c Z s s [limited_controlledIP ada__finalization 65 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|40r9 68r5
+X 3 a-finali.ads
+40K13*Finalization 1|16k9 3|57E12 68l9 68e21
+43H9*Controlled<13|40R9> 44r41 46P14 46r42 47P14 47r42 48P14 48r42 59c9 59e72
+46U14*Initialize<13|44p14> 46=26
+46r26 Object{43R9}
+47U14*Adjust<13|42p14> 47=26
+47r26 Object{43R9}
+48U14*Finalize<13|43p14> 48=26
+48r26 Object{43R9}
+50H9*Limited_Controlled<13|40R9> 51r41 53P14 53r42 54P14 54r42 65c9 66e55
+. 13|42p14
+53U14*Initialize<13|44p14> 53=26
+53r26 Object{50R9}
+54U14*Finalize<13|43p14> 54=26
+54r26 Object{50R9}
+57K12 SFR=57:31 59r36 66r19
+X 11 system.ads
+37K9*System 3|37r6 57r24 11|192e11
+67M9*Address
+X 13 s-finroo.ads
+34K16*Finalization_Root 3|37w13 57r31 13|46e29
+40H9*Root_Controlled 3|59r40 66r23 13|40e55
+X 14 s-memory.ads
+51V13*Alloc{11|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{11|67M9} 103i<c,__gnat_realloc>22
+X 21 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+

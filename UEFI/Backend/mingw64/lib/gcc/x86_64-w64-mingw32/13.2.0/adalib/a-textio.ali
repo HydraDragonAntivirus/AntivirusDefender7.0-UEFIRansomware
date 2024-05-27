@@ -1,0 +1,905 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U ada.text_io%b		a-textio.adb		67eb6d5a OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+W system.crtl%s		s-crtl.ads		s-crtl.ali
+W system.file_io%s	s-fileio.adb		s-fileio.ali  EA
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.wch_cnv%s	s-wchcnv.adb		s-wchcnv.ali
+W system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+
+U ada.text_io%s		a-textio.ads		8ecc2275 EB EE OL PF PK
+W ada%s			ada.ads			ada.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+N A112:6 gnatprove might_not_return entity:create
+N A128:6 gnatprove might_not_return entity:open
+N A134:6 gnatprove always_return entity:close
+N A139:6 gnatprove might_not_return entity:delete
+N A149:6 gnatprove might_not_return entity:reset
+N A159:6 gnatprove might_not_return entity:reset
+N A164:6 gnatprove always_return entity:mode
+N A168:6 gnatprove always_return entity:name
+N A172:6 gnatprove always_return entity:form
+N A176:6 gnatprove always_return entity:is_open
+N A217:6 gnatprove always_return entity:flush
+N A223:6 gnatprove always_return entity:flush
+N A235:6 gnatprove might_not_return entity:set_line_length
+N A241:6 gnatprove might_not_return entity:set_line_length
+N A249:6 gnatprove might_not_return entity:set_page_length
+N A255:6 gnatprove might_not_return entity:set_page_length
+N A262:6 gnatprove always_return entity:line_length
+N A269:6 gnatprove always_return entity:page_length
+N A281:6 gnatprove always_return entity:new_line
+N A287:6 gnatprove always_return entity:new_line
+N A292:6 gnatprove might_not_return entity:skip_line
+N A298:6 gnatprove might_not_return entity:skip_line
+N A303:6 gnatprove always_return entity:end_of_line
+N A306:6 gnatprove always_return entity:end_of_line
+N A314:6 gnatprove always_return entity:new_page
+N A320:6 gnatprove always_return entity:new_page
+N A325:6 gnatprove might_not_return entity:skip_page
+N A331:6 gnatprove might_not_return entity:skip_page
+N A336:6 gnatprove always_return entity:end_of_page
+N A339:6 gnatprove always_return entity:end_of_page
+N A344:6 gnatprove always_return entity:end_of_file
+N A347:6 gnatprove always_return entity:end_of_file
+N A361:6 gnatprove might_not_return entity:set_col
+N A368:6 gnatprove might_not_return entity:set_col
+N A382:6 gnatprove might_not_return entity:set_line
+N A389:6 gnatprove might_not_return entity:set_line
+N A394:6 gnatprove always_return entity:col
+N A397:6 gnatprove always_return entity:col
+N A402:6 gnatprove always_return entity:line
+N A405:6 gnatprove always_return entity:line
+N A410:6 gnatprove always_return entity:page
+N A413:6 gnatprove always_return entity:page
+N A422:6 gnatprove might_not_return entity:get
+N A428:6 gnatprove might_not_return entity:get
+N A435:6 gnatprove always_return entity:put
+N A441:6 gnatprove always_return entity:put
+N A450:6 gnatprove always_return entity:look_ahead
+N A460:6 gnatprove always_return entity:look_ahead
+N A468:6 gnatprove might_not_return entity:get_immediate
+N A477:6 gnatprove might_not_return entity:get_immediate
+N A486:6 gnatprove might_not_return entity:get_immediate
+N A496:6 gnatprove might_not_return entity:get_immediate
+N A505:6 gnatprove might_not_return entity:get
+N A511:6 gnatprove might_not_return entity:get
+N A518:6 gnatprove always_return entity:put
+N A524:6 gnatprove always_return entity:put
+N A535:6 gnatprove might_not_return entity:get_line
+N A547:6 gnatprove might_not_return entity:get_line
+N A564:6 gnatprove always_return entity:put_line
+N A573:6 gnatprove always_return entity:put_line
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20230727081304 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-textio.ads		20230727081304 5c2c6153 ada.text_io%s
+D a-textio.adb		20230727081304 5b4ab73e ada.text_io%b
+D a-tigeli.adb		20230727081304 491360e4 ada.text_io.get_line
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-cstrea.ads		20230727081304 e53d8b8e interfaces.c_streams%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-crtl.ads		20230727081304 8a0692f8 system.crtl%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230727081304 dc5161d4 system.file_control_block%s
+D s-fileio.ads		20230727081304 45ce2f0f system.file_io%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-wchcnv.ads		20230727081304 06c0ca70 system.wch_cnv%s
+D s-wchcnv.adb		20230727081304 5870a60e system.wch_cnv%b
+D s-wchcon.ads		20230727081304 d9032363 system.wch_con%s
+D s-wchjis.ads		20230727081304 6a748b39 system.wch_jis%s
+G a e
+G c Z s s [file_typePartial_DIC ada__text_io 66 9 none]
+G c Z s s [file_typeDIC ada__text_io 66 9 none]
+G c Z s b [create ada__text_io 98 14 none]
+G c Z s b [open ada__text_io 114 14 none]
+G c Z s b [close ada__text_io 130 14 none]
+G c Z s b [delete ada__text_io 135 14 none]
+G c Z s b [reset ada__text_io 140 14 none]
+G c Z s b [reset ada__text_io 150 14 none]
+G c Z s b [mode ada__text_io 161 13 none]
+G c Z s b [name ada__text_io 165 13 none]
+G c Z s b [form ada__text_io 169 13 none]
+G c Z s b [is_open ada__text_io 174 13 none]
+G c Z s b [set_input ada__text_io 182 14 none]
+G c Z s b [set_output ada__text_io 183 14 none]
+G c Z s b [set_error ada__text_io 184 14 none]
+G c Z s b [standard_input ada__text_io 186 13 none]
+G c Z s b [standard_output ada__text_io 187 13 none]
+G c Z s b [standard_error ada__text_io 188 13 none]
+G c Z s b [current_input ada__text_io 190 13 none]
+G c Z s b [current_output ada__text_io 191 13 none]
+G c Z s b [current_error ada__text_io 192 13 none]
+G c Z s b [standard_input ada__text_io 196 13 none]
+G c Z s b [standard_output ada__text_io 197 13 none]
+G c Z s b [standard_error ada__text_io 198 13 none]
+G c Z s b [current_input ada__text_io 200 13 none]
+G c Z s b [current_output ada__text_io 201 13 none]
+G c Z s b [current_error ada__text_io 202 13 none]
+G c Z s b [flush ada__text_io 211 14 none]
+G c Z s b [flush ada__text_io 218 14 none]
+G c Z s b [set_line_length ada__text_io 229 14 none]
+G c Z s b [set_line_length ada__text_io 236 14 none]
+G c Z s b [set_page_length ada__text_io 243 14 none]
+G c Z s b [set_page_length ada__text_io 250 14 none]
+G c Z s b [line_length ada__text_io 257 13 none]
+G c Z s b [line_length ada__text_io 260 13 none]
+G c Z s b [page_length ada__text_io 264 13 none]
+G c Z s b [page_length ada__text_io 267 13 none]
+G c Z s b [new_line ada__text_io 275 14 none]
+G c Z s b [new_line ada__text_io 282 14 none]
+G c Z s b [skip_line ada__text_io 289 14 none]
+G c Z s b [skip_line ada__text_io 293 14 none]
+G c Z s b [end_of_line ada__text_io 300 13 none]
+G c Z s b [end_of_line ada__text_io 304 13 none]
+G c Z s b [new_page ada__text_io 308 14 none]
+G c Z s b [new_page ada__text_io 315 14 none]
+G c Z s b [skip_page ada__text_io 322 14 none]
+G c Z s b [skip_page ada__text_io 326 14 none]
+G c Z s b [end_of_page ada__text_io 333 13 none]
+G c Z s b [end_of_page ada__text_io 337 13 none]
+G c Z s b [end_of_file ada__text_io 341 13 none]
+G c Z s b [end_of_file ada__text_io 345 13 none]
+G c Z s b [set_col ada__text_io 349 14 none]
+G c Z s b [set_col ada__text_io 362 14 none]
+G c Z s b [set_line ada__text_io 370 14 none]
+G c Z s b [set_line ada__text_io 383 14 none]
+G c Z s b [col ada__text_io 391 13 none]
+G c Z s b [col ada__text_io 395 13 none]
+G c Z s b [line ada__text_io 399 13 none]
+G c Z s b [line ada__text_io 403 13 none]
+G c Z s b [page ada__text_io 407 13 none]
+G c Z s b [page ada__text_io 411 13 none]
+G c Z s b [get ada__text_io 419 14 none]
+G c Z s b [get ada__text_io 423 14 none]
+G c Z s b [put ada__text_io 429 14 none]
+G c Z s b [put ada__text_io 436 14 none]
+G c Z s b [look_ahead ada__text_io 443 14 none]
+G c Z s b [look_ahead ada__text_io 452 14 none]
+G c Z s b [get_immediate ada__text_io 462 14 none]
+G c Z s b [get_immediate ada__text_io 470 14 none]
+G c Z s b [get_immediate ada__text_io 479 14 none]
+G c Z s b [get_immediate ada__text_io 488 14 none]
+G c Z s b [get ada__text_io 502 14 none]
+G c Z s b [get ada__text_io 506 14 none]
+G c Z s b [put ada__text_io 512 14 none]
+G c Z s b [put ada__text_io 519 14 none]
+G c Z s b [get_line ada__text_io 526 14 none]
+G c Z s b [get_line ada__text_io 537 14 none]
+G c Z s b [get_line ada__text_io 549 13 none]
+G c Z s b [get_line ada__text_io 552 13 none]
+G c Z s b [put_line ada__text_io 555 14 none]
+G c Z s b [put_line ada__text_io 566 14 none]
+G c Z s b [afcb_allocate ada__text_io 736 13 none]
+G c Z s b [afcb_close ada__text_io 738 14 none]
+G c Z s b [afcb_free ada__text_io 739 14 none]
+G c Z s b [read ada__text_io 741 14 none]
+G c Z s b [write ada__text_io 747 14 none]
+G c Z s s [text_afcbDF ada__text_io 682 9 none]
+G c Z s s [text_afcbIP ada__text_io 682 9 none]
+G c Z s b [eof_char ada__text_io 776 13 none]
+G c Z s b [initialize_standard_files ada__text_io 782 14 none]
+G c Z b b [to_fcb ada__text_io 64 13 none]
+G c Z b b [to_tio ada__text_io 65 13 none]
+G c Z b b [get_upper_half_char ada__text_io 96 13 none]
+G c Z b b [get_upper_half_char_immed ada__text_io 106 13 none]
+G c Z b b [getc ada__text_io 112 13 none]
+G c Z b b [getc_immed ada__text_io 117 13 none]
+G c Z b b [has_upper_half_character ada__text_io 121 13 none]
+G c Z b b [nextc ada__text_io 124 13 none]
+G c Z b b [put_encoded ada__text_io 128 14 none]
+G c Z b b [putc ada__text_io 132 14 none]
+G c Z b b [set_wcem ada__text_io 137 14 none]
+G c Z b b [terminate_line ada__text_io 142 14 none]
+G c Z b b [ungetc ada__text_io 148 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 9|51r6 52r6 58r9 107r17 123r16 144r17 743r18 744r18 749r14
+. 787r5 10|32r6 32r35 40r6 41r6 46r14 64r27 65r27 193r29 2193r5 11|40r11
+X 3 a-ioexce.ads
+16K13*IO_Exceptions 28e22 9|51w10 601r37 602r37 603r37 604r37 605r37 606r37
+. 607r37 608r37
+19X4*Status_Error 9|601r51
+20X4*Mode_Error 9|602r51
+21X4*Name_Error 9|603r51
+22X4*Use_Error 9|604r51
+23X4*Device_Error 9|605r51
+24X4*End_Error 9|606r51
+25X4*Data_Error 9|607r51
+26X4*Layout_Error 9|608r51
+X 4 a-stream.ads
+36K13*Streams 87e16 9|52w10 743r22 744r22 749r18 10|32w10 32r39
+42M9*Stream_Element 10|1498r31
+44I9*Stream_Element_Offset<long_long_integer> 9|744r30 10|1465r18 1506r17
+. 1527r11
+54A9*Stream_Element_Array(42M9)<44I9> 9|743r30 749r26 10|1464r18 2101r14
+X 9 a-textio.ads
+58K13*Text_IO 1|16k9 9|107r21 123r20 144r21 621E20 787l9 787e16 10|46b18
+. 2193l9 2193t16 11|40r15
+60@24*File_System 61r24 111r29 127r29 133r29 138r29 148r29 158r29 216r29
+. 222r29 234r29 240r29 248r29 254r29 259r28 261r28 266r28 268r28 280r29 286r29
+. 291r29 297r29 302r28 305r28 313r29 319r29 324r29 330r29 335r28 338r28 343r28
+. 346r28 360r35 367r29 381r35 388r29 393r28 396r28 401r28 404r28 409r28 412r28
+. 421r29 427r29 434r29 440r29 449r28 459r28 467r29 476r29 485r29 495r29 504r29
+. 510r29 517r29 523r29 534r29 546r29 563r29 572r29 761r17 763r17 765r17 769r17
+. 771r17 773r17 10|48r21
+66P9*File_Type 99r21 115r21 130r36 135r36 140r36 150r36 161r26 165r26 169r26
+. 174r29 182r33 183r33 184r33 186r36 187r36 188r36 190r35 191r35 192r35 194r40
+. 211r28 229r38 243r38 257r33 264r33 275r31 289r32 300r33 308r31 322r32 333r33
+. 341r33 349r30 370r31 391r25 399r26 407r26 419r26 429r26 444r21 463r14 480r19
+. 502r26 512r26 527r14 549r30 556r14 630r27 635r27 680c9 689r22 760r27 762r27
+. 764r27 768r27 770r27 772r27 10|98r14 108r14 112r26 117r32 124r27 128r34
+. 132r37 137r38 142r37 148r39 191r12 193r68 203r35 216r25 232r21 260r34 274r34
+. 288r35 302r36 311r33 371r33 405r33 464r28 478r26 488r14 541r14 598r14 637r19
+. 703r14 717r30 779r14 822r14 863r26 880r32 974r29 987r26 1002r33 1018r21
+. 1091r26 1100r26 1110r17 1149r31 1172r27 1197r21 1229r26 1244r33 1260r14
+. 1298r14 1340r34 1366r14 1448r37 1544r21 1569r35 1587r14 1695r32 1705r32
+. 1716r14 1763r38 1786r33 1796r38 1819r38 1849r17 1945r32 2006r35 2020r35
+. 2034r36 2048r37 2083r39 11|42r11
+68E9*File_Mode 68e54 74r8 100r14 116r14 140r54 161r44 635r38 10|64r53 65r68
+. 233r14 1091r44 1198r14 1545r14
+68n23*In_File{68E9} 75r7 108r29 124r28 145r29 155r31 212r57 230r58 244r57
+. 258r57 265r57 276r57 290r56 301r56 309r57 323r56 334r56 342r56 352r36 356r24
+. 373r36 377r24 420r56 430r57 448r56 466r56 484r56 503r56 513r57 531r56 559r57
+. 10|2054r25
+68n32*Out_File{68E9} 76r7 100r27 10|233r27 1605r25 1734r25 2072r35
+68n42*Append_File{68E9} 77r7
+79I9*Count<integer> 83r30 83r47 85r25 229r54 236r36 243r54 250r36 257r51
+. 260r32 264r51 267r32 683r21 684r21 685r21 686r21 687r21 10|1002r51 1008r32
+. 1244r51 1250r32 1763r54 1777r36 1796r54 1810r36 11|213r36
+83I12*Positive_Count{79I9} 275r52 282r34 289r53 293r35 349r47 362r28 370r47
+. 383r29 391r43 395r24 399r44 403r25 407r44 411r25 10|216r43 222r24 987r44
+. 993r25 1111r17 1140r34 1229r44 1235r25 1588r14 1686r28 1717r14 1754r29
+. 1850r17 1936r35
+85i4*Unbounded{79I9}
+88I12*Field{integer}
+90I12*Number_Base{integer}
+92E9*Type_Set 92e45
+92n22*Lower_Case{92E9}
+92n34*Upper_Case{92E9}
+98U14*Create 99=7 100>7 101>7 102>7 10|231b14 254l8 254t14
+99p7 File{66P9} 104r31 106r17 107r35 109r39 110r48 10|232b7 243m34 243r34
+. 252r7 252r20 253m17
+100e7 Mode{68E9} 107r43 108r21 10|233b7 245r38
+101a7 Name{string} 10|234b7 246r30
+102a7 Form{string} 10|235b7 247r30
+114U14*Open 115=7 116>7 117>7 118>7 10|1196b14 1219l8 1219t12
+115p7 File{66P9} 120r31 122r16 123r34 125r38 126r47 10|1197b7 1208m34 1208r34
+. 1217r7 1217r20 1218m17
+116e7 Mode{68E9} 123r42 124r20 10|1198b7 1210r38
+117a7 Name{string} 10|1199b7 1211r30
+118a7 Form{string} 10|1200b7 1212r30
+130U14*Close 130=22 620r20 10|203b14 206l8 206t13 1839s10
+130p22 File{66P9} 131r27 132r31 10|203b21 205r22
+135U14*Delete 135=22 624r20 10|302b14 305l8 305t14
+135p22 File{66P9} 136r27 137r31 10|302b22 304r23
+140U14*Reset 140=22 140>47 10|1543b14 1567l8 1567t13
+140p22 File{66P9} 141r27 143r17 144r35 146r39 147r48 10|1544b7 1550r11 1551r11
+. 1552r11 1553r35 1558r23 1559r22 1560r7 1561r7 1562r7 1563r7 1564r7 1565r7
+. 1566r7
+140e47 Mode{68E9} 144r43 145r21 10|1545b7 1553r26 1559r57
+150U14*Reset 150=22 10|1569b14 1580l8 1580t13
+150p22 File{66P9} 151r27 153r17 154r18 154r36 155r22 156r36 157r45 10|1569b21
+. 1571r23 1572r22 1573r7 1574r7 1575r7 1576r7 1577r7 1578r7 1579r7
+161V13*Mode{68E9} 107s29 123s28 144s29 154s12 154s30 155s16 161>19 212s42
+. 230s43 244s42 258s42 265s42 276s42 290s42 301s42 309s42 323s42 334s42 342s42
+. 352s21 356s9 373s21 377s9 420s42 430s42 448s42 466s42 484s42 503s42 513s42
+. 531s42 559s42 10|1091b13 1094l8 1094t12 1605s10 1734s10 2054s10 2072s21
+161p19 File{66P9} 162r27 10|1091b19 1093r36
+165V13*Name{string} 165>19 10|1100b13 1103l8 1103t12
+165p19 File{66P9} 166r27 10|1100b19 1102r28
+169V13*Form{string} 169>19 10|478b13 481l8 481t12
+169p19 File{66P9} 170r27 10|478b19 480r28
+174V13*Is_Open{boolean} 67s40 104s22 106s8 120s22 122s7 131s18 132s22 136s18
+. 137s22 141s18 143s8 151s18 153s8 162s18 166s18 170s18 174>22 212s18 230s18
+. 244s18 258s18 265s18 276s18 290s18 301s18 309s18 323s18 334s18 342s18 351s8
+. 372s8 392s18 400s18 408s18 420s18 430s18 448s18 466s18 484s18 503s18 513s18
+. 531s18 559s18 10|974b13 977l8 977t15
+174p22 File{66P9} 10|974b22 976r31
+182U14*Set_Input 182>26 10|1705b14 1709l8 1709t17
+182p26 File{66P9} 10|1705b25 1707r34 1708r21
+183U14*Set_Output 183>26 10|1786b14 1790l8 1790t18
+183p26 File{66P9} 10|1786b26 1788r35 1789r22
+184U14*Set_Error 184>26 10|1695b14 1699l8 1699t17
+184p26 File{66P9} 10|1695b25 1697r35 1698r22
+186V13*Standard_Input{66P9} 10|2020b13 2023l8 2023t22
+187V13*Standard_Output{66P9} 10|2034b13 2037l8 2037t23
+188V13*Standard_Error{66P9} 10|2006b13 2009l8 2009t22
+190V13*Current_Input{66P9} 10|274b13 277l8 277t21
+191V13*Current_Output{66P9} 10|288b13 291l8 291t22
+192V13*Current_Error{66P9} 10|260b13 263l8 263t21 1552s18
+194P9*File_Access(66P9) 196r36 197r36 198r36 200r35 201r35 202r35 10|265r34
+. 279r34 293r35 2011r35 2025r35 2039r36
+196V13*Standard_Input{194P9} 10|2025b13 2028l8 2028t22
+197V13*Standard_Output{194P9} 10|2039b13 2042l8 2042t23
+198V13*Standard_Error{194P9} 10|2011b13 2014l8 2014t22
+200V13*Current_Input{194P9} 10|279b13 282l8 282t21
+201V13*Current_Output{194P9} 10|293b13 296l8 296t22
+202V13*Current_Error{194P9} 10|265b13 268l8 268t21
+211U14*Flush 211>21 10|464b14 467l8 467t13 471s7
+211p21 File{66P9} 212r27 212r48 214r21 214r46 215r25 215r50 10|464b21 466r22
+218U14*Flush 10|469b14 472l8 472t13
+229U14*Set_Line_Length 229>31 229>49 10|1763b14 1775l8 1775t23 1779s7
+229p31 File{66P9} 230r27 230r49 232r21 233r25 233r50 10|1763b31 1773r35 1774r7
+229i49 To{79I9} 232r29 10|1763b49 1769r14 1774r27
+236U14*Set_Line_Length 236>31 10|1777b14 1780l8 1780t23
+236i31 To{79I9} 238r22 10|1777b31 1779r37
+243U14*Set_Page_Length 243>31 243>49 10|1796b14 1808l8 1808t23 1812s7
+243p31 File{66P9} 244r27 244r48 246r21 247r25 247r50 10|1796b31 1806r35 1807r7
+243i49 To{79I9} 246r29 10|1796b49 1802r14 1807r27
+250U14*Set_Page_Length 250>31 10|1810b14 1813l8 1813t23
+250i31 To{79I9} 252r22 10|1810b31 1812r37
+257V13*Line_Length{79I9} 109s26 125s25 146s26 156s23 214s8 214s33 232s8 247s12
+. 247s37 257>26 278s8 278s33 311s8 311s33 353s28 354s42 357s15 357s40 378s15
+. 378s40 432s8 432s33 515s8 515s33 561s8 561s33 10|1002b13 1006l8 1006t19
+. 1010s14
+257p26 File{66P9} 258r27 258r48 10|1002b26 1004r35 1005r14
+260V13*Line_Length{79I9} 62s24 220s8 220s26 238s8 253s12 253s30 284s8 284s26
+. 295s8 295s26 317s8 317s26 328s8 328s26 363s18 363s43 365s8 365s26 386s8
+. 386s26 425s8 425s26 438s8 438s26 457s8 457s26 474s8 474s26 493s8 493s26
+. 508s8 508s26 521s8 521s26 542s8 542s26 570s8 570s26 10|1008b13 1011l8 1011t19
+264V13*Page_Length{79I9} 110s35 126s34 147s35 157s32 215s12 215s37 233s12
+. 233s37 246s8 264>26 279s12 279s37 312s12 312s37 358s19 358s44 374s28 375s42
+. 379s19 379s44 433s12 433s37 516s12 516s37 562s12 562s37 10|1244b13 1248l8
+. 1248t19 1252s14
+264p26 File{66P9} 265r27 265r48 10|1244b26 1246r35 1247r14
+267V13*Page_Length{79I9} 62s44 221s12 221s30 239s12 239s30 252s8 285s12 285s30
+. 296s12 296s30 318s12 318s30 329s12 329s30 366s12 366s30 384s18 384s43 387s12
+. 387s30 426s12 426s30 439s12 439s30 458s12 458s30 475s12 475s30 494s12 494s30
+. 509s12 509s30 522s12 522s30 543s12 543s30 571s12 571s30 10|1250b13 1253l8
+. 1253t19
+275U14*New_Line 275>24 275>42 10|1109b14 1138l8 1138t16 1142s7 1267s10 1387s10
+. 1617s13 1744s13 2059s13 2074s13
+275p24 File{66P9} 276r27 276r48 278r21 278r46 279r25 279r50 10|1110b7 1122r35
+. 1125r20 1126r10 1126r23 1128r13 1129r21 1129r33 1131r23 1132r13 1133r13
+. 1133r26 1137r7
+275i42 Spacing{83I12} 10|1111b7 1118r14 1124r21
+282U14*New_Line 282>24 10|1140b14 1143l8 1143t16
+282i24 Spacing{83I12} 10|1140b24 1142r30
+289U14*Skip_Line 289>25 289>43 10|1749s13 1848b14 1934l8 1934t17 1938s7
+289p25 File{66P9} 290r27 290r48 10|1849b7 1863r34 1866r13 1867r13 1876r25
+. 1899r28 1909r10 1910r10 1910r23 1912r13 1913r13 1913r26 1914r13 1915r13
+. 1917r16 1918r25 1923r24 1925r16 1925r29 1926r16 1928r28 1933r7
+289i43 Spacing{83I12} 10|1850b7 1859r14 1865r21
+293U14*Skip_Line 293>25 10|1936b14 1939l8 1939t17
+293i25 Spacing{83I12} 10|1936b25 1938r30
+300V13*End_Of_Line{boolean} 300>26 10|371b13 394l8 394t19 398s14
+300p26 File{66P9} 301r27 301r48 10|371b26 375r34 377r10 380r13 384r22 390r25
+304V13*End_Of_Line{boolean} 10|396b13 399l8 399t19
+308U14*New_Page 308>24 10|1149b14 1161l8 1161t16 1165s7 1740s13
+308p24 File{66P9} 309r27 309r48 311r21 311r46 312r25 312r50 10|1149b24 1151r35
+. 1153r10 1153r32 1154r20 1157r17 1158r7 1158r20 1159r7 1160r7
+315U14*New_Page 10|1163b14 1166l8 1166t16
+322U14*Skip_Page 322>25 10|1945b14 1995l8 1995t17 1999s7
+322p25 File{66P9} 323r27 323r48 10|1945b25 1949r34 1953r10 1954r10 1955r10
+. 1956r10 1956r23 1957r10 1958r10 1966r10 1967r10 1968r10 1969r22 1974r22
+. 1987r38 1988r22 1991r7 1991r20 1992r7 1993r7 1994r7
+326U14*Skip_Page 10|1997b14 2000l8 2000t17
+333V13*End_Of_Page{boolean} 333>26 10|405b13 444l8 444t19 448s14
+333p26 File{66P9} 334r27 334r48 10|405b26 409r34 411r14 414r13 417r13 418r13
+. 423r22 429r25 433r13 441r20
+337V13*End_Of_Page{boolean} 10|446b13 449l8 449t19
+341V13*End_Of_File{boolean} 341>26 10|311b13 360l8 360t19 364s14 752s19
+341p26 File{66P9} 342r27 342r48 10|311b26 315r34 317r10 320r13 321r13 322r27
+. 326r22 332r25 336r13 344r19 349r30 350r10 351r24 356r22
+345V13*End_Of_File{boolean} 10|362b13 365l8 365t19
+349U14*Set_Col 349>23 349>42 10|1586b14 1684l8 1684t15 1688s7
+349p23 File{66P9} 351r17 352r27 353r41 354r55 356r15 357r28 357r53 358r32
+. 358r57 10|1587b7 1601r32 1605r16 1610r13 1610r49 1616r18 1617r23 1622r16
+. 1623r18 1633r13 1634r13 1635r13 1636r13 1636r26 1637r13 1648r25 1658r16
+. 1658r29 1659r16 1663r36 1664r16 1664r29 1665r16 1666r16 1672r24 1673r28
+. 1680r16 1680r28
+349i42 To{83I12} 354r36 10|1588b7 1597r14 1610r44 1616r13 1622r27 1672r19
+362U14*Set_Col 362>23 10|1686b14 1689l8 1689t15
+362i23 To{83I12} 363r37 10|1686b23 1688r29
+370U14*Set_Line 370>24 370>42 10|1715b14 1752l8 1752t16 1756s7
+370p24 File{66P9} 372r17 373r27 374r41 375r55 377r15 378r28 378r53 379r32
+. 379r57 10|1716b7 1728r32 1730r15 1734r16 1735r13 1735r49 1739r18 1740r23
+. 1743r16 1744r23 1748r22 1749r24
+370i42 To{83I12} 375r36 10|1717b7 1724r14 1730r10 1735r44 1739r13 1743r28
+. 1748r16
+383U14*Set_Line 383>24 10|1754b14 1757l8 1757t16
+383i24 To{83I12} 384r37 10|1754b24 1756r30
+391V13*Col{83I12} 391>18 10|216b13 220l8 220t11 224s14
+391p18 File{66P9} 392r27 10|216b18 218r32 219r14
+395V13*Col{83I12} 10|222b13 225l8 225t11
+399V13*Line{83I12} 399>19 10|987b13 991l8 991t12 995s14
+399p19 File{66P9} 400r27 10|987b19 989r32 990r14
+403V13*Line{83I12} 10|993b13 996l8 996t12
+407V13*Page{83I12} 407>19 10|1229b13 1233l8 1233t12 1237s14
+407p19 File{66P9} 408r27 10|1229b19 1231r32 1232r14
+411V13*Page{83I12} 10|1235b13 1238l8 1238t12
+419U14*Get 419>19 419<37 10|487b14 533l8 533t11 537s7
+419p19 File{66P9} 420r27 420r48 10|488b7 494r34 496r10 497r10 498r18 500r13
+. 501r10 502r10 504r13 505r13 506r13 506r26 507r13 509r13 509r26 514r22 520r13
+. 520r26 521r13 523r33 524r13 524r26 525r13 529r13 529r25
+419e37 Item{character} 10|489b7 498m10 528m13
+423U14*Get 423<19 10|535b14 538l8 538t11
+423e19 Item{character} 10|535b19 537m24
+429U14*Put 429>19 429>37 10|1259b14 1286l8 1286t11 1290s7 1317s16 1384s13
+. 1623s13
+429p19 File{66P9} 430r27 430r48 432r21 432r46 433r25 433r50 10|1260b7 1264r35
+. 1266r10 1266r41 1266r52 1267r20 1273r17 1275r42 1282r23 1285r7 1285r19
+429e37 Item{character} 10|1261b7 1272r25 1275r35 1282r29
+436U14*Put 436>19 10|1288b14 1291l8 1291t11
+436e19 Item{character} 10|1288b19 1290r25
+443U14*Look_Ahead 444>7 445<7 446<7 10|1017b14 1077l8 1077t18 1084s7
+444p7 File{66P9} 448r27 448r48 10|1018b7 1025r34 1029r10 1036r13 1038r18
+. 1043r22 1047r38 1050r25 1058r43 1061r25 1071r62 1073r13 1074r13
+445e7 Item{character} 10|1019b7 1031m10 1038m10 1051m13 1062m13 1071m13 1073r48
+446b7 End_Of_Line{boolean} 10|1020b7 1030m10 1037m10 1049m13 1060m13 1072m13
+452U14*Look_Ahead 453<7 454<7 10|1079b14 1085l8 1085t18
+453e7 Item{character} 10|1080b7 1084m31
+454b7 End_Of_Line{boolean} 10|1081b7 1084m37
+462U14*Get_Immediate 463>7 464<7 10|597b14 627l8 627t21 633s7
+463p7 File{66P9} 466r27 466r48 10|598b7 604r34 606r10 607r10 608r18 610r13
+. 611r10 612r10 616r28 622r65 624r68
+464e7 Item{character} 10|599b7 608m10 613m10 621m13
+470U14*Get_Immediate 471<7 10|629b14 634l8 634t21
+471e7 Item{character} 10|630b7 633m34
+479U14*Get_Immediate 480>7 481<7 482<7 10|636b14 688l8 688t21 695s7
+480p7 File{66P9} 484r27 484r48 10|637b7 653r34 656r10 657r10 658r18 660r13
+. 661r10 662r10 666r33 668r21 682r65 684r68
+481e7 Item{character} 10|638b7 658m10 663m10 676m13 681m13
+482b7 Available{boolean} 10|639b7 654m7 675m13 679m13
+488U14*Get_Immediate 489<7 490<7 10|690b14 696l8 696t21
+489e7 Item{character} 10|691b7 695m34
+490b7 Available{boolean} 10|692b7 695m40
+502U14*Get 502>19 502<37 10|540b14 586l8 586t11 590s7
+502p19 File{66P9} 503r27 503r48 10|541b7 548r34 550r10 551r10 552r10 553r10
+. 555r13 556r13 557r13 557r26 558r13 561r13 561r26 567r22 573r13 573r26 574r13
+. 576r33 577r13 577r26 578r13 583r13 583r25
+502a37 Item{string} 10|542b7 565r12 566r18 581m13
+506U14*Get 506<19 10|588b14 591l8 591t11
+506a19 Item{string} 10|588b19 590m24
+512U14*Put 512>19 512>37 10|1297b14 1329l8 1329t11 1333s7
+512p19 File{66P9} 513r27 513r48 515r21 515r46 516r25 516r50 10|1298b7 1302r35
+. 1312r13 1313r21 1317r21 1325r32 1326r13 1326r25
+512a37 Item{string} 10|1299b7 1306r10 1314r58 1316r22 1317r27 1325r39 1325r53
+. 1326r36
+519U14*Put 519>19 10|1331b14 1334l8 1334t11
+519a19 Item{string} 10|1331b19 1333r25
+526U14*Get_Line 527>7 528<7 529<7 10|702b14 714s7 737s10 11|41b11 241l5 241t13
+527p7 File{66P9} 531r27 531r48 10|703b7 11|42b4 86r23 87r21 151r31 172r7
+. 173r7 174r7 194r22 213r13 213r25 223r4 223r17 224r4 226r7 227r7 228r7 229r7
+. 229r20 231r10 232r19 234r27 235r10 236r10 236r23 238r22
+528a7 Item{string} 532r22 532r51 532r69 533r28 10|704b7 11|43b4 92r24 109m18
+. 109r18 139m21 139r21 157r12 163r7 163r20 167r9 167r21 200r23 212m13 213r50
+529i7 Last{natural} 532r43 533r21 10|705b7 11|44b4 92r16 109r24 111m10 111r18
+. 139r27 141m13 141r21 157m4 200r16 211m13 211r21 212r19 213r43
+537U14*Get_Line 538<7 539<7 10|709b14 715l8 715t16
+538a7 Item{string} 544r16 544r45 544r63 545r25 10|710b7 714m29
+539i7 Last{natural} 544r37 545r18 10|711b7 714m35
+549V13*Get_Line{string} 549>23 10|717b13 766l8 766t16 770s14
+549p23 File{66P9} 10|717b23 737r20 752r32
+552V13*Get_Line{string} 10|768b13 771l8 771t16
+555U14*Put_Line 556>7 557>7 10|1365b14 1437l8 1437t16 1441s7
+556p7 File{66P9} 559r27 559r48 561r21 561r46 562r25 562r50 10|1366b7 1373r35
+. 1379r10 1380r18 1384r18 1387r20 1405r29 1420r13 1421r21 1421r33 1425r13
+. 1426r13 1426r26 1430r13 1430r26 1433r29 1435r10
+557a7 Item{string} 10|1367b7 1369r27 1370r27 1381r55 1383r19 1384r24 1405r36
+. 1417r32 1417r48
+566U14*Put_Line 567>7 10|1439b14 1442l8 1442t16
+567a7 Item{string} 10|1439b24 1441r30
+601X4*Status_Error
+602X4*Mode_Error 10|1474r16 1555r16 2139r16
+603X4*Name_Error
+604X4*Use_Error 10|1840r16
+605X4*Device_Error 10|669r19 870r16 900r19 1180r19 1185r19 1276r19 1451r16
+. 1532r19 2087r19 2156r19 2163r16 2171r19 11|88r19
+606X4*End_Error 10|517r19 570r19 619r19 672r19 797r19 840r19 1653r22 1889r22
+. 1977r19 11|96r19 201r22
+607X4*Data_Error
+608X4*Layout_Error 10|1611r19 1736r19
+662N4 LM 10|331r22 391r26 428r22 519r21 572r21 613r33 663r33 894r16 1045r18
+. 1125r16 1154r16 1418r46 1657r24 1898r31 11|100r23 207r22
+665N4 PM 10|349r18 443r19 523r21 576r21 1047r26 1131r19 1157r13 1423r49 1492r35
+. 1663r24 1922r22 1987r26 11|234r15
+672i4 Default_WCEM{33|92I9} 709r56 10|940r41 952r41 964r41 1827r28 2183m10
+677K12 FCB=677:31 682r26 736r62 10|62r18 64r64 65r53 66r13 158r62 933r41
+. 945r41 957r41 1473r23 2138r22
+679R9 Text_AFCB 680r33 682c9 736r44 738r49 739r49 742r21 748r21 756r32 757r32
+. 758r32 10|158r44 161r18 168r49 190r48 193r57 237r34 1202r34 1463r21 2100r21
+682R9 Text_AFCB<19|84R9> 734e14 736P13 738P14 739P14 741P14 747P14
+683i7*Page{79I9} 10|506m18 506r31 524m18 524r31 557m18 557r31 577m18 577r31
+. 1133m18 1133r31 1158m12 1158r25 1232r19 1426m18 1426r31 1560m12 1573m12
+. 1664m21 1664r34 1913m18 1913r31 1925m21 1925r34 1956m15 1956r28 1991m12
+. 1991r25 2071r50 11|229m12 229r25 236m15 236r28
+684i7*Line{79I9} 10|505m18 509m18 509r31 520m18 520r31 525m18 556m18 561m18
+. 561r31 573m18 573r31 578m18 990r19 1126m15 1126r28 1129r26 1132m18 1153r37
+. 1159m12 1421r26 1425m18 1430m18 1430r31 1561m12 1574m12 1636m18 1636r31
+. 1658m21 1658r34 1665m21 1730r20 1739r23 1743r21 1748r27 1910m15 1910r28
+. 1914m18 1926m21 1957m15 1992m12 2071r27 11|223m9 223r22 227m12 235m15
+685i7*Col{79I9} 10|219r19 502m15 521m18 529m18 529r30 553m15 574m18 583m18
+. 583r30 1137m12 1153r15 1160m12 1266r46 1285m12 1285r24 1326m18 1326r30
+. 1435m15 1562m12 1575m12 1616r23 1622r21 1637m18 1659m21 1666m21 1672r29
+. 1680m21 1680r33 1909m15 1958m15 1993m12 2058r18 11|213m18 213r30 224m9
+686i7*Line_Length{79I9} 10|1005r19 1266r15 1266r57 1312r18 1379r15 1563m12
+. 1576m12 1610r18 1610r54 1774m12
+687i7*Page_Length{79I9} 10|1128r18 1129r38 1247r19 1420r18 1421r38 1564m12
+. 1577m12 1735r18 1735r54 1807m12
+689p7*Self{66P9} 10|252m12 267m26 281m25 295m26 939m20 951m19 963m20 1217m12
+695b7*Before_LM{boolean} 10|320r18 336m18 380r18 417r18 433m18 500r18 501m15
+. 550r15 551m15 610r18 611m15 660r18 661m15 891r15 892m15 1029r15 1481r15
+. 1496m15 1565m12 1578m12 1633r18 1634m18 1866r18 1867m18 1954m15 1966r15
+. 1967m15 11|172r12 173m12
+704b7*Before_LM_PM{boolean} 10|321r18 350m15 418r18 504r18 507m18 552m15
+. 555r18 558m18 612m15 662m15 893m15 1491r18 1493m18 1566m12 1579m12 1635m18
+. 1912r18 1915m18 1953r15 1955m15 1968m15 11|174m12 226r12 228m12
+709i7*WC_Method{33|92I9} 10|622r70 682r70 806r32 849r32 940m20 952m19 964m20
+. 1058r48 1273r22 1313r26 1358r63 1380r23 1827m15 1833m24
+714b7*Before_Upper_Half_Character{boolean} 10|317r15 377r15 414r18 496r15
+. 497m15 606r15 607m15 656r15 657m15 1036r18 1074m18 1933m12 1994m12
+723e7*Saved_Upper_Half_Character{character} 10|498r23 608r23 658r23 1038r23
+. 1073m18
+736V13 AFCB_Allocate{19|82P9}<19|141p13> 736>28 10|158b13 162l8 162t21
+736r28 Control_Block{682R9} 10|158b28 159r28
+738U14 AFCB_Close<19|147p14> 738^26 10|168b14 184l8 184t18
+738p26 File(682R9) 10|168b26 175r10 177r13 179r13 183r23
+739U14 AFCB_Free<19|153p14> 739^26 10|190b14 197l8 197t17
+739p26 File(682R9) 10|190b25 191r25
+741U14 Read<4|57p14> 742=7 743<7 744<7 10|1462b14 1537l8 1537t12
+742r7 File{682R9} 10|1463b7 1473r10 1481r10 1491r13 1492r39 1493m13 1496m10
+. 1511r37 1523r32 1528r51 1531r21 1536r30
+743a7 Item{4|54A9} 10|1464b7 1498m10 1498r16 1500r13 1501r21 1505r15 1507m37
+. 1507r37 1508r45 1510r37 1526r9 1528m21 1528r21 1528r38 1530r17
+744i7 Last{4|44I9} 10|1465b7 1501m13 1504m13 1525m7 1530r10
+747U14 Write<4|63p14> 748=7 749>7 10|2099b14 2176l8 2176t13
+748r7 File{682R9} 10|2100b7 2103r29 2138r10 2155r21 2159r35 2162r40 2170r21
+. 2174r33
+749a7 Item{4|54A9} 10|2101b7 2116r32 2124r19 2125r16 2162r18
+756r4 Standard_In_AFCB{682R9} 760m40 760r40
+757r4 Standard_Out_AFCB{682R9} 762m40 762r40
+758r4 Standard_Err_AFCB{682R9} 764m40 764r40
+760p4 Standard_In{66P9} 768r40 10|48r37 942r7 943r7 944r7 945r7 946r7 947r7
+. 948r7 949r7 950r7 951r7 951r41 952r7 2022r14 2027r14 2189r24
+762p4 Standard_Out{66P9} 770r40 10|49r37 954r7 955r7 956r7 957r7 958r7 959r7
+. 960r7 961r7 962r7 963r7 963r41 964r7 966r32 2036r14 2041r14 2070r55 2190r24
+764p4 Standard_Err{66P9} 772r40 10|50r37 930r7 931r7 932r7 933r7 934r7 935r7
+. 936r7 937r7 938r7 939r7 939r41 940r7 967r32 2008r14 2013r14 2070r25 2191r24
+768p4 Current_In{66P9} 10|51r37 175r17 176m10 276r14 281r14 364r27 398r27
+. 448r27 537r12 590r12 633r22 695r22 714r17 770r24 1084r19 1550r18 1708m7
+. 1938r18 1999r18
+770p4 Current_Out{66P9} 10|52r37 177r20 178m10 224r19 290r14 295r14 471r14
+. 995r20 1010r27 1142r17 1165r17 1237r20 1252r27 1290r12 1333r12 1441r17
+. 1551r18 1688r16 1756r17 1779r24 1789m7 1812r24
+772p4 Current_Err{66P9} 10|53r37 179r20 180m10 262r14 267r14 1698m7
+776V13 EOF_Char{integer} 10|455b13 458l8 458t16
+782U14 Initialize_Standard_Files 10|928b14 968l8 968t33 2187s4
+X 10 a-textio.adb
+60K12 FIO=60:31 205r7 218r7 243r7 304r7 315r7 375r7 409r7 466r7 480r14 494r7
+. 548r7 604r7 653r7 889r7 966r7 967r7 976r14 989r7 1004r7 1025r7 1093r22
+. 1102r14 1122r7 1151r7 1208r7 1231r7 1246r7 1264r7 1302r7 1325r13 1373r7
+. 1405r10 1433r10 1559r7 1572r7 1601r7 1697r7 1707r7 1728r7 1773r7 1788r7
+. 1806r7 1824r7 1863r7 1949r7 2050r7 2189r4 2190r4 2191r4 11|151r4
+62P12 AP{19|82P9} 205r18 218r28 243r30 304r19 315r30 375r30 409r30 466r18
+. 480r24 494r30 548r30 604r30 653r30 889r30 966r28 967r28 976r27 989r28 1004r31
+. 1025r30 1093r32 1102r24 1122r31 1151r31 1208r30 1231r28 1246r31 1264r31
+. 1302r31 1325r28 1373r31 1405r25 1433r25 1559r18 1572r18 1601r28 1697r31
+. 1707r30 1728r28 1773r31 1788r31 1806r31 1863r30 1949r30 2050r28 2189r20
+. 2190r20 2191r20 11|151r27
+64V13 To_FCB[12|20]{19|63E9} 245s30 1210s30 1553s18 1559s49
+65V13 To_TIO[12|20]{9|68E9} 1093s14
+70e4 WC_Encoding{character} 57r37 71r22 2182r10
+74a4 Err_Name{string} 56r37 931m41 931r41
+75a4 In_Name{string} 54r37 943m41 943r41
+76a4 Out_Name{string} 55r37 955m41 955r41
+89a4 Null_Str{string} 932r41 944r41 956r41
+96V13 Get_Upper_Half_Char{character} 97>7 98>7 777b13 814l8 814t27 1071s21
+97e7 C{character} 778b7 806r24
+98p7 File{9|66P9} 779b7 794r41 806r27
+106V13 Get_Upper_Half_Char_Immed{character} 107>7 108>7 624s21 684s21 820b13
+. 857l8 857t33
+107e7 C{character} 821b7 849r24
+108p7 File{9|66P9} 822b7 837r47 849r27
+112V13 Getc{15|42I12} 112>19 326s16 344s13 384s16 423s16 514s16 567s16 794s35
+. 863b13 874l8 874t12 1043s16 1648s19 1876s19 1899s22 1918s19 1969s16 1974s16
+. 1988s16 11|194s16 232s13
+112p19 File{9|66P9} 863b19 867r20 869r36
+117V13 Getc_Immed{15|42I12} 117>25 616s16 837s35 880b13 907l8 907t18
+117p25 File{9|66P9} 880b25 889r34 891r10 892r10 893r10 897r26 899r21
+121V13 Has_Upper_Half_Character{boolean} 121>39 913b13 922l8 922t32 1314s32
+. 1381s29
+121a39 Item{string} 913b39 915r16 916r28
+124V13 Nextc{15|42I12} 124>20 322s20 351s17 441s13 1172b13 1190l8 1190t13
+124p20 File{9|66P9} 1172b20 1176r20 1179r21 1184r25
+128U14 Put_Encoded 128>27 128>45 1282s10 1340b14 1359l8 1359t19
+128p27 File{9|66P9} 1340b27 1352r35 1358r58
+128e45 Char{character} 1340b45 1358r50
+132U14 Putc 132>20 132>30 1125s10 1131s13 1154s10 1157s7 1352s10 1448b14
+. 1453l8 1453t12
+132i20 ch{15|42I12} 1448b20 1450r17
+132p30 File{9|66P9} 1448b30 1450r21
+137U14 Set_WCEM 137=24 253s7 1218s7 1819b14 1842l8 1842t16
+137p24 File{9|66P9} 1819b24 1824r27 1827r10 1832r19 1833r19 1839m17
+142U14 Terminate_Line 142>30 183s7 1558s7 1571s7 2048b14 2077l8 2077t22
+142p30 File{9|66P9} 2048b30 2050r32 2054r16 2058r13 2059r23 2070r17 2070r47
+. 2071r22 2071r45 2072r27 2074r23
+148U14 Ungetc 148>22 148>32 332s13 356s10 390s13 429s13 1050s13 1061s13 1673s16
+. 1928s16 2083b14 2090l8 2090t14 11|238s10
+148i22 ch{15|42I12} 2083b22 2085r10 2086r21
+148p32 File{9|66P9} 2083b32 2086r25
+191p7 FT{9|66P9} 196m13 196r13
+193U17 Free[13|20] 196s7
+237r7 Dummy_File_Control_Block{9|682R9} 238r29 244r30
+312i7 ch{15|42I12} 326m10 328r13 331r16 332r21 344m7 346r10 349r13 356r18
+372i7 ch{15|42I12} 384m10 386r13 390r21 391r21
+406i7 ch{15|42I12} 423m10 425r13 428r16 429r21 441m7 443r14 443r30
+491i7 ch{15|42I12} 514m10 516r13 519r16 523r16 528r36
+544i7 ch{15|42I12} 567m10 569r13 572r16 576r16 581r40
+545i7 J{natural} 565m7 566r13 581r19 582m13 582r18
+601i7 ch{15|42I12} 616m10 618r13 622r60 623r36 624r63
+641i7 ch{15|42I12} 666m46 682r60 683r36 684r63
+642i7 end_of_file{15|42I12} 666m50 671r16
+643i7 avail{15|42I12} 666m63 674r16
+645U17*getc_immediate_nowait 646>10 647<10 648<10 649<10 650b<c,getc_immediate_nowait>25
+. 666s10
+646m10 stream{15|41M12}
+647i10 ch{15|42I12}
+648i10 end_of_file{15|42I12}
+649i10 avail{15|42I12}
+718V16 Get_Rest{string} 718>26 726b16 756s26 760l11 760t19 765s14
+718a26 S{string} 726b26 733r50 740r36
+733a10 Buffer{string} 737m26 740r40 742r23 746r38
+734i10 Last{natural} 737m34 740r53 742r16 746r31
+740a13 R=740:38{string} 743r23 753r26 756r36
+781e7 Result{wide_character} 806m7 808r30 812r52
+783V16 In_Char{character} 787r57 793b16 801l11 801t18
+787V16 WC_In[31|59]{wide_character} 806s17 32|252b13
+794i10 ch{integer} 796r13 799r35
+824e7 Result{wide_character} 849m7 851r30 855r52
+826V16 In_Char{character} 830r57 836b16 844l11 844t18
+830V16 WC_In[31|59]{wide_character} 849s17 32|252b13
+837i10 ch{integer} 839r13 842r35
+864i7 ch{15|42I12} 867m7 869r10 872r17
+881i7 ch{15|42I12} 894m10 897m39 906r14
+882i7 end_of_file{15|42I12} 897m43 901r16
+884U17*getc_immediate 885>10 885<26 885<40 886b<c,getc_immediate>25 897s10
+885m10 stream{15|41M12}
+885i26 ch{15|42I12}
+885i40 end_of_file{15|42I12}
+915i11 J{integer} 916r34
+1022i7 ch{15|42I12} 1043m10 1045r13 1046r20 1047r21 1050r21 1058r38 1061r21
+. 1062r36 1071r57
+1124i11 K<integer>
+1173i7 ch{15|42I12} 1176m7 1178r10 1184r21 1189r14
+1202r7 Dummy_File_Control_Block{9|682R9} 1203r29 1209r30
+1316i17 J{integer} 1317r33
+1341U17 Out_Char 1341>27 1344r59 1350b17 1353l11 1353t19
+1341e27 C{character} 1350b27 1352r31
+1344U17 WC_Out[31|91] 1358s7 32|454b14
+1369i7 Ilen{natural} 1404r10 1405r58 1406r29 1407m10 1413r32 1417r23 1418r18
+. 1423r21 1424r29 1429r29
+1370i7 Istart{natural} 1406m10 1406r20 1417r38
+1383i14 J{integer} 1384r30
+1413a10 Buffer{string} 1417m10 1418m10 1423m13 1433m36 1433r36
+1414m10 Plen{15|44M12} 1424m13 1429m13 1433r52
+1467i7 Discard_ch{15|42I12} 1468r29 1492m13
+1590i7 ch{15|42I12} 1648m13 1652r16 1657r19 1663r19 1673r24
+1820i7 Start{natural} 1824m50 1826r10 1830r20 1832r30
+1821i7 Stop{natural} 1824m57 1830r13
+1831i17 J<short_short_integer> 1832r60 1833r37
+1852i7 ch{15|42I12} 1876m13 1888r16 1898r26 1898r42 1899m16 1918m13 1922r17
+. 1922r33 1928r24
+1865i11 L<integer>
+1946i7 ch{15|42I12} 1969m10 1974m10 1976r13 1986r20 1987r21 1988m10
+2106V16 Has_Translated_Characters{boolean} 2122b16 2130l11 2130t36 2133s44
+2111b7*text_translation_required{boolean} 2112r11 2113m25 2113r25 2133r9
+2116m7 Siz{15|44M12} 2162r35 2162r56
+2124i14 K<long_long_integer> 2125r22
+2132b7 Needs_Binary_Write{boolean} 2154r10 2169r10
+2181i8 J{33|92I9} 2182r45 2183r26
+X 11 a-tigeli.adb
+46N4 Chunk_Size 75r26 179r18 180r24 183r22
+52i4 ch{15|42I12} 194m10 199r13 207r16 212r43 232m7 234r10 238r18
+53i4 N{natural} 167m4 179r13 181m13 183m13 183r18 187r10 188m10 188r26 193r10
+55U14*memcpy 55>22 55>26 55>38 56b<c,memcpy>22 109s10 139s13
+55m22 s1{15|40M12}
+55m26 s2{15|40M12}
+55m38 n{15|44M12}
+58V13*memchr{15|40M12} 58>21 58>32 58>42 59b<c,memchr>22 100s12
+58m21 s{15|40M12}
+58i32 ch{15|42I12}
+58m42 n{15|44M12}
+61U14*memset 61>22 61>33 61>43 62b<c,memset>22 84s7
+61m22 b{15|40M12}
+61i33 ch{15|42I12}
+61m43 n{15|44M12}
+64V13 Get_Chunk{natural} 64>24 74b13 146l8 146t17 180s13 188s15
+64i24 N{positive} 74b24 80r10 81r17 84r30 86r20 100r35 108r30 110r43 111r25
+. 131r24
+75a7 Buf{string} 76m31 76r31 108r25 110m18 110r18 131r34 135r31 140m21 140r21
+76m7 S{15|40M12} 84r15 86r17 100r20 120r41
+77m7 P{15|40M12} 100m7 107r10 120r37
+120i13 K{natural} 131r16 131r39 135r36 136m16 136r21 140r46 141r28
+X 12 a-unccon.ads
+20v14*Unchecked_Conversion 10|40w10 64r31 65r31
+X 13 a-uncdea.ads
+20u15*Unchecked_Deallocation 10|41w10 193r33
+X 14 interfac.ads
+38K9*Interfaces 10|33r6 33r35 14|232e15
+X 15 i-cstrea.ads
+37K20*C_Streams 10|33w17 33r46 15|315e25
+40M12*chars{17|39M12} 11|55r31 58r25 58r61 61r26 76r22 77r13
+41M12*FILEs{17|48M12} 10|646r24 885r19
+42I12*int{17|51I12} 10|112r44 117r50 124r45 132r25 148r27 312r12 372r12 406r12
+. 491r12 544r12 601r12 641r21 642r21 643r21 647r28 648r28 649r28 863r44 864r12
+. 880r50 881r21 882r21 885r35 885r58 1022r12 1172r45 1173r12 1448r25 1467r20
+. 1590r12 1852r12 1946r12 2083r27 11|52r9 58r37 61r38
+44M12*size_t{17|58M9} 10|1405r50 1414r19 1424r21 1429r21 1508r37 2116r22
+. 11|55r42 58r46 61r47 84r22 100r27 110r35 140r38
+47M12*voids{16|67M9}
+56i4*EOF{42I12} 10|322r35 328r18 346r15 351r32 386r18 425r18 443r35 457r14
+. 516r18 569r18 618r18 796r18 839r18 869r15 902r20 1046r25 1178r15 1184r40
+. 1275r57 1450r36 1652r21 1888r21 1898r47 1922r38 1976r18 1986r25 2085r16
+. 2086r40 11|199r18
+72V13*stdin{41M12} 10|942s41 946s66
+73V13*stdout{41M12} 10|954s41 958s66
+74V13*stderr{41M12} 10|930s41 934s66
+97V13*ferror{42I12} 10|668s13 869s28 899s13 1179s13 1531s13 11|87s13
+99V13*fflush=99:68{17|51I12} 10|2155s13 2170s13
+101V13*fgetc=101:67{17|51I12} 10|867s13 1176s13
+103V13*fgets=104:26{17|39M12} 11|86s10
+106V13*fileno{42I12} 10|934s58 946s58 958s58 1523s24 1536s22 2159s27 2174s25
+119V13*fputc=120:26{17|51I12} 10|1275s13 1450s10
+128V13*fread{44M12} 10|1528s14
+134V13*fread{44M12} 10|1507s20
+135m7 buffer{47M12} 10|1507r27
+136m7 index{44M12} 10|1508r27
+137m7 size{44M12} 10|1509r27
+138m7 count{44M12} 10|1510r27
+139m7 stream{41M12} 10|1511r27
+171V13*fwrite{44M12} 10|2162s10
+197V13*ungetc=198:26{17|51I12} 10|1184s13 1492s27 2086s13
+215V13*is_regular_file{42I12} 10|934s41 946s41 958s41
+223U14*set_binary_mode 10|1523s7 2159s10
+224U14*set_text_mode 10|1536s7 2174s10
+230n36*Default_Text{230E9} 10|937r41 949r41 961r41
+X 16 system.ads
+37K9*System 9|54w6 55r6 56r6 672r19 673r21 677r24 709r19 10|35r6 36r6 37r6
+. 37r35 38r6 38r35 60r24 68r13 11|37w6 37r35 38r6 38r35 16|192e11
+67M9*Address
+69m4*Null_Address{67M9} 11|86r38 107r14
+81V14*"="{boolean} 11|86r36 107r12
+X 17 s-crtl.ads
+36K16*CRTL 10|36w13 68r20 17|239e16
+39M12*chars{16|67M9}
+48M12*FILEs{16|67M9}
+51I12*int{integer}
+58M9*size_t 10|68r25
+X 19 s-ficobl.ads
+42K16*File_Control_Block 9|55w13 677r31 19|159e30
+60P9*Pstring(string)
+63E9*File_Mode 10|64r68 65r57 66r17 19|63e66
+63n23*In_File{63E9} 10|945r45 1473r27 2138r26
+63n44*Out_File{63E9} 10|933r45 957r45
+81R9*AFCB 9|682r30
+82P9*AFCB_Ptr(84R9) 9|736r66 10|62r22 158r66
+86m7*Stream{15|41M12} 10|666r38 668r26 867r25 869r41 897r31 899r26 930m20
+. 942m19 954m20 1176r25 1179r26 1184r30 1275r47 1450r26 1492r44 1511r42 1523r37
+. 1528r56 1531r26 1536r35 2086r30 2155r26 2159r40 2162r45 2170r26 2174r38
+. 11|86r28 87r26
+89p7*Name{60P9} 10|931m20 943m19 955m20
+97p7*Form{60P9} 10|932m20 944m19 956m20 1824r32 1832r24
+102e7*Mode{63E9} 10|933m20 945m19 957m20 1473r15 1553r40 2138r15
+106b7*Is_Regular_File{boolean} 10|349r35 411r19 523r38 576r38 934m20 946m19
+. 958m20 1047r43 1663r41 1917r21 1923r29 1987r43 11|231r15 234r32
+109b7*Is_Temporary_File{boolean} 10|935m20 947m19 959m20
+113b7*Is_System_File{boolean} 10|936m20 948m19 960m20
+116e7*Text_Encoding{15|230E9} 10|937m20 949m19 961m20
+122e7*Access_Method{character} 10|938m20 950m19 962m20
+X 20 s-fileio.ads
+39K16*File_IO 10|35w13 43r30 60r31 20|255e19
+49U14*Open 10|243s11 1208s11
+50p7 File_Ptr{19|82P9} 10|243r17 1208r17
+51c7 Dummy_FCB<19|84R9> 10|244r17 1209r17
+52e7 Mode{19|63E9} 10|245r17 1210r17
+53a7 Name{string} 10|246r17 1211r17
+54a7 Form{string} 10|247r17 1212r17
+55e7 Amethod{character} 10|248r17 1213r17
+56b7 Creat{boolean} 10|249r17 1214r17
+57b7 Text{boolean} 10|250r17 1215r17
+102U14*Close 10|205s11
+112U14*Delete 10|304s11
+115U14*Reset 10|1559s11
+118U14*Reset 10|1572s11
+121V13*Mode{19|63E9} 10|1093s26
+124V13*Name{string} 10|1102s18
+128V13*Form{string} 10|480s18
+132V13*Is_Open{boolean} 10|976s18
+142U14*Chain_File 10|2189s8 2190s8 2191s8
+152U14*Check_File_Open 10|218s11 989s11 1231s11 1601s11 1728s11 2050s11
+157U14*Check_Read_Status 10|315s11 375s11 409s11 494s11 548s11 604s11 653s11
+. 889s11 1025s11 1707s11 1863s11 1949s11 11|151s8
+163U14*Check_Write_Status 10|1004s11 1122s11 1151s11 1246s11 1264s11 1302s11
+. 1373s11 1697s11 1773s11 1788s11 1806s11
+174U14*Flush 10|466s11
+198U14*Form_Parameter 10|1824s11
+232U14*Write_Buf 10|1325s17 1405s14 1433s14
+240U14*Make_Unbuffered 10|966s11 967s11
+X 27 s-stoele.ads
+40K16*Storage_Elements 11|38w13 38r42 27|116e28
+54I9*Storage_Offset<long_long_integer>
+90V14*"-"{54I9} 11|120s39
+X 31 s-wchcnv.ads
+48K16*WCh_Cnv 10|37w13 37r42 31|114e19
+51I9*UTF_32_Code<integer>
+59v13*Char_Sequence_To_Wide_Char 10|787r29 830r29
+91u14*Wide_Char_To_Char_Sequence 10|1344r31
+X 32 s-wchcnv.adb
+256V16 Char_Sequence_To_UTF[31|81]{31|51I9} 42b13[10|830]
+458U17 UTF_To_Char_Sequence[31|106] 272b14[10|1344]
+X 33 s-wchcon.ads
+39K16*WCh_Con 9|56w13 672r26 673r28 709r26 10|38w13 38r42 33|218e19
+92I9*WC_Encoding_Method<short_short_integer> 9|672r34 709r34 10|2181r13
+132i4*WCEM_UTF8{92I9} 9|673r36
+154i4*WCEM_Brackets{92I9} 10|1273r34 1313r39 1380r36
+167a4*WC_Encoding_Letters(character) 10|1831r22 1832r39 2182r24
+210V13*Is_Start_Of_Encoding{boolean} 10|622s23 682s23 1057s20
+

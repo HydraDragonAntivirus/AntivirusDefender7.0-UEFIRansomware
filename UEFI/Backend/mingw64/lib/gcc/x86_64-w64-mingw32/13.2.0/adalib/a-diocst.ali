@@ -1,0 +1,132 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IO
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.direct_io.c_streams%b  a-diocst.adb	122157ad NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.direct_io%s
+W ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+W system.direct_io%s	s-direio.adb		s-direio.ali
+W system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+W system.file_io%s	s-fileio.adb		s-fileio.ali
+
+U ada.direct_io.c_streams%s  a-diocst.ads	c5d327a9 BN NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.direct_io%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-direio.ads		20230727081304 a93c9b31 ada.direct_io%s
+D a-diocst.ads		20230727081304 89d23716 ada.direct_io.c_streams%s
+D a-diocst.adb		20230727081304 954c6f62 ada.direct_io.c_streams%b
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20230727081304 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-cstrea.ads		20230727081304 e53d8b8e interfaces.c_streams%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-crtl.ads		20230727081304 8a0692f8 system.crtl%s
+D s-direio.ads		20230727081304 7c86ede3 system.direct_io%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230727081304 dc5161d4 system.file_control_block%s
+D s-fileio.ads		20230727081304 45ce2f0f system.file_io%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [c_streams ada__direct_io 39 23 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|39r9 54r5 4|36r6 38r14 46r27 88r5
+X 2 a-direio.ads
+43k13*Direct_IO 1|16k9 2|193e18 3|39r13 54r9 4|38r18 88r9
+53P9*File_Type<17|81P9> 3|43r27 47r25 4|52r27 63r25
+55E9*File_Mode 55e53 3|48r18 4|46r53 64r18
+169m4 Bytes{14|44M12} 4|85r21
+X 3 a-diocst.ads
+39k23 C_Streams 2|43k13 3|54l19 54e28 4|38b28 88l19 88t28
+41K12*ICS=41:35 43r45 49r18
+43V13*C_Stream{14|41M12} 43>23 4|52b13 56l8 56t16
+43p23 F{2|53P9} 4|52b23 54r32 55r14
+46U14*Open 47=7 48>7 49>7 50>7 51>7 4|62b14 86l8 86t12
+47p7 File{2|53P9} 4|63b7 75m34 75r34 85r7
+48e7 Mode{2|55E9} 4|64b7 77r38
+49m7 C_Stream{14|41M12} 4|65b7 83r30
+50a7 Form{string} 4|66b7 79r30
+51a7 Name{string} 4|67b7 78r30
+X 4 a-diocst.adb
+40K12 FIO=40:31 54r7 75r7
+41K12 FCB=41:31 44r18 46r64
+42K12 DIO=42:31 69r34
+44P12 AP{19|82P9} 54r28 75r30
+46V13 To_FCB[12|20]{19|63E9} 77s30
+69r7 Dummy_File_Control_Block{17|53R9} 70r29 76r30
+X 12 a-unccon.ads
+20v14*Unchecked_Conversion 4|36w10 46r31
+X 13 interfac.ads
+38K9*Interfaces 3|36r6 41r24 4|32r6 32r32 13|232e15
+X 14 i-cstrea.ads
+37K20*C_Streams 3|36w17 41r35 4|32w17 32r43 14|315e25
+41M12*FILEs{16|48M12} 3|43r49 49r22 4|52r45 65r18
+44M12*size_t{16|58M9}
+X 15 system.ads
+37K9*System 4|33r6 34r6 35r6 40r24 41r24 42r24 15|192e11
+67M9*Address
+X 16 s-crtl.ads
+48M12*FILEs{15|67M9}
+58M9*size_t
+X 17 s-direio.ads
+41K16*Direct_IO 4|35w13 42r31 17|142e21
+53R9*Direct_AFCB<19|84R9> 4|69r38 17|63e14
+57m7*Bytes{14|44M12} 4|85m12
+81P9*File_Type(53R9)
+X 19 s-ficobl.ads
+42K16*File_Control_Block 4|34w13 41r31 19|159e30
+63E9*File_Mode 4|46r68 19|63e66
+82P9*AFCB_Ptr(84R9) 4|44r22
+86m7*Stream{14|41M12} 4|55r16
+X 20 s-fileio.ads
+39K16*File_IO 4|33w13 40r31 20|255e19
+49U14*Open 4|75s11
+50p7 File_Ptr{19|82P9} 4|75r17
+51c7 Dummy_FCB<19|84R9> 4|76r17
+52e7 Mode{19|63E9} 4|77r17
+53a7 Name{string} 4|78r17
+54a7 Form{string} 4|79r17
+55e7 Amethod{character} 4|80r17
+56b7 Creat{boolean} 4|81r17
+57b7 Text{boolean} 4|82r17
+58m7 C_Stream{14|41M12} 4|83r17
+152U14*Check_File_Open 4|54s11
+

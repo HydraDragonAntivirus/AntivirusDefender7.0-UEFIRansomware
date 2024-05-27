@@ -1,0 +1,144 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.image_r%b	s-imager.adb		05c17d1f NE OL PK GE
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.double_real%s
+W system.float_control%s  s-flocon.adb		s-flocon.ali
+W system.img_util%s	s-imguti.adb		s-imguti.ali
+N A121:10 codepeer false_positive "condition predetermined" "CodePeer analysis ignores NaN and Inf values"
+N A371:13 codepeer false_positive "dead code" "CodePeer analysis ignores NaN and Inf values"
+N A373:13 codepeer false_positive "test always true" "CodePeer analysis ignores NaN and Inf values"
+
+U system.image_r%s	s-imager.ads		b5978a9b BN NE OL PK GE
+W system%s		system.ads		system.ali
+
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-dourea.ads		20230727081304 8a0ecf55 system.double_real%s
+D s-dourea.adb		20230727081304 be38c14a system.double_real%b
+D s-dorepr.adb		20230727081304 e195a66d system.double_real.product
+D s-flocon.ads		20230727081304 e0fc433c system.float_control%s
+D s-imager.ads		20230727081304 45c7157d system.image_r%s
+D s-imager.adb		20230727081304 5ded40b2 system.image_r%b
+D s-imguti.ads		20230727081304 7719a4b9 system.img_util%s
+G a e
+G c Z s b [image_r system 50 16 none]
+X 2 system.ads
+37K9*System 192e11 7|41r21 50r9 91r5 8|32r6 33r6 34r6 34r27 36r14 61r31 352r10
+. 464r5
+67M9*Address 7|41r28
+81V14*"="{boolean} 8|351r31
+X 3 s-dourea.ads
+42k16*Double_Real 123e23 8|32w13 61r38
+45R9 Double_T 8|62r25[61] 64r36[61]
+49V13 To_Double{45R9[8|61]} 8|395s24[61]
+71V14 "+"{45R9[8|61]} 8|411s20[61] 421s23[61]
+73V14 "*"{45R9[8|61]} 8|246s31[61] 309s31[61]
+74V14 "/"{45R9[8|61]} 8|257s31[61] 320s31[61]
+79V14 "-"{45R9[8|61]} 8|443s23[61]
+80V14 "*"{45R9[8|61]} 8|210s24[61] 240s24[61] 443s43[61]
+81V14 "/"{45R9[8|61]} 8|280s24[61] 304s24[61] 435s51[61]
+88V14 "="{boolean} 8|399s12[61]
+92V14 "<="{boolean} 8|428s15[61] 433s32[61]
+102V14 "<"{boolean} 8|204s15[61] 242s22[61] 281s29[61] 306s22[61]
+108V14 ">="{boolean} 8|211s29[61] 253s25[61] 274s18[61] 317s25[61]
+114v13 From_Unsigned 8|67r46[61]
+119v13 To_Unsigned 8|68r44[61]
+X 6 s-flocon.ads
+34K16*Float_Control 59e25 8|33w13 352r17
+39U14*Reset 8|352s31
+X 7 s-imager.ads
+37F9 Num 53r13 66r14 77r14 8|50r66 61r51 71r30 80r13 105r14 120r44 139r30
+. 147r17 151r17 160r14 351r10 370r17 378r20 428r18 433r43 433r56 435r61 437r35
+. 443r53 448r30 453r33 456r33
+39i4 Maxpow{positive} 8|167r37 210r34 213r33 236r19 280r34 283r33 300r19
+41m4 Powten_Address{2|67M9} 8|169r30
+43M9 Uns 46r11 8|50r51 67r61 68r57 428r23 433r61 435r29
+45U19 Set_Image_Unsigned 46>7 47=7 48=7 8|429s13 441s16 446s16
+46*7 V{43M9}
+47a7 S{string}
+48i7 P{natural}
+50k16*Image_R 2|37k9 7|37z9 39z4 41z4 43z9 45z19 91l12 91e19 8|36b21 464l12
+. 464t19
+52U14*Image_Fixed_Point 53>7 54=7 55<7 56>7 8|79b14 98l8 98t25
+53*7 V{37F9} 8|80b7 90r10 97r23
+54a7 S{string} 8|81b7 85r22 91m10 97m26
+55i7 P{natural} 8|82b7 92m10 94m10 97m29
+56i7 Aft{natural} 8|83b7 97r35
+65U14*Image_Floating_Point 66>7 67=7 68<7 69>7 8|104b14 133l8 133t28
+66*7 V{37F9} 8|105b7 120r27 120r39 132r23
+67a7 S{string} 8|106b7 110r22 123r25 126m10 132m26
+68i7 P{natural} 8|107b7 127m10 129m10 132m29
+69i7 Digs{natural} 8|108b7 132r35
+76U14*Set_Image_Real 77>7 78=7 79=7 80>7 81>7 82>7 8|97s7 132s7 159b14 462l8
+. 462t22
+77*7 V{37F9} 8|160b7 357r14 370r13 378r16 392r36 395r40
+78a7 S{string} 8|161b7 376m51 379m57 384m55 461m40
+79i7 P{natural} 8|162b7 376m54 379m60 384m58 461m43
+80i7 Fore{natural} 8|163b7 376r57 379r63 384r61 461r53
+81i7 Aft{natural} 8|164b7 171r48 376r63 379r69 384r67 461r59
+82i7 Exp{natural} 8|165b7 376r68 379r74 384r72 409r13 461r64
+X 8 s-imager.adb
+50i4 Maxdigs{natural} 174r31 410r51 419r27
+52N4 Maxscaling 211r63 222r24 281r59 292r25
+61K12 Double_Real[3|42] 62r13 64r24 67r34 68r32 395r12
+64R12 Double_T{3|45R9[61]} 167r48 183r11 199r15
+67V13 From_Unsigned[3|114]{3|45R9[61]} 443s25
+68V13 To_Unsigned[3|119]{7|43M9} 429s33 435s36 446s36
+71V13 Is_Negative{boolean} 71>26 120s14 139b13 153l8 153t19 392s23
+71*26 V{7|37F9} 139b26 141r10 144r13 151r37
+167a7 Powten(64R12) 168r27 169m11 169r11 204r17 210r26 211r32 240r26 242r24
+. 253r28 274r21 280r26 281r31 304r26 306r24 317r28 435r53 443r45
+171i7 NFrac{natural} 410r40 420r25
+174a7 Digs{string} 392m7 400m10 429m50 429r50 441m39 441r39 449m19 453m19
+. 461m27 461r27
+177i7 Ndigs{natural} 393m7 401m10 429m56 429r56 441m45 441r45 449r25 453r25
+. 456m16 456r25 461r33
+180i7 Scale{integer} 211r55 213m16 213r25 222r16 270m13 270r22 281r50 283m16
+. 283r25 292r16 334m13 334r22 420r16 461r46
+183r7 X{64R12} 204r13 210r22 212m16 240r22 269m13 274r16 280r22 282m16 304r22
+. 333m13 395m7 399r10 411m13 411r18 421m16 421r21 428r13 429r46 433r30 435r49
+. 443m16 443r21 446r49
+186U17 Adjust_Scale 186>31 197b17 341l11 341t23 410s13 419s13
+186i31 S{natural} 197b31 204r25 211r40 242r32 253r36 274r29 281r39 306r32
+. 317r36
+198i10 Lo{natural} 235m13 239r24 244r22 250m22 255r22 299m13 303r24 308r22
+. 319r22 325m22
+198i14 Mid{natural} 239m16 240r34 245m22 245r29 250r28 256m22 256r29 261r28
+. 270r30 303m16 304r34 310m22 310r29 314r28 321m22 321r29 325r28 334r30
+198i19 Hi{natural} 236m13 239r29 244r28 255r28 261m22 300m13 303r29 308r28
+. 314m22 319r28
+199r10 XP{64R12} 210m16 211r26 212r21 240m16 242r19 246m22 246r28 253r22
+. 257m22 257r28 269r18 280m16 281r26 282r21 304m16 306r19 309m22 309r28 317r22
+. 320m22 320r28 333r18
+435*16 Y{7|43M9} 441r36 443r40
+437a16 Buf{string} 446m53 446r53 453r58
+438i16 Len{natural} 445m16 446m58 446r58 448r43 452r30 453r46
+448i20 J{integer} 449r33
+452i20 J{integer} 453r52 453r63
+X 9 s-imguti.ads
+34K16*Img_Util 8|34w13 34r34 9|80e20
+41U14*Set_Decimal_Digits 8|461s7
+65n36*Minus_Infinity{65E9} 8|379r41
+65n52*Infinity{65E9} 8|376r41
+65n62*Not_A_Number{65E9} 8|384r41
+67U14*Set_Floating_Invalid_Value 8|376s13 379s13 384s13
+

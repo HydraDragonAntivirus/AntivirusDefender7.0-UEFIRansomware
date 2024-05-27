@@ -1,0 +1,50 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.task_lock%b	s-tasloc.adb		7d808794 NE OL PK
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U system.task_lock%s	s-tasloc.ads		91daa888 BN NE OL PR PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-tasloc.ads		20230727081304 618a376e system.task_lock%s
+D s-tasloc.adb		20230727081304 c37db7c4 system.task_lock%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [lock system__task_lock 49 14 none]
+G c Z s b [unlock system__task_lock 54 14 none]
+X 4 system.ads
+37K9*System 192e11 11|46r9 98r5 12|32r6 34r14 42r7 51r7 54r5
+X 7 s-soflin.ads
+45K16*Soft_Links 414e22 12|32w13 42r14 51r14
+62P9*No_Param_Proc
+187p4*Lock_Task{62P9} 12|42r25
+197p4*Unlock_Task{62P9} 12|51r25
+X 11 s-tasloc.ads
+46K16*Task_Lock 4|37k9 11|98l12 98e21 12|34b21 54l12 54t21
+49U14*Lock 50r19 12|40b14 43l8 43t12
+54U14*Unlock 55r19 12|49b14 52l8 52t14
+

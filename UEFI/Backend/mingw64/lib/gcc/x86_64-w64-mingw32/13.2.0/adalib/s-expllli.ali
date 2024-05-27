@@ -1,0 +1,66 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.exp_llli%s	s-expllli.ads		ea4bd830 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+W system.expont%s
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20230727081304 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-expllli.ads		20230727081304 eb49253b system.exp_llli%s
+D s-expont.ads		20230727081304 f15262ed system.expont%s
+D s-expont.adb		20230727081304 646292ac system.expont%b
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s s [to_big_integer system__exp_llli__expont_integer__signed_conversion 106 16 58_4_51_4]
+G c Z s s [from_big_integer system__exp_llli__expont_integer__signed_conversion 110 16 58_4_51_4]
+G c Z s s [big system__exp_llli__expont_integer 60 13 51_4]
+G c Z s s [in_int_range system__exp_llli__expont_integer 64 13 51_4]
+G c Z s s [expon system__exp_llli__expont_integer 68 13 51_4]
+G c Z s s [lemma_exp_expand system__exp_llli__expont_integer 49 14 51_4]
+G c Z s s [lemma_exp_in_range system__exp_llli__expont_integer 59 14 51_4]
+G c Z s s [lemma_exp_not_zero system__exp_llli__expont_integer 65 14 51_4]
+G c Z s s [lemma_exp_positive system__exp_llli__expont_integer 71 14 51_4]
+G c Z s s [lemma_mult_in_range system__exp_llli__expont_integer 78 14 51_4]
+X 9 system.ads
+37K9*System 192e11 12|45r6 47r9 58r5
+X 12 s-expllli.ads
+47K16*Exp_LLLI 9|37k9 12|58l12 58e20
+51K12*Expont_Integer[13|40] 56r14
+53V13*Exp_Long_Long_Long_Integer=56:29{long_long_long_integer}
+54i7 Left{long_long_long_integer}
+54i38 Right{natural}
+X 13 s-expont.ads
+40k16*Expont 12|45w13 51r34 13|73e18
+68V13*Expon{long_long_long_integer} 12|56r29[51]
+

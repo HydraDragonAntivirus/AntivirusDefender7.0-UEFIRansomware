@@ -1,0 +1,98 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.exp_mod%b	s-expmod.adb		a7d1cbd5 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+
+U system.exp_mod%s	s-expmod.ads		48d06b72 NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20230727081304 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-expmod.ads		20230727081304 33b48ab9 system.exp_mod%s
+D s-expmod.adb		20230727081304 e57b4018 system.exp_mod%b
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [to_big_integer system__exp_mod__unsigned_conversion 123 16 64_4]
+G c Z s s [from_big_integer system__exp_mod__unsigned_conversion 127 16 64_4]
+G c Z s s [big system__exp_mod 68 13 none]
+G c Z s b [exp_modular system__exp_mod 76 13 none]
+G c Z b b [lemma_add_mod system__exp_mod 53 14 none]
+G c Z b b [lemma_exp_expand system__exp_mod 58 14 none]
+G c Z b b [lemma_exp_mod system__exp_mod 67 14 none]
+G c Z b b [lemma_mod_ident system__exp_mod 73 14 none]
+G c Z b b [lemma_mod_mod system__exp_mod 79 14 none]
+G c Z b b [lemma_mult_div system__exp_mod 84 14 none]
+G c Z b b [lemma_mult_mod system__exp_mod 89 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|49r6 59r13 61r6 65r10 13|43r6 44r5
+X 4 a-numeri.ads
+16K13*Numerics 35e17 12|49r10 59r17 61r10 65r14 13|43r10 44r9
+X 5 a-nubinu.ads
+16K22*Big_Numbers 21e29 12|49r19 59r26 61r19 65r23 13|43r19 44r18
+X 9 system.ads
+37K9*System 192e11 12|51r6 53r9 56r13 57r24 84r5 13|46r14 49r8 325r5
+X 12 s-expmod.ads
+53K16*Exp_Mod 9|37k9 12|84l12 84e19 13|46b21 325l12 325t19
+57M12*Unsigned{17|44M9} 66r16 68r24 72r26 77r17 78r17 79r33 13|208r17 209r17
+. 210r33 212r16 213r16 216r29 216r46 217r10 234r36 240r36
+72M12*Power_Of_2{57M12} 81r51
+76V13*Exp_Modular{57M12} 77>7 78>7 79>7 82r19 13|207b13 323l8 323t19
+77m7 Left{57M12} 82r46 13|208b7 213r28 261r57 270r24 286r24 298r51 315r57
+. 318r45
+78m7 Modulus{57M12} 81r14 81r36 82r70 13|209b7 218r45 220r16 226r41 232r16
+. 246r22 259r45 274r40 279r52 280r63 283r40 299r67 309r46 310r49 311r61 313r37
+. 318r69
+79i7 Right{natural} 82r55 13|210b7 214r27 261r66 270r33 286r33 298r60 315r66
+. 318r54
+X 13 s-expmod.adb
+212m7 Result{12|57M12} 259r36 261r21 269r25 272r37 275r28 277m16 277r32 279r38
+. 281r37 285r24 298r21 310r35 311r34 312r34 315r21 318r30 321r14
+213m7 Factor{12|57M12} 261r36 266r24 267r26 267r41 269r40 269r56 271r36 272r52
+. 273r40 275r36 277r40 280r36 282r40 285r39 287r39 291r36 296r26 299r33 299r48
+. 301r22 301r37 303r22 303r37 305r25 305r33 307m13 307r29 307r37 312r48 315r36
+214i7 Exp{natural} 256r10 258r36 261r47 262r47 264r16 266r35 267r53 269r68
+. 273r52 280r48 282r52 285r51 287r48 288r31 288r42 291r45 293m13 293r20 294r23
+. 296r37 299r57 301r49 303r49 312r59 315r47
+216V16 Mult{12|57M12} 216>22 216>25 237s22 238s25 277s26 307s23
+216m22 X{12|57M12} 217r40
+216m25 Y{12|57M12} 217r65
+X 17 s-unstyp.ads
+38K16*Unsigned_Types 12|51w13 56r20 57r31 13|49r15 17|249e26
+44M9*Unsigned 12|56r35 57r46
+46M9*Long_Long_Unsigned 13|217r20 217r45 218r25
+

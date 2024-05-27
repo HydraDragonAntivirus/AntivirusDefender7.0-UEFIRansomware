@@ -1,0 +1,63 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U system.img_real%s	s-imgrea.ads		c637e740 NE OL PK
+W system%s		system.ads		system.ali
+W system.img_llf%s	s-imgllf.ads		s-imgllf.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-imager.ads		20230727081304 45c7157d system.image_r%s
+D s-imageu.ads		20230727081304 631c6ed0 system.image_u%s
+D s-imgllf.ads		20230727081304 e85a7fe5 system.img_llf%s
+D s-imgllu.ads		20230727081304 ef081208 system.img_llu%s
+D s-imgrea.ads		20230727081304 de3d0743 system.img_real%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-powllf.ads		20230727081304 9b99e843 system.powten_llf%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-valllu.ads		20230727081304 ca6e26ce system.val_llu%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+D s-widllu.ads		20230727081304 a6620b19 system.wid_llu%s
+D s-widthu.ads		20230727081304 b32f15e2 system.width_u%s
+G a e
+X 8 system.ads
+37K9*System 192e11 16|34r6 36r9 45r14 47r5
+X 14 s-imgllf.ads
+40K16*Img_LLF 72e19 16|34w13 45r21
+63U14*Set_Image_Long_Long_Float=70:19 16|45r29
+X 16 s-imgrea.ads
+36K16*Img_Real 8|37k9 16|47l12 47e20
+38U14*Set_Image_Real=45:29
+39f7 V{long_long_float}
+40a7 S{string}
+41i7 P{natural}
+42i7 Fore{natural}
+43i7 Aft{natural}
+44i7 Exp{natural}
+

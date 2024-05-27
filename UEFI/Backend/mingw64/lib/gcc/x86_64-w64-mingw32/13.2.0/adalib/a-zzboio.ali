@@ -1,0 +1,138 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U ada.wide_wide_text_io.wide_wide_bounded_io%b  a-zzboio.adb  b2d7dc90 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+W ada.wide_wide_text_io%s  a-ztexio.adb		a-ztexio.ali
+
+U ada.wide_wide_text_io.wide_wide_bounded_io%s  a-zzboio.ads  4cff49b2 BN NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.wide_wide_bounded%s  a-stzbou.adb	a-stzbou.ali
+W ada.wide_wide_text_io%s  a-ztexio.adb		a-ztexio.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230727081304 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-stzbou.ads		20230727081304 15aec47b ada.strings.wide_wide_bounded%s
+D a-stzmap.ads		20230727081304 f60a1f4d ada.strings.wide_wide_maps%s
+D a-stzsup.ads		20230727081304 7cfe5f93 ada.strings.wide_wide_superbounded%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D a-ztexio.ads		20230727081304 ce8ac589 ada.wide_wide_text_io%s
+D a-zzboio.ads		20230727081304 97db4840 ada.wide_wide_text_io.wide_wide_bounded_io%s
+D a-zzboio.adb		20230727081304 e6a438b5 ada.wide_wide_text_io.wide_wide_bounded_io%b
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-cstrea.ads		20230727081304 e53d8b8e interfaces.c_streams%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-crtl.ads		20230727081304 8a0692f8 system.crtl%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230727081304 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-retsta.ads		20230727081304 0f6b06cb system.return_stack%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20230727081304 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20230727081304 d9032363 system.wch_con%s
+G a e
+G c Z s b [wide_wide_bounded_io ada__wide_wide_text_io 22 31 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|16r6 20r10 22r9 50r5 17|32r6 34r14 49r13 179r5
+X 6 a-string.ads
+16K13*Strings 35e16 16|16r10 20r14
+X 9 a-stzbou.ads
+39K21*Wide_Wide_Bounded 937e34 16|16w18 20r22
+46k12*Generic_Bounded_Length 935e30 16|20r40
+50R12 Bounded_Wide_Wide_String<11|52R9> 16|24r47[19] 27r50[19] 30r36[19]
+. 34r36[19] 37r32[19] 41r32[19] 44r32[19] 48r32[19] 17|64r47[16|19] 74r50[16|19]
+. 85r36[16|19] 112r36[16|19] 138r32[16|19] 150r32[16|19] 161r32[16|19] 173r32[16|19]
+63V16 To_Bounded_Wide_Wide_String{50R12[16|19]} 17|66s32[16|19] 77s32[16|19]
+. 103s33[16|19] 130s33[16|19]
+67V16 To_Wide_Wide_String{wide_wide_string} 17|141s30[16|19] 153s36[16|19]
+. 164s35[16|19] 176s41[16|19]
+X 14 a-uncdea.ads
+20u15*Unchecked_Deallocation 17|32w10 49r17
+X 15 a-ztexio.ads
+52K13*Wide_Wide_Text_IO 1|16k9 15|494e26 16|22r13 50r9 17|34r18 179r9
+54P9*File_Type 16|27r14 33r14 40r14 47r14 17|74r14 111r14 149r14 172r14
+240U14*Put 17|153s7
+241U14*Put 17|141s7
+243U14*Get_Line 17|120s7 124s10
+248V13*Get_Line{wide_wide_string} 17|77s61
+251V13*Get_Line{wide_wide_string} 17|66s61
+254U14*Get_Line 17|93s7 97s10
+258U14*Put_Line 17|176s7
+262U14*Put_Line 17|164s7
+X 16 a-zzboio.ads
+19K17 Wide_Wide_Bounded[9|46] 24r29 27r32 30r18 34r18 37r14 41r14 44r14 48r14
+. 17|64r29 66r14 74r32 77r14 85r18 103r15 112r18 130r15 138r14 141r12 150r14
+. 153r18 161r14 164r17 173r14 176r23
+22k31*Wide_Wide_Bounded_IO 15|52k13 16|19z17 50l27 50e47 17|34b36 179l27
+. 179t47
+24V13*Get_Line{9|50R12[19]} 17|64b13 67l8 67t16
+26V13*Get_Line{9|50R12[19]} 27>7 17|73b13 78l8 78t16
+27p7 File{15|54P9} 17|74b7 77r71
+29U14*Get_Line 30<7 17|84b14 104l8 104t16
+30r7 Item{9|50R12[19]} 17|85b7 103m7
+32U14*Get_Line 33>7 34<7 17|110b14 131l8 131t16
+33p7 File{15|54P9} 17|111b7 120r17 124r20
+34r7 Item{9|50R12[19]} 17|112b7 130m7
+36U14*Put 37>7 17|137b14 142l8 142t11
+37r7 Item{9|50R12[19]} 17|138b7 141r51
+39U14*Put 40>7 41>7 17|148b14 154l8 154t11
+40p7 File{15|54P9} 17|149b7 153r12
+41r7 Item{9|50R12[19]} 17|150b7 153r57
+43U14*Put_Line 44>7 17|160b14 165l8 165t16
+44r7 Item{9|50R12[19]} 17|161b7 164r56
+46U14*Put_Line 47>7 48>7 17|171b14 177l8 177t16
+47p7 File{15|54P9} 17|172b7 176r17
+48r7 Item{9|50R12[19]} 17|173b7 176r62
+X 17 a-zzboio.adb
+36P9 Wide_Wide_String_Access(wide_wide_string) 38r34 45r34 50r29 89r16 90r16
+. 116r16 117r16
+38U14 Free 38=20 45b14 58l8 58t12 99s10 126s10
+38p20 WWSA{36P9} 45b20 55r10 56m22
+46a7 Null_Wide_Wide_String{wide_wide_string} 55r22
+48U17 Deallocate[14|20] 56s10
+87a7 Buffer{wide_wide_string} 93m17 94r37 96r20 97m20 98r51
+88i7 Last{natural} 93m25 94r50 96r13 97m28 98r64
+89p7 Str1{36P9} 94m7 98r40 99m16 99r16 100m10 103r62
+90p7 Str2{36P9} 98m10 100r18
+114a7 Buffer{wide_wide_string} 120m23 121r37 123r20 124m26 125r51
+115i7 Last{natural} 120m31 121r50 123r13 124m34 125r64
+116p7 Str1{36P9} 121m7 125r40 126m16 126r16 127m10 130r62
+117p7 Str2{36P9} 125m10 127r18
+

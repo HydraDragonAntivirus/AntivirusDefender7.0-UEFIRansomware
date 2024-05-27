@@ -1,0 +1,169 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.val_util%b	s-valuti.adb		96e09402 NE OL PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.case_util%s	s-casuti.adb		s-casuti.ali
+N A51:7 gnatprove intentional "exception might be raised" "Intentional exception from Bad_Value"
+N A178:7 codepeer false_positive "test always false" "the slice might be empty or not start with an 'e'"
+
+U system.val_util%s	s-valuti.ads		c3954b6b NE OL PU PK
+W system%s		system.ads		system.ali
+W system.case_util%s	s-casuti.adb		s-casuti.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuti.adb		20230727081304 a525408f system.val_util%b
+G a e
+G c Z s b [bad_value system__val_util 52 14 none]
+G c Z s s [only_space_ghost system__val_util 58 13 none]
+G c Z s b [first_non_space_ghost system__val_util 67 13 none]
+G c Z s b [normalize_string system__val_util 82 14 none]
+G c Z s b [scan_sign system__val_util 111 14 none]
+G c Z s b [scan_plus_sign system__val_util 157 14 none]
+G c Z s s [only_number_ghost system__val_util 184 13 none]
+G c Z s b [last_number_ghost system__val_util 193 13 none]
+G c Z s s [is_natural_format_ghost system__val_util 205 13 none]
+G c Z s s [starts_as_exponent_format_ghost system__val_util 221 13 none]
+G c Z s s [is_opt_exponent_format_ghost system__val_util 248 13 none]
+G c Z s s [scan_natural_ghost system__val_util 265 13 none]
+G c Z s s [scan_exponent_ghost system__val_util 280 13 none]
+G c Z s b [scan_exponent system__val_util 302 14 none]
+G c Z s b [scan_trailing_blanks system__val_util 336 14 none]
+G c Z s b [scan_underscore system__val_util 346 14 none]
+X 4 system.ads
+37K9*System 192e11 9|45r6 47r9 102r36 606r40 675r5 10|40r6 40r28 42r14 451r5
+79V14*">"{boolean} 10|57r19
+X 5 s-casuti.ads
+48K16*Case_Util 133e21 9|45w13 102r43 10|40w13 40r35
+53V13*To_Upper{character} 9|102s53 10|149s22 151s47
+X 9 s-valuti.ads
+47K16*Val_Util 4|37k9 9|606r47 675l12 675e20 10|42b21 451l12 451t20
+52U14*Bad_Value 52>25 55r22 10|50b14 63l8 63t17 280s10 296s13 311s13 336s10
+. 352s13 368s13 379s13 397s13 433s10 447s10
+52a25 S{string} 54r26 10|50b25 57r10 59r12 59r15 59r26 61r67
+59i16 J{integer} 59r38
+82U14*Normalize_String 83=7 84<7 84<10 10|107b14 154l8 154t24
+83a7 S{string} 86r36 86r43 86r52 89r22 90r33 92r46 92r53 93r28 94r28 96r29
+. 97r41 97r55 99r25 100r37 102r28 102r63 104r28 104r36 10|108b7 112r12 113r12
+. 123r28 124r38 125r46 125r62 132r10 139r13 140r47 141r51 141r61 147r10 149m13
+. 149r32 151r39 151r57
+84i7 F{integer} 87r17 89r17 91r28 92r62 93r35 99r32 101r34 10|109b7 112m7
+. 117r10 123r13 123r31 124r33 125r57 126m10 126r15 132r13 140r38 147r13 148r19
+. 151r29
+84i10 L{integer} 87r21 90r28 91r33 94r35 96r25 97r48 101r39 10|109b10 113m7
+. 117r14 123r17 124r49 133m10 133r15 139r16 140r33 141r46 142m10 142r15 148r24
+100i32 J{integer} 101r29 102r31 102r70 104r31 104r43
+111U14*Scan_Sign 112>7 113^7 114>7 115<7 116<7 10|322b14 387l8 387t17
+112a7 Str{string} 120r43 120r69 121r39 125r38 127r17 128r38 132r36 134r20
+. 135r36 10|323b7 336r21 341r13 346r59 348r46 352r24 358r53 362r10 368r24
+. 373r13 379r24
+113p7 Ptr(integer) 120r9 120r32 121r44 125r43 132r41 135r22 10|324b7 329r22
+. 344r33 344r43 345r38 348r26 351r13 358r58 367r13 378r13 386r7
+114i7 Max{integer} 120r19 120r62 121r53 125r52 128r21 132r54 10|325b7 335r14
+. 345r49 346r52 350r17 358r67 366r17 377r17
+115b7 Minus{boolean} 134r11 10|326b7 363m10 374m10 383m10
+116i7 Start{positive} 136r22 10|327b7 356m7 358r22 367r24 378r24
+124i13 F{positive} 127r22 128r16 128r43
+131i11 F{positive} 134r25 135r41 135r62 135r73 136r30
+157U14*Scan_Plus_Sign 158>7 159^7 160>7 161<7 10|270b14 316l8 316t22
+158a7 Str{string} 165r43 165r69 166r39 170r38 172r17 173r38 177r36 179r25
+. 10|271b7 280r21 285r13 290r59 292r46 296r24 302r53 306r10 311r24
+159p7 Ptr(integer) 165r9 165r32 166r44 170r43 177r41 179r11 10|272b7 276r22
+. 288r33 288r43 289r38 292r26 295r13 302r58 310r13 315r7
+160i7 Max{integer} 165r19 165r62 166r53 170r52 173r21 177r54 10|273b7 279r14
+. 289r49 290r52 294r17 302r67 309r17
+161i7 Start{positive} 180r22 10|274b7 300m7 302r22 310r24
+169i13 F{positive} 172r22 173r16 173r43
+176i11 F{positive} 179r30 179r44 179r55 180r30
+186i16 J{integer} 186r40
+213i32 J{integer} 214r35 214r54
+302U14*Scan_Exponent 303>7 304^7 305>7 306<7 307>7 10|160b14 264l8 264t21
+303a7 Str{string} 311r43 311r69 313r49 315r45 316r41 318r15 319r43 320r46
+. 10|161b7 173r18 173r42 186r10 196r13 210r10 224r36 231r28 234r46 239r36
+. 248r16 249r33 251r26
+304p7 Ptr(integer) 311r9 311r32 313r54 315r50 316r46 318r20 319r14 319r48
+. 320r17 320r51 321r26 321r36 10|162b7 167r22 249r41 262r7
+305i7 Max{integer} 311r19 311r62 312r19 313r65 315r65 316r61 319r67 320r70
+. 10|163b7 172r15 189r17 199r17 224r46 246r27 249r46
+306i7 Exp{integer} 316r14 321r14 10|164b7 175m10 190m13 200m13 211m10 263m7
+307b7 Real{boolean} 313r71 315r71 316r67 10|165b7 199r33
+336U14*Scan_Trailing_Blanks 336>36 336>50 10|393b14 402l8 402t28
+336a36 Str{string} 338r18 339r35 339r43 10|393b36 395r21 396r13 397r24 400r56
+336i50 P{positive} 338r13 339r40 10|393b50 395r16 400r46
+346U14*Scan_Underscore 347>7 348=7 349^7 350>7 351>7 10|249s16 408b14 449l8
+. 449t23
+347a7 Str{string} 353r19 354r17 355r24 359r13 361r13 10|409b7 433r21 439r12
+. 447r21
+348i7 P{natural} 353r14 354r22 356r17 359r18 361r18 363r8 363r12 10|410b7
+. 418m7 418r12 431r10 432r21 439r17 446r21
+349p7 Ptr(integer) 364r19 364r33 10|411b7 432r10 446r10
+350i7 Max{integer} 355r17 356r21 10|412b7 431r14
+351b7 Ext{boolean} 358r14 10|413b7 442r18
+381M12 Uns 383r44 385r69 388r18 389r18 390r18 407r18 409r18 412r18 414r18
+. 417r18 419r18 422r18 424r18 430r14 435r21 436r21 441r21 442r21 447r21 448r21
+. 453r21 454r21 470r21 471r21 478r16 483r16 488r23 489r23 494r37 497r32 500r18
+. 501r18 502r18 517r18 519r18 522r18 524r18 527r18 529r18 532r18 534r18 539r37
+. 544r21 545r21 550r21 551r21 556r21 557r21 562r21 563r21 577r21 578r21 584r16
+. 589r16 594r23 595r23 607r10
+492k12*Uns_Params 381z12 382z12 383z21 385z21 387z21 392z21 395z21 400z21
+. 406z21 411z22 416z22 421z22 427z21 432z22 438z22 444z22 450z22 457z21 462z21
+. 467z21 474z21 476z21 481z22 485z22 597l8 597e18 606r56
+603I12 Int 610r45 615r18 622r16 624r75 629r38 634r18 641r16 643r68
+604M12 Uns 607r17 610r57 614r18 629r50 633r18
+627k12*Int_Params 603z12 604z12 606z20 610z21 612z21 618z21 620z21 624z22
+. 645l8 645e18
+X 10 s-valuti.adb
+74i11 J{integer} 75r16 76r20 79r54
+79i41 K{integer} 79r62
+91i11 J{integer} 92r18 93r20 97r39
+97i21 K{integer} 97r49
+125i41 J{integer} 125r65
+141i41 J{integer} 141r64
+148i14 J{integer} 149r16 149r35 151r34
+151i24 K{integer} 151r42 151r71
+167i7 P{integer} 172r10 173r23 173r47 184m7 184r12 186r15 187m10 187r15 189r13
+. 196r18 197m10 197r15 199r13 210r15 224r41 231r33 234r51 238r36 239r41 242r44
+. 244m13 244r18 246r23 248r21 249m38 249r38 251r31 255r25 262r18
+168b7 M{boolean} 193m13 203m13 207m10 258r10
+169i7 X{integer} 221m7 233r16 234m16 234r21 237r36 242r51 259m10 259r16 263r14
+276i7 P{integer} 279r10 285r18 286m10 286r15 289r33 290r47 292r37 294r13
+. 295r24 300r16 306r15 307m10 307r15 309r13 315r18
+290i42 J{integer} 290r64
+292i21 J{integer} 292r51
+329i7 P{integer} 335r10 341r18 342m10 342r15 345r33 346r47 348r37 350r13
+. 351r24 356r16 362r15 364m10 364r15 366r13 373r18 375m10 375r15 377r13 386r18
+346i42 J{integer} 346r64
+348i21 J{integer} 348r51
+395i11 J{integer} 396r18 400r51
+400i41 K{integer} 400r61
+415e7 C{character} 439m7 441r10 442r32 442r56
+

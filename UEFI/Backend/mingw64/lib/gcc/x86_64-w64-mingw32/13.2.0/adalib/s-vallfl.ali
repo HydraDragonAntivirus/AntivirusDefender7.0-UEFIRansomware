@@ -1,0 +1,137 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.val_lflt%s	s-vallfl.ads		c26908d0 NE OL PR PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.double_real%s
+Z system.exn_lflt%s	s-exnlfl.ads		s-exnlfl.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.float_control%s  s-flocon.adb		s-flocon.ali
+W system.powten_lflt%s	s-powlfl.ads		s-powlfl.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W system.val_real%s
+Z system.val_util%s	s-valuti.adb		s-valuti.ali
+Z system.value_r%s
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-dourea.ads		20230727081304 8a0ecf55 system.double_real%s
+D s-dourea.adb		20230727081304 be38c14a system.double_real%b
+D s-dorepr.adb		20230727081304 e195a66d system.double_real.product
+D s-exnlfl.ads		20230727081304 3a76fe2b system.exn_lflt%s
+D s-exponr.ads		20230727081304 2127300b system.exponr%s
+D s-fatgen.ads		20230727081304 d28c6cfe system.fat_gen%s
+D s-fatlfl.ads		20230727081304 378cba9f system.fat_lflt%s
+D s-flocon.ads		20230727081304 e0fc433c system.float_control%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-powlfl.ads		20230727081304 ac0852c8 system.powten_lflt%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-vallfl.ads		20230727081304 944236a7 system.val_lflt%s
+D s-valrea.ads		20230727081304 f0598c00 system.val_real%s
+D s-valrea.adb		20230727081304 32ef9f80 system.val_real%b
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuer.ads		20230727081304 77113993 system.value_r%s
+D s-valuer.adb		20230727081304 7ea6d35a system.value_r%b
+G a e
+G c Z s s [scan_real system__val_lflt__impl 54 13 42_4]
+G c Z s s [value_real system__val_lflt__impl 87 13 42_4]
+G c Z s s [scan_raw_real system__val_lflt__impl__impl 63 13 52_4_42_4]
+G c Z s s [value_raw_real system__val_lflt__impl__impl 110 13 52_4_42_4]
+G c Z s s [Tscale_arrayBIP system__val_lflt__impl__impl 57 4 52_4_42_4]
+G c Z s s [Tvalue_arrayBIP system__val_lflt__impl__impl 60 4 52_4_42_4]
+G c Z s s [as_digit system__val_lflt__impl__impl 42 13 52_4_42_4]
+G c Z s s [round_extra system__val_lflt__impl__impl 45 14 52_4_42_4]
+G c Z s s [scan_decimal_digits system__val_lflt__impl__impl 53 14 52_4_42_4]
+G c Z s s [scan_integral_digits system__val_lflt__impl__impl 77 14 52_4_42_4]
+G c Z s s [to_double system__val_lflt__impl__double_real 49 13 78_4_42_4]
+G c Z s s [to_single system__val_lflt__impl__double_real 52 13 78_4_42_4]
+G c Z s s [quick_two_sum system__val_lflt__impl__double_real 55 13 78_4_42_4]
+G c Z s s [two_sum system__val_lflt__impl__double_real 59 13 78_4_42_4]
+G c Z s s [two_diff system__val_lflt__impl__double_real 62 13 78_4_42_4]
+G c Z s s [two_prod system__val_lflt__impl__double_real 65 13 78_4_42_4]
+G c Z s s [two_sqr system__val_lflt__impl__double_real 68 13 78_4_42_4]
+G c Z s s [Oadd system__val_lflt__impl__double_real 71 13 78_4_42_4]
+G c Z s s [Osubtract system__val_lflt__impl__double_real 72 13 78_4_42_4]
+G c Z s s [Omultiply system__val_lflt__impl__double_real 73 13 78_4_42_4]
+G c Z s s [Odivide system__val_lflt__impl__double_real 74 13 78_4_42_4]
+G c Z s s [Oadd system__val_lflt__impl__double_real 78 13 78_4_42_4]
+G c Z s s [Osubtract system__val_lflt__impl__double_real 79 13 78_4_42_4]
+G c Z s s [Omultiply system__val_lflt__impl__double_real 80 13 78_4_42_4]
+G c Z s s [Odivide system__val_lflt__impl__double_real 81 13 78_4_42_4]
+G c Z s s [sqr system__val_lflt__impl__double_real 85 13 78_4_42_4]
+G c Z s s [Oeq system__val_lflt__impl__double_real 88 13 78_4_42_4]
+G c Z s s [Olt system__val_lflt__impl__double_real 90 13 78_4_42_4]
+G c Z s s [Ole system__val_lflt__impl__double_real 92 13 78_4_42_4]
+G c Z s s [Ogt system__val_lflt__impl__double_real 94 13 78_4_42_4]
+G c Z s s [Oge system__val_lflt__impl__double_real 96 13 78_4_42_4]
+G c Z s s [Oeq system__val_lflt__impl__double_real 100 13 78_4_42_4]
+G c Z s s [Olt system__val_lflt__impl__double_real 102 13 78_4_42_4]
+G c Z s s [Ole system__val_lflt__impl__double_real 104 13 78_4_42_4]
+G c Z s s [Ogt system__val_lflt__impl__double_real 106 13 78_4_42_4]
+G c Z s s [Oge system__val_lflt__impl__double_real 108 13 78_4_42_4]
+G c Z s s [double_tIP system__val_lflt__impl__double_real 45 9 78_4_42_4]
+G c Z s s [is_nan system__val_lflt__impl__double_real 34 13 78_4_42_4]
+G c Z s s [is_infinity system__val_lflt__impl__double_real 37 13 78_4_42_4]
+G c Z s s [is_zero system__val_lflt__impl__double_real 41 13 78_4_42_4]
+G c Z s s [two_prod system__val_lflt__impl__double_real__product 46 16 78_4_42_4]
+G c Z s s [two_sqr system__val_lflt__impl__double_real__product 47 16 78_4_42_4]
+G c Z s s [split system__val_lflt__impl__double_real__product 40 14 78_4_42_4]
+G c Z s s [exact_log2 system__val_lflt__impl 84 13 42_4]
+G c Z s s [integer_to_real system__val_lflt__impl 93 13 42_4]
+G c Z s s [large_powfive system__val_lflt__impl 101 13 42_4]
+G c Z s s [large_powfive system__val_lflt__impl 104 13 42_4]
+X 5 system.ads
+37K9*System 192e11 20|35r6 36r6 37r6 39r9 44r7 45r7 46r7 47r7 48r7 60r5
+X 16 s-powlfl.ads
+34K16*Powten_LFlt 148e23 20|35w13 44r14 45r14 46r14 47r14 48r14
+42N4*Maxpow 20|44r26
+45a4*Powfive(long_float) 20|45r26
+92a4*Powfive_100(long_float) 20|46r26
+95a4*Powfive_200(long_float) 20|47r26
+98a4*Powfive_300(long_float) 20|48r26
+X 19 s-unstyp.ads
+38K16*Unsigned_Types 249e26 20|36w13 49r7
+46M9*Long_Long_Unsigned 20|49r22
+X 20 s-vallfl.ads
+39K16*Val_LFlt 5|37k9 20|60l12 60e20
+42K12*Impl[21|51] 55r14 58r14
+51V13*Scan_Long_Float=55:19{long_float}
+52a7 Str{string}
+53p7 Ptr(integer)
+54i7 Max{integer}
+57V13*Value_Long_Float=58:19{long_float}
+57a31 Str{string}
+X 21 s-valrea.ads
+51k16*Val_Real 20|37w13 42r24 21|93e20
+54V13*Scan_Real{long_float} 20|55r19[42]
+87V13*Value_Real{long_float} 20|58r19[42]
+

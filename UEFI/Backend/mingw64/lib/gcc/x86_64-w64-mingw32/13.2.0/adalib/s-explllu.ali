@@ -1,0 +1,41 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.exp_lllu%s	s-explllu.ads		a2e2fb9b NE OL PK
+W system%s		system.ads		system.ali
+W system.exponu%s
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-explllu.ads		20230727081304 f772e783 system.exp_lllu%s
+D s-exponu.ads		20230727081304 5feafca7 system.exponu%s
+D s-exponu.adb		20230727081304 29154284 system.exponu%b
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [exp_long_long_long_unsignedR system__exp_lllu__exp_long_long_long_unsignedGP3417 57 13 none]
+G c Z s s [exp_long_long_long_unsigned system__exp_lllu 57 13 none]
+X 1 system.ads
+37K9*System 192e11 2|48r6 49r6 51r9 61r5
+X 2 s-explllu.ads
+51K16*Exp_LLLU 1|37k9 2|61l12 61e20
+55M12*Long_Long_Long_Unsigned{5|47M9} 58r18
+57V13*Exp_Long_Long_Long_Unsigned[3|49]{5|47M9} 59r26 4|32b17
+X 3 s-exponu.ads
+49v17*Exponu 1|37k9 2|48w13 58r10
+X 5 s-unstyp.ads
+38K16*Unsigned_Types 2|49w13 55r39 5|249e26
+47M9*Long_Long_Long_Unsigned 2|55r54
+

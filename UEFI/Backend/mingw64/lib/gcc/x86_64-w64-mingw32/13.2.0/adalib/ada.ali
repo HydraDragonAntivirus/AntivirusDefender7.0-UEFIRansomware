@@ -1,0 +1,25 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RR NO_ELABORATION_CODE
+
+U ada%s			ada.ads			76789da1 NE OL PU PK
+
+D ada.ads		20230727081304 76789da1 ada%s
+D system.ads		20230727081304 f0509fe6 system%s
+G a e
+X 1 ada.ads
+16K9*Ada 20l5 20e8
+

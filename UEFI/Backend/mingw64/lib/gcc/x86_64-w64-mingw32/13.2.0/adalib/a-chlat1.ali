@@ -1,0 +1,258 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U ada.characters.latin_1%s  a-chlat1.ads	cde9ea2d NE OL PU PK
+W ada.characters%s	a-charac.ads		a-charac.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-charac.ads		20230727081304 2d3ec45b ada.characters%s
+D a-chlat1.ads		20230727081304 e0d72e76 ada.characters.latin_1%s
+D system.ads		20230727081304 f0509fe6 system%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 3|16r9 294r5
+X 2 a-charac.ads
+16K13*Characters 1|16k9 2|18e19 3|16r13 294r9
+X 3 a-chlat1.ads
+16K24*Latin_1 2|16k13 3|294l20 294e27
+23e4*NUL{character}
+24e4*SOH{character}
+25e4*STX{character}
+26e4*ETX{character}
+27e4*EOT{character}
+28e4*ENQ{character}
+29e4*ACK{character}
+30e4*BEL{character}
+31e4*BS{character}
+32e4*HT{character}
+33e4*LF{character}
+34e4*VT{character}
+35e4*FF{character}
+36e4*CR{character}
+37e4*SO{character}
+38e4*SI{character}
+40e4*DLE{character}
+41e4*DC1{character}
+42e4*DC2{character}
+43e4*DC3{character}
+44e4*DC4{character}
+45e4*NAK{character}
+46e4*SYN{character}
+47e4*ETB{character}
+48e4*CAN{character}
+49e4*EM{character}
+50e4*SUB{character}
+51e4*ESC{character}
+52e4*FS{character} 134r28
+53e4*GS{character} 135r28
+54e4*RS{character} 136r28
+55e4*US{character} 137r28
+61e4*Space{character}
+62e4*Exclamation{character}
+63e4*Quotation{character}
+64e4*Number_Sign{character}
+65e4*Dollar_Sign{character}
+66e4*Percent_Sign{character}
+67e4*Ampersand{character}
+68e4*Apostrophe{character}
+69e4*Left_Parenthesis{character}
+70e4*Right_Parenthesis{character}
+71e4*Asterisk{character}
+72e4*Plus_Sign{character}
+73e4*Comma{character}
+74e4*Hyphen{character} 75r45
+75e4*Minus_Sign=75:45{character}
+76e4*Full_Stop{character}
+77e4*Solidus{character}
+81e4*Colon{character}
+82e4*Semicolon{character}
+83e4*Less_Than_Sign{character}
+84e4*Equals_Sign{character}
+85e4*Greater_Than_Sign{character}
+86e4*Question{character}
+87e4*Commercial_At{character}
+91e4*Left_Square_Bracket{character}
+92e4*Reverse_Solidus{character}
+93e4*Right_Square_Bracket{character}
+94e4*Circumflex{character}
+95e4*Low_Line{character}
+97e4*Grave{character}
+98e4*LC_A{character}
+99e4*LC_B{character}
+100e4*LC_C{character}
+101e4*LC_D{character}
+102e4*LC_E{character}
+103e4*LC_F{character}
+104e4*LC_G{character}
+105e4*LC_H{character}
+106e4*LC_I{character}
+107e4*LC_J{character}
+108e4*LC_K{character}
+109e4*LC_L{character}
+110e4*LC_M{character}
+111e4*LC_N{character}
+112e4*LC_O{character}
+113e4*LC_P{character}
+114e4*LC_Q{character}
+115e4*LC_R{character}
+116e4*LC_S{character}
+117e4*LC_T{character}
+118e4*LC_U{character}
+119e4*LC_V{character}
+120e4*LC_W{character}
+121e4*LC_X{character}
+122e4*LC_Y{character}
+123e4*LC_Z{character}
+124e4*Left_Curly_Bracket{character}
+125e4*Vertical_Line{character}
+126e4*Right_Curly_Bracket{character}
+127e4*Tilde{character}
+128e4*DEL{character}
+134e4*IS4=134:28{character}
+135e4*IS3=135:28{character}
+136e4*IS2=136:28{character}
+137e4*IS1=137:28{character}
+139e4*Reserved_128{character}
+140e4*Reserved_129{character}
+141e4*BPH{character}
+142e4*NBH{character}
+143e4*Reserved_132{character}
+144e4*NEL{character}
+145e4*SSA{character}
+146e4*ESA{character}
+147e4*HTS{character}
+148e4*HTJ{character}
+149e4*VTS{character}
+150e4*PLD{character}
+151e4*PLU{character}
+152e4*RI{character}
+153e4*SS2{character}
+154e4*SS3{character}
+156e4*DCS{character}
+157e4*PU1{character}
+158e4*PU2{character}
+159e4*STS{character}
+160e4*CCH{character}
+161e4*MW{character}
+162e4*SPA{character}
+163e4*EPA{character}
+165e4*SOS{character}
+166e4*Reserved_153{character}
+167e4*SCI{character}
+168e4*CSI{character}
+169e4*ST{character}
+170e4*OSC{character}
+171e4*PM{character}
+172e4*APC{character}
+180e4*No_Break_Space{character} 181r52
+181e4*NBSP=181:52{character}
+182e4*Inverted_Exclamation{character}
+183e4*Cent_Sign{character}
+184e4*Pound_Sign{character}
+185e4*Currency_Sign{character}
+186e4*Yen_Sign{character}
+187e4*Broken_Bar{character}
+188e4*Section_Sign{character}
+189e4*Diaeresis{character}
+190e4*Copyright_Sign{character}
+191e4*Feminine_Ordinal_Indicator{character}
+192e4*Left_Angle_Quotation{character}
+193e4*Not_Sign{character}
+194e4*Soft_Hyphen{character}
+195e4*Registered_Trade_Mark_Sign{character}
+196e4*Macron{character}
+200e4*Degree_Sign{character} 201r52
+201e4*Ring_Above=201:52{character}
+202e4*Plus_Minus_Sign{character}
+203e4*Superscript_Two{character}
+204e4*Superscript_Three{character}
+205e4*Acute{character}
+206e4*Micro_Sign{character}
+207e4*Pilcrow_Sign{character} 208r52
+208e4*Paragraph_Sign=208:52{character}
+209e4*Middle_Dot{character}
+210e4*Cedilla{character}
+211e4*Superscript_One{character}
+212e4*Masculine_Ordinal_Indicator{character}
+213e4*Right_Angle_Quotation{character}
+214e4*Fraction_One_Quarter{character}
+215e4*Fraction_One_Half{character}
+216e4*Fraction_Three_Quarters{character}
+217e4*Inverted_Question{character}
+221e4*UC_A_Grave{character}
+222e4*UC_A_Acute{character}
+223e4*UC_A_Circumflex{character}
+224e4*UC_A_Tilde{character}
+225e4*UC_A_Diaeresis{character}
+226e4*UC_A_Ring{character}
+227e4*UC_AE_Diphthong{character}
+228e4*UC_C_Cedilla{character}
+229e4*UC_E_Grave{character}
+230e4*UC_E_Acute{character}
+231e4*UC_E_Circumflex{character}
+232e4*UC_E_Diaeresis{character}
+233e4*UC_I_Grave{character}
+234e4*UC_I_Acute{character}
+235e4*UC_I_Circumflex{character}
+236e4*UC_I_Diaeresis{character}
+240e4*UC_Icelandic_Eth{character}
+241e4*UC_N_Tilde{character}
+242e4*UC_O_Grave{character}
+243e4*UC_O_Acute{character}
+244e4*UC_O_Circumflex{character}
+245e4*UC_O_Tilde{character}
+246e4*UC_O_Diaeresis{character}
+247e4*Multiplication_Sign{character}
+248e4*UC_O_Oblique_Stroke{character}
+249e4*UC_U_Grave{character}
+250e4*UC_U_Acute{character}
+251e4*UC_U_Circumflex{character}
+252e4*UC_U_Diaeresis{character}
+253e4*UC_Y_Acute{character}
+254e4*UC_Icelandic_Thorn{character}
+255e4*LC_German_Sharp_S{character}
+259e4*LC_A_Grave{character}
+260e4*LC_A_Acute{character}
+261e4*LC_A_Circumflex{character}
+262e4*LC_A_Tilde{character}
+263e4*LC_A_Diaeresis{character}
+264e4*LC_A_Ring{character}
+265e4*LC_AE_Diphthong{character}
+266e4*LC_C_Cedilla{character}
+267e4*LC_E_Grave{character}
+268e4*LC_E_Acute{character}
+269e4*LC_E_Circumflex{character}
+270e4*LC_E_Diaeresis{character}
+271e4*LC_I_Grave{character}
+272e4*LC_I_Acute{character}
+273e4*LC_I_Circumflex{character}
+274e4*LC_I_Diaeresis{character}
+277e4*LC_Icelandic_Eth{character}
+278e4*LC_N_Tilde{character}
+279e4*LC_O_Grave{character}
+280e4*LC_O_Acute{character}
+281e4*LC_O_Circumflex{character}
+282e4*LC_O_Tilde{character}
+283e4*LC_O_Diaeresis{character}
+284e4*Division_Sign{character}
+285e4*LC_O_Oblique_Stroke{character}
+286e4*LC_U_Grave{character}
+287e4*LC_U_Acute{character}
+288e4*LC_U_Circumflex{character}
+289e4*LC_U_Diaeresis{character}
+290e4*LC_Y_Acute{character}
+291e4*LC_Icelandic_Thorn{character}
+292e4*LC_Y_Diaeresis{character}
+

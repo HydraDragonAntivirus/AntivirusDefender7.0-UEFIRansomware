@@ -1,0 +1,38 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U gnat.string_hash%s	g-strhas.ads		1034840a NE OL PU
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.string_hash%s	s-strhas.adb		s-strhas.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-strhas.ads		20230727081304 8330d0b9 gnat.string_hash%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-strhas.ads		20230727081304 269cd894 system.string_hash%s
+G a e
+X 3 gnat.ads
+37K9*GNAT 60e9 4|43r9
+X 4 g-strhas.ads
+43K14*String_Hash=43:41
+X 5 system.ads
+37K9*System 4|41r6 43r34 5|192e11
+X 8 s-strhas.ads
+45K16*String_Hash 4|41w13 43r41 8|64e23
+

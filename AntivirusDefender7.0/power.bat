@@ -1,0 +1,1 @@
+powershell.exe -Command "Start-Process cmd -Verb RunAs -ArgumentList '/c start %CD%\doc.bat'"

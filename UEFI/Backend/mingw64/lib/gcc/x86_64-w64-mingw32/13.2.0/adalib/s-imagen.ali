@@ -1,0 +1,59 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.image_n%b	s-imagen.adb		63947669 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+
+U system.image_n%s	s-imagen.ads		77000c59 BN NE OL PU PK GE
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-imagen.ads		20230727081304 875093bf system.image_n%s
+D s-imagen.adb		20230727081304 ea5fc2b9 system.image_n%b
+G a e
+G c Z s b [image_n system 41 16 none]
+X 1 ada.ads
+16K9*Ada 20e8 5|32r6 57r13
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 5|32w10 57r17
+X 3 system.ads
+37K9*System 192e11 4|41r9 49r17 63r5 5|34r14 45r17 57r39 79r5
+67M9*Address 4|49r24 5|45r24 57r46
+X 4 s-imagen.ads
+39I9 Index_Type 5|50r9 50r26 51r30
+41k16*Image_N 3|37k9 4|39z9 63l12 63e19 5|34b21 79l12 79t19
+44U14*Image_Enumeration 45>7 46=7 47<7 48>7 49>7 5|40b14 77l8 77t25
+45i7 Pos{natural} 5|41b7 61r22 62r22 64r54 65r54
+46a7 S{string} 5|42b7 47r22 71r38 75m7
+47i7 P{natural} 5|43b7 76m7
+48a7 Names{string} 5|44b7 50r38 51r42 52r55 68r31 69r34 75r32
+49m7 Indexes{3|67M9} 5|45b7 59r66
+X 5 s-imagen.adb
+49I15 Names_Index{4|39I9} 53r44
+52I15 Index{natural} 53r34
+53A12 Index_Table(49I15)<integer> 54r38
+54P12 Index_Table_Ptr(53A12) 57r55 59r27
+56V16 To_Index_Table_Ptr[2|20]{54P12} 59s46
+59p7 IndexesT{54P12} 61r29 62r33 64r44 65r44
+64i7 Start{natural} 67r34 68r22 71r29 75r22 75r39 76r19
+65i7 Next{natural} 67r22 69r22 71r22 75r15 75r48 76r12
+

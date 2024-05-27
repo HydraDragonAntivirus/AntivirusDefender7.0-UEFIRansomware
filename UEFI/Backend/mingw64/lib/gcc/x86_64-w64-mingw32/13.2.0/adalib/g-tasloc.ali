@@ -1,0 +1,38 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U gnat.task_lock%s	g-tasloc.ads		485b8267 NE OL PR
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.task_lock%s	s-tasloc.adb		s-tasloc.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-tasloc.ads		20230727081304 9c49392e gnat.task_lock%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-tasloc.ads		20230727081304 618a376e system.task_lock%s
+G a e
+X 3 gnat.ads
+37K9*GNAT 60e9 4|46r9
+X 4 g-tasloc.ads
+46K14*Task_Lock=46:39
+X 5 system.ads
+37K9*System 4|44r6 46r32 5|192e11
+X 8 s-tasloc.ads
+46K16*Task_Lock 4|44w13 46r39 8|98e21
+

@@ -1,0 +1,146 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.wide_wide_characters.handling%b  a-zchhan.adb  1e812477 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.wide_wide_characters%s  a-zchara.ads	a-zchara.ali
+W ada.wide_wide_characters.unicode%s  a-zchuni.adb  a-zchuni.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U ada.wide_wide_characters.handling%s  a-zchhan.ads  a3feeaf1 BN NE OL PU PK
+W ada.wide_wide_characters%s  a-zchara.ads	a-zchara.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-zchara.ads		20230727081304 21c8f2b2 ada.wide_wide_characters%s
+D a-zchhan.ads		20230727081304 82361843 ada.wide_wide_characters.handling%s
+D a-zchhan.adb		20230727081304 cf897083 ada.wide_wide_characters.handling%b
+D a-zchuni.ads		20230727081304 533e4cb7 ada.wide_wide_characters.unicode%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-utf_32.ads		20230727081304 8461d1bf system.utf_32%s
+G a e
+G c Z s b [character_set_version ada__wide_wide_characters__handling 19 13 none]
+G c Z s b [is_control ada__wide_wide_characters__handling 25 13 none]
+G c Z s b [is_letter ada__wide_wide_characters__handling 30 13 none]
+G c Z s b [is_lower ada__wide_wide_characters__handling 37 13 none]
+G c Z s b [is_upper ada__wide_wide_characters__handling 42 13 none]
+G c Z s b [is_basic ada__wide_wide_characters__handling 47 13 none]
+G c Z s b [is_digit ada__wide_wide_characters__handling 53 13 none]
+G c Z s b [is_hexadecimal_digit ada__wide_wide_characters__handling 61 13 none]
+G c Z s b [is_alphanumeric ada__wide_wide_characters__handling 66 13 none]
+G c Z s b [is_special ada__wide_wide_characters__handling 73 13 none]
+G c Z s b [is_line_terminator ada__wide_wide_characters__handling 80 13 none]
+G c Z s b [is_mark ada__wide_wide_characters__handling 87 13 none]
+G c Z s b [is_other_format ada__wide_wide_characters__handling 93 13 none]
+G c Z s b [is_punctuation_connector ada__wide_wide_characters__handling 98 13 none]
+G c Z s b [is_space ada__wide_wide_characters__handling 104 13 none]
+G c Z s b [is_nfkc ada__wide_wide_characters__handling 109 13 none]
+G c Z s b [is_graphic ada__wide_wide_characters__handling 115 13 none]
+G c Z s b [to_lower ada__wide_wide_characters__handling 120 13 none]
+G c Z s b [to_lower ada__wide_wide_characters__handling 127 13 none]
+G c Z s b [to_upper ada__wide_wide_characters__handling 133 13 none]
+G c Z s b [to_upper ada__wide_wide_characters__handling 140 13 none]
+G c Z s b [to_basic ada__wide_wide_characters__handling 146 13 none]
+G c Z s b [to_basic ada__wide_wide_characters__handling 152 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|16r9 159r5 4|32r6 32r44 34r14 59r14 75r14 102r14 109r14 125r14
+. 132r14 139r14 147r14 154r14 179r14 197r14 215r14 228r5
+X 2 a-zchara.ads
+16K13*Wide_Wide_Characters 1|16k9 2|18e29 3|16r13 159r9 4|32r10 32r48 34r18
+. 59r18 75r18 102r18 109r18 125r18 132r18 139r18 147r18 154r18 179r18 197r18
+. 215r18 228r9
+X 3 a-zchhan.ads
+16K34*Handling 2|16k13 3|159l30 159e38 4|34b39 228l30 228t38
+19V13*Character_Set_Version{string} 20r19 4|40b13 43l8 43t29
+25V13*Is_Control{boolean} 25>25 26r19 4|65b13 68l8 68t18
+25e25 Item{wide_wide_character} 4|65b25 67r28
+30V13*Is_Letter{boolean} 30>24 31r19 4|51s14 101b13
+30e24 Item{wide_wide_character} 4|101b24
+37V13*Is_Lower{boolean} 37>23 38r19 4|115b13 118l8 118t16
+37e23 Item{wide_wide_character} 4|115b23 117r28
+42V13*Is_Upper{boolean} 42>23 43r19 4|169b13 172l8 172t16
+42e23 Item{wide_wide_character} 4|169b23 171r28
+47V13*Is_Basic{boolean} 47>23 48r19 4|58b13
+47e23 Item{wide_wide_character} 4|58b23
+53V13*Is_Digit{boolean} 53>23 54r19 59r14 4|51s39 74b13 92s14
+53e23 Item{wide_wide_character} 4|74b23
+58V13*Is_Decimal_Digit=59:14{boolean}
+58e31 Item{wide_wide_character}
+61V13*Is_Hexadecimal_Digit{boolean} 61>35 4|90b13 95l8 95t28
+61e35 Item{wide_wide_character} 4|90b35 92r24 93r17 94r17
+66V13*Is_Alphanumeric{boolean} 66>30 67r19 4|49b13 52l8 52t23 162s45
+66e30 Item{wide_wide_character} 4|49b30 51r25 51r49
+73V13*Is_Special{boolean} 73>25 74r19 4|160b13 163l8 163t18
+73e25 Item{wide_wide_character} 4|160b25 162r26 162r62
+80V13*Is_Line_Terminator{boolean} 80>33 81r19 4|108b13
+80e33 Item{wide_wide_character} 4|108b33
+87V13*Is_Mark{boolean} 87>22 88r19 4|124b13
+87e22 Item{wide_wide_character} 4|124b22
+93V13*Is_Other_Format{boolean} 93>30 94r19 4|138b13
+93e30 Item{wide_wide_character} 4|138b30
+98V13*Is_Punctuation_Connector{boolean} 99>7 100r19 4|145b13
+99e7 Item{wide_wide_character} 4|146b7
+104V13*Is_Space{boolean} 104>23 105r19 4|153b13
+104e23 Item{wide_wide_character} 4|153b23
+109V13*Is_NFKC{boolean} 109>22 110r19 4|131b13
+109e22 Item{wide_wide_character} 4|131b22
+115V13*Is_Graphic{boolean} 115>25 116r19 4|81b13 84l8 84t18 162s14
+115e25 Item{wide_wide_character} 4|81b25 83r34
+120V13*To_Lower{wide_wide_character} 120>23 121r19 4|178b13 186s24
+120e23 Item{wide_wide_character} 4|178b23
+127V13*To_Lower{wide_wide_string} 127>23 4|181b13 190l8 190t16
+127a23 Item{wide_wide_string} 4|181b23 182r34 186r34
+133V13*To_Upper{wide_wide_character} 133>23 134r19 4|196b13 204s24
+133e23 Item{wide_wide_character} 4|196b23
+140V13*To_Upper{wide_wide_string} 140>23 4|199b13 208l8 208t16
+140a23 Item{wide_wide_string} 4|199b23 200r34 204r34
+146V13*To_Basic{wide_wide_character} 146>23 147r19 4|214b13 222s24
+146e23 Item{wide_wide_character} 4|214b23
+152V13*To_Basic{wide_wide_string} 152>23 4|217b13 226l8 226t16
+152a23 Item{wide_wide_string} 4|217b23 218r34 222r34
+X 4 a-zchhan.adb
+182a7 Result{wide_wide_string} 185r16 186m10 189r14
+185i11 J{integer} 186r18 186r40
+200a7 Result{wide_wide_string} 203r16 204m10 207r14
+203i11 J{integer} 204r18 204r40
+218a7 Result{wide_wide_string} 221r16 222m10 225r14
+221i11 J{integer} 222r18 222r40
+X 5 a-zchuni.ads
+36K34*Unicode 4|32w31 32r69 59r39 75r39 102r39 109r39 125r39 132r39 139r39
+. 147r39 154r39 179r39 197r39 215r39 5|214e37
+43E9*Category<10|57E9>
+76V13*Get_Category{43E9} 4|67s14 117s14 171s14
+90V13*Is_Letter{boolean} 4|102r47
+102V13*Is_Digit{boolean} 4|75r47
+109V13*Is_Line_Terminator{boolean} 4|109r47
+117V13*Is_Mark{boolean} 4|125r47
+126V13*Is_Other{boolean} 4|139r47
+135V13*Is_Punctuation{boolean} 4|147r47
+143V13*Is_Space{boolean} 4|154r47
+150V13*Is_NFKC{boolean} 4|132r47
+156V13*Is_Non_Graphic{boolean} 4|83s18
+180V13*Is_Basic{boolean} 4|59r47
+186V13*To_Basic{wide_wide_character} 4|215r47
+198V13*To_Lower_Case{wide_wide_character} 4|179r47
+206V13*To_Upper_Case{wide_wide_character} 4|197r47
+X 10 s-utf_32.ads
+58n6*Cc{57E9} 4|67r36
+63n6*Ll{57E9} 4|117r36
+67n6*Lu{57E9} 4|171r36
+

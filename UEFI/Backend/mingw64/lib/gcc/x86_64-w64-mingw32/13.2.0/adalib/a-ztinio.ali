@@ -1,0 +1,217 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_LONG_LONG_INTEGERS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.wide_wide_text_io.integer_io%b  a-ztinio.adb  176de515 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.wide_wide_text_io%s  a-ztexio.adb		a-ztexio.ali
+Z ada.wide_wide_text_io.generic_aux%s  a-ztgeau.adb  a-ztgeau.ali
+W ada.wide_wide_text_io.integer_aux%s
+W system%s		system.ads		system.ali
+W system.img_biu%s	s-imgbiu.ads		s-imgbiu.ali
+W system.img_int%s	s-imgint.ads		s-imgint.ali
+W system.img_llb%s	s-imgllb.ads		s-imgllb.ali
+W system.img_lli%s	s-imglli.ads		s-imglli.ali
+W system.img_lllb%s	s-imglllb.ads		s-imglllb.ali
+W system.img_llli%s	s-imgllli.ads		s-imgllli.ali
+W system.img_lllw%s	s-imglllw.ads		s-imglllw.ali
+W system.img_llw%s	s-imgllw.ads		s-imgllw.ali
+W system.img_wiu%s	s-imgwiu.ads		s-imgwiu.ali
+W system.val_int%s	s-valint.ads		s-valint.ali
+W system.val_lli%s	s-vallli.ads		s-vallli.ali
+W system.val_llli%s	s-valllli.ads		s-valllli.ali
+W system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+W system.wch_wts%s	s-wchwts.adb		s-wchwts.ali
+
+U ada.wide_wide_text_io.integer_io%s  a-ztinio.ads  1f89c580 BN NE OL PK GE
+W ada.wide_wide_text_io%s  a-ztexio.adb		a-ztexio.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20230727081304 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-ztexio.ads		20230727081304 ce8ac589 ada.wide_wide_text_io%s
+D a-ztgeau.ads		20230727081304 1eddd49f ada.wide_wide_text_io.generic_aux%s
+D a-ztinau.ads		20230727081304 25bae13f ada.wide_wide_text_io.integer_aux%s
+D a-ztinau.adb		20230727081304 8d2b3bf9 ada.wide_wide_text_io.integer_aux%b
+D a-ztinio.ads		20230727081304 d1030009 ada.wide_wide_text_io.integer_io%s
+D a-ztinio.adb		20230727081304 0a82fd90 ada.wide_wide_text_io.integer_io%b
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-cstrea.ads		20230727081304 e53d8b8e interfaces.c_streams%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-crtl.ads		20230727081304 8a0692f8 system.crtl%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230727081304 dc5161d4 system.file_control_block%s
+D s-imageb.ads		20230727081304 3953e0e6 system.image_b%s
+D s-imagei.ads		20230727081304 c707dfd0 system.image_i%s
+D s-imagew.ads		20230727081304 9d2dd267 system.image_w%s
+D s-imgbiu.ads		20230727081304 0a8e1c41 system.img_biu%s
+D s-imgint.ads		20230727081304 d4a52a9b system.img_int%s
+D s-imgllb.ads		20230727081304 47d0db9f system.img_llb%s
+D s-imglli.ads		20230727081304 0dc8acc3 system.img_lli%s
+D s-imglllb.ads		20230727081304 30212eed system.img_lllb%s
+D s-imgllli.ads		20230727081304 8322d24d system.img_llli%s
+D s-imglllw.ads		20230727081304 9e2b0560 system.img_lllw%s
+D s-imgllw.ads		20230727081304 bf9c9c15 system.img_llw%s
+D s-imgwiu.ads		20230727081304 912a95f2 system.img_wiu%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20230727081304 1f610d7a system.val_int%s
+D s-vallli.ads		20230727081304 b4c16804 system.val_lli%s
+D s-valllli.ads		20230727081304 bf3121bd system.val_llli%s
+D s-vallllu.ads		20230727081304 fcd04714 system.val_lllu%s
+D s-valllu.ads		20230727081304 ca6e26ce system.val_llu%s
+D s-valuns.ads		20230727081304 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuei.ads		20230727081304 11081e09 system.value_i%s
+D s-vaispe.ads		20230727081304 44130d39 system.value_i_spec%s
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+D s-wchcon.ads		20230727081304 d9032363 system.wch_con%s
+D s-wchwts.ads		20230727081304 b3692fb2 system.wch_wts%s
+D s-widlllu.ads		20230727081304 c5dfde5a system.wid_lllu%s
+D s-widllu.ads		20230727081304 a6620b19 system.wid_llu%s
+D s-widuns.ads		20230727081304 866a5800 system.wid_uns%s
+D s-widthu.ads		20230727081304 b32f15e2 system.width_u%s
+G a e
+G c Z s b [integer_io ada__wide_wide_text_io 25 31 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|25r9 60r5 19|32r6 48r14 51r6 59r6 67r6 196r5
+X 14 a-ztexio.ads
+52K13*Wide_Wide_Text_IO 1|16k9 14|494e26 18|25r13 60r9 19|32r10 48r18 51r10
+. 59r10 67r10 196r9
+54P9*File_Type 18|31r15 40r15 19|87r15 151r15
+75I12*Field{integer} 18|27r20 33r15 37r15 42r15 47r15 19|89r15 111r15 153r15
+. 168r15
+77I12*Number_Base{integer} 18|28r20 43r15 48r15 58r14 19|154r15 169r15 178r14
+297X4*Data_Error 19|106r38 143r38
+454p4 Current_In{54P9} 19|114r12
+455p4 Current_Out{54P9} 19|172r12
+X 16 a-ztinau.ads
+53k31*Integer_Aux 76e38 19|32w28 51r28 59r28 67r28
+55U14 Get 19|98s19[66] 100s18[58] 102s18[50]
+60U14 Gets 19|135s19[66] 137s18[58] 139s18[50]
+65U14 Put 19|158s19[66] 160s18[58] 162s18[50]
+71U14 Puts 19|184s19[66] 186s18[58] 188s18[50]
+X 18 a-ztinio.ads
+23I9 Num 27r29 32r19 36r19 41r15 46r15 52r18 57r14 19|74r36 75r36 88r19 110r19
+. 119r18 152r15 167r15 177r14
+25k31*Integer_IO 14|52k13 18|23z9 60l27 60e37 19|48b36 196l27 196t37
+27i4*Default_Width{14|75I12} 42r24 47r24 19|153r24 168r24
+28i4*Default_Base{14|77I12} 43r30 48r30 58r29 19|154r30 169r30 178r29
+30U14*Get 31>7 32<7 33>7 19|86b14 107l8 107t11 114s7
+31p7 File{14|54P9} 19|87b7 98r24 100r23 102r23
+32*7 Item{23I9} 19|88b7 98m54 98r54 100m48 100r48 102m38 102r38
+33i7 Width{14|75I12} 19|89b7 98r61 100r55 102r45
+35U14*Get 36<7 37>7 19|109b14 115l8 115t11
+36*7 Item{23I9} 19|110b7 114m24
+37i7 Width{14|75I12} 19|111b7 114r30
+39U14*Put 40>7 41>7 42>7 43>7 19|150b14 164l8 164t11 172s7
+40p7 File{14|54P9} 19|151b7 158r24 160r23 162r23
+41*7 Item{23I9} 19|152b7 158r54 160r48 162r38
+42i7 Width{14|75I12} 19|153b7 158r61 160r55 162r45
+43i7 Base{14|77I12} 19|154b7 158r68 160r62 162r52
+45U14*Put 46>7 47>7 48>7 19|166b14 173l8 173t11
+46*7 Item{23I9} 19|167b7 172r25
+47i7 Width{14|75I12} 19|168b7 172r31
+48i7 Base{14|77I12} 19|169b7 172r38
+50U14*Get 51>7 52<7 53<7 19|117b14 144l8 144t11
+51a7 From{wide_wide_string} 19|118b7 127r58
+52*7 Item{23I9} 19|119b7 135m52 135r52 137m46 137r46 139m36 139r36
+53i7 Last{positive} 19|120b7 135m59 137m53 139m43
+55U14*Put 56<7 57>7 58>7 19|175b14 194l8 194t11
+56a7 To{wide_wide_string} 19|176b7 180r19 180r31 192m10
+57*7 Item{23I9} 19|177b7 184r52 186r46 188r36
+58i7 Base{14|77I12} 19|178b7 184r59 186r53 188r43
+X 19 a-ztinio.adb
+50K12 Aux_Int[16|53] 102r10 139r10 162r10 188r10
+58K12 Aux_LLI[16|53] 100r10 137r10 160r10 186r10
+66K12 Aux_LLLI[16|53] 98r10 135r10 158r10 184r10
+74b4 Need_LLI{boolean} 99r13 136r13 159r13 185r13
+75b4 Need_LLLI{boolean} 97r10 134r10 157r10 183r10
+127a7 S{string} 135r25 137r24 139r24
+180a7 S{string} 184m25 186m24 188m24 191r16 192r60
+191i11 J{integer} 192r14 192r63
+X 22 system.ads
+37K9*System 19|33r6 33r27 34r6 34r27 35r6 35r27 36r6 36r27 37r6 37r27 38r6
+. 38r27 39r6 39r27 40r6 40r27 41r6 41r27 42r6 42r27 43r6 43r27 44r6 44r27
+. 45r6 45r27 46r6 46r27 22|192e11
+X 31 s-imgbiu.ads
+39K16*Img_BIU 19|33w13 33r34 31|62e19
+46U14*Set_Image_Based_Integer=52:19 19|56r9
+X 32 s-imgint.ads
+53K16*Img_Int 19|34w13 34r34 32|77e19
+71U14*Set_Image_Integer=75:19 19|54r9
+X 33 s-imgllb.ads
+39K16*Img_LLB 19|35w13 35r34 33|62e19
+46U14*Set_Image_Based_Long_Long_Integer=52:19 19|64r9
+X 34 s-imglli.ads
+53K16*Img_LLI 19|36w13 36r34 34|78e19
+72U14*Set_Image_Long_Long_Integer=76:19 19|62r9
+X 35 s-imglllb.ads
+39K16*Img_LLLB 19|38w13 38r34 35|63e20
+47U14*Set_Image_Based_Long_Long_Long_Integer=53:19 19|72r9
+X 36 s-imgllli.ads
+53K16*Img_LLLI 19|39w13 39r34 36|78e20
+72U14*Set_Image_Long_Long_Long_Integer=76:19 19|70r9
+X 37 s-imglllw.ads
+39K16*Img_LLLW 19|40w13 40r34 37|61e20
+47U14*Set_Image_Width_Long_Long_Long_Integer=52:19 19|71r9
+X 38 s-imgllw.ads
+39K16*Img_LLW 19|37w13 37r34 38|60e19
+46U14*Set_Image_Width_Long_Long_Integer=51:19 19|63r9
+X 39 s-imgwiu.ads
+39K16*Img_WIU 19|41w13 41r34 39|60e19
+46U14*Set_Image_Width_Integer=51:19 19|55r9
+X 50 s-valint.ads
+51K16*Val_Int 19|42w13 42r34 50|72e19
+62U14*Scan_Integer=67:19 19|53r9
+X 51 s-vallli.ads
+51K16*Val_LLI 19|43w13 43r34 51|72e19
+62U14*Scan_Long_Long_Integer=67:19 19|61r9
+X 52 s-valllli.ads
+51K16*Val_LLLI 19|44w13 44r34 52|73e20
+62U14*Scan_Long_Long_Long_Integer=67:19 19|69r9
+X 61 s-wchcon.ads
+39K16*WCh_Con 19|45w13 45r34 61|218e19
+92I9*WC_Encoding_Method<short_short_integer>
+106i4*WCEM_Upper{92I9} 19|127r64
+X 62 s-wchwts.ads
+39K16*WCh_WtS 19|46w13 46r34 62|63e19
+58V13*Wide_Wide_String_To_String{string} 19|127s30
+

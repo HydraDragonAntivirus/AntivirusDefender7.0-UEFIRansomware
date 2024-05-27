@@ -1,0 +1,83 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.numerics.aux_long_long_float%s  a-nallfl.ads  8333dc5f NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.aux_linker_options%s  a-naliop.ads  a-naliop.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-naliop.ads		20230727081304 6b421e5f ada.numerics.aux_linker_options%s
+D a-nallfl.ads		20230727081304 6ccf65a3 ada.numerics.aux_long_long_float%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s s [sin ada__numerics__aux_long_long_float 51 13 none]
+G c Z s s [cos ada__numerics__aux_long_long_float 54 13 none]
+G c Z s s [tan ada__numerics__aux_long_long_float 57 13 none]
+G c Z s s [exp ada__numerics__aux_long_long_float 60 13 none]
+G c Z s s [sqrt ada__numerics__aux_long_long_float 63 13 none]
+G c Z s s [log ada__numerics__aux_long_long_float 66 13 none]
+G c Z s s [acos ada__numerics__aux_long_long_float 69 13 none]
+G c Z s s [asin ada__numerics__aux_long_long_float 72 13 none]
+G c Z s s [atan ada__numerics__aux_long_long_float 75 13 none]
+G c Z s s [sinh ada__numerics__aux_long_long_float 78 13 none]
+G c Z s s [cosh ada__numerics__aux_long_long_float 81 13 none]
+G c Z s s [tanh ada__numerics__aux_long_long_float 84 13 none]
+G c Z s s [pow ada__numerics__aux_long_long_float 87 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 4|40r6 41r23 43r9 90r5
+X 2 a-numeri.ads
+16K13*Numerics 1|16k9 2|35e17 4|40r10 41r27 43r13 90r9
+X 3 a-naliop.ads
+42K22*Aux_Linker_Options 45e36 4|40w19 41r36
+X 4 a-nallfl.ads
+43K22*Aux_Long_Long_Float 2|16k13 4|90l18 90e37
+46F12*T{long_long_float} 51r22 51r32 54r22 54r32 57r22 57r32 60r22 60r32
+. 63r23 63r33 66r22 66r32 69r23 69r33 72r23 72r33 75r23 75r33 78r23 78r33
+. 81r23 81r33 84r23 84r33 87r25 87r35
+51V13*Sin{46F12} 51>18
+51f18 X{46F12}
+54V13*Cos{46F12} 54>18
+54f18 X{46F12}
+57V13*Tan{46F12} 57>18
+57f18 X{46F12}
+60V13*Exp{46F12} 60>18
+60f18 X{46F12}
+63V13*Sqrt{46F12} 63>19
+63f19 X{46F12}
+66V13*Log{46F12} 66>18
+66f18 X{46F12}
+69V13*Acos{46F12} 69>19
+69f19 X{46F12}
+72V13*Asin{46F12} 72>19
+72f19 X{46F12}
+75V13*Atan{46F12} 75>19
+75f19 X{46F12}
+78V13*Sinh{46F12} 78>19
+78f19 X{46F12}
+81V13*Cosh{46F12} 81>19
+81f19 X{46F12}
+84V13*Tanh{46F12} 84>19
+84f19 X{46F12}
+87V13*Pow{46F12} 87>18 87>21
+87f18 X{46F12}
+87f21 Y{46F12}
+

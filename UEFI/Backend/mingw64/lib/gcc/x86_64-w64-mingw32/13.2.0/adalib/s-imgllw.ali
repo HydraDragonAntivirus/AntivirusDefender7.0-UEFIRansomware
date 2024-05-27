@@ -1,0 +1,56 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_LONG_LONG_INTEGERS
+RV NO_RECURSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.img_llw%s	s-imgllw.ads		28cbaecd NE OL PU PK
+W system%s		system.ads		system.ali
+W system.image_w%s
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-imagew.ads		20230727081304 9d2dd267 system.image_w%s
+D s-imagew.adb		20230727081304 4bb19478 system.image_w%b
+D s-imgllw.ads		20230727081304 bf9c9c15 system.img_llw%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [set_image_width_integer system__img_llw__impl 45 14 44_4]
+G c Z s s [set_image_width_unsigned system__img_llw__impl 59 14 44_4]
+X 1 system.ads
+37K9*System 192e11 4|36r6 37r6 39r9 60r5
+X 2 s-imagew.ads
+42k16*Image_W 73e19 4|36w13 44r24
+45U14*Set_Image_Width_Integer 4|51r19[44]
+59U14*Set_Image_Width_Unsigned 4|58r19[44]
+X 4 s-imgllw.ads
+39K16*Img_LLW 1|37k9 4|60l12 60e19
+42M12*Long_Long_Unsigned{5|46M9} 44r52 54r11
+44K12*Impl[2|42] 51r14 58r14
+46U14*Set_Image_Width_Long_Long_Integer=51:19
+47i7 V{long_long_integer}
+48i7 W{integer}
+49a7 S{string}
+50i7 P{natural}
+53U14*Set_Image_Width_Long_Long_Unsigned=58:19
+54m7 V{5|46M9}
+55i7 W{integer}
+56a7 S{string}
+57i7 P{natural}
+X 5 s-unstyp.ads
+38K16*Unsigned_Types 4|37w13 42r34 5|249e26
+46M9*Long_Long_Unsigned 4|42r49
+

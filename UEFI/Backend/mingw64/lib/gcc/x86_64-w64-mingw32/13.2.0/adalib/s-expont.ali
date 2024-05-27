@@ -1,0 +1,69 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.expont%b	s-expont.adb		9530f041 NE OL PK GE
+W system%s		system.ads		system.ali
+
+U system.expont%s	s-expont.ads		701cfc7f BN NE OL PU PK GE
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20230727081304 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-expont.ads		20230727081304 f15262ed system.expont%s
+D s-expont.adb		20230727081304 646292ac system.expont%b
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [expont system 40 16 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|34r6 54r29
+X 4 a-numeri.ads
+16K13*Numerics 35e17 12|34r10 54r33
+X 5 a-nubinu.ads
+16K22*Big_Numbers 21e29 12|34r19 54r42
+X 9 system.ads
+37K9*System 192e11 12|40r9 73r5 13|32r14 223r5
+X 12 s-expont.ads
+38I9 Int 58r73 60r24 65r36 65r53 68r27 68r56 13|82r32 98r27 98r56 103r16
+. 104r16
+40k16*Expont 9|37k9 12|38z9 73l12 73e18 13|32b21 223l12 223t18
+68V13*Expon{38I9} 68>20 68>32 71r14 13|98b13 176l8 176t13
+68*20 Left{38I9} 70r33 71r29 13|98b20 104r27 123r13 131r55 144r42 157r49
+. 164r39 173r42
+68i32 Right{natural} 70r42 71r37 13|98b32 105r27 121r10 131r64 144r51 157r58
+. 164r48 173r51
+X 13 s-expont.adb
+103*7 Result{12|38I9} 131r18 142r42 146m16 146r26 157r18 163r39 173r27 175r14
+104*7 Factor{12|38I9} 129r33 131r33 139r24 140r26 140r41 141r41 142r57 143r42
+. 146r35 150r33 155r23 165r38 167m13 167r23 167r32 170r30
+105i7 Exp{natural} 128r33 131r44 132r44 134r13 139r35 140r53 141r50 143r54
+. 150r42 152m10 152r17 153r20 155r34 165r47 170r41
+

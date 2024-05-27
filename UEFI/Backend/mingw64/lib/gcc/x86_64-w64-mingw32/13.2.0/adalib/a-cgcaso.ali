@@ -1,0 +1,67 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_LONG_LONG_INTEGERS
+
+U ada.containers.generic_constrained_array_sort%b  a-cgcaso.adb  beeef671 NE OL SU GE
+W ada.containers%s	a-contai.ads		a-contai.ali
+
+U ada.containers.generic_constrained_array_sort%s  a-cgcaso.ads  fefb63d5 BN NE OL PU GE
+W ada.containers%s	a-contai.ads		a-contai.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-contai.ads		20230727081304 61e5e089 ada.containers%s
+D a-cgcaso.ads		20230727081304 9f1e835c ada.containers.generic_constrained_array_sort%s
+D a-cgcaso.adb		20230727081304 21f0752d ada.containers.generic_constrained_array_sort%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [generic_constrained_array_sort ada__containers 24 26 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|24r11 27r14 4|32r11 119r5
+X 2 a-contai.ads
+16K13*Containers 28e19 3|24r15 27r18 4|32r15 119r9
+X 3 a-cgcaso.ads
+17E9 Index_Type 19r30 4|37r37 48r37 49r30 51r14 72r25 76r38 78r32
+18+9 Element_Type 19r45 21r37 4|55r11
+19A9 Array_Type(18+9)<17E9> 25r23 4|33r23 42r8
+21V19 "<"{boolean} 21>23 21>29 4|76s33 92s38
+21*23 Left{18+9}
+21*29 Right{18+9}
+24u26*Generic_Constrained_Array_Sort 2|16k13 3|25=4 27r29 4|32b26 119l20
+. 119t50
+25*4 Container{19A9} 4|33b4 42m27 42r27 108r15
+X 4 a-cgcaso.adb
+35I12 T{long_long_integer} 37r27 40r24 48r27 49r20 49r61 54r11 61r24 62r13
+. 63r13 90r31
+37V13 To_Index{3|17E9} 37>23 38r19 48b13 52l8 52t16 72s39 82s16 92s19 93s19
+. 93s39 101s10 108s26 113s18 114s10
+37i23 J{35I12} 48b23 49r57
+40U14 Sift 40>20 61b14 102l8 102t12 109s7 117s7
+40i20 S{35I12} 61b20 62r18 88r18
+42*4 A=42:27{3|19A9} 49r46 54r16 76r19 76r35 82r13 82r33 92r16 93r16 93r36
+. 101r7 113r15 114r7 114r29 114r32
+49i7 K{long_long_integer} 51r30
+54i4 Max{35I12} 69r26 75r22 107r26 112r10 113r28 114r20 116m7 116r14
+55*4 Temp{3|18+9} 92r40 101r27 108m7 113m7
+62i7 C{35I12} 67r21 82r26 85m10 88r13 90r36 93r29 94m16 101r20
+63i7 Son{35I12} 67m10 69r20 72r49 75r16 77m19 77r26 85r15
+72*13 Son_Index{3|17E9} 76r22 76r55 78m19 78r49 82r36
+90i13 Father{35I12} 92r29 93r49 94r21
+107i8 J{long_long_integer} 108r36 109r13
+107l34 loop 110e12
+112l18 loop 118e12
+

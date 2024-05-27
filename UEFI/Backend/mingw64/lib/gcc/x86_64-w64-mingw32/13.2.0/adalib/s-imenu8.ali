@@ -1,0 +1,52 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.img_enum_8%s	s-imenu8.ads		e79cd2df NE OL PU PK
+W ada%s			ada.ads			ada.ali
+Z ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.image_n%s
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-imagen.ads		20230727081304 875093bf system.image_n%s
+D s-imagen.adb		20230727081304 ea5fc2b9 system.image_n%b
+D s-imenu8.ads		20230727081304 856b4744 system.img_enum_8%s
+G a e
+G c Z s s [image_enumeration system__img_enum_8__impl 44 14 41_4]
+X 3 interfac.ads
+38K9*Interfaces 232e15 7|35w6 41r33
+47I9*Integer_8<short_short_integer> 7|41r44
+X 4 system.ads
+37K9*System 192e11 7|36r6 38r9 48r17 51r5
+67M9*Address 7|48r24
+X 5 s-imagen.ads
+41k16*Image_N 63e19 7|36w13 41r24
+44U14*Image_Enumeration 7|49r19[41]
+X 7 s-imenu8.ads
+38K16*Img_Enum_8 4|37k9 7|51l12 51e22
+41K12*Impl[5|41] 49r14
+43U14*Image_Enumeration_8=49:19
+44i7 Pos{natural}
+45a7 S{string}
+46i7 P{natural}
+47a7 Names{string}
+48m7 Indexes{4|67M9}
+

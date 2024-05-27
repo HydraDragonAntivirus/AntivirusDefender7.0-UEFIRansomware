@@ -1,0 +1,1314 @@
+
+Discarded input sections
+
+ .debug_info    0x0000000000000000     0x3c1c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_abbrev  0x0000000000000000      0x3c6 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_loclists
+                0x0000000000000000      0xa70 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_line    0x0000000000000000      0x7eb C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_str     0x0000000000000000       0x98 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_line_str
+                0x0000000000000000      0x496 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_frame   0x0000000000000000      0x410 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_info    0x0000000000000000     0x43d6 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_abbrev  0x0000000000000000      0x3fa C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_loclists
+                0x0000000000000000      0xe60 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_macro   0x0000000000000000    0x136c1 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_line    0x0000000000000000     0x1099 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_str     0x0000000000000000       0x53 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_line_str
+                0x0000000000000000      0x499 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .rdata$.refptr.ST
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_frame   0x0000000000000000      0x610 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_info    0x0000000000000000      0xc25 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_abbrev  0x0000000000000000      0x193 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_loclists
+                0x0000000000000000       0xd9 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_line    0x0000000000000000      0x289 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_str     0x0000000000000000       0x2e C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_line_str
+                0x0000000000000000      0x49c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_frame   0x0000000000000000       0x78 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_info    0x0000000000000000     0x2400 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_abbrev  0x0000000000000000      0x355 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_loclists
+                0x0000000000000000      0x314 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_macro   0x0000000000000000    0x136ae C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_line    0x0000000000000000      0x446 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_str     0x0000000000000000       0x5a C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_line_str
+                0x0000000000000000      0x499 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_frame   0x0000000000000000       0xf8 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_info    0x0000000000000000     0x10b5 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_abbrev  0x0000000000000000      0x2a0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_loclists
+                0x0000000000000000      0x6b8 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_line    0x0000000000000000      0x738 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_str     0x0000000000000000       0x1f C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_line_str
+                0x0000000000000000      0x493 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_frame   0x0000000000000000      0x358 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_info    0x0000000000000000      0x3bd C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_abbrev  0x0000000000000000       0xdc C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_loclists
+                0x0000000000000000       0x34 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_line    0x0000000000000000      0x21c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_line_str
+                0x0000000000000000      0x49f C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_frame   0x0000000000000000       0x60 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_info    0x0000000000000000     0x30bb C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_abbrev  0x0000000000000000      0x272 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_loclists
+                0x0000000000000000      0x121 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_macro   0x0000000000000000    0x13734 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_line    0x0000000000000000      0x2de C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_str     0x0000000000000000       0x4c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_line_str
+                0x0000000000000000      0x4ae C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_frame   0x0000000000000000       0x88 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_info    0x0000000000000000     0x284b C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_abbrev  0x0000000000000000      0x24e C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_loclists
+                0x0000000000000000      0x10f C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_line    0x0000000000000000      0x239 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_str     0x0000000000000000       0x15 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_line_str
+                0x0000000000000000      0x49f C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .rdata$.refptr.ST
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_frame   0x0000000000000000       0xa8 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_info    0x0000000000000000      0x576 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_abbrev  0x0000000000000000      0x121 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_loclists
+                0x0000000000000000      0x153 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_line    0x0000000000000000      0x272 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_line_str
+                0x0000000000000000      0x493 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_frame   0x0000000000000000       0xd0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_info    0x0000000000000000     0x38f1 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_abbrev  0x0000000000000000      0x20e C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_aranges
+                0x0000000000000000       0x20 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_line    0x0000000000000000      0x14c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_str     0x0000000000000000       0x15 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_line_str
+                0x0000000000000000      0x496 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_info    0x0000000000000000      0x306 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_abbrev  0x0000000000000000       0xa5 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_loclists
+                0x0000000000000000       0x58 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_line    0x0000000000000000      0x16e C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_line_str
+                0x0000000000000000      0x499 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_frame   0x0000000000000000       0x38 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_info    0x0000000000000000     0x4e5e C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_abbrev  0x0000000000000000      0x3b6 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_loclists
+                0x0000000000000000     0x1566 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_macro   0x0000000000000000    0x13710 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_line    0x0000000000000000      0xfa1 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_str     0x0000000000000000       0xf9 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_line_str
+                0x0000000000000000      0x499 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_frame   0x0000000000000000      0x890 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_info    0x0000000000000000      0x3a1 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_abbrev  0x0000000000000000      0x11c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_loclists
+                0x0000000000000000       0x70 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_line    0x0000000000000000      0x1a8 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_line_str
+                0x0000000000000000      0x499 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_frame   0x0000000000000000       0x38 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_info    0x0000000000000000     0x2a1b C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_abbrev  0x0000000000000000      0x283 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_loclists
+                0x0000000000000000      0x192 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_line    0x0000000000000000      0x28f C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_str     0x0000000000000000       0x1c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_line_str
+                0x0000000000000000      0x499 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .rdata$.refptr.ST
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_frame   0x0000000000000000       0xe0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_info    0x0000000000000000     0x18cd C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_abbrev  0x0000000000000000      0x19e C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_loclists
+                0x0000000000000000       0x57 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_line    0x0000000000000000      0x172 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_line_str
+                0x0000000000000000      0x496 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_frame   0x0000000000000000       0x38 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_info    0x0000000000000000      0xaaa C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_abbrev  0x0000000000000000      0x191 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_loclists
+                0x0000000000000000       0x80 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_macro   0x0000000000000000    0x1386e C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_line    0x0000000000000000      0x1e2 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_line_str
+                0x0000000000000000      0x496 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_frame   0x0000000000000000       0x90 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_info    0x0000000000000000     0x2c27 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_abbrev  0x0000000000000000      0x3c8 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_loclists
+                0x0000000000000000      0x5f3 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_macro   0x0000000000000000    0x13678 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_line    0x0000000000000000      0x7d6 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_str     0x0000000000000000       0x90 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_line_str
+                0x0000000000000000      0x496 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .rdata$.refptr.gEfiSimpleFileSystemProtocolGuid
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .rdata$.refptr.gEfiDevicePathProtocolGuid
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_frame   0x0000000000000000      0x280 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_info    0x0000000000000000     0x2048 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_abbrev  0x0000000000000000      0x201 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_loclists
+                0x0000000000000000      0x1b9 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_line    0x0000000000000000      0x238 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_str     0x0000000000000000       0x1a C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_line_str
+                0x0000000000000000      0x490 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_frame   0x0000000000000000       0xc8 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_info    0x0000000000000000     0x3034 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_abbrev  0x0000000000000000      0x2f6 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_loclists
+                0x0000000000000000      0x1f9 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_line    0x0000000000000000      0x376 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_str     0x0000000000000000       0x57 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_line_str
+                0x0000000000000000      0x496 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.LibStubUnicodeInterface
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.PoolAllocationType
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.gEfiLoadedImageProtocolGuid
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.ST
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.LibImageHandle
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.EFIDebug
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.gEfiGlobalVariableGuid
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.RT
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.UnicodeInterface
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_frame   0x0000000000000000       0xf0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_info    0x0000000000000000      0x388 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_abbrev  0x0000000000000000       0xeb C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_loclists
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_line    0x0000000000000000      0x1b0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_line_str
+                0x0000000000000000      0x496 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_frame   0x0000000000000000       0x70 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_info    0x0000000000000000      0x122 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_abbrev  0x0000000000000000       0x12 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_aranges
+                0x0000000000000000       0x20 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_macro   0x0000000000000000     0x3232 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_line    0x0000000000000000       0x3a C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_line_str
+                0x0000000000000000      0x151 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_line    0x0000000000000000       0xb5 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_line_str
+                0x0000000000000000       0xa3 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_info    0x0000000000000000       0x29 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_abbrev  0x0000000000000000       0x14 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_str     0x0000000000000000       0xaf C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_info    0x0000000000000000     0x2643 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_abbrev  0x0000000000000000      0x19f C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_line    0x0000000000000000      0x165 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_str     0x0000000000000000       0x15 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_line_str
+                0x0000000000000000      0x4b0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_frame   0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_info    0x0000000000000000      0x377 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_abbrev  0x0000000000000000       0x9b C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_loclists
+                0x0000000000000000       0x4d C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_line    0x0000000000000000      0x1de C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_line_str
+                0x0000000000000000      0x4a4 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_frame   0x0000000000000000       0x78 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_line    0x0000000000000000       0x65 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_line_str
+                0x0000000000000000       0xa1 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_info    0x0000000000000000       0x28 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_abbrev  0x0000000000000000       0x14 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_str     0x0000000000000000       0xad C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_info    0x0000000000000000      0x5bd C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_abbrev  0x0000000000000000      0x113 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_loclists
+                0x0000000000000000      0x1c9 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_macro   0x0000000000000000    0x12efb C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_line    0x0000000000000000      0x2d9 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_line_str
+                0x0000000000000000      0x43f C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_frame   0x0000000000000000       0x90 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_info    0x0000000000000000     0x1067 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_abbrev  0x0000000000000000      0x14a C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_aranges
+                0x0000000000000000       0x20 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_line    0x0000000000000000      0x14c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_str     0x0000000000000000       0x15 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_line_str
+                0x0000000000000000      0x4ac C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_info    0x0000000000000000     0x193c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_abbrev  0x0000000000000000      0x1bf C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_loclists
+                0x0000000000000000       0x6f C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_line    0x0000000000000000      0x211 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_line_str
+                0x0000000000000000      0x4ac C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_frame   0x0000000000000000       0x70 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_info    0x0000000000000000      0x882 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_abbrev  0x0000000000000000      0x131 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_loclists
+                0x0000000000000000      0x396 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_line    0x0000000000000000      0x42a C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_str     0x0000000000000000        0x5 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_line_str
+                0x0000000000000000      0x4a9 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_frame   0x0000000000000000      0x1e0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_info    0x0000000000000000     0x1194 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_abbrev  0x0000000000000000      0x1e0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_loclists
+                0x0000000000000000       0x92 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_macro   0x0000000000000000    0x13674 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_line    0x0000000000000000      0x1ec C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_str     0x0000000000000000       0x24 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_line_str
+                0x0000000000000000      0x4a0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$.refptr.LibRuntimeRestoreTPL
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$.refptr.LibRuntimeRaiseTPL
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$.refptr.LibRuntimeDebugOut
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$.refptr.RT
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$.refptr.LibFwInstance
+                0x0000000000000000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_frame   0x0000000000000000       0x90 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_info    0x0000000000000000     0x2763 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ .debug_abbrev  0x0000000000000000      0x21f C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ .debug_loclists
+                0x0000000000000000       0x48 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ .debug_macro   0x0000000000000000    0x12ef7 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ .debug_line    0x0000000000000000      0x19b C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ .debug_str     0x0000000000000000       0x15 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ .debug_line_str
+                0x0000000000000000      0x3f9 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ .debug_frame   0x0000000000000000       0x48 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x00000003b12d0000                __image_base__ = 0x3b12d0000
+                0x0000000000000001                __dll__ = 0x1
+                0x00000003b12d0000                __ImageBase = 0x3b12d0000
+                0x0000000000001000                __section_alignment__ = 0x1000
+                0x0000000000000200                __file_alignment__ = 0x200
+                0x0000000000000004                __major_os_version__ = 0x4
+                0x0000000000000000                __minor_os_version__ = 0x0
+                0x0000000000000000                __major_image_version__ = 0x0
+                0x0000000000000000                __minor_image_version__ = 0x0
+                0x0000000000000005                __major_subsystem_version__ = 0x5
+                0x0000000000000002                __minor_subsystem_version__ = 0x2
+                0x000000000000000a                __subsystem__ = 0xa
+                0x0000000000200000                __size_of_stack_reserve__ = 0x200000
+                0x0000000000001000                __size_of_stack_commit__ = 0x1000
+                0x0000000000100000                __size_of_heap_reserve__ = 0x100000
+                0x0000000000001000                __size_of_heap_commit__ = 0x1000
+                0x0000000000000000                __loader_flags__ = 0x0
+                0x0000000000000160                __dll_characteristics__ = 0x160
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+LOAD C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+                0x00000000000002f0                . = SIZEOF_HEADERS
+                0x0000000000001000                . = ALIGN (__section_alignment__)
+
+.text           0x00000003b12d1000     0x5400
+ *(SORT_NONE(.init))
+ *(.text)
+ .text          0x00000003b12d1000      0x7f0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000003b12d1000                AllocatePool
+                0x00000003b12d103c                FreePool
+                0x00000003b12d1053                ZeroMem
+                0x00000003b12d1062                AllocateZeroPool
+                0x00000003b12d108d                SetMem
+                0x00000003b12d10a0                CopyMem
+                0x00000003b12d10af                ReallocatePool
+                0x00000003b12d110a                CompareMem
+                0x00000003b12d1118                GrowBuffer
+                0x00000003b12d11b9                LibMemoryMap
+                0x00000003b12d1253                LibGetVariableAndSize
+                0x00000003b12d12ee                LibGetVariable
+                0x00000003b12d1301                LibDeleteVariable
+                0x00000003b12d1368                LibSetNVVariable
+                0x00000003b12d138f                LibSetVariable
+                0x00000003b12d13b6                LibInsertToTailOfBootOrder
+                0x00000003b12d14a2                ValidMBR
+                0x00000003b12d168f                DecimaltoBCD
+                0x00000003b12d16a0                BCDtoDecimal
+                0x00000003b12d16b1                LibGetSystemConfigurationTable
+                0x00000003b12d1725                LibGetUiString
+ .text          0x00000003b12d17f0     0x13b0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+                0x00000003b12d17f0                _SPrint
+                0x00000003b12d186c                _PoolPrint
+                0x00000003b12d18dd                IsLocalPrint
+                0x00000003b12d191c                _DbgOut
+                0x00000003b12d195e                PFLUSH
+                0x00000003b12d19a6                PSETATTR
+                0x00000003b12d19dc                PPUTC
+                0x00000003b12d1a2f                PGETC
+                0x00000003b12d1a60                PITEM
+                0x00000003b12d1b6c                ValueToHex
+                0x00000003b12d1be5                ValueToString
+                0x00000003b12d1cd1                FloatToString
+                0x00000003b12d1d97                TimeToString
+                0x00000003b12d1e4e                _Print
+                0x00000003b12d2446                DbgPrint
+                0x00000003b12d25b1                _PoolCatPrint
+                0x00000003b12d260d                UnicodeVSPrint
+                0x00000003b12d2652                UnicodeSPrint
+                0x00000003b12d266f                VPoolPrint
+                0x00000003b12d26b0                PoolPrint
+                0x00000003b12d26d7                AsciiVSPrint
+                0x00000003b12d2778                CatPrint
+                0x00000003b12d27af                _IPrint
+                0x00000003b12d2884                Print
+                0x00000003b12d28d8                VPrint
+                0x00000003b12d2913                PrintAt
+                0x00000003b12d2952                IPrint
+                0x00000003b12d2996                IPrintAt
+                0x00000003b12d29c8                AsciiPrint
+                0x00000003b12d2a1b                DumpHex
+ .text          0x00000003b12d2ba0      0x120 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+                0x00000003b12d2ba0                LibGetSmbiosString
+                0x00000003b12d2bef                LibGetSmbiosSystemGuidAndSerialNumber
+ .text          0x00000003b12d2cc0      0x3d0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+                0x00000003b12d2cc0                OpenSimpleReadFile
+                0x00000003b12d2fd4                ReadSimpleReadFile
+                0x00000003b12d304a                CloseSimpleReadFile
+ .text          0x00000003b12d3090      0x450 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+                0x00000003b12d3090                StrCmp
+                0x00000003b12d309e                StrnCmp
+                0x00000003b12d30d5                LibStubStriCmp
+                0x00000003b12d30e9                LibStubStrLwrUpr
+                0x00000003b12d30ea                StriCmp
+                0x00000003b12d311b                StrLwr
+                0x00000003b12d3149                StrUpr
+                0x00000003b12d3177                StrCpy
+                0x00000003b12d3186                StrnCpy
+                0x00000003b12d3195                StpCpy
+                0x00000003b12d31a3                StpnCpy
+                0x00000003b12d31b1                StrCat
+                0x00000003b12d31c0                StrnCat
+                0x00000003b12d31cf                StrnLen
+                0x00000003b12d31dd                StrLen
+                0x00000003b12d31eb                StrSize
+                0x00000003b12d31f9                StrDuplicate
+                0x00000003b12d3234                strlena
+                0x00000003b12d3249                strcmpa
+                0x00000003b12d3269                strncmpa
+                0x00000003b12d32a0                xtoi
+                0x00000003b12d330f                Atoi
+                0x00000003b12d334a                MetaMatch
+                0x00000003b12d348b                LibStubMetaiMatch
+                0x00000003b12d349f                MetaiMatch
+ .text          0x00000003b12d34e0       0x90 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+                0x00000003b12d34e0                LibIsValidTextGraphics
+                0x00000003b12d3540                IsValidAscii
+                0x00000003b12d3556                IsValidEfiCntlChar
+ .text          0x00000003b12d3570      0x200 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+                0x00000003b12d36a4                GetShellArgcArgv
+ .text          0x00000003b12d3770      0x110 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+                0x00000003b12d3770                Output
+                0x00000003b12d3791                IInput
+                0x00000003b12d384c                Input
+ .text          0x00000003b12d3880       0xd0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+                0x00000003b12d3880                CalculateCrc
+                0x00000003b12d38b1                SetCrcAltSize
+                0x00000003b12d38d4                SetCrc
+                0x00000003b12d38e9                CheckCrcAltSize
+                0x00000003b12d3938                CheckCrc
+ .text          0x00000003b12d3950        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .text          0x00000003b12d3950       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+                0x00000003b12d3950                DbgAssert
+ .text          0x00000003b12d3980     0x1370 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000003b12d453e                DevicePathFromHandle
+                0x00000003b12d4578                DevicePathInstance
+                0x00000003b12d4604                DevicePathInstanceCount
+                0x00000003b12d4636                DevicePathSize
+                0x00000003b12d4669                DuplicateDevicePath
+                0x00000003b12d46a4                AppendDevicePath
+                0x00000003b12d478e                AppendDevicePathNode
+                0x00000003b12d4813                FileDevicePath
+                0x00000003b12d48b6                UnpackDevicePath
+                0x00000003b12d499f                AppendDevicePathInstance
+                0x00000003b12d4a43                LibDevicePathToInterface
+                0x00000003b12d4acd                DevicePathToStr
+                0x00000003b12d4bed                LibMatchDevicePaths
+                0x00000003b12d4c4b                LibDuplicateDevicePathInstance
+ .text          0x00000003b12d4cf0       0x60 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+                0x00000003b12d4cf0                StatusToString
+ .text          0x00000003b12d4d50      0x200 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+                0x00000003b12d4d50                LibCreateProtocolNotifyEvent
+                0x00000003b12d4dc9                WaitForSingleEvent
+                0x00000003b12d4eb1                WaitForEventWithTimeout
+ .text          0x00000003b12d4f50       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+                0x00000003b12d4f50                Exit
+ .text          0x00000003b12d4f80       0xe0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+                0x00000003b12d4f80                InitializeGuid
+                0x00000003b12d4f81                CompareGuid
+                0x00000003b12d4f8f                GuidToString
+ .text          0x00000003b12d5060      0x850 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+                0x00000003b12d5060                LibLocateHandle
+                0x00000003b12d510a                LibLocateProtocol
+                0x00000003b12d519d                LibLocateHandleByDiskSignature
+                0x00000003b12d54ab                LibOpenRoot
+                0x00000003b12d54fd                LibFileInfo
+                0x00000003b12d5561                LibFileSystemInfo
+                0x00000003b12d55c5                LibFileSystemVolumeLabelInfo
+                0x00000003b12d5629                LibInstallProtocolInterfaces
+                0x00000003b12d5734                LibUninstallProtocolInterfaces
+                0x00000003b12d5798                LibReinstallProtocolInterfaces
+ .text          0x00000003b12d58b0      0x110 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+                0x00000003b12d58b0                InitializeGlobalIoDevice
+                0x00000003b12d5936                ReadPort
+                0x00000003b12d5956                WritePort
+                0x00000003b12d597b                ReadPciConfig
+                0x00000003b12d599b                WritePciConfig
+ .text          0x00000003b12d59c0      0x270 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+                0x00000003b12d59c0                InitializeUnicodeSupport
+                0x00000003b12d5aa5                EFIDebugVariable
+                0x00000003b12d5afd                InitializeLib
+                0x00000003b12d5be7                memset
+                0x00000003b12d5c03                memcpy
+ .text          0x00000003b12d5c30       0x40 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+                0x00000003b12d5c30                InitializeLock
+                0x00000003b12d5c44                AcquireLock
+                0x00000003b12d5c53                ReleaseLock
+ .text          0x00000003b12d5c70        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .text          0x00000003b12d5c70      0x180 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+                0x00000003b12d5c70                efi_call0
+                0x00000003b12d5c7b                efi_call1
+                0x00000003b12d5c89                efi_call2
+                0x00000003b12d5c97                efi_call3
+                0x00000003b12d5ca8                efi_call4
+                0x00000003b12d5cbc                efi_call5
+                0x00000003b12d5cd5                efi_call6
+                0x00000003b12d5cf8                efi_call7
+                0x00000003b12d5d25                efi_call8
+                0x00000003b12d5d5c                efi_call9
+                0x00000003b12d5d9d                efi_call10
+ .text          0x00000003b12d5df0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+                0x00000003b12d5df0                InitializeLibPlatform
+ .text          0x00000003b12d5e00       0x40 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+                0x00000003b12d5e00                LShiftU64
+                0x00000003b12d5e09                RShiftU64
+                0x00000003b12d5e12                MultU64x32
+                0x00000003b12d5e1a                DivU64x32
+ .text          0x00000003b12d5e40       0x60 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+                0x00000003b12d5e40                setjmp
+                0x00000003b12d5e65                longjmp
+ .text          0x00000003b12d5ea0       0xf0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+                0x00000003b12d5ea0                RtZeroMem
+                0x00000003b12d5eb6                RtSetMem
+                0x00000003b12d5ecc                RtCopyMem
+                0x00000003b12d5f2d                RtCompareMem
+                0x00000003b12d5f63                RtCompareGuid
+ .text          0x00000003b12d5f90        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .text          0x00000003b12d5f90       0xb0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+                0x00000003b12d5f90                RtAcquireLock
+                0x00000003b12d5fe5                RtReleaseLock
+ .text          0x00000003b12d6040      0x210 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+                0x00000003b12d6040                RtStrCmp
+                0x00000003b12d6062                RtStrCpy
+                0x00000003b12d607d                RtStpCpy
+                0x00000003b12d609b                RtStrLen
+                0x00000003b12d60b1                RtStrCat
+                0x00000003b12d60d6                RtStrnLen
+                0x00000003b12d60f1                RtStrnCpy
+                0x00000003b12d6147                RtStpnCpy
+                0x00000003b12d61a1                RtStrnCat
+                0x00000003b12d61ea                RtStrSize
+                0x00000003b12d6205                RtBCDtoDecimal
+                0x00000003b12d621e                RtDecimaltoBCD
+ .text          0x00000003b12d6250       0xc0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+                0x00000003b12d6250                RtLibEnableVirtualMappings
+                0x00000003b12d62a7                RtConvertList
+ .text          0x00000003b12d6310       0xa0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+                0x00000003b12d6310                efi_main
+ *(SORT_BY_NAME(.text$*))
+ *(.text.*)
+ *(.gnu.linkonce.t.*)
+ *(.glue_7t)
+ *(.glue_7)
+                0x00000003b12d63b0                . = ALIGN (0x8)
+                0x00000003b12d63b0                ___CTOR_LIST__ = .
+                0x00000003b12d63b0                __CTOR_LIST__ = .
+                0x00000003b12d63b0        0x4 LONG 0xffffffffffffffff
+                0x00000003b12d63b4        0x4 LONG 0xffffffffffffffff
+ *(.ctors)
+ *(.ctor)
+ *(SORT_BY_NAME(.ctors.*))
+                0x00000003b12d63b8        0x4 LONG 0x0
+                0x00000003b12d63bc        0x4 LONG 0x0
+                0x00000003b12d63c0                ___DTOR_LIST__ = .
+                0x00000003b12d63c0                __DTOR_LIST__ = .
+                0x00000003b12d63c0        0x4 LONG 0xffffffffffffffff
+                0x00000003b12d63c4        0x4 LONG 0xffffffffffffffff
+ *(.dtors)
+ *(.dtor)
+ *(SORT_BY_NAME(.dtors.*))
+                0x00000003b12d63c8        0x4 LONG 0x0
+                0x00000003b12d63cc        0x4 LONG 0x0
+ *(SORT_NONE(.fini))
+ *(.gcc_exc)
+                [!provide]                        PROVIDE (etext = .)
+ *(.gcc_except_table)
+
+.data           0x00000003b12d7000     0x1000
+                0x00000003b12d7000                __data_start__ = .
+ *(.data)
+ .data          0x00000003b12d7000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .data          0x00000003b12d7000       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+                0x00000003b12d7000                Hex
+ .data          0x00000003b12d7010        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .data          0x00000003b12d7010        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .data          0x00000003b12d7010        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ *fill*         0x00000003b12d7010       0x10 
+ .data          0x00000003b12d7020       0xe0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+                0x00000003b12d7020                UnicodeToPcAnsiOrAscii
+ .data          0x00000003b12d7100        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .data          0x00000003b12d7100        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .data          0x00000003b12d7100      0x400 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+                0x00000003b12d7100                CRCTable
+ .data          0x00000003b12d7500      0x500 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+                0x00000003b12d7500                ShellDynamicCommandProtocolGuid
+                0x00000003b12d7510                ShellParametersProtocolGuid
+                0x00000003b12d7520                ShellProtocolGuid
+                0x00000003b12d7530                SimpleTextInputExProtocol
+                0x00000003b12d7540                gEfiDebugSupportProtocolGuid
+                0x00000003b12d7550                gEfiDebugImageInfoTableGuid
+                0x00000003b12d7560                AbsolutePointerProtocol
+                0x00000003b12d7570                SimplePointerProtocol
+                0x00000003b12d7580                Tcp4Protocol
+                0x00000003b12d7590                Tcp4ServiceBindingProtocol
+                0x00000003b12d75a0                Udp4Protocol
+                0x00000003b12d75b0                Udp4ServiceBindingProtocol
+                0x00000003b12d75c0                Ip4Protocol
+                0x00000003b12d75d0                Ip4ServiceBindingProtocol
+                0x00000003b12d75e0                EfiDtbTableGuid
+                0x00000003b12d75f0                SalSystemTableGuid
+                0x00000003b12d7600                SMBIOS3TableGuid
+                0x00000003b12d7610                SMBIOSTableGuid
+                0x00000003b12d7620                AcpiTableGuid
+                0x00000003b12d7630                MpsTableGuid
+                0x00000003b12d7640                UnknownDevice
+                0x00000003b12d7650                EfiPartTypeLegacyMbrGuid
+                0x00000003b12d7660                EfiPartTypeSystemPartitionGuid
+                0x00000003b12d7670                gEfiVTUTF8Guid
+                0x00000003b12d7680                gEfiVT100PlusGuid
+                0x00000003b12d7690                gEfiVT100Guid
+                0x00000003b12d76a0                gEfiPcAnsiGuid
+                0x00000003b12d76b0                AdapterDebugProtocol
+                0x00000003b12d76c0                gEfiEdidOverrideProtocolGuid
+                0x00000003b12d76d0                gEfiEdidActiveProtocolGuid
+                0x00000003b12d76e0                gEfiEdidDiscoveredProtocolGuid
+                0x00000003b12d76f0                gEfiGraphicsOutputProtocolGuid
+                0x00000003b12d7700                TextInSpliterProtocol
+                0x00000003b12d7710                ErrorOutSpliterProtocol
+                0x00000003b12d7720                TextOutSpliterProtocol
+                0x00000003b12d7730                VgaClassProtocol
+                0x00000003b12d7740                LegacyBootProtocol
+                0x00000003b12d7750                VariableStoreProtocol
+                0x00000003b12d7760                InternalShellProtocol
+                0x00000003b12d7770                gEfiFileSystemVolumeLabelInfoIdGuid
+                0x00000003b12d7780                gEfiFileSystemInfoGuid
+                0x00000003b12d7790                gEfiFileInfoGuid
+                0x00000003b12d77a0                gEfiEbcProtocolGuid
+                0x00000003b12d77b0                gEfiDriverFamilyOverrideProtocolGuid
+                0x00000003b12d77c0                gEfiBusSpecificDriverOverrideProtocolGuid
+                0x00000003b12d77d0                gEfiPlatformDriverOverrideProtocolGuid
+                0x00000003b12d77e0                gEfiHashProtocolGuid
+                0x00000003b12d77f0                gEfiComponentName2ProtocolGuid
+                0x00000003b12d7800                gEfiComponentNameProtocolGuid
+                0x00000003b12d7810                gEfiDriverBindingProtocolGuid
+                0x00000003b12d7820                gEfiPciRootBridgeIoProtocolGuid
+                0x00000003b12d7830                gEfiPciIoProtocolGuid
+                0x00000003b12d7840                gEFiUiInterfaceProtocolGuid
+                0x00000003b12d7850                gEfiNetworkInterfaceIdentifierProtocolGuid
+                0x00000003b12d7860                gEfiPxeBaseCodeCallbackProtocolGuid
+                0x00000003b12d7870                gEfiPxeBaseCodeProtocolGuid
+                0x00000003b12d7880                gEfiSimpleNetworkProtocolGuid
+                0x00000003b12d7890                gEfiSerialIoProtocolGuid
+                0x00000003b12d78a0                gEfiUnicodeCollationProtocolGuid
+                0x00000003b12d78b0                gEfiDeviceIoProtocolGuid
+                0x00000003b12d78c0                gEfiLoadFileProtocolGuid
+                0x00000003b12d78d0                gEfiSimpleFileSystemProtocolGuid
+                0x00000003b12d78e0                gEfiDiskIo2ProtocolGuid
+                0x00000003b12d78f0                gEfiDiskIoProtocolGuid
+                0x00000003b12d7900                gEfiBlockIo2ProtocolGuid
+                0x00000003b12d7910                gEfiBlockIoProtocolGuid
+                0x00000003b12d7920                gEfiSimpleTextOutProtocolGuid
+                0x00000003b12d7930                gEfiSimpleTextInProtocolGuid
+                0x00000003b12d7940                gEfiLoadedImageProtocolGuid
+                0x00000003b12d7950                gEfiDevicePathUtilitiesProtocolGuid
+                0x00000003b12d7960                gEfiDevicePathFromTextProtocolGuid
+                0x00000003b12d7970                gEfiDevicePathToTextProtocolGuid
+                0x00000003b12d7980                gEfiDevicePathProtocolGuid
+                0x00000003b12d7990                gEfiGlobalVariableGuid
+                0x00000003b12d79a0                EndInstanceDevicePath
+                0x00000003b12d79a4                EndDevicePath
+                0x00000003b12d79a8                RootDevicePath
+                0x00000003b12d79b0                UnicodeInterface
+                0x00000003b12d79c0                LibStubUnicodeInterface
+                0x00000003b12d79f8                PoolAllocationType
+ .data          0x00000003b12d7a00        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .data          0x00000003b12d7a00      0x1c0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000003b12d7a00                DevPathTable
+ .data          0x00000003b12d7bc0      0x2a0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+                0x00000003b12d7bc0                ErrorCodeTable
+ .data          0x00000003b12d7e60        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .data          0x00000003b12d7e60        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .data          0x00000003b12d7e60       0x50 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .data          0x00000003b12d7eb0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .data          0x00000003b12d7eb0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .data          0x00000003b12d7eb0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .data          0x00000003b12d7eb0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .data          0x00000003b12d7eb0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .data          0x00000003b12d7eb0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .data          0x00000003b12d7eb0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .data          0x00000003b12d7eb0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .data          0x00000003b12d7eb0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .data          0x00000003b12d7eb0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .data          0x00000003b12d7eb0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+                0x00000003b12d7eb0                EFIDebug
+ .data          0x00000003b12d7ec0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .data          0x00000003b12d7ec0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .data          0x00000003b12d7ec0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .data          0x00000003b12d7ec0        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ *(.data2)
+ *(SORT_BY_NAME(.data$*))
+ *(.jcr)
+                0x00000003b12d7ec0                __data_end__ = .
+ *(.data_cygwin_nocopy)
+
+.rdata          0x00000003b12d8000     0x2000
+ *(.rdata)
+ .rdata         0x00000003b12d8000       0x20 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .rdata         0x00000003b12d8020      0x230 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .rdata         0x00000003b12d8250       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .rdata         0x00000003b12d8260       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .rdata         0x00000003b12d8270       0x20 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .rdata         0x00000003b12d8290      0x640 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .rdata         0x00000003b12d88d0      0x520 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ *fill*         0x00000003b12d8df0       0x10 
+ .rdata         0x00000003b12d8e00      0x5c0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .rdata         0x00000003b12d93c0       0x20 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata         0x00000003b12d93e0      0x340 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ *(SORT_BY_NAME(.rdata$*))
+ .rdata$.refptr.BS
+                0x00000003b12d9720       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000003b12d9720                .refptr.BS
+ .rdata$.refptr.EFIDebug
+                0x00000003b12d9730       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+                0x00000003b12d9730                .refptr.EFIDebug
+ .rdata$.refptr.EndDevicePath
+                0x00000003b12d9740       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000003b12d9740                .refptr.EndDevicePath
+ .rdata$.refptr.EndInstanceDevicePath
+                0x00000003b12d9750       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000003b12d9750                .refptr.EndInstanceDevicePath
+ .rdata$.refptr.LibFwInstance
+                0x00000003b12d9760       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+                0x00000003b12d9760                .refptr.LibFwInstance
+ .rdata$.refptr.LibImageHandle
+                0x00000003b12d9770       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+                0x00000003b12d9770                .refptr.LibImageHandle
+ .rdata$.refptr.LibInitialized
+                0x00000003b12d9780       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+                0x00000003b12d9780                .refptr.LibInitialized
+ .rdata$.refptr.LibRuntimeDebugOut
+                0x00000003b12d9790       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+                0x00000003b12d9790                .refptr.LibRuntimeDebugOut
+ .rdata$.refptr.LibRuntimeRaiseTPL
+                0x00000003b12d97a0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+                0x00000003b12d97a0                .refptr.LibRuntimeRaiseTPL
+ .rdata$.refptr.LibRuntimeRestoreTPL
+                0x00000003b12d97b0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+                0x00000003b12d97b0                .refptr.LibRuntimeRestoreTPL
+ .rdata$.refptr.LibStubUnicodeInterface
+                0x00000003b12d97c0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+                0x00000003b12d97c0                .refptr.LibStubUnicodeInterface
+ .rdata$.refptr.PoolAllocationType
+                0x00000003b12d97d0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000003b12d97d0                .refptr.PoolAllocationType
+ .rdata$.refptr.RT
+                0x00000003b12d97e0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000003b12d97e0                .refptr.RT
+ .rdata$.refptr.SMBIOSTableGuid
+                0x00000003b12d97f0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+                0x00000003b12d97f0                .refptr.SMBIOSTableGuid
+ .rdata$.refptr.ST
+                0x00000003b12d9800       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000003b12d9800                .refptr.ST
+ .rdata$.refptr.ShellParametersProtocolGuid
+                0x00000003b12d9810       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+                0x00000003b12d9810                .refptr.ShellParametersProtocolGuid
+ .rdata$.refptr.UnicodeInterface
+                0x00000003b12d9820       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+                0x00000003b12d9820                .refptr.UnicodeInterface
+ .rdata$.refptr.UnknownDevice
+                0x00000003b12d9830       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000003b12d9830                .refptr.UnknownDevice
+ .rdata$.refptr.gEFiUiInterfaceProtocolGuid
+                0x00000003b12d9840       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000003b12d9840                .refptr.gEFiUiInterfaceProtocolGuid
+ .rdata$.refptr.gEfiBlockIoProtocolGuid
+                0x00000003b12d9850       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+                0x00000003b12d9850                .refptr.gEfiBlockIoProtocolGuid
+ .rdata$.refptr.gEfiDeviceIoProtocolGuid
+                0x00000003b12d9860       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+                0x00000003b12d9860                .refptr.gEfiDeviceIoProtocolGuid
+ .rdata$.refptr.gEfiDevicePathProtocolGuid
+                0x00000003b12d9870       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000003b12d9870                .refptr.gEfiDevicePathProtocolGuid
+ .rdata$.refptr.gEfiFileInfoGuid
+                0x00000003b12d9880       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+                0x00000003b12d9880                .refptr.gEfiFileInfoGuid
+ .rdata$.refptr.gEfiFileSystemInfoGuid
+                0x00000003b12d9890       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+                0x00000003b12d9890                .refptr.gEfiFileSystemInfoGuid
+ .rdata$.refptr.gEfiFileSystemVolumeLabelInfoIdGuid
+                0x00000003b12d98a0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+                0x00000003b12d98a0                .refptr.gEfiFileSystemVolumeLabelInfoIdGuid
+ .rdata$.refptr.gEfiGlobalVariableGuid
+                0x00000003b12d98b0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000003b12d98b0                .refptr.gEfiGlobalVariableGuid
+ .rdata$.refptr.gEfiLoadFileProtocolGuid
+                0x00000003b12d98c0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+                0x00000003b12d98c0                .refptr.gEfiLoadFileProtocolGuid
+ .rdata$.refptr.gEfiLoadedImageProtocolGuid
+                0x00000003b12d98d0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+                0x00000003b12d98d0                .refptr.gEfiLoadedImageProtocolGuid
+ .rdata$.refptr.gEfiSimpleFileSystemProtocolGuid
+                0x00000003b12d98e0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+                0x00000003b12d98e0                .refptr.gEfiSimpleFileSystemProtocolGuid
+ .rdata$.refptr.gEfiUnicodeCollationProtocolGuid
+                0x00000003b12d98f0       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+                0x00000003b12d98f0                .refptr.gEfiUnicodeCollationProtocolGuid
+ .rdata$zzz     0x00000003b12d9900       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .rdata$zzz     0x00000003b12d9930       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .rdata$zzz     0x00000003b12d9960       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .rdata$zzz     0x00000003b12d9990       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .rdata$zzz     0x00000003b12d99c0       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .rdata$zzz     0x00000003b12d99f0       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .rdata$zzz     0x00000003b12d9a20       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .rdata$zzz     0x00000003b12d9a50       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .rdata$zzz     0x00000003b12d9a80       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .rdata$zzz     0x00000003b12d9ab0       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .rdata$zzz     0x00000003b12d9ae0       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .rdata$zzz     0x00000003b12d9b10       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .rdata$zzz     0x00000003b12d9b40       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .rdata$zzz     0x00000003b12d9b70       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .rdata$zzz     0x00000003b12d9ba0       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .rdata$zzz     0x00000003b12d9bd0       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .rdata$zzz     0x00000003b12d9c00       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .rdata$zzz     0x00000003b12d9c30       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .rdata$zzz     0x00000003b12d9c60       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$zzz     0x00000003b12d9c90       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .rdata$zzz     0x00000003b12d9cc0       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .rdata$zzz     0x00000003b12d9cf0       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .rdata$zzz     0x00000003b12d9d20       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .rdata$zzz     0x00000003b12d9d50       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .rdata$zzz     0x00000003b12d9d80       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .rdata$zzz     0x00000003b12d9db0       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .rdata$zzz     0x00000003b12d9de0       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .rdata$zzz     0x00000003b12d9e10       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$zzz     0x00000003b12d9e40       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+                0x00000003b12d9e70                . = ALIGN (0x4)
+                0x00000003b12d9e70                __rt_psrelocs_start = .
+ *(.rdata_runtime_pseudo_reloc)
+                0x00000003b12d9e70                __rt_psrelocs_end = .
+                0x0000000000000000                __rt_psrelocs_size = (__rt_psrelocs_end - __rt_psrelocs_start)
+                0x00000003b12d9e70                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x00000003b12d9e70                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x00000003b12d9e70                ___RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
+                0x00000003b12d9e70                __RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
+
+.eh_frame
+ *(.eh_frame*)
+
+.pdata          0x00000003b12da000      0xa00
+ *(.pdata*)
+ .pdata         0x00000003b12da000       0xfc C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .pdata         0x00000003b12da0fc      0x168 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .pdata         0x00000003b12da264       0x18 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .pdata         0x00000003b12da27c       0x24 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .pdata         0x00000003b12da2a0      0x12c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .pdata         0x00000003b12da3cc       0x24 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .pdata         0x00000003b12da3f0       0x18 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .pdata         0x00000003b12da408       0x24 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .pdata         0x00000003b12da42c       0x3c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .pdata         0x00000003b12da468        0xc C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .pdata         0x00000003b12da474      0x210 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .pdata         0x00000003b12da684        0xc C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .pdata         0x00000003b12da690       0x24 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .pdata         0x00000003b12da6b4        0xc C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .pdata         0x00000003b12da6c0       0x24 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .pdata         0x00000003b12da6e4       0x78 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .pdata         0x00000003b12da75c       0x3c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .pdata         0x00000003b12da798       0x3c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .pdata         0x00000003b12da7d4       0x24 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .pdata         0x00000003b12da7f8        0xc C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .pdata         0x00000003b12da804       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .pdata         0x00000003b12da834       0x3c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .pdata         0x00000003b12da870       0x18 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .pdata         0x00000003b12da888       0x90 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .pdata         0x00000003b12da918       0x18 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .pdata         0x00000003b12da930        0xc C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+
+.xdata          0x00000003b12db000      0x800
+ *(.xdata*)
+ .xdata         0x00000003b12db000       0xe0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .xdata         0x00000003b12db0e0      0x150 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .xdata         0x00000003b12db230       0x14 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .xdata         0x00000003b12db244       0x2c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .xdata         0x00000003b12db270       0xb4 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .xdata         0x00000003b12db324        0xc C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .xdata         0x00000003b12db330       0x18 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .xdata         0x00000003b12db348       0x20 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .xdata         0x00000003b12db368       0x28 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .xdata         0x00000003b12db390        0x8 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .xdata         0x00000003b12db398      0x1d4 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .xdata         0x00000003b12db56c        0x8 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .xdata         0x00000003b12db574       0x28 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .xdata         0x00000003b12db59c        0x8 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .xdata         0x00000003b12db5a4       0x18 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .xdata         0x00000003b12db5bc       0x80 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .xdata         0x00000003b12db63c       0x28 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .xdata         0x00000003b12db664       0x2c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .xdata         0x00000003b12db690       0x14 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .xdata         0x00000003b12db6a4        0x4 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .xdata         0x00000003b12db6a8       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .xdata         0x00000003b12db6b8       0x14 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .xdata         0x00000003b12db6cc       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .xdata         0x00000003b12db6dc       0x5c C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .xdata         0x00000003b12db738       0x18 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .xdata         0x00000003b12db750        0xc C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+
+.bss            0x00000003b12dc000      0x990
+                0x00000003b12dc000                __bss_start__ = .
+ *(.bss)
+ .bss           0x00000003b12dc000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .bss           0x00000003b12dc000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .bss           0x00000003b12dc000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .bss           0x00000003b12dc000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .bss           0x00000003b12dc000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .bss           0x00000003b12dc000        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .bss           0x00000003b12dc000      0x920 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .bss           0x00000003b12dc920        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .bss           0x00000003b12dc920        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .bss           0x00000003b12dc920       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+                0x00000003b12dc920                NullGuid
+                0x00000003b12dc930                BS
+                0x00000003b12dc938                ST
+                0x00000003b12dc940                LibImageHandle
+                0x00000003b12dc948                LibInitialized
+ .bss           0x00000003b12dc950        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .bss           0x00000003b12dc950        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .bss           0x00000003b12dc950        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .bss           0x00000003b12dc950        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .bss           0x00000003b12dc950        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .bss           0x00000003b12dc950       0x10 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+                0x00000003b12dc950                GuidList
+ .bss           0x00000003b12dc960        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .bss           0x00000003b12dc960        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .bss           0x00000003b12dc960        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .bss           0x00000003b12dc960        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .bss           0x00000003b12dc960        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .bss           0x00000003b12dc960        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .bss           0x00000003b12dc960        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .bss           0x00000003b12dc960        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .bss           0x00000003b12dc960        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .bss           0x00000003b12dc960        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .bss           0x00000003b12dc960       0x30 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+                0x00000003b12dc960                LibRuntimeRestoreTPL
+                0x00000003b12dc968                LibRuntimeRaiseTPL
+                0x00000003b12dc970                LibRuntimeDebugOut
+                0x00000003b12dc978                LibFwInstance
+                0x00000003b12dc980                RT
+ .bss           0x00000003b12dc990        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .bss           0x00000003b12dc990        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .bss           0x00000003b12dc990        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .bss           0x00000003b12dc990        0x0 C:/Users/victim/Desktop/dangerous/yuziakicin/UEFI/UEFI/Backend/bootmgfw.o
+ *(COMMON)
+                0x00000003b12dc990                __bss_end__ = .
+
+.edata          0x00000003b12dd000     0x1e00
+ *(.edata)
+ .edata         0x00000003b12dd000     0x1cc4 dll stuff
+
+/DISCARD/
+ *(.debug$S)
+ *(.debug$T)
+ *(.debug$F)
+ *(.drectve)
+ *(.note.GNU-stack)
+ *(.gnu.lto_*)
+
+.idata          0x00000003b12df000      0x200
+ SORT_BY_NAME(*)(.idata$2)
+ SORT_BY_NAME(*)(.idata$3)
+                0x00000003b12df000        0x4 LONG 0x0
+                0x00000003b12df004        0x4 LONG 0x0
+                0x00000003b12df008        0x4 LONG 0x0
+                0x00000003b12df00c        0x4 LONG 0x0
+                0x00000003b12df010        0x4 LONG 0x0
+                0x00000003b12df018                . = ALIGN (0x8)
+ *fill*         0x00000003b12df014        0x4 
+ SORT_BY_NAME(*)(.idata$4)
+                0x00000003b12df018                __IAT_start__ = .
+ SORT_BY_NAME(*)(.idata$5)
+                0x00000003b12df018                __IAT_end__ = .
+ SORT_BY_NAME(*)(.idata$6)
+ SORT_BY_NAME(*)(.idata$7)
+
+.CRT            0x00000003b12e0000        0x0
+                0x00000003b12e0000                ___crt_xc_start__ = .
+ *(SORT_BY_NAME(.CRT$XC*))
+                0x00000003b12e0000                ___crt_xc_end__ = .
+                0x00000003b12e0000                ___crt_xi_start__ = .
+ *(SORT_BY_NAME(.CRT$XI*))
+                0x00000003b12e0000                ___crt_xi_end__ = .
+                0x00000003b12e0000                ___crt_xl_start__ = .
+ *(SORT_BY_NAME(.CRT$XL*))
+                0x00000003b12e0000                ___crt_xp_start__ = .
+ *(SORT_BY_NAME(.CRT$XP*))
+                0x00000003b12e0000                ___crt_xp_end__ = .
+                0x00000003b12e0000                ___crt_xt_start__ = .
+ *(SORT_BY_NAME(.CRT$XT*))
+                0x00000003b12e0000                ___crt_xt_end__ = .
+
+.tls            0x00000003b12e0000        0x0
+                0x00000003b12e0000                ___tls_start__ = .
+ *(.tls$AAA)
+ *(.tls)
+ *(.tls$)
+ *(SORT_BY_NAME(.tls$*))
+ *(.tls$ZZZ)
+                0x00000003b12e0000                ___tls_end__ = .
+
+.endjunk        0x00000003b12e0000        0x0
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x00000003b12e0000                __end__ = .
+
+.rsrc
+ *(.rsrc)
+ *(.rsrc$*)
+
+.reloc          0x00000003b12e0000      0x200
+ *(.reloc)
+ .reloc         0x00000003b12e0000      0x18c dll stuff
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.zdebug_aranges
+ *(.zdebug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.zdebug_pubnames
+ *(.zdebug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.zdebug_info
+ *(.zdebug_info .zdebug.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.zdebug_abbrev
+ *(.zdebug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.zdebug_line
+ *(.zdebug_line)
+
+.debug_frame
+ *(.debug_frame*)
+
+.zdebug_frame
+ *(.zdebug_frame*)
+
+.debug_str
+ *(.debug_str)
+
+.zdebug_str
+ *(.zdebug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.zdebug_loc
+ *(.zdebug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.zdebug_macinfo
+ *(.zdebug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.zdebug_weaknames
+ *(.zdebug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.zdebug_funcnames
+ *(.zdebug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.zdebug_typenames
+ *(.zdebug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.zdebug_varnames
+ *(.zdebug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.zdebug_pubtypes
+ *(.zdebug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.zdebug_ranges
+ *(.zdebug_ranges)
+
+.debug_types
+ *(.debug_types .gnu.linkonce.wt.*)
+
+.zdebug_types
+ *(.zdebug_types .gnu.linkonce.wt.*)
+
+.debug_addr
+ *(.debug_addr)
+
+.zdebug_addr
+ *(.zdebug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.zdebug_line_str
+ *(.zdebug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.zdebug_loclists
+ *(.zdebug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.zdebug_macro
+ *(.zdebug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.zdebug_names
+ *(.zdebug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.zdebug_rnglists
+ *(.zdebug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.zdebug_str_offsets
+ *(.zdebug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.debug_gdb_scripts
+ *(.debug_gdb_scripts)
+
+.zdebug_gdb_scripts
+ *(.zdebug_gdb_scripts)
+OUTPUT(bootmgfw.efi pei-x86-64)
+LOAD dll stuff

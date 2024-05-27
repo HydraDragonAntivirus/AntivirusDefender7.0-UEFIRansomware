@@ -1,0 +1,67 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U system.val_enum_16%s	s-vaen16.ads		bc334896 NE OL PR PK
+W ada%s			ada.ads			ada.ali
+Z ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.val_util%s	s-valuti.adb		s-valuti.ali
+W system.value_n%s
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-vaen16.ads		20230727081304 2b230721 system.val_enum_16%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuen.ads		20230727081304 72b74993 system.value_n%s
+D s-valuen.adb		20230727081304 82820e8f system.value_n%b
+G a e
+G c Z s s [value_enumeration system__val_enum_16__impl 45 13 41_4]
+G c Z s s [valid_value_enumeration system__val_enum_16__impl 70 13 41_4]
+G c Z s s [value_enumeration_pos system__val_enum_16__impl 38 13 41_4]
+X 3 interfac.ads
+38K9*Interfaces 232e15 6|35w6 41r33
+50I9*Integer_16<short_integer> 6|41r44
+X 4 system.ads
+37K9*System 192e11 6|36r6 38r9 45r17 54r17 61r5
+67M9*Address 6|45r24 54r24
+X 6 s-vaen16.ads
+38K16*Val_Enum_16 4|37k9 6|61l12 61e23
+41K12*Impl[8|40] 46r17 50r14 55r17 59r14
+43V13*Value_Enumeration_16=50:19{natural}
+44a7 Names{string}
+45m7 Indexes{4|67M9}
+46p7 Hash{8|43P9[41]}
+47i7 Num{natural}
+48a7 Str{string}
+52V13*Valid_Value_Enumeration_16=59:19{boolean}
+53a7 Names{string}
+54m7 Indexes{4|67M9}
+55p7 Hash{8|43P9[41]}
+56i7 Num{natural}
+57a7 Str{string}
+X 8 s-valuen.ads
+40k16*Value_N 6|36w13 41r24 8|82e19
+43P9*Hash_Function_Ptr(integer) 6|46r22[41] 55r22[41]
+45V13*Value_Enumeration{natural} 6|50r19[41]
+70V13*Valid_Value_Enumeration{boolean} 6|59r19[41]
+

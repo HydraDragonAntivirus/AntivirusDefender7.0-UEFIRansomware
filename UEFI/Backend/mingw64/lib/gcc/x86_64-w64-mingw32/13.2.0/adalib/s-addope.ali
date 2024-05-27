@@ -1,0 +1,79 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_LONG_LONG_INTEGERS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.address_operations%b  s-addope.adb	74e358eb NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+
+U system.address_operations%s  s-addope.ads	8e64b346 BN NE OL PU PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-addope.ads		20230727081304 7e342ca0 system.address_operations%s
+D s-addope.adb		20230727081304 044c5324 system.address_operations%b
+G a e
+G c Z s b [adda system__address_operations 63 13 none]
+G c Z s b [suba system__address_operations 64 13 none]
+G c Z s b [mula system__address_operations 65 13 none]
+G c Z s b [diva system__address_operations 66 13 none]
+G c Z s b [moda system__address_operations 67 13 none]
+G c Z s b [anda system__address_operations 74 13 none]
+G c Z s b [ora system__address_operations 75 13 none]
+G c Z b b [i system__address_operations 39 13 none]
+G c Z b b [a system__address_operations 40 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 5|32r6 39r22 40r22
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 5|32w10 39r26 40r26
+X 3 system.ads
+37K9*System 192e11 4|43r9 85r5 5|34r14 108r5
+67M9*Address 4|63r33 63r49 64r33 64r49 65r33 65r49 66r33 66r49 67r33 67r49
+. 74r33 74r49 75r33 75r49 5|36r24 39r48 40r52 49r33 49r49 58r33 58r49 67r33
+. 67r49 76r33 76r49 85r33 85r49 94r32 94r48 103r33 103r49
+X 4 s-addope.ads
+43K16*Address_Operations 3|37k9 4|85l12 85e30 5|34b21 108l12 108t30
+63V13*AddA{3|67M9} 63>19 63>25 77r26 5|49b13 52l8 52t12
+63m19 Left{3|67M9} 5|49b19 51r20
+63m25 Right{3|67M9} 5|49b25 51r31
+64V13*SubA{3|67M9} 64>19 64>25 78r26 5|103b13 106l8 106t12
+64m19 Left{3|67M9} 5|103b19 105r20
+64m25 Right{3|67M9} 5|103b25 105r31
+65V13*MulA{3|67M9} 65>19 65>25 79r26 5|85b13 88l8 88t12
+65m19 Left{3|67M9} 5|85b19 87r20
+65m25 Right{3|67M9} 5|85b25 87r31
+66V13*DivA{3|67M9} 66>19 66>25 80r26 5|67b13 70l8 70t12
+66m19 Left{3|67M9} 5|67b19 69r20
+66m25 Right{3|67M9} 5|67b25 69r31
+67V13*ModA{3|67M9} 67>19 67>25 81r26 5|76b13 79l8 79t12
+67m19 Left{3|67M9} 5|76b19 78r20
+67m25 Right{3|67M9} 5|76b25 78r33
+74V13*AndA{3|67M9} 74>19 74>25 82r26 5|58b13 61l8 61t12
+74m19 Left{3|67M9} 5|58b19 60r20
+74m25 Right{3|67M9} 5|58b25 60r33
+75V13*OrA{3|67M9} 75>19 75>25 83r26 5|94b13 97l8 97t11
+75m19 Left{3|67M9} 5|94b18 96r20
+75m25 Right{3|67M9} 5|94b24 96r32
+X 5 s-addope.adb
+36M9 IA 39r57 40r48
+39V13 I[2|20]{36M9} 51s17 51s28 60s17 60s30 69s17 69s28 78s17 78s30 87s17
+. 87s28 96s17 96s29 105s17 105s28
+40V13 A[2|20]{3|67M9} 51s14 60s14 69s14 78s14 87s14 96s14 105s14
+

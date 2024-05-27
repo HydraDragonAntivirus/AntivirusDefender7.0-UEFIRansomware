@@ -1,0 +1,140 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U ada.synchronous_task_control%b  a-sytaco.adb	16439f20 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+W system.task_primitives.operations%s  s-taprop.adb  s-taprop.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+U ada.synchronous_task_control%s  a-sytaco.ads	b16a3402 BN EE OL PF PR PK
+W ada%s			ada.ads			ada.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.task_identification%s  a-taside.adb	a-taside.ali
+W system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-sytaco.ads		20230727081304 19cfe912 ada.synchronous_task_control%s
+D a-sytaco.adb		20230727081304 45d9ee5b ada.synchronous_task_control%b
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-taside.ads		20230727081304 c0a7c8d8 ada.task_identification%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20230727081304 f40c8db4 interfaces.c.strings%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atacco.ads		20230727081304 903317eb system.address_to_access_conversions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-multip.ads		20230727081304 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20230727081304 97504df8 system.os_interface%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20230727081304 5be75682 system.stack_usage%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-tasinf.ads		20230727081304 601f6b72 system.task_info%s
+D s-taspri.ads		20230727081304 a1350802 system.task_primitives%s
+D s-taprop.ads		20230727081304 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20230727081304 0ec7ab0b system.tasking%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20230727081304 15ac53fb system.win32%s
+G a e
+G c Z s b [set_true ada__synchronous_task_control 50 14 none]
+G c Z s b [set_false ada__synchronous_task_control 55 14 none]
+G c Z s b [current_state ada__synchronous_task_control 60 13 none]
+G c Z s b [suspend_until_true ada__synchronous_task_control 64 14 none]
+G c Z s b [initialize ada__synchronous_task_control 72 14 none]
+G c Z s b [finalize ada__synchronous_task_control 75 14 none]
+G c Z s s [suspension_objectDF ada__synchronous_task_control 78 9 none]
+G c Z s s [suspension_objectIP ada__synchronous_task_control 78 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 8|38r6 39r6 41r9 62r16 79r10 94r5 9|32r6 37r14 99r10 106r5
+X 2 a-except.ads
+44K13*Exceptions 295e19 9|32w10 99r14
+80U14*Raise_Exception 9|99s25
+X 3 a-finali.ads
+40K13*Finalization 68e21 8|38w10 79r14
+50H9*Limited_Controlled<19|40R9> 66e55 8|79r27
+X 8 a-sytaco.ads
+41K13*Synchronous_Task_Control 1|16k9 8|72E14 94l9 94e33 9|37b18 106l9 106t33
+47R9*Suspension_Object<3|50R9> 50r35 55r36 60r32 64r45 72r37 75r35 78c9 85e14
+. 9|45r37 54r35 63r32 72r36 81r35 90r45
+50U14*Set_True 50=24 87r19 9|81b14 84l8 84t16
+50r24 S{47R9} 52r18 53r26 9|81b24 83m51 83r51
+55U14*Set_False 55=25 88r19 9|72b14 75l8 75t17
+55r25 S{47R9} 57r18 58r26 9|72b25 74m52 74r52
+60V13*Current_State{boolean} 60>28 89r19 9|63b13 66l8 66t21
+60r28 S{47R9} 9|63b28 65r63
+64U14*Suspend_Until_True 64=34 90r19 9|90b14 104l8 104t26
+64r34 S{47R9} 66r18 67r26 9|90b34 103m61 103r61
+72U14 Initialize<3|53p14> 72=26 91r19 9|45b14 48l8 48t18
+72r26 S{47R9} 9|45b26 47m53 47r53
+75U14 Finalize<3|54p14> 75=24 92r19 9|54b14 57l8 57t16
+75r24 S{47R9} 9|54b24 56m51 56r51
+81r7*SO{32|48R9} 9|47m55 56m53 65r65 74m54 83m53 103m63
+X 11 a-taside.ads
+45K13*Task_Identification 8|39w10 62r20 11|106e28
+47@22*Tasking_State 8|62r40
+X 16 system.ads
+37K9*System 8|36r6 81r12 9|34r6 35r6 47r7 56r7 65r14 74r7 83r7 96r10 97r18
+. 103r7 16|192e11
+X 27 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 32 s-taspri.ads
+37K16*Task_Primitives 8|36w13 81r19 9|35r13 47r14 56r14 65r21 74r14 83r14
+. 103r14 32|115e27
+48R9*Suspension_Object 8|81r35 32|94e14
+X 33 s-taprop.ads
+39K32*Operations 9|35w29 47r30 56r30 65r37 74r30 83r30 103r30 33|556e38
+475V13*Current_State{boolean} 9|65s48
+478U14*Set_False 9|74s41
+481U14*Set_True 9|83s41
+486U14*Suspend_Until_True 9|103s41
+493U14*Initialize 9|47s41
+496U14*Finalize 9|56s41
+X 34 s-taskin.ads
+47K16*Tasking 9|34w13 96r17 97r25 34|1221e19
+109P9*Task_Id(107R9)
+116V13*Self{109P9} 9|97s33
+447V13*Detect_Blocking{boolean} 9|96s25
+549i7*Protected_Action_Nesting{natural} 9|97r45
+978r7*Common{502R9} 9|97r38
+

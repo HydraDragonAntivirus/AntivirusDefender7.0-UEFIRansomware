@@ -1,0 +1,661 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U gnat.expect%b		g-expect.adb		71c4daf3 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W gnat%s		gnat.ads		gnat.ali
+W gnat.io%s		g-io.adb		g-io.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+W gnat.regpat%s		g-regpat.ads		g-regpat.ali
+W system%s		system.ads		system.ali
+W system.os_constants%s	s-oscons.ads		s-oscons.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gnat.expect%s		g-expect.ads		1406b202 EE OL PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+W gnat.regpat%s		g-regpat.ads		g-regpat.ali
+W system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-calend.ads		20230727081304 f55c50a3 ada.calendar%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-expect.ads		20230727081304 e4246c0f gnat.expect%s
+D g-expect.adb		20230727081304 d74de338 gnat.expect%b
+D g-io.ads		20230727081304 9f0d3ab2 gnat.io%s
+D g-os_lib.ads		20230727081304 0db74523 gnat.os_lib%s
+D g-regpat.ads		20230727081304 b85d88ef gnat.regpat%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finmas.ads		20230727081304 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-memory.ads		20230727081304 5b8432d0 system.memory%s
+D s-oscons.ads		20231201205036 aeeec19a system.os_constants%s
+D s-os_lib.ads		20230727081304 a2467c22 system.os_lib%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-pooglo.ads		20230727081304 91708d21 system.pool_global%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-regpat.ads		20230727081304 3f91c1d3 system.regpat%s
+D s-retsta.ads		20230727081304 0f6b06cb system.return_stack%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stalib.adb		20230727081304 eb464a47 system.standard_library%b
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230727081304 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20230727081304 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20230727081304 f7dfd786 system.stream_attributes%s
+D s-string.ads		20230727081304 582aac7d system.strings%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20230727081304 15ac53fb system.win32%s
+G a e
+G c Z s b [non_blocking_spawn gnat__expect 163 14 none]
+G c Z s b [close gnat__expect 189 14 none]
+G c Z s b [close gnat__expect 195 14 none]
+G c Z s b [send_signal gnat__expect 201 14 none]
+G c Z s b [interrupt gnat__expect 207 14 none]
+G c Z s b [get_input_fd gnat__expect 211 13 none]
+G c Z s b [get_output_fd gnat__expect 215 13 none]
+G c Z s b [get_error_fd gnat__expect 219 13 none]
+G c Z s b [get_pid gnat__expect 223 13 none]
+G c Z s b [get_command_output gnat__expect 227 13 none]
+G c Z s b [add_filter gnat__expect 260 14 none]
+G c Z s b [remove_filter gnat__expect 271 14 none]
+G c Z s b [trace_filter gnat__expect 277 14 none]
+G c Z s b [lock_filters gnat__expect 285 14 none]
+G c Z s b [unlock_filters gnat__expect 290 14 none]
+G c Z s b [send gnat__expect 298 14 none]
+G c Z s b [Oadd gnat__expect 324 13 none]
+G c Z s b [expect gnat__expect 328 14 none]
+G c Z s b [expect gnat__expect 359 14 none]
+G c Z s b [expect gnat__expect 370 14 none]
+G c Z s b [expect gnat__expect 390 14 none]
+G c Z s b [Oadd gnat__expect 409 13 none]
+G c Z s b [expect gnat__expect 414 14 none]
+G c Z s b [expect gnat__expect 425 14 none]
+G c Z s b [expect gnat__expect 434 14 none]
+G c Z s b [expect gnat__expect 449 14 none]
+G c Z s b [free gnat__expect 471 14 none]
+G c Z s b [has_process gnat__expect 474 13 none]
+G c Z s b [first_dead_process gnat__expect 478 13 none]
+G c Z s b [expect gnat__expect 485 14 none]
+G c Z s b [expect gnat__expect 515 14 none]
+G c Z s b [flush gnat__expect 527 14 none]
+G c Z s b [expect_out gnat__expect 539 13 none]
+G c Z s b [expect_out_match gnat__expect 550 13 none]
+G c Z s b [set_up_communications gnat__expect 589 14 none]
+G c Z s b [set_up_parent_communications gnat__expect 598 14 none]
+G c Z s b [set_up_child_communications gnat__expect 605 14 none]
+G c Z s b [close_input gnat__expect 616 14 none]
+G c Z s s [portable_execvp gnat__expect 640 14 none]
+G c Z s s [process_descriptorDA gnat__expect 620 9 none]
+G c Z s s [process_descriptorDF gnat__expect 620 9 none]
+G c Z s s [process_descriptorIP gnat__expect 620 9 none]
+G c Z s s [regexp_arrayIP gnat__expect 403 9 none]
+G c Z s s [compiled_regexp_arrayIP gnat__expect 406 9 none]
+G c Z s s [multiprocess_regexpIP gnat__expect 463 9 none]
+G c Z s s [multiprocess_regexp_arrayIP gnat__expect 468 9 none]
+G c Z s s [filter_list_elemIP gnat__expect 577 9 none]
+G c Z s s [pipe_typeIP gnat__expect 584 9 none]
+G c Z b b [expect_internal gnat__expect 51 14 none]
+G c Z b b [reinitialize_buffer gnat__expect 71 14 none]
+G c Z b b [free gnat__expect 76 14 none]
+G c Z b b [free gnat__expect 79 14 none]
+G c Z b b [call_filters gnat__expect 82 14 none]
+G c Z b b [dup gnat__expect 93 13 none]
+G c Z b b [dup2 gnat__expect 96 14 none]
+G c Z b b [kill gnat__expect 99 14 none]
+G c Z b b [create_pipe gnat__expect 103 13 none]
+G c Z b b [poll gnat__expect 106 13 none]
+G c Z b b [waitpid gnat__expect 124 13 none]
+G c Z b b [array_of_pdIP gnat__expect 44 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|34r6 34r31 40r6 76r26 79r26 936r39
+X 2 a-calend.ads
+36K13*Calendar 413e17 14|34w10 34r35
+42I9*Time<226I9> 14|352r30
+56V13*Clock{42I9} 14|352s38 403s49
+103V14*"+"{42I9} 14|352s44
+112V14*"-"{duration} 14|403s47
+226I9 Time_Rep<long_long_integer>
+X 11 a-uncdea.ads
+20u15*Unchecked_Deallocation 14|40w10 76r30 79r30 936r43
+X 12 gnat.ads
+37K9*GNAT 60e9 13|123r6 124r6 126r9 166r21 212r47 216r47 220r47 229r20 324r37
+. 362r21 374r25 393r21 394r25 403r54 405r46 410r11 438r25 453r25 488r25 585r23
+. 622r26 622r57 623r26 623r57 624r26 624r57 629r26 651r5 14|36r6 36r24 37r6
+. 37r24 38r6 38r24 42r14 132r37 142r11 145r18 241r7 313r25 332r21 336r17
+. 345r21 346r25 435r17 457r17 469r17 479r25 503r25 561r25 863r54 949r20 1032r47
+. 1043r47 1054r47 1106r21 1391r25 1392r25 1393r25 1402r27 1403r27 1404r27
+. 1417r24 1418r24 1419r24 1520r7 1534r5
+X 13 g-expect.ads
+126K14*Expect 12|37k9 13|575E9 651l10 651e16 14|42b19 1534l10 1534t16
+128I9*Process_Id<integer> 129r27 130r27 224r47 621r34 641r30 14|99r26 124r28
+. 1065r47 1110r28
+129i4*Invalid_Pid{128I9} 621r48
+130i4*Null_Pid{128I9} 14|1145r27 1192r27
+132E9*Filter_Type 132e45 263r20 580r19 14|85r19 155r20 194r19
+132n25*Output{132E9} 263r35 14|155r35 823r69
+132n33*Input{132E9} 14|1322r38 1327r47
+132n40*Died{132E9}
+151R9*Process_Descriptor 157r45 164r25 189p14 189r41 195p14 196r27 201p14
+. 202r20 207p14 207r45 211p13 212r20 215p13 216r20 219p13 220r20 223p13 224r20
+. 248r22 260p14 261r27 271p14 272r27 278r20 285p14 285r48 290p14 290r50 298p14
+. 299r29 328p14 329r28 359p14 360r28 370p14 371r28 390p14 391r28 414p14 415r28
+. 425p14 426r28 434p14 435r28 449p14 450r28 527p14 528r27 539p13 539r38 550p13
+. 550r44 589p14 590r27 598p14 599r22 605p14 606r22 616p14 616r40 620c9 635e14
+. 14|72r27 83r19 153r27 192r19 218r27 263r41 273r40 295r28 310r28 330r28
+. 343r28 427r28 451r28 476r28 500r28 839r38 848r44 877r27 937r10 954r17 1032r20
+. 1043r20 1054r20 1065r20 1084r45 1094r48 1104r25 1218r27 1262r27 1288r29
+. 1338r20 1362r22 1431r27 1489r22 1513r20 1527r50
+157P9*Process_Descriptor_Access(151R9) 464r20 14|44r53 937r36
+163U14*Non_Blocking_Spawn 164<7 165>7 166>7 167>7 168>7 14|964s7 1103b14
+. 1211l8 1211t26
+164c7 Descriptor<151R9> 14|1104b7 1136m10 1140m7 1145r10 1178m13 1192r10
+. 1197m40 1202m7 1205m10 1210m7
+165a7 Command{string} 14|1105b7 1126r49
+166a7 Args{26|742A12} 14|1106b7 1120r38 1121r40 1153r19 1154r57 1155r23 1155r46
+. 1157r31
+167i7 Buffer_Size{natural} 14|966r10 1107b7 1202r33 1204r10 1205r58
+168b7 Err_To_Out{boolean} 14|965r39 1108b7 1136r22
+189U14*Close 189=21 14|263b14 267l8 267t13
+189r21 Descriptor{151R9} 14|263b21 266m14
+195U14*Close 196=7 197<7 14|217b14 261l8 261t13 266s7 1011s13
+196r7 Descriptor{151R9} 14|218b7 225r10 226r16 229m20 231r10 231r33 232r18
+. 234r17 237r10 238r17 241m25 241r25 242m7 244r25 252m7 256r10 257r29
+197i7 Status{integer} 14|219b7 257m10
+201U14*Send_Signal 202>7 203>7 14|1087s7 1337b14 1355l8 1355t19
+202r7 Descriptor{151R9} 14|1338b7 1349r10 1350r16
+203i7 Signal{integer} 14|1339b7 1350r32
+207U14*Interrupt 207=25 14|1084b14 1088l8 1088t17
+207r25 Descriptor{151R9} 14|1084b25 1087r20
+211V13*Get_Input_Fd{26|201I9} 212>7 14|1042b13 1047l8 1047t20
+212r7 Descriptor{151R9} 14|1043b7 1046r14
+215V13*Get_Output_Fd{26|201I9} 216>7 14|1053b13 1058l8 1058t21
+216r7 Descriptor{151R9} 14|1054b7 1057r14
+219V13*Get_Error_Fd{26|201I9} 220>7 14|1031b13 1036l8 1036t20
+220r7 Descriptor{151R9} 14|1032b7 1035r14
+223V13*Get_Pid{128I9} 224>7 14|1064b13 1069l8 1069t15
+224r7 Descriptor{151R9} 14|1065b7 1068r14
+227V13*Get_Command_Output{string} 228>7 229>7 230>7 231^7 232>7 14|947b13
+. 1025l8 1025t26
+228a7 Command{string} 14|948b7 965r19
+229a7 Arguments{26|742A12} 14|949b7 965r28
+230a7 Input{string} 14|950b7 968r10 969r25
+231p7 Status(integer) 14|951b7 1011r29
+232b7 Err_To_Out{boolean} 14|952b7 965r53
+246P9*Filter_Function 248>9 249>9 250>9 262r20 273r20 578r19 14|154r20 1263r20
+248c9 Descriptor<151R9>
+249a9 Str{string}
+250m9 User_Data{20|67M9}
+260U14*Add_Filter 261=7 262>7 263>7 264>7 265>7 14|152b14 185l8 185t18
+261r7 Descriptor{151R9} 14|153b7 159r32 168m13 180m10 183r47
+262p7 Filter{246P9} 14|154b7 170r27 175r26 182r25
+263e7 Filter_On{132E9} 14|155b7 170r48 175r47 182r46
+264m7 User_Data{20|67M9} 14|156b7 171r30 176r29 183r28
+265b7 After{boolean} 14|157b7 162r10
+271U14*Remove_Filter 272=7 273>7 14|1261b14 1281l8 1281t21
+272r7 Descriptor{151R9} 14|1262b7 1266r33 1272m16
+273p7 Filter{246P9} 14|1263b7 1270r30
+277U14*Trace_Filter 278>7 279>7 280>7 14|1512b14 1521l8 1521t20
+278c7 Descriptor<151R9> 14|1513b7 1517r29
+279a7 Str{string} 14|1514b7 1520r20
+280m7 User_Data{20|67M9} 14|1515b7 1518r29
+285U14*Lock_Filters 285=28 14|1094b14 1097l8 1097t20
+285r28 Descriptor{151R9} 14|1094b28 1096m7 1096r34
+290U14*Unlock_Filters 290=30 14|1527b14 1532l8 1532t22
+290r30 Descriptor{151R9} 14|1527b30 1529r10 1530m10 1530r37
+298U14*Send 299=7 300>7 301>7 302>7 14|969s10 1287b14 1331l8 1331t12
+299r7 Descriptor{151R9} 14|1288b7 1294m37 1294r37 1315m10 1315r39 1319m31
+. 1322r21 1324r16 1327r24 1329r19
+300a7 Str{string} 14|1289b7 1322r33 1324r37 1324r50 1324r61
+301b7 Add_LF{boolean} 14|1290b7 1326r10
+302b7 Empty_Buffer{boolean} 14|1291b7 1302r10
+317I9*Expect_Match<integer> 318r34 321r30 330r25 361r25 372r25 392r25 416r25
+. 427r25 436r25 451r25 486r25 516r25 14|46r37 47r37 53r25 296r25 311r25 331r25
+. 344r25 350r21 428r25 452r25 464r25 477r25 501r25 507r21 530r29 559r25 565r21
+. 596r29 630r25 825r38 975r19 1296r17
+318i4*Expect_Full_Buffer{317I9} 14|386r18 546r18 612r18 792r47
+321i4*Expect_Timeout{317I9} 14|387r18 406r26 547r18 613r18 717r29
+324V14*"+"{26|64P12} 324>18 14|132b14 135l9 135t11
+324a18 S{string} 14|132b18 134r26
+328U14*Expect 329=7 330<7 331>7 332>7 333>7 14|294b14 307l8 307t14 981s13
+329r7 Descriptor{151R9} 14|295b7 303m18 305m18
+330i7 Result{317I9} 14|296b7 303m30 305m30
+331a7 Regexp{string} 14|297b7 302r10 305r47
+332i7 Timeout{integer} 14|298b7 303r51 305r56 981r44
+333b7 Full_Buffer{boolean} 14|299b7 303r60 305r65
+359U14*Expect 360=7 361<7 362>7 363>7 364>7 14|303s10 305s10 329b14 340l8
+. 340t14
+360r7 Descriptor{151R9} 14|330b7 339m15
+361i7 Result{317I9} 14|331b7 339m27
+362r7 Regexp{30|383R9} 14|332b7 339r35
+363i7 Timeout{integer} 14|333b7 339r52
+364b7 Full_Buffer{boolean} 14|334b7 339r61
+370U14*Expect 371=7 372<7 373>7 374<7 375>7 376>7 14|309b14 327l8 327t14
+371r7 Descriptor{151R9} 14|310b7 321m13 324m13
+372i7 Result{317I9} 14|311b7 321m25 324m25
+373a7 Regexp{string} 14|312b7 319r10 324r42
+374a7 Matched{30|342A9} 14|313b7 318r22 321m46 324m51
+375i7 Timeout{integer} 14|314b7 321r55 324r60
+376b7 Full_Buffer{boolean} 14|315b7 321r64 325r13
+390U14*Expect 391=7 392<7 393>7 394<7 395>7 396>7 14|320s10 323s10 339s7
+. 342b14 424l8 424t14
+391r7 Descriptor{151R9} 14|343b7 351m37 351r37 357m28 367r21 367r45 369r13
+. 371m13 372m13 416r18 416r42 420m10 421m10
+392i7 Result{317I9} 14|344b7 370m13 389m16 406m16 419m10
+393r7 Regexp{30|383R9} 14|345b7 367r13 416r10
+394a7 Matched{30|342A9} 14|346b7 356r22 367m71 369r51 371r44 372r42 416m68
+. 418r10 420r41 421r39
+395i7 Timeout{integer} 14|347b7 352r56 353r32 402r13
+396b7 Full_Buffer{boolean} 14|348b7 378r56
+403A9*Regexp_Array(26|64P12)<integer> 417r21 437r21 14|429r21 478r21
+405P9*Pattern_Matcher_Access(30|383R9) 407r35 410r47 465r20 14|77r24 142r47
+406A9*Compiled_Regexp_Array(405P9)<integer> 428r21 452r21 14|433r18 453r21
+. 483r18 502r21
+409V14*"+"{405P9} 410>7 14|141b14 146l9 146t11
+410r7 P{30|383R9} 14|142b7 145r47
+414U14*Expect 415=7 416<7 417>7 418>7 419>7 14|426b14 448l8 448t14
+415r7 Descriptor{151R9} 14|427b7 443m15
+416i7 Result{317I9} 14|428b7 443m27
+417a7 Regexps{403A9} 14|429b7 433r41 439r16 440r56 445r16
+418i7 Timeout{integer} 14|430b7 443r54
+419b7 Full_Buffer{boolean} 14|431b7 443r63
+425U14*Expect 426=7 427<7 428>7 429>7 430>7 14|450b14 461l8 461t14
+426r7 Descriptor{151R9} 14|451b7 460m15
+427i7 Result{317I9} 14|452b7 460m27
+428a7 Regexps{406A9} 14|453b7 460r35
+429i7 Timeout{integer} 14|454b7 460r53
+430b7 Full_Buffer{boolean} 14|455b7 460r62
+434U14*Expect 435=7 436<7 437>7 438<7 439>7 440>7 14|475b14 497l8 497t14
+435r7 Descriptor{151R9} 14|476b7 492m15
+436i7 Result{317I9} 14|477b7 492m27
+437a7 Regexps{403A9} 14|478b7 483r41 488r16 489r56 494r16
+438a7 Matched{30|342A9} 14|479b7 486r22 492m45
+439i7 Timeout{integer} 14|480b7 492r54
+440b7 Full_Buffer{boolean} 14|481b7 492r63
+449U14*Expect 450=7 451<7 452>7 453<7 454>7 455>7 14|443s7 460s7 492s7 499b14
+. 556l8 556t14
+450r7 Descriptor{151R9} 14|500b7 508m37 508r37 513m28 522r13 526r19 526r43
+. 531m19 532m19
+451i7 Result{317I9} 14|501b7 530m19 549m16
+452a7 Regexps{406A9} 14|502b7 523r22 525r19
+453a7 Matched{30|342A9} 14|503b7 511r22 527m19 529r19 531r50 532r48
+454i7 Timeout{integer} 14|504b7 538r43
+455b7 Full_Buffer{boolean} 14|505b7 538r52
+463R9*Multiprocess_Regexp 466e14 469r35 471r36 14|935r36
+464p7*Descriptor{157P9} 14|572r41 575r46 588r37 591r35 592r43 597r31 598r31
+. 862r24 863r32 939m30
+465p7*Regexp{405P9} 14|587r28 590r35 940m20
+468A9*Multiprocess_Regexp_Array(463R9)<integer> 474r35 479r16 487r21 517r21
+. 14|465r21 560r21 859r16 1075r35
+471U14*Free 471=20 14|935b14 941l8 941t12
+471r20 Regexp{463R9} 14|935b20 939m23 939r23 940m13 940r13
+474V13*Has_Process{boolean} 474>26 14|1075b13 1078l8 1078t19
+474a26 Regexp{468A9} 14|1075b26 1077r14 1077r25
+478V13*First_Dead_Process{natural} 479>7 14|858b13 870l8 870t26
+479a7 Regexp{468A9} 14|859b7 861r16 862r13 863r21
+485U14*Expect 486<7 487>7 488<7 489>7 490>7 14|472s7 558b14 622l8 622t14
+486i7 Result{317I9} 14|559b7 596m19 615m16
+487a7 Regexps{468A9} 14|560b7 566r34 572r29 575r34 586r19 587r16 588r25 590r23
+. 591r23 592r31 597m19 597r19 598m19 598r19
+488a7 Matched{30|342A9} 14|561b7 569r22 593m23 595r19 597r62 598r60
+489i7 Timeout{integer} 14|562b7 604r43
+490b7 Full_Buffer{boolean} 14|563b7 604r52
+515U14*Expect 516<7 517>7 518>7 519>7 14|463b14 473l8 473t14
+516i7 Result{317I9} 14|464b7 472m15
+517a7 Regexps{468A9} 14|465b7 472r23
+518i7 Timeout{integer} 14|466b7 472r41
+519b7 Full_Buffer{boolean} 14|467b7 472r50
+527U14*Flush 528=7 529>7 14|876b14 929l8 929t13
+528r7 Descriptor{151R9} 14|877b7 889m7 889r36 890m28 896m18 896r18 918r30
+529i7 Timeout{integer} 14|878b7 898r18
+539V13*Expect_Out{string} 539>25 14|839b13 842l8 842t18 985s45
+539r25 Descriptor{151R9} 14|839b25 841r14 841r38
+550V13*Expect_Out_Match{string} 550>31 14|848b13 852l8 852t24
+550r31 Descriptor{151R9} 14|848b31 850r14 851r10 851r41
+565X4*Invalid_Process 14|259r16 1129r16 1193r16 1353r16
+569X4*Process_Died 14|384r22 544r22 610r22 907r22 922r28 1010r15 1312r19
+575R9 Filter_List_Elem 576r31 577c9 582e14 14|80r7 169r19 174r19 181r16
+576P9 Filter_List(575R9) 581r19 627r26 14|80r25 159r17 196r24 221r24 222r24
+. 1265r18 1266r18
+578p7*Filter{246P9} 14|170m17 175m16 182m15 204r31 1270r21
+579m7*User_Data{20|67M9} 14|171m17 176m16 183m15 205r44
+580e7*Filter_On{132E9} 14|170m35 175m34 182m33 203r31
+581p7*Next{576P9} 14|163r49 164r32 171m41 173m21 176m40 183m39 208r46 247r40
+. 1272r46 1274m25 1274r41 1279r29
+584R9 Pipe_Type 586e14 592r36 593r36 594r36 600r22 601r22 602r22 607r22 608r22
+. 609r22 14|103r49 1117r37 1363r22 1364r22 1365r22 1433r36 1434r36 1435r36
+. 1490r22 1491r22 1492r22
+585i7*Input{26|201I9} 14|1402r19 1448r23 1461r30 1462r32 1480r29 1481r32
+. 1500r20
+585i14*Output{26|201I9} 14|1403r19 1404r19 1449r23 1459r30 1460r32 1501r20
+. 1503r16 1503r32 1504r23
+589U14 Set_Up_Communications 590=7 591>7 592^7 593^7 594^7 14|1135R7 1430b14
+. 1482l8 1482t29
+590r7 Pid{151R9} 14|1431b7 1459m7 1461m7 1480m7
+591b7 Err_To_Out{boolean} 14|1432b7 1464r10
+592p7 Pipe1(584R9) 14|1433b7 1443r23 1448r17 1449r17 1459r24 1460r26
+593p7 Pipe2(584R9) 14|1434b7 1447r23 1461r24 1462r26 1468r23 1474r26
+594p7 Pipe3(584R9) 14|1435b7 1468r10 1473r26 1474r13 1480r23 1481r26
+598U14 Set_Up_Parent_Communications 599=7 600=7 601=7 602=7 14|1197R10 1488b14
+. 1506l8 1506t36
+599r7 Pid{151R9} 14|1489b7 1494r29
+600r7 Pipe1{584R9} 14|1490b7 1495r29 1500r14
+601r7 Pipe2{584R9} 14|1491b7 1496r29 1501r14 1503r26
+602r7 Pipe3{584R9} 14|1492b7 1497r29 1503r10 1504r17
+605U14 Set_Up_Child_Communications 606=7 607=7 608=7 609=7 610>7 611>7 14|1177R10
+. 1361b14 1424l8 1424t35
+606r7 Pid{151R9} 14|1362b7 1369r29 1406m24 1406r24
+607r7 Pipe1{584R9} 14|1363b7 1370r29 1402r13
+608r7 Pipe2{584R9} 14|1364b7 1371r29 1403r13
+609r7 Pipe3{584R9} 14|1365b7 1372r29 1404r13
+610a7 Cmd{string} 14|1366b7 1406r40
+611m7 Args{20|67M9} 14|1367b7 1406r57
+616U14 Close_Input 616=27 14|229s7 273b14 288l8 288t19 709R22 748R28 972s7
+616r27 Pid{151R9} 14|273b27 275r10 276r17 279r10 279r26 280m10 283r10 283r25
+. 284m10 287m7
+621i7*Pid{128I9} 14|225r21 226r27 256r21 257r40 1068r25 1140m18 1145r21 1192r21
+. 1349r21 1350r27 1406m28
+622i7*Input_Fd{26|201I9} 14|275r14 276r21 279r30 283r29 287m11 863r43 1046r25
+. 1324r27 1329r30 1459m11
+623i7*Output_Fd{26|201I9} 14|231r44 237r21 238r28 279r14 280m14 654r37 656r60
+. 739r55 896m29 918r41 1057r25 1461m11
+624i7*Error_Fd{26|201I9} 14|231r21 232r29 234r28 283r14 284m14 1035r25 1480m11
+625i7*Filters_Lock{integer} 14|199r14 1096m18 1096r45 1529r21 1530m21 1530r48
+627p7*Filters{576P9} 14|159r43 168m24 180m21 183r58 200r32 244r36 252m18
+. 1210m18 1266r44 1272m27
+629p7*Buffer{26|64P12} 14|241m36 367r32 416r29 522r24 526r30 591r46 758r73
+. 762m53 764r53 766r53 771r55 774m53 776r53 799r50 801r51 811r47 841r25 850r25
+. 1205m21 1223r47 1226m24 1231r27 1237r48 1240r21 1242r25
+630i7*Buffer_Size{natural} 14|242m18 660r32 664r60 727r56 756r47 786r52 800r58
+. 802r57 806r52 1202m18 1221r21
+631i7*Buffer_Index{natural} 14|367r56 369r24 416r53 526r54 592r54 770m53
+. 778m53 785r50 803r53 804r53 805m50 812r50 813r50 815m47 816r49 889r47 1228r34
+. 1232r63 1237m21 1241r29 1243r61 1245r24 1246m24 1247r26 1249m24 1315r50
+633i7*Last_Match_Start{natural} 14|371m24 420m21 531m30 597m42 851r21 1253m18
+634i7*Last_Match_End{natural} 14|372m24 421m21 532m30 598m42 841r49 851r52
+. 889m18 1228r60 1232r30 1241r55 1243r28 1245r50 1247r52 1254m18 1315m21
+640U14 Portable_Execvp 641^7 642>7 643>7 644b<c,__gnat_expect_portable_execvp>22
+. 14|1406s7
+641p7 Pid(128I9)
+642a7 Cmd{string}
+643m7 Args{20|67M9}
+X 14 g-expect.adb
+44A9 Array_Of_Pd(13|157P9)<integer> 52r28 351r21 508r21 566r21 629r28 1294r21
+46i4 Expect_Process_Died{13|317I9} 382r18 542r18 608r18 672r20 749r38 1310r29
+47i4 Expect_Internal_Error{13|317I9} 381r18 541r18 607r18 706r29 1309r22
+51U14 Expect_Internal 52=7 53<7 54>7 55>7 378s10 538s10 604s10 628b14 833l8
+. 833t23 1306s10
+52a7 Descriptors{44A9} 629b7 640r21 652r16 653r13 654r21 656r44 660r16 664r44
+. 709r35 727r40 739r39 748r41 756r31 758r57 762m37 762r37 764m37 764r37 766m37
+. 766r37 770m37 770r37 771r39 774m37 774r37 776r37 778m37 778r37 785r34 786r36
+. 799m34 799r34 800r42 801r35 802r41 803r37 804r37 805m34 805r34 806r36 811m31
+. 811r31 812r34 813r34 815m31 815r31 816r33 823r31
+53i7 Result{13|317I9} 630b7 672m10 706m19 717m19 749m28 792m37 825m28
+54i7 Timeout{integer} 631b7 696r45 1307r34
+55b7 Full_Buffer{boolean} 632b7 791r37 1307r48
+71U14 Reinitialize_Buffer 72=7 357s7 513s7 575s13 890s7 1217b14 1255l8 1255t27
+. 1319s10
+72c7 Descriptor<13|151R9> 1218b7 1221r10 1223r36 1226m13 1228r23 1228r49
+. 1231r16 1232r19 1232r52 1237m10 1237r37 1240m10 1240r10 1241r18 1241r44
+. 1242r14 1243r17 1243r50 1245r13 1245r39 1246m13 1247r15 1247r41 1249m13
+. 1253m7 1254m7
+76U14 Free[11|20] 446s10 495s10 940s7
+79U14 Free[11|20] 248s10
+82U14 Call_Filters 83>7 84>7 85>7 191b14 211l8 211t20 822s28 1322s7 1327s10
+83c7 Pid<13|151R9> 192b7 199r10 200r28 205r19
+84a7 Str{string} 193b7 205r24
+85e7 Filter_On{13|132E9} 194b7 203r43
+93V13 Dup{26|201I9} 93>18 94b<c,dup>22 1391s20 1392s20 1393s20
+93i18 Fd{26|201I9}
+96U14 Dup2 96>20 96>28 97b<c,dup2>22 1402s7 1403s7 1404s7 1417s10 1418s10
+. 1419s10
+96i20 Old_Fd{26|201I9}
+96i28 New_Fd{26|201I9}
+99U14 Kill 99>20 99>38 100b<c,__gnat_kill>22 226s10 1350s10
+99i20 Pid{13|128I9}
+99i38 Sig_Num{integer} 226r32
+103V13 Create_Pipe{integer} 103^26 104b<c,__gnat_pipe>22 1443s10 1447s10
+. 1473s13
+103p26 Pipe(13|584R9)
+106V13 Poll{integer} 107>7 108>7 109>7 110^7 111>7 112b<c,__gnat_expect_poll>22
+. 695s18 896s12
+107m7 Fds{20|67M9}
+108i7 Num_Fds{integer}
+109i7 Timeout{integer}
+110p7 Dead_Process(integer)
+111m7 Is_Set{20|67M9}
+124V13 Waitpid{integer} 124>22 125b<c,__gnat_waitpid>22 257s20
+124i22 Pid{13|128I9}
+159p7 Current{13|576P9} 163r16 163r41 164m13 164r24 167r13 173r13
+196p7 Current_Filter{13|576P9} 200m10 202r16 203r16 204r16 205r29 208m13
+. 208r31
+221p7 Current_Filter{13|576P9} 244m7 246r13 247r25 248m16 248r16 249m10
+222p7 Next_Filter{13|576P9} 247m10 249r28
+264i7 Status{integer} 266m26
+336a7 Matched{30|342A9} 337r29 339m43
+350i7 N{13|317I9} 378m40 380r15 389r26
+351a7 Descriptors{44A9} 378m27 378r27
+352i7 Try_Until{2|42I9} 403r37
+353i7 Timeout_Tmp{integer} 378r43 403m13 405r16
+433a7 Patterns{13|406A9} 440m10 443r35 446m16 446r16
+435a7 Matched{30|342A9} 436r29 443m45
+439i11 J{integer} 440r20 440r65
+445i11 J{integer} 446r26
+457a7 Matched{30|342A9} 458r29 460m44
+469a7 Matched{30|342A9} 470r29 472m32
+483a7 Patterns{13|406A9} 489m10 492r35 495m16 495r16
+488i11 J{integer} 489r20 489r65
+494i11 J{integer} 495r26
+507i7 N{13|317I9} 538m40 540r15 549r26
+508a7 Descriptors{44A9} 538m27 538r27
+523i17 J{integer} 525r28 530r43
+565i7 N{13|317I9} 604m40 606r15 615r26
+566a7 Descriptors{44A9} 571r16 572m10 574r13 604m27 604r27
+571i11 J{integer} 572r23 572r38 574r26 575r43
+586i14 J{integer} 587r25 588r34 590r32 591r32 592r40 596r43 597r28 598r28
+634i7 Num_Descriptors{integer} 694m16 698r26 701r18
+635i7 Buffer_Size{integer} 661m16 661r44 663m16 664r31 678r40 727m25 729r28
+. 730m28 740r55
+637i7 N{integer} 739m28 742r38 747r28 763r69 767r71 768r52 775r56 777r52
+. 778r69 785r65 800r72 802r37 806r66 813r65 814r46 816r64 823r65
+639A12 File_Descriptor_Array(26|201I9)<integer> 641r21
+641a7 Fds{639A12} 644r34 648r36 656m13 656r18 657r32 696m21 696r21 723r28
+642i7 Fds_Count{natural} 656r30 657r44 658m13 658r26 669r10 696r34
+644a7 Fds_To_Descriptor(integer) 657m13 725r30
+648A12 Integer_Array(integer)<integer> 649r24
+649a7 Is_Set{648A12} 696m64 696r64 724r25
+652i11 J{integer} 653r26 654r34 656r57 657r58 660r29 664r57
+678a10 Buffer{string} 740m39 740r39 768r39 777r39 814r33 823r52
+682i10 D{integer} 696m54 696r54 708r22 709r48 725m25 727r53 739r52 748r54
+. 756r44 758r70 762r50 764r50 766r50 770r50 771r52 774r50 776r50 778r50 785r47
+. 786r49 799r47 800r55 801r48 802r54 803r50 804r50 805r47 806r49 811r44 812r47
+. 813r47 815r44 816r46 823r44 825r52
+693i17 J{integer}
+723i23 F{integer} 724r33 725r49
+738i29 J{integer}
+758p34 Tmp{26|64P12} 761r37 763r56 764r66 765r39 767r40 767r58 769m43 769r43
+861i11 R{integer} 862r21 863r29 865r20
+880i7 Buffer_Size{integer} 884r46 919r30
+881i7 Num_Descriptors{integer} 895m10 902r15
+882i7 N{integer} 899m18 899r18 918m19 921r22 923r25
+883i7 Is_Set{integer} 900m18 900r18 917r19
+884a7 Buffer{string} 918m52 918r52
+936U17 Unchecked_Free[11|20] 939s7
+954r7 Process{13|151R9} 965m10 969m16 969r16 972m20 972r20 981m21 981r21
+. 985r57 1011m20 1011r20
+956p7 Output{26|64P12} 992r37 993r51 994r28 994r45 995m25 995r25 1000r30
+. 1005m16 1015m16 1015r16 1020r33 1022m16 1022r16
+960i7 Last{integer} 992r19 1003r25 1003r37 1004m16 1004r24 1014r10 1020r46
+975i10 Result{13|317I9} 981m30
+984p16 NOutput{26|64P12} 993m19 994r19 1000m19 1003r16 1005r26
+985a16 S{string} 986r31 992r26 993r65 1003r44 1003r57 1004r31
+1020a10 S{string} 1023r17
+1085N7 SIGINT 1087r32
+1110V16*Fork{13|128I9} 1111b<c,__gnat_expect_fork>25 1140s25
+1117r7 Pipe1{13|584R9} 1136m34 1136r34 1178m25 1178r25 1197m52 1197r52
+1117r14 Pipe2{13|584R9} 1136m48 1136r48 1178m32 1178r32 1197m59 1197r59
+1117r21 Pipe3{13|584R9} 1136m62 1136r62 1178m39 1178r39 1197m66 1197r66
+1119p7 Arg{26|64P12} 1148m10 1149r10 1150r10 1150r15 1151r35 1154m13 1155r13
+. 1156r13 1156r18 1157r46
+1120a7 Arg_List{26|71A12} 1151m10 1157m13 1160m10 1160r20 1164m31 1164r31
+. 1168r19 1170r19 1171r21 1183m19 1183r19
+1121a7 C_Arg_List(20|67M9) 1169m13 1179m13 1179r13
+1123p7 Command_With_Path{26|64P12} 1126m7 1128r10 1148r34 1149r20 1149r49
+. 1178r46 1188m13 1188r13
+1153i14 J{integer} 1154r63 1155r29 1155r52 1157r23
+1168i14 K{integer} 1169r25 1170r29 1171r31
+1183p14 A=1183:19{42|43P9} 1184r19
+1223p13 Tmp{26|64P12} 1230r16 1231r41 1233m22 1233r22
+1265p7 Previous{13|576P9} 1271r16 1274r16 1278m10
+1266p7 Current{13|576P9} 1269r13 1270r13 1272r38 1274r33 1278r22 1279m10
+. 1279r21
+1293a7 Line_Feed{string} 1327r36 1329r40
+1294a7 Descriptors{44A9} 1307m13 1307r13
+1296i7 Result{13|317I9} 1298r29 1307m26 1309r13 1310r20
+1297i7 Discard{natural} 1299r29 1323m7 1328m10
+1374i7 Input{26|201I9} 1391m10 1417r16 1420r17
+1375i7 Output{26|201I9} 1392m10 1418r16 1421r17
+1376i7 Error{26|201I9} 1393m10 1419r16 1422r17
+1378b7 No_Fork_On_Target{boolean} 1381r10 1413r10
+1437b7 Status{boolean} 1460m46 1462m45 1481m45
+X 15 g-io.ads
+41K14*IO 14|36w11 36r29 1520r12 15|91e12
+68U14*Put 14|1520s15
+X 16 g-os_lib.ads
+51K14*OS_Lib=51:36 13|123w11 166r26 212r52 216r52 220r52 229r25 324r42 403r59
+. 585r28 622r31 622r62 623r31 623r62 624r31 624r62 629r31 14|37w11 37r29
+. 132r42 241r12 863r59 949r25 1032r52 1043r52 1054r52 1106r26 1391r30 1392r30
+. 1393r30 1402r32 1403r32 1404r32 1417r29 1418r29 1419r29
+X 17 g-regpat.ads
+72K14*Regpat=72:36 13|124w11 362r26 374r30 393r26 394r30 405r51 410r16 438r30
+. 453r30 488r30 14|38w11 38r29 142r16 145r23 313r30 332r26 336r22 345r26
+. 346r30 435r22 457r22 469r22 479r30 503r30 561r30
+X 20 system.ads
+37K9*System 13|122w6 250r22 250r40 264r20 264r38 280r20 280r38 579r19 611r15
+. 643r14 14|32w6 32r31 33r6 33r31 107r22 111r22 156r20 156r38 1121r60 1172r21
+. 1367r15 1515r20 1515r38 20|192e11
+67M9*Address 13|250r29 264r27 280r27 579r26 611r22 643r21 14|107r29 111r29
+. 156r27 1121r67 1367r22 1515r27
+69m4*Null_Address{67M9} 13|250r47 264r45 280r45 14|156r45 1172r28 1515r45
+X 24 s-memory.ads
+51V13*Alloc{20|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{20|67M9} 103i<c,__gnat_realloc>22
+X 25 s-oscons.ads
+45K16*OS_Constants 14|33w13 33r38 25|405e24
+53n21*Windows{53E9} 14|1378r59
+54e4*Target_OS{53E9} 14|1378r47
+X 26 s-os_lib.ads
+64P12*String_Access{42|43P9} 13|324r49 403r66 629r38 14|132r49 758r40 956r16
+. 984r26 1119r20 1123r27 1223r19
+66V14*"="=67:22{boolean} 14|522r31 761r41 1128r28 1170r32 1230r20
+69U14*Free=69:62 14|241s19 769s37 995s19 1015s10 1022s10 1184s13 1188s7 1233s16
+71A12*String_List{42|52A9}<integer> 14|1120r20
+201I9*File_Descriptor<integer> 13|212r59 216r59 220r59 585r35 622r38 623r38
+. 624r38 14|93r23 93r47 96r37 640r48 1032r59 1043r59 1054r59 1374r16 1375r16
+. 1376r16
+204i4*Standin{201I9} 14|1391r37 1402r39 1417r36
+205i4*Standout{201I9} 14|1392r37 1403r39 1418r36
+206i4*Standerr{201I9} 14|1393r37 1404r39 1419r36
+209i4*Invalid_FD{201I9} 13|622r69 623r69 624r69 14|232r41 237r34 275r26 280r27
+. 284r26 287r23 654r50 863r66
+220U14*Close 14|234s10 238s10 276s10 1420s10 1421s10 1422s10 1448s10 1449s10
+. 1500s7 1501s7 1504s10
+497V13*Locate_Exec_On_Path{64P12} 14|1126s28
+599V13*Read{integer} 14|739s33 918s24
+625U14*Set_Close_On_Exec 14|1460s7 1462s7 1481s7
+669V13*Write{integer} 14|1324s9 1329s12
+742A12*Argument_List{71A12}<integer> 13|166r33 229r32 14|949r32 1106r33
+853U14*Normalize_Arguments 14|1164s10
+X 30 s-regpat.ads
+338i7*First{natural} 14|369r63 371r56 418r22 420r53 531r62 597r74
+339i7*Last{natural} 14|372r54 421r51 532r60 598r72
+342A9*Match_Array(337R9)<integer> 13|374r37 394r37 438r37 453r37 488r37 14|313r37
+. 336r29 346r37 435r29 457r29 469r29 479r37 503r37 561r37
+371r4*No_Match{337R9} 14|529r34 595r34
+383R9*Pattern_Matcher 13|362r33 393r33 405r58 410r23 14|77r7 142r23 145r30
+. 332r33 345r33 440r30 489r30 30|662e14
+386r4*Never_Match{383R9} 14|303r38 321r33
+389V13*Compile{383R9} 14|305s38 324s33 440s47 489s47
+592U14*Match 14|366s10 415s7 524s16 590s16
+X 36 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 42 s-string.ads
+43P9*String_Access(string)
+52A9*String_List(43P9)<integer>
+

@@ -1,0 +1,43 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.iterator_interfaces%s  a-iteint.ads	3fd02343 NE OL PU PK GE
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-iteint.ads		20230727081304 49a8bee2 ada.iterator_interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 2|21r9 40r5
+X 2 a-iteint.ads
+17+9 Cursor 18r42 27r41 30r18 30r33 36r44 39r18 39r33
+18V18 Has_Element{boolean} 18>31 19r25
+18*31 Position{17+9}
+21k13*Iterator_Interfaces 1|16k9 2|17z9 18z18 40l9 40e28
+24h9*Forward_Iterator 26p13 27r16 28p13 29r18 32r54
+26y13*First{17+9} 27>7
+27r7 Object{24R9}
+28y13*Next{17+9} 29>7 30>7
+29r7 Object{24R9}
+30*7 Position{17+9}
+32h9*Reversible_Iterator<24R9> 26p13 28p13 35p13 36r16 37p13 38r18
+35y13*Last{17+9} 36>7
+36r7 Object{32R9}
+37y13*Previous{17+9} 38>7 39>7
+38r7 Object{32R9}
+39*7 Position{17+9}
+

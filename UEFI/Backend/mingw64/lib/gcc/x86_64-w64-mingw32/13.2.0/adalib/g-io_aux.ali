@@ -1,0 +1,101 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_OBSOLESCENT_FEATURES
+
+U gnat.io_aux%b		g-io_aux.adb		36cd832f NE OL PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gnat%s		gnat.ads		gnat.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U gnat.io_aux%s		g-io_aux.ads		7bba9dca EE NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20230727081304 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-textio.ads		20230727081304 5c2c6153 ada.text_io%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20230727081304 b5988c27 gnat%s
+D g-io_aux.ads		20230727081304 920e70be gnat.io_aux%s
+D g-io_aux.adb		20230727081304 41fe781f gnat.io_aux%b
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-cstrea.ads		20230727081304 e53d8b8e interfaces.c_streams%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-crtl.ads		20230727081304 8a0692f8 system.crtl%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230727081304 dc5161d4 system.file_control_block%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20230727081304 d9032363 system.wch_con%s
+G a e
+G c Z s b [file_exists gnat__io_aux 42 13 none]
+G c Z s b [get_line gnat__io_aux 45 13 none]
+G c Z s b [get_line gnat__io_aux 51 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|38r6 51r30 13|70r7 91r30 96r7
+X 9 a-textio.ads
+58K13*Text_IO 787e16 12|38w10 51r34 13|70r11 91r34 96r11
+66P9*File_Type 12|51r42 13|91r42
+526U14*Get_Line 13|96s19
+537U14*Get_Line 13|70s19
+X 11 gnat.ads
+37K9*GNAT 60e9 12|40r9 54r5 13|34r14 82r26 105r5
+X 12 g-io_aux.ads
+40K14*IO_Aux 11|37k9 12|54l10 54e16 13|34b19 82r31 105l10 105t16
+42V13*File_Exists{boolean} 42>26 13|44b13 53l8 53t19
+42a26 Name{string} 13|44b26 46r38 50r21 50r37 51r16
+45V13*Get_Line{string} 13|61b13 82s38 84l8 84t16
+51V13*Get_Line{string} 51>23 13|91b13 101s26 103l8 103t16
+51p23 File{9|66P9} 13|91b23 96r29 101r36
+X 13 g-io_aux.adb
+36N4 Buflen 62r29 92r29
+46a7 Namestr{string} 50m7 51m7 52m27 52r27
+62a7 Buffer{string} 70m29 74r17 75r17 82r17
+67i7 Last{natural} 70m37 74r10 75r30
+92a7 Buffer{string} 96m35 98r17 99r17 101r17
+93i7 Last{natural} 96m43 98r10 99r30
+X 14 interfac.ads
+38K9*Interfaces 13|32r6 32r32 14|232e15
+X 15 i-cstrea.ads
+37K20*C_Streams 13|32w17 32r43 15|315e25
+42I12*int{17|51I12}
+212V13*file_exists{42I12} 13|52s14
+X 17 s-crtl.ads
+51I12*int{integer}
+

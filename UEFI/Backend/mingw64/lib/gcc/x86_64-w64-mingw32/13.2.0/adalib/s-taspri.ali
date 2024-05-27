@@ -1,0 +1,74 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+
+U system.task_primitives%s  s-taspri.ads	d39989e7 NE OL PR PK
+W system%s		system.ads		system.ali
+W system.os_interface%s	s-osinte.ads		s-osinte.ali
+W system.win32%s	s-win32.ads		s-win32.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20230727081304 f40c8db4 interfaces.c.strings%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-osinte.ads		20230727081304 97504df8 system.os_interface%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-taspri.ads		20230727081304 a1350802 system.task_primitives%s
+D s-win32.ads		20230727081304 15ac53fb system.win32%s
+G a e
+G c Z s s [lockIP system__task_primitives 69 9 none]
+G c Z s s [suspension_objectIP system__task_primitives 79 9 none]
+G c Z s s [private_dataIP system__task_primitives 96 9 none]
+X 4 i-c.ads
+68M9*unsigned_long
+84I9*ptrdiff_t<long_long_integer>
+X 6 system.ads
+37K9*System 192e11 11|34r6 35r6 37r9 60r28 70r32 75r35 77r25 89r19 115r5
+67M9*Address 11|60r35
+X 8 s-osinte.ads
+48K16*OS_Interface 375e24 11|34w13 70r39 77r32 89r26
+147R9*CRITICAL_SECTION 373e14 11|70r52 77r45 89r39
+X 11 s-taspri.ads
+37K16*Task_Primitives 6|37k9 11|69E9 115l12 115e27
+40R9*Lock 69c9 73e14
+43R9*RTS_Lock<8|147R9> 77c9 111r19
+48R9*Suspension_Object 79c9 94e14
+51P9*Task_Body_Access
+55R9*Private_Data 96c9 113e14
+60M12*Task_Address{6|67M9}
+61N4*Task_Address_Size
+64N4*Alternate_Stack_Size
+70r7*Mutex{8|147R9}
+71i7*Priority{integer}
+72i7*Owner_Priority{integer}
+75I9 Condition_Variable<12|55I9> 108r20
+80b7*State{boolean}
+86b7*Waiting{boolean}
+89r7*L{8|147R9}
+92i7*CV{12|55I9}
+97i7*Thread{12|55I9}
+105m7*Thread_Id{12|61M9}
+108i7*CV{75I9}
+111r7*L{43R9}
+X 12 s-win32.ads
+39K16*Win32 11|35w13 75r42 92r20 97r24 105r27 12|349e17
+55I9*HANDLE<4|84I9> 11|75r48 92r26 97r30
+61M9*DWORD<4|68M9> 11|105r33
+

@@ -1,0 +1,90 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.case_util%b	s-casuti.adb		b98923bf NE OL PK
+W system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U system.case_util%s	s-casuti.ads		3f4348b3 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-casuti.adb		20230727081304 769af4ea system.case_util%b
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+G a e
+G c Z s b [to_upper system__case_util 53 13 none]
+G c Z s b [to_upper system__case_util 68 14 none]
+G c Z s b [to_upper system__case_util 72 13 none]
+G c Z s b [to_lower system__case_util 80 13 none]
+G c Z s b [to_lower system__case_util 95 14 none]
+G c Z s b [to_lower system__case_util 99 13 none]
+G c Z s b [to_mixed system__case_util 107 14 none]
+G c Z s b [to_mixed system__case_util 118 13 none]
+X 1 system.ads
+37K9*System 192e11 2|48r9 133r5 3|40r14 148r5
+X 2 s-casuti.ads
+48K16*Case_Util 1|37k9 2|133l12 133e21 3|40b21 148l12 148t21
+53V13*To_Upper{character} 53>23 70s47 77s42 114s22 126s45 3|88s22 98s26 117b13
+. 129l8 129t16 134s19 137s50
+53e23 A{character} 56r60 58r21 64r38 3|117b23 118r50 121r10 127r17
+56i17 A_Val{natural} 59r28 60r28 62r53
+68U14*To_Upper 68=24 3|131b14 139l8 139t16 144s7
+68a24 A{string} 70r28 70r39 70r57 3|131b24 133r16 134m10 134r29 137r26 137r42
+. 137r60
+70i23 J{integer} 70r42 70r64
+72V13*To_Upper{string} 72>23 3|141b13 146l8 146t16
+72a23 A{string} 74r38 75r40 76r31 77r52 3|141b23 142r26
+76i26 J{integer} 77r37 77r55
+80V13*To_Lower{character} 80>23 97s47 104s42 116s22 128s45 3|47b13 59l8 59t16
+. 64s19 67s50 90s22 100s26
+80e23 A{character} 83r60 85r21 91r38 3|47b23 48r50 51r10 57r17
+83i17 A_Val{natural} 86r28 87r28 89r53
+95U14*To_Lower 95=24 3|61b14 69l8 69t16 74s7
+95a24 A{string} 97r28 97r39 97r57 3|61b24 63r16 64m10 64r29 67r26 67r42 67r60
+97i23 J{integer} 97r42 97r64
+99V13*To_Lower{string} 99>23 3|71b13 76l8 76t16
+99a23 A{string} 101r38 102r40 103r31 104r52 3|71b23 72r26
+103i26 J{integer} 104r37 104r55
+107U14*To_Mixed 107=24 3|82b14 104l8 104t16 109s7
+107a24 A{string} 110r22 111r19 112r22 114r14 114r32 116r14 116r32 3|82b24
+. 86r16 88m13 88r32 90m13 90r32 94r26 95r23 96r26 98r18 98r36 100r18 100r36
+. 102r19
+110i17 J{integer} 111r15 112r29 114r17 114r39 116r17 116r39
+118V13*To_Mixed{string} 118>23 3|106b13 111l8 111t16
+118a23 A{string} 120r38 121r40 122r31 123r28 124r31 126r55 128r55 3|106b23
+. 107r26
+122i26 J{integer} 123r24 124r34 126r40 126r58 128r40 128r58
+X 3 s-casuti.adb
+48i7 A_Val{natural} 52r17 53r17 55r32
+63i11 J{integer} 64r13 64r32 67r37
+67i21 K{integer} 67r45 67r74
+72a7 Result{string} 74m17 74r17 75r14
+83b7 Ucase{boolean} 87r13 102m10
+86i11 J{integer} 88r16 88r35 90r16 90r35 94r37 102r22
+94i21 K{integer} 95r19 96r40 98r21 98r50 100r21 100r50
+107a7 Result{string} 109m17 109r17 110r14
+118i7 A_Val{natural} 122r17 123r17 125r32
+133i11 J{integer} 134r13 134r32 137r37
+137i21 K{integer} 137r45 137r74
+142a7 Result{string} 144m17 144r17 145r14
+

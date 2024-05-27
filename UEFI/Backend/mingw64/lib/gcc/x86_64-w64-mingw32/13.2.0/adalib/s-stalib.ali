@@ -1,0 +1,111 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+
+U system.standard_library%b  s-stalib.adb	7320ff5f NE OL PK
+W system%s		system.ads		system.ali
+W system.memory%s	s-memory.adb		s-memory.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U system.standard_library%s  s-stalib.ads	e25e387f BN NE OL PR PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-memory.ads		20230727081304 5b8432d0 system.memory%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stalib.adb		20230727081304 eb464a47 system.standard_library%b
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s s [to_ptr system__standard_library 70 13 none]
+G c Z s s [exception_dataIP system__standard_library 97 9 none]
+G c Z s b [abort_undefer_direct system__standard_library 251 14 none]
+G c Z s b [adafinal system__standard_library 256 14 none]
+G c Z b b [break_start system__standard_library 87 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|47r6 71r10
+X 3 a-unccon.ads
+20v14*Unchecked_Conversion 10|47w10 71r14
+X 4 system.ads
+37K9*System 192e11 10|49r9 71r36 113r27 122r30 260r5 11|41r6 49r6 56r14 68r7
+. 79r10 99r5
+67M9*Address 10|71r43 113r34 122r37
+69m4*Null_Address{67M9} 10|155r32 164r32 173r32 182r32 191r32 200r32
+X 5 s-memory.ads
+43K16*Memory 105e18 11|49w13
+51V13*Alloc{4|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{4|67M9} 103i<c,__gnat_realloc>22
+X 8 s-soflin.ads
+45K16*Soft_Links 414e22 11|41w13 68r14 79r17
+62P9*No_Param_Proc
+176p4*Abort_Undefer{62P9} 11|68r25
+231p4*Adafinal{62P9} 11|79r28
+X 10 s-stalib.ads
+49K16*Standard_Library 4|37k9 10|260l12 260e28 11|56b21 99l12 99t28
+56A12*Big_String{string}<integer> 57r36 63r38
+63P9*Big_String_Ptr(56A12) 64r8 71r52
+70V13*To_Ptr[3|20]{63P9}
+77P9*Raise_Action 78r28 126r28
+81R9*Exception_Data 82r42 97c9 132e14 149r35 158r32 167r32 176r32 185r32
+. 194r31
+82P9*Exception_Data_Ptr(81R9) 117r28
+97R9*Exception_Data
+98b7*Not_Handled_By_Others{boolean} 150m7 159m7 168m7 177m7 186m7 195m7
+105e7*Lang{character} 151m7 160m7 169m7 178m7 187m7 196m7
+110i7*Name_Length{natural} 152m7 161m7 170m7 179m7 188m7 197m7
+113m7*Full_Name{4|67M9} 153m7 162m7 171m7 180m7 189m7 198m7
+117p7*HTable_Ptr{82P9} 154m7 163m7 172m7 181m7 190m7 199m7
+122m7*Foreign_Data{4|67M9} 155m7 164m7 173m7 182m7 191m7 200m7
+126p7*Raise_Hook{77P9} 156m7 165m7 174m7 183m7 192m7 201m7
+139a4*Constraint_Error_Name{string} 152r32 153r32
+140a4*Program_Error_Name{string} 170r32 171r32
+141a4*Storage_Error_Name{string} 179r32 180r32
+142a4*Tasking_Error_Name{string} 188r32 189r32
+143a4*Abort_Signal_Name{string} 197r32 198r32
+145a4*Numeric_Error_Name{string} 161r32 162r32
+149r4*Constraint_Error_Def{97R9} 203m22 203r22
+158r4*Numeric_Error_Def{97R9} 204m22 204r22
+167r4*Program_Error_Def{97R9} 205m22 205r22
+176r4*Storage_Error_Def{97R9} 206m22 206r22
+185r4*Tasking_Error_Def{97R9} 207m22 207r22
+194r4*Abort_Signal_Def{97R9} 208m22 208r22
+210i4*Local_Partition_ID{natural}
+215E9*Exception_Trace_Kind 239e7 243r22
+216n7*RM_Convention{215E9} 243r46
+221n7*Every_Raise{215E9}
+226n7*Unhandled_Raise{215E9}
+231n7*Unhandled_Raise_In_Main{215E9}
+243e4*Exception_Trace{215E9} 244r19
+251U14*Abort_Undefer_Direct 252r19 11|66b14 69l8 69t28
+256U14*Adafinal 11|75b14 81l8 81t16
+X 11 s-stalib.adb
+58b4 Runtime_Finalized{boolean} 77r14 78m10
+87U14 Break_Start 88i<c,__gnat_break_start>22 94b14 97l8 97t19
+

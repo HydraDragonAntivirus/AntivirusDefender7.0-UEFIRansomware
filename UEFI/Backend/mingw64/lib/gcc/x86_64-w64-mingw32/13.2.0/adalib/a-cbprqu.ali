@@ -1,0 +1,181 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV PURE_BARRIERS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV STATIC_PRIORITIES
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_PROTECTED_ENTRIES=2
+
+U ada.containers.bounded_priority_queues%b  a-cbprqu.adb  50cccc55 NE OL PK GE
+W ada.containers%s	a-contai.ads		a-contai.ali
+
+U ada.containers.bounded_priority_queues%s  a-cbprqu.ads  9c43ca0d BN NE OL PR PK GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.bounded_doubly_linked_lists%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+Z ada.containers.stable_sorting%s  a-costso.adb	a-costso.ali
+W ada.containers.synchronized_queue_interfaces%s
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+N A57:4 codepeer skip_analysis
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-contai.ads		20230727081304 61e5e089 ada.containers%s
+D a-cbdlli.ads		20230727081304 a2da74bd ada.containers.bounded_doubly_linked_lists%s
+D a-cbdlli.adb		20230727081304 b648595d ada.containers.bounded_doubly_linked_lists%b
+D a-cbprqu.ads		20230727081304 235d44b2 ada.containers.bounded_priority_queues%s
+D a-cbprqu.adb		20230727081304 739188e7 ada.containers.bounded_priority_queues%b
+D a-conhel.ads		20230727081304 46fe1ce3 ada.containers.helpers%s
+D a-conhel.adb		20230727081304 854d323e ada.containers.helpers%b
+D a-costso.ads		20230727081304 937a171b ada.containers.stable_sorting%s
+D a-costso.adb		20230727081304 682d4dd0 ada.containers.stable_sorting%b
+D a-csquin.ads		20230727081304 8c71856d ada.containers.synchronized_queue_interfaces%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-iteint.ads		20230727081304 49a8bee2 ada.iterator_interfaces%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atocou.ads		20230727081304 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [bounded_priority_queues ada__containers 54 24 none]
+X 1 ada.ads
+16K9*Ada 20e8 5|36r6 37r6 41r10 54r9 139r5 6|30r14 222r5
+X 2 a-contai.ads
+16K13*Containers 1|16k9 2|28e19 5|36r10 37r10 41r14 54r13 139r9 6|30r18 222r9
+22I9*Count_Type<integer> 5|51r23 66r34 85r49 87r53 101r34 103r23 109r18 131r46
+. 133r43 6|103r18 149r49 158r53 171r35 215r32
+X 3 a-cbdlli.ads
+42+9 Element_Type 5|97r10
+44V19 "="{boolean} 5|98r11
+47k24*Bounded_Doubly_Linked_Lists 411e47 5|37w21 96r33
+54R9 List 5|102r34[96]
+64R9 Cursor 6|100r25[5|96]
+72V13 Has_Element{boolean} 6|107s16[5|96] 120s17[5|96]
+79V13 Length{2|22I9} 6|124s34[5|96] 151s32[5|96]
+85V13 Element{11|35+9[5|40]} 6|112s41[5|96]
+127U14 Insert 6|113s31[5|96]
+156U14 Append 6|121s28[5|96]
+165U14 Delete_First 6|46s25[5|96]
+208V13 First{64R9[5|96]} 6|106s30[5|96]
+210V13 First_Element{11|35+9[5|40]} 6|45s36[5|96] 80s57[5|96] 142s32[5|96]
+218U14 Next 6|117s13[5|96]
+X 4 a-cbdlli.adb
+883V22 Next{2|22I9} 9|61i24
+885U23 Set_Next 9|62i25[5|96]
+887U23 Set_Prev 9|63i25[5|96]
+889V23 "<"{boolean} 9|64i25
+891U23 Update_Container 9|66i25[5|96]
+X 5 a-cbprqu.ads
+40K17 Queue_Interfaces[11|37] 46r17 70r21 74r24 79r28 83r35 97r26 98r26 113r11
+. 115r44 117r47 128r28 6|42r24 52r28 96r21 136r35 180r36 193r28 204r33
+43+9 Queue_Priority 46r55 49r21 78r21 127r21 6|51r21 98r23 192r21
+45V18 Get_Priority{43+9} 46>7 6|80s28 98s41 112s27
+46*7 Element{11|35+9[40]}
+48V18 Before{boolean} 49>7 49>13 6|79s20 112s16
+49*7 Left{43+9}
+49*13 Right{43+9}
+51i4 Default_Capacity{2|22I9} 109r32
+52i4 Default_Ceiling{22|100I12} 110r41
+54k24*Bounded_Priority_Queues 2|16k13 5|40z17 43z9 45z18 48z18 51z4 52z4
+. 139l20 139e43 6|30b29 222l20 222t43
+60K12*Implementation 96E15 106l8 106e22 136r14 6|34b17 163l8 163t22
+66R12 List_Type 66d23 68p17 69r28 72p17 73r27 76p17 77r28 82p16 83r17 85p16
+. 85r31 87p16 87r35 101c12 104e17 136r29 6|41r27 50r28 95r28 136r17 149r31
+. 158r35
+66i23 Capacity{2|22I9} 101r23 102r40
+68U17 Enqueue 69=10 70>10 6|94b17 129l11 129t18 208s15
+69r10 List{66R12} 6|95b10 106r15 113m16 113r16 121m13 121r13 124r19 126r21
+. 127m13
+70*10 New_Item{11|35+9[40]} 6|96b10 98r55 113r42 121r36
+72U17 Dequeue 73=10 74<10 6|40b17 47l11 47t18 86s15 184s15
+73r10 List{66R12} 6|41b10 45r21 46m10 46r10
+74*10 Element{11|35+9[40]} 6|42b10 45m10
+76U17 Dequeue 77=10 78>10 79=10 80<10 6|49b17 88l11 88t18 197s15
+77r10 List{66R12} 6|50b10 78r13 80r42 86m10 86r10
+78*10 At_Least{43+9} 6|51b10 79r28
+79*10 Element{11|35+9[40]} 6|52b10 86m24
+80b10 Success{boolean} 6|53b10 82m13 87m10
+82V16 First_Element{11|35+9[40]} 83>10 6|135b16 143l11 143t24
+83r10 List{66R12} 6|136b10 142r17
+85V16 Length{2|22I9} 85>24 6|78s18 149b16 152l11 152t17 173s22 181s19 205s19
+85r24 List{66R12} 6|149b24 151r17
+87V16 Max_Length{2|22I9} 87>28 6|158b16 161l11 161t21 217s22
+87r28 List{66R12} 6|158b28 160r17
+96K15 List_Types[3|47] 102r23 6|100r14 101r14
+102r10 Container{3|54R9[96]} 6|45r26 46m15 80r47 106r20 113m21 121m18 124r24
+. 142r22 151r22
+103i10 Max_Length{2|22I9} 6|126r26 127m18 160r22
+108W19*Queue 109d7 110d7 136E7 137l8 137e13 6|165b19 220l8 220t13
+109i7 Capacity{2|22I9} 136r40 6|205r28
+110i7 Ceiling{22|100I12} 112r18
+115Y24 Enqueue 115>33 6|204b13 209l11 209t18
+115*33 New_Item{11|35+9[40]} 6|208r24
+117Y24 Dequeue 117<33 6|180b13 185l11 185t18
+117*33 Element{11|35+9[40]} 6|184m24
+126U17 Dequeue_Only_High_Priority 127>10 128=10 129<10 6|191b17 198l11 198t37
+127*10 At_Least{43+9} 6|192b10 197r24
+128*10 Element{11|35+9[40]} 6|193b10 197m34
+129b10 Success{boolean} 6|194b10 197m43
+131V27 Current_Use{2|22I9}<11|52p13> 6|171b16 174l11 174t22
+133V27 Peak_Use{2|22I9}<11|54p13> 6|215b16 218l11 218t19
+136r7 List{66R12} 6|173r17 181r14 184m10 184r10 197m10 197r10 205r14 208m10
+. 208r10 217r17
+X 6 a-cbprqu.adb
+98*10 P{5|43+9} 112r24
+100r10 C{3|64R9[5|96]} 106m10 107r29 112r50 113r39 117m19 117r19 120r30
+103i10 Count{2|22I9} 124m10 126r13 127r32
+180*22 Element{11|35+9[5|40]}
+204*22 New_Item{11|35+9[5|40]}
+X 11 a-csquin.ads
+35+9 Element_Type 5|46r34[40] 70r38[40] 74r41[40] 79r45[40] 83r52[40] 97r43[40]
+. 115r61[40] 117r64[40] 128r45[40] 6|42r41[5|40] 52r45[5|40] 96r38[5|40]
+. 136r52[5|40] 180r53[5|40] 193r45[5|40] 204r50[5|40]
+37k24*Synchronized_Queue_Interfaces 5|36w21 41r25 11|56e49
+40h9 Queue 5|113r28[40]
+X 14 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[3|74]>
+X 22 system.ads
+37K9*System 5|34w6 52r23 52r46 110r18 22|192e11
+100I12*Any_Priority{integer} 5|52r30 110r25
+101I12*Priority{100I12} 5|52r53
+

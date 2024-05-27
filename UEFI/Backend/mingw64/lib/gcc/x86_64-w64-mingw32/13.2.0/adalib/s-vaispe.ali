@@ -1,0 +1,49 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_ELABORATION_CODE
+
+U system.value_i_spec%b	s-vaispe.adb		3b07e06d OL
+W system%s		system.ads		system.ali
+
+U system.value_i_spec%s	s-vaispe.ads		48959107 BN EE OL PR
+W system%s		system.ads		system.ali
+W system.val_util%s	s-valuti.adb		s-valuti.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuti.adb		20230727081304 a525408f system.val_util%b
+D s-vaispe.ads		20230727081304 44130d39 system.value_i_spec%s
+D s-vaispe.adb		20230727081304 7f14ed54 system.value_i_spec%b
+G a e
+G c Z s b [value_i_spec system 62 16 none]
+X 4 system.ads
+37K9*System 192e11 11|47r6 47r27 58r35 62r9 177r30 199r5 12|38r14 87r5
+X 9 s-valuti.ads
+47K16*Val_Util 675e20 11|47w13 47r34 58r42 177r37
+381M12 Uns 11|59r7
+492k12*Uns_Params 597e18 11|58r51
+603I12 Int 11|179r7
+604M12 Uns 11|178r7
+627k12*Int_Params 645e18 11|177r46
+

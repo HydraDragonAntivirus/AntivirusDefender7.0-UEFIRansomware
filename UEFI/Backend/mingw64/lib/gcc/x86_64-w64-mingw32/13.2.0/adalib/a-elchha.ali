@@ -1,0 +1,105 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_OBSOLESCENT_FEATURES
+
+U ada.exceptions.last_chance_handler%b  a-elchha.adb  0740df23 NE OL PR SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U ada.exceptions.last_chance_handler%s  a-elchha.ads  6dc27684 NE OL SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-elchha.ads		20230727081304 47bffbf4 ada.exceptions.last_chance_handler%s
+D a-elchha.adb		20230727081304 831da31f ada.exceptions.last_chance_handler%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [last_chance_handler ada__exceptions 34 26 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|34r11 4|37r11 161r5
+X 2 a-except.ads
+44K13*Exceptions 295e19 3|34r15 4|37r15 161r9
+48P9*Exception_Id<11|82P9>
+53R9*Exception_Occurrence 267e14 3|35r14 4|38r13 46r11 50r14 57r14
+237p7*Id{48P9} 4|115r25 128r25 128r52
+262i7*Num_Tracebacks{integer} 4|124r17
+X 3 a-elchha.ads
+34U26*Last_Chance_Handler 2|44k13 3|35>4 37i<c,__gnat_last_chance_handler>16
+. 39r19 4|37b26 161l20 161t39
+35r4 Except{2|53R9} 4|38b4 115r18 124r10 128r18 128r45 130r36 132r41 157r53
+X 4 a-elchha.adb
+40U14*Unhandled_Terminate 41r22 42b<c,__gnat_unhandled_terminate>22 160s4
+45V13*Exception_Message_Length{natural} 46>7 47b<ada,__gnat_exception_msg_len>24
+. 130s10
+46r7 X{2|53R9}
+49U14*Append_Info_Exception_Message 50>7 51=7 52=7 54b<ada,__gnat_append_info_e_msg>12
+. 132s10
+50r7 X{2|53R9}
+51a7 Info{string}
+52i7 Ptr{natural}
+56U14*Append_Info_Untailored_Exception_Information 57>7 58=7 59=7 61b<ada,__gnat_append_info_u_e_info>12
+. 157s7
+57r7 X{2|53R9}
+58a7 Info{string}
+59i7 Ptr{natural}
+64U14*To_Stderr 64>25 65b<ada,__gnat_to_stderr>24 116s7 117s7 118s7 125s7
+. 126s7 127s7 131s10 135s7 140s7 143s10 149s13 150s13 151s13 155s7
+64a25 S{string}
+68m4*Gnat_Argv{6|67M9} 69m22 69r22 142r10
+71U14*Fill_Arg 71>24 71>44 72b<c,__gnat_fill_arg>22 148s13
+71m24 A{6|67M9}
+71i44 Arg_Num{integer}
+74V13*Len_Arg{integer} 74>22 75b<c,__gnat_len_arg>22 146s40
+74i22 Arg_Num{integer}
+77i4 Ptr{natural} 132m56 132r56 157m68 157r68
+78a4 Nobuf{string} 132m49 132r49 157m61 157r61
+80a4 Nline{string} 116r18 118r18 125r18 135r18 140r18 155r18
+145q10 declare 152e13
+146a13 Arg{string} 148m23 148r23 150r24
+X 6 system.ads
+37K9*System 4|34r6 34r35 35r6 35r29 68r16 71r28 89r4 90r6 104r4 142r22 6|192e11
+67M9*Address 4|68r23 71r35
+69m4*Null_Address{67M9} 4|142r29
+81V14*"="{boolean} 4|142r20
+X 9 s-soflin.ads
+45K16*Soft_Links 4|35w13 89m11 90r13 9|414e22
+71P9*EO_Param_Proc
+165U14*Task_Termination_NT 4|90r24
+223p4*Task_Termination_Handler{71P9} 4|89m22
+X 11 s-stalib.ads
+49K16*Standard_Library 4|34w13 34r42 104r11 11|260e28
+56A12*Big_String{string}<integer>
+63P9*Big_String_Ptr(56A12)
+70V13*To_Ptr[5|20]{63P9} 4|115s10 128s10
+82P9*Exception_Data_Ptr(81R9)
+110i7*Name_Length{natural} 4|128r55
+113m7*Full_Name{6|67M9} 4|115r28 128r28
+216n7*RM_Convention{215E9} 4|108r26
+243e4*Exception_Trace{215E9} 4|108r7
+256U14*Adafinal 4|104s28
+

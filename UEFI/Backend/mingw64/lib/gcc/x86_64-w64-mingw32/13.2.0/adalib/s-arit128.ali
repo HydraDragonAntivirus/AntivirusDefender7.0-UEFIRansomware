@@ -1,0 +1,232 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+
+U system.arith_128%b	s-arit128.adb		61c91d9a NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+Z ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.arith_double%s
+W system.spark%s	s-spark.ads		s-spark.ali
+Z system.spark.cut_operations%s  s-spcuop.adb	s-spcuop.ali
+
+U system.arith_128%s	s-arit128.ads		b72382a5 NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20230727081304 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-arit128.ads		20230727081304 239a85f5 system.arith_128%s
+D s-arit128.adb		20230727081304 85b07cb4 system.arith_128%b
+D s-aridou.ads		20230727081304 c7e3e4db system.arith_double%s
+D s-aridou.adb		20230727081304 928dacba system.arith_double%b
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-spark.ads		20230727081304 53f1c39d system.spark%s
+D s-spcuop.ads		20230727081304 1531da29 system.spark.cut_operations%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s s [to_big_integer system__arith_128__signed_conversion 106 16 65_4]
+G c Z s s [from_big_integer system__arith_128__signed_conversion 110 16 65_4]
+G c Z s s [big system__arith_128 69 13 none]
+G c Z s s [in_int128_range system__arith_128 73 13 none]
+G c Z s b [add_with_ovflo_check128 system__arith_128 78 13 none]
+G c Z s b [subtract_with_ovflo_check128 system__arith_128 85 13 none]
+G c Z s b [multiply_with_ovflo_check128 system__arith_128 92 13 none]
+G c Z s s [same_sign system__arith_128 101 13 none]
+G c Z s s [round_quotient system__arith_128 107 13 none]
+G c Z s b [scaled_divide128 system__arith_128 117 14 none]
+G c Z s b [double_divide128 system__arith_128 143 14 none]
+G c Z b b [to_big_integer system__arith_128__impl__signed_conversion 106 16 75_4_43_4]
+G c Z b b [from_big_integer system__arith_128__impl__signed_conversion 110 16 75_4_43_4]
+G c Z b b [big system__arith_128__impl 78 13 43_4]
+G c Z b b [to_big_integer system__arith_128__impl__unsigned_conversion 123 16 82_4_43_4]
+G c Z b b [from_big_integer system__arith_128__impl__unsigned_conversion 127 16 82_4_43_4]
+G c Z b b [big system__arith_128__impl 85 13 43_4]
+G c Z b b [in_double_int_range system__arith_128__impl 89 13 43_4]
+G c Z b b [add_with_ovflo_check system__arith_128__impl 93 13 43_4]
+G c Z b b [subtract_with_ovflo_check system__arith_128__impl 100 13 43_4]
+G c Z b b [multiply_with_ovflo_check system__arith_128__impl 107 13 43_4]
+G c Z b b [same_sign system__arith_128__impl 116 13 43_4]
+G c Z b b [round_quotient system__arith_128__impl 122 13 43_4]
+G c Z b b [scaled_divide system__arith_128__impl 132 14 43_4]
+G c Z b b [double_divide system__arith_128__impl 158 14 43_4]
+G c Z b b [to_uns system__arith_128__impl 53 13 43_4]
+G c Z b b [to_int system__arith_128__impl 54 13 43_4]
+G c Z b b [Oadd system__arith_128__impl 96 13 43_4]
+G c Z b b [Oadd system__arith_128__impl 98 13 43_4]
+G c Z b b [Omultiply system__arith_128__impl 102 13 43_4]
+G c Z b b [Odivide system__arith_128__impl 106 13 43_4]
+G c Z b b [Oconcat system__arith_128__impl 112 13 43_4]
+G c Z b b [Oabs system__arith_128__impl 116 13 43_4]
+G c Z b b [Orem system__arith_128__impl 123 13 43_4]
+G c Z b b [big_2xx system__arith_128__impl 129 13 43_4]
+G c Z b b [big3 system__arith_128__impl 137 13 43_4]
+G c Z b b [big3 system__arith_128__impl 144 13 43_4]
+G c Z b b [le3 system__arith_128__impl 151 13 43_4]
+G c Z b b [lo system__arith_128__impl 156 13 43_4]
+G c Z b b [hi system__arith_128__impl 160 13 43_4]
+G c Z b b [sub3 system__arith_128__impl 164 14 43_4]
+G c Z b b [to_neg_int system__arith_128__impl 170 13 43_4]
+G c Z b b [to_pos_int system__arith_128__impl 180 13 43_4]
+G c Z b b [raise_error system__arith_128__impl 189 14 43_4]
+G c Z b b [inline_le3 system__arith_128__impl 197 14 43_4]
+G c Z b b [lemma_abs_commutation system__arith_128__impl 203 14 43_4]
+G c Z b b [lemma_abs_div_commutation system__arith_128__impl 208 14 43_4]
+G c Z b b [lemma_abs_mult_commutation system__arith_128__impl 214 14 43_4]
+G c Z b b [lemma_abs_range system__arith_128__impl 219 14 43_4]
+G c Z b b [lemma_abs_rem_commutation system__arith_128__impl 226 14 43_4]
+G c Z b b [lemma_add_commutation system__arith_128__impl 232 14 43_4]
+G c Z b b [lemma_add_one system__arith_128__impl 238 14 43_4]
+G c Z b b [lemma_big_of_double_uns system__arith_128__impl 244 14 43_4]
+G c Z b b [lemma_big_of_double_uns_of_single_uns system__arith_128__impl 249 14 43_4]
+G c Z b b [lemma_bounded_powers_of_2_increasing system__arith_128__impl 255 14 43_4]
+G c Z b b [lemma_concat_definition system__arith_128__impl 261 14 43_4]
+G c Z b b [lemma_deep_mult_commutation system__arith_128__impl 267 14 43_4]
+G c Z b b [lemma_div_commutation system__arith_128__impl 276 14 43_4]
+G c Z b b [lemma_div_definition system__arith_128__impl 282 14 43_4]
+G c Z b b [lemma_div_ge system__arith_128__impl 292 14 43_4]
+G c Z b b [lemma_div_lt system__arith_128__impl 298 14 43_4]
+G c Z b b [lemma_div_eq system__arith_128__impl 304 14 43_4]
+G c Z b b [lemma_double_big_2xxsingle system__arith_128__impl 310 14 43_4]
+G c Z b b [lemma_double_shift system__arith_128__impl 315 14 43_4]
+G c Z b b [lemma_double_shift system__arith_128__impl 323 14 43_4]
+G c Z b b [lemma_double_shift system__arith_128__impl 329 14 43_4]
+G c Z b b [lemma_double_shift_left system__arith_128__impl 335 14 43_4]
+G c Z b b [lemma_double_shift_left system__arith_128__impl 343 14 43_4]
+G c Z b b [lemma_double_shift_right system__arith_128__impl 349 14 43_4]
+G c Z b b [lemma_double_shift_right system__arith_128__impl 357 14 43_4]
+G c Z b b [lemma_ge_commutation system__arith_128__impl 363 14 43_4]
+G c Z b b [lemma_ge_mult system__arith_128__impl 369 14 43_4]
+G c Z b b [lemma_gt_commutation system__arith_128__impl 375 14 43_4]
+G c Z b b [lemma_gt_mult system__arith_128__impl 381 14 43_4]
+G c Z b b [lemma_hi_lo system__arith_128__impl 387 14 43_4]
+G c Z b b [lemma_hi_lo_3 system__arith_128__impl 394 14 43_4]
+G c Z b b [lemma_lo_is_ident system__arith_128__impl 400 14 43_4]
+G c Z b b [lemma_lt_commutation system__arith_128__impl 406 14 43_4]
+G c Z b b [lemma_lt_mult system__arith_128__impl 412 14 43_4]
+G c Z b b [lemma_mult_commutation system__arith_128__impl 418 14 43_4]
+G c Z b b [lemma_mult_commutation system__arith_128__impl 425 14 43_4]
+G c Z b b [lemma_mult_commutation system__arith_128__impl 431 14 43_4]
+G c Z b b [lemma_mult_decomposition system__arith_128__impl 437 14 43_4]
+G c Z b b [lemma_mult_distribution system__arith_128__impl 454 14 43_4]
+G c Z b b [lemma_mult_div system__arith_128__impl 459 14 43_4]
+G c Z b b [lemma_mult_non_negative system__arith_128__impl 465 14 43_4]
+G c Z b b [lemma_mult_non_positive system__arith_128__impl 472 14 43_4]
+G c Z b b [lemma_mult_positive system__arith_128__impl 479 14 43_4]
+G c Z b b [lemma_neg_div system__arith_128__impl 486 14 43_4]
+G c Z b b [lemma_neg_rem system__arith_128__impl 492 14 43_4]
+G c Z b b [lemma_not_in_range_big2xx64 system__arith_128__impl 498 14 43_4]
+G c Z b b [lemma_powers system__arith_128__impl 503 14 43_4]
+G c Z b b [lemma_powers_of_2 system__arith_128__impl 509 14 43_4]
+G c Z b b [lemma_powers_of_2_commutation system__arith_128__impl 519 14 43_4]
+G c Z b b [lemma_powers_of_2_increasing system__arith_128__impl 527 14 43_4]
+G c Z b b [lemma_rem_abs system__arith_128__impl 534 14 43_4]
+G c Z b b [lemma_rem_commutation system__arith_128__impl 541 14 43_4]
+G c Z b b [lemma_rem_is_ident system__arith_128__impl 547 14 43_4]
+G c Z b b [lemma_rem_sign system__arith_128__impl 554 14 43_4]
+G c Z b b [lemma_rev_div_definition system__arith_128__impl 561 14 43_4]
+G c Z b b [lemma_shift_left system__arith_128__impl 567 14 43_4]
+G c Z b b [lemma_shift_right system__arith_128__impl 574 14 43_4]
+G c Z b b [lemma_shift_without_drop system__arith_128__impl 580 14 43_4]
+G c Z b b [lemma_simplify system__arith_128__impl 592 14 43_4]
+G c Z b b [lemma_substitution system__arith_128__impl 598 14 43_4]
+G c Z b b [lemma_subtract_commutation system__arith_128__impl 604 14 43_4]
+G c Z b b [lemma_subtract_double_uns system__arith_128__impl 610 14 43_4]
+G c Z b b [lemma_word_commutation system__arith_128__impl 616 14 43_4]
+X 1 ada.ads
+16K9*Ada 20e8 11|50r6 56r13 62r6 66r6 74r7
+X 4 a-numeri.ads
+16K13*Numerics 35e17 11|50r10 56r17 62r10 66r10 74r11
+X 5 a-nubinu.ads
+16K22*Big_Numbers 21e29 11|50r19 56r26 62r19 66r19 74r20
+X 9 interfac.ads
+38K9*Interfaces 232e15 11|51w6 57r13 59r22 12|38r22 39r22 41r8
+64I9*Integer_128<long_long_long_integer> 11|57r24 59r33
+83M9*Unsigned_64 12|39r33
+87M9*Unsigned_128 12|38r33
+165V13*Shift_Left{83M9} 13|52i18
+190V13*Shift_Left{87M9} 13|46i18
+195V13*Shift_Right{87M9} 13|49i18
+X 10 system.ads
+37K9*System 192e11 11|53r9 170r5 12|32r6 34r14 66r5
+X 11 s-arit128.ads
+53K16*Arith_128 10|37k9 11|170l12 170e21 12|34b21 66l12 66t21
+59I12*Int128{9|64I9} 67r14 69r24 75r19 75r39 78r45 78r60 85r50 85r65 92r50
+. 92r65 102r16 103r26 104r27 104r52 108r32 108r52 109r43 110r23 118r17 119r21
+. 144r17 145r21 12|43r38 45r45 45r60 48r50 48r65 51r50 51r65 55r17 56r21
+. 61r17 62r21
+78V13*Add_With_Ovflo_Check128{59I12} 78>38 78>41 81r14 12|45b13
+78i38 X{59I12} 80r36 81r47 12|45b38
+78i41 Y{59I12} 80r46 81r51 12|45b41
+85V13*Subtract_With_Ovflo_Check128{59I12} 85>43 85>46 88r14 12|48b13
+85i43 X{59I12} 87r36 88r52 12|48b43
+85i46 Y{59I12} 87r46 88r56 12|48b46
+92V13*Multiply_With_Ovflo_Check128{59I12} 92>43 92>46 95r14 96i<c,__gnat_mulv128>22
+. 12|51b13
+92i43 X{59I12} 94r36 95r52 12|51b43
+92i46 Y{59I12} 94r46 95r56 12|51b46
+117U14*Scaled_Divide128 118>7 118>10 118>13 119<7 119<10 120>7 12|54b14
+118i7 X{59I12} 124r46 125r46 126r46 127r21 128r29 131r44 132r44 134r28 12|55b7
+118i10 Y{59I12} 124r56 125r56 126r56 127r31 128r39 131r54 132r54 134r38 12|55b10
+118i13 Z{59I12} 122r14 124r65 125r66 126r68 127r41 128r51 131r63 132r64 134r48
+. 12|55b13
+119i7 Q{59I12} 131r18 134r18 12|56b7
+119i10 R{59I12} 128r19 132r73 12|56b10
+120b7 Round{boolean} 124r14 130r14 12|57b7
+143U14*Double_Divide128 144>7 144>10 144>13 145<7 145<10 146>7 12|60b14
+144i7 X{59I12} 151r46 152r46 153r46 154r21 155r29 158r44 159r44 161r28 12|61b7
+144i10 Y{59I12} 148r14 151r55 152r57 153r59 154r32 155r42 158r53 159r55 161r39
+. 12|61b10
+144i13 Z{59I12} 149r17 151r65 152r67 153r69 154r42 155r52 158r63 159r65 161r49
+. 12|61b13
+145i7 Q{59I12} 158r18 161r18 12|62b7
+145i10 R{59I12} 155r19 159r75 12|62b10
+146b7 Round{boolean} 151r14 157r14 12|63b7
+X 12 s-arit128.adb
+38M12 Uns128{9|87M9} 43r46
+39M12 Uns64{9|83M9} 43r54
+43K12 Impl[13|55] 46r14 49r14 52r14 58r14 64r14
+X 13 s-aridou.ads
+55k16*Arith_Double 12|32w13 43r24 13|185e24
+93V13*Add_With_Ovflo_Check{9|64I9} 12|46r19[43]
+100V13*Subtract_With_Ovflo_Check{9|64I9} 12|49r19[43]
+107V13*Multiply_With_Ovflo_Check{9|64I9} 12|52r19[43]
+132U14*Scaled_Divide 12|58r19[43]
+158U14*Double_Divide 12|64r19[43]
+

@@ -1,0 +1,164 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U ada.strings.text_buffers%b  a-sttebu.adb	a201b8c5 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.utf_encoding%s  a-stuten.adb	a-stuten.ali
+W ada.strings.utf_encoding.strings%s  a-suenst.adb  a-suenst.ali
+W ada.strings.utf_encoding.wide_strings%s  a-suewst.adb  a-suewst.ali
+W ada.strings.utf_encoding.wide_wide_strings%s  a-suezst.adb  a-suezst.ali
+
+U ada.strings.text_buffers%s  a-sttebu.ads	a7cfd09b BN EE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.utf_encoding%s  a-stuten.adb	a-stuten.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-sttebu.adb		20230727081304 acea8fa8 ada.strings.text_buffers%b
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-suenst.ads		20230727081304 7e912418 ada.strings.utf_encoding.strings%s
+D a-suewst.ads		20230727081304 90b69721 ada.strings.utf_encoding.wide_strings%s
+D a-suezst.ads		20230727081304 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s s [root_buffer_typePartial_DIC ada__strings__text_buffers 26 9 none]
+G c Z s s [root_buffer_typeDIC ada__strings__text_buffers 26 9 none]
+G c Z s b [current_indent ada__strings__text_buffers 49 13 none]
+G c Z s b [increase_indent ada__strings__text_buffers 52 14 none]
+G c Z s b [decrease_indent ada__strings__text_buffers 58 14 none]
+G c Z s b [set_trim_leading_spaces ada__strings__text_buffers 67 14 none]
+G c Z s b [trim_leading_spaces ada__strings__text_buffers 73 13 none]
+G c Z s s [root_buffer_typeDF ada__strings__text_buffers 79 9 none]
+G c Z s s [root_buffer_typeIP ada__strings__text_buffers 79 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 4|16r6 17r9 152r5 5|32r6 33r6 34r6 36r14 138r5
+X 3 a-string.ads
+16K13*Strings 1|16k9 3|35e16 4|16r10 17r13 152r9 5|32r10 33r10 34r10 36r18
+. 138r9
+X 4 a-sttebu.ads
+17K21*Text_Buffers 3|16k13 4|79E9 152l17 152e29 5|36b26 138l17 138t29
+21I9*Text_Buffer_Count<integer> 23r30 47r31 50r41 54r23 60r23 5|38r41 39r7
+. 43r23 51r23
+23i4*New_Line_Count{21I9}
+26H9*Root_Buffer_Type 29p14 29r35 31p14 32r23 34p14 35r23 37p14 38r23 41p14
+. 42r23 45p14 45r40 49p13 50r16 52p14 53r23 58p14 59r23 67p14 68r23 73p13
+. 74r16 79c9 104e14 129r26 132r40 5|38r16 42r23 50r23 58r23 65r16
+29x14*Put 29=19 29>53
+29r19 Buffer{26R9}
+29a53 Item{string}
+31x14*Wide_Put 32=7 32>41
+32r7 Buffer{26R9}
+32a41 Item{wide_string}
+34x14*Wide_Wide_Put 35=7 35>41
+35r7 Buffer{26R9}
+35a41 Item{wide_wide_string}
+37x14*Put_UTF_8 38=7 39>7
+38r7 Buffer{26R9}
+39a7 Item{6|59A12}
+41x14*Wide_Put_UTF_16 42=7 43>7
+42r7 Buffer{26R9}
+43a7 Item{6|62A12}
+45x14*New_Line 45=24
+45r24 Buffer{26R9}
+47i4*Standard_Indent{21I9} 54r44 60r44 5|43r44 51r44
+49V13*Current_Indent{21I9} 27s36 50>7 55s21 56s7 61s20 63s28 64s21 65s7 5|37b13
+50r7 Buffer{26R9} 5|39r26
+52U14*Increase_Indent 53=7 54>7 5|41b14 47l8 47t23
+53r7 Buffer{26R9} 55r37 56r23 5|42b7 46m7
+54i7 Amount{21I9} 56r37 5|43b7 46r42
+58U14*Decrease_Indent 59=7 60>7 5|49b14 55l8 55t23
+59r7 Buffer{26R9} 61r36 63r44 64r37 65r23 5|50b7 54m7
+60i7 Amount{21I9} 61r47 63r54 65r37 5|51b7 54r42
+67U14*Set_Trim_Leading_Spaces 68=7 69>7 5|57b14 62l8 62t31
+68r7 Buffer{26R9} 70r38 5|58b7 61m7
+69b7 Trim{boolean} 70r48 5|59b7 61r43
+73V13*Trim_Leading_Spaces{boolean} 70s17 74>7 5|64b13 68l8 68t27
+74r7 Buffer{26R9} 5|65b7 67r14
+80i7*Indentation{natural} 5|39r33 46m14 46r14 54m14 54r14 111r23 113r40
+83b7*Indent_Pending{boolean} 5|107r20 110m20 129m17 131m17
+86i7*UTF_8_Length{natural}
+89i7*UTF_8_Column{positive} 5|132m17
+93b7*All_7_Bits{boolean}
+95b7*All_8_Bits{boolean} 5|81m17 92m17
+98b7*Trim_Leading_White_Spaces{boolean} 5|61m14 67r21 108r32 133m17
+128U22 Put_UTF_8_Implementation 129=10 130>10 5|112s16 117s10
+129c10 Buffer<26R9>
+130a10 Item{6|59A12}
+131k12 Output_Mapping 128z22 150l8 150e22 5|70b17 136l8 136t22
+132H12*Buffer_Type<26R9> 49p13 52p14 58p14 67p14 73p13 132e73 134P28 134r49
+. 136P28 137r26 139P28 140r26 142P28 143r26 146P28 147r26 149P28 149r54 5|74r38
+. 79r43 89r26 100r26 121r26 127r43
+134U28*Put<29p14> 134=33 134>62 5|74b17 77l11 77t14 130s10
+134r33 Buffer{132R12} 5|74b22 76m21
+134a62 Item{string} 5|74b51 76r58
+136U28*Wide_Put<31p14> 137=10 137>39 5|79b17 86l11 86t19
+137r10 Buffer{132R12} 5|79b27 81m10 85m21
+137a39 Item{wide_string} 5|79b56 83r30 85r63
+139U28*Wide_Wide_Put<34p14> 140=10 140>39 5|88b17 97l11 97t24 124s10
+140r10 Buffer{132R12} 5|89b10 92m10 96m21
+140a39 Item{wide_wide_string} 5|89b39 94r31 96r68
+142U28*Put_UTF_8<37p14> 143=10 144>10 5|76s10 85s10 96s10 99b17 118l11 118t20
+143r10 Buffer{132R12} 5|100b10 107r13 108r25 110m13 111r16 113m19 113r33
+. 117m36
+144a10 Item{6|59A12} 5|101b10 103r13 117r44
+146U28*Wide_Put_UTF_16<41p14> 147=10 147>39 5|120b17 125l11 125t26
+147r10 Buffer{132R12} 5|121b10 124m25
+147a39 Item{6|62A12} 5|121b39 124r72
+149U28*New_Line<45p14> 149=38 5|127b17 134l11 134t19
+149r38 Buffer{132R12} 5|127b27 129m10 130m15 131m10 132m10 133m10
+X 5 a-sttebu.adb
+83e21 WChar{wide_character} 83r58
+94e21 WWChar{wide_wide_character} 94r64
+X 6 a-stuten.ads
+42K21*UTF_Encoding 4|16w18 39r23 43r23 130r26 144r26 147r46 5|32r18 33r18
+. 34r18 76r29 85r29 96r29 101r26 121r46 124r33 6|144e29
+59A12*UTF_8_String{string}<integer> 4|39r36 130r39 144r39 5|101r39
+62A12*UTF_16_Wide_String{wide_string}<integer> 4|43r36 147r59 5|121r59
+X 7 a-suenst.ads
+20K34*Strings 5|32w31 76r42 7|65e37
+35V13*Encode{6|59A12} 5|76s50
+X 8 a-suewst.ads
+20K34*Wide_Strings 5|33w31 85r42 8|67e42
+38V13*Encode{6|59A12} 5|85s55
+X 9 a-suezst.ads
+21K34*Wide_Wide_Strings 5|34w31 96r42 124r46 9|64e47
+35V13*Encode{6|59A12} 5|96s60
+60V13*Decode{wide_wide_string} 5|124s64
+

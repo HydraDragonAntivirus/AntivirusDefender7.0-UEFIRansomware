@@ -1,0 +1,96 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.image_u%b	s-imageu.adb		9dd18d00 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+
+U system.image_u%s	s-imageu.ads		6f9af2ee BN NE OL PK GE
+W system%s		system.ads		system.ali
+W system.val_util%s	s-valuti.adb		s-valuti.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20230727081304 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-imageu.ads		20230727081304 631c6ed0 system.image_u%s
+D s-imageu.adb		20230727081304 8fd3e2a4 system.image_u%b
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+G a e
+G c Z s b [image_u system 62 16 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|32r6 33r5
+X 4 a-numeri.ads
+16K13*Numerics 35e17 14|32r10 33r9
+X 5 a-nubinu.ads
+16K22*Big_Numbers 21e29 14|32r19 33r18
+X 9 system.ads
+37K9*System 192e11 13|48r6 58r35 62r9 102r5 14|35r14 153r21 390r5
+X 13 s-imageu.ads
+52M9 Uns 59r14 66r11 81r11 14|47r68 49r24 52r49 59r12 72r34 78r44 98r34 99r44
+. 127r27 128r27 137r11 193r11 198r19 204r20 209r42 217r52 222r17 226r51 236r27
+. 247r27 248r22 275r42 276r52 277r51 285r27 337r37 367r42
+56i4 Unsigned_Width_Ghost{natural} 72r27 89r31 14|92r14 126r22 128r50 129r22
+. 329r51
+62k16*Image_U 9|37k9 13|52z9 56z4 58z17 102l12 102e19 14|35b21 390l12 390t19
+65U14*Image_Unsigned 66>7 67=7 68<7 75r19 14|136b14 186l8 186t22
+66*7 V{52M9} 74r65 14|137b7 152r39 155r68 174r39 175r57 183r27
+67a7 S{string} 70r14 71r17 72r17 73r19 74r53 14|138b7 141r22 146r16 147r20
+. 148r30 149r20 150r51 151r56 153r55 154r50 155r56 164r35 167r25 171r13 181m7
+. 183m30
+68i7 P{natural} 73r14 74r61 14|139b7 148r20 150r71 151r76 153r61 154r58 155r64
+. 164r43 169r66 171r38 173r71 182m7 183m33
+80U14*Set_Image_Unsigned 81>7 82=7 83=7 14|183s7 192b14 388l8 388t26
+81*7 V{52M9} 95r36 14|193b7 198r26 323r32 331r52 339r27 341r16 344r45 349r32
+. 365r43 374r52 382r41 384r41
+82a7 S{string} 86r17 87r17 88r17 88r28 89r22 90r14 90r17 90r37 90r44 91r35
+. 92r48 94r11 14|194b7 203r39 205r30 312r27 312r52 354r20 356m10 362r56 365r13
+. 369r26 369r42 372r16 377r24
+83i7 P{natural} 85r14 87r28 89r17 90r28 90r55 91r17 91r22 92r59 92r76 94r22
+. 94r39 14|195b7 312r22 312r48 313r22 356r13 362r59 365r46 365r53 369r37
+. 372r27 372r40 378r24 379r24 387m7 387r12
+X 14 s-imageu.adb
+197i7 Nb_Digits{natural} 323r46 326m10 326r23 329r33 330r49 339r43 347r29
+. 349r47 365r57 372r44 373r50 379r28 384r57 387r16
+198*7 Value{13|52M9} 322r33 325m10 325r19 331r38 332r44 334r20 336r26 341m7
+. 344r22 348r33 350r31 351r40 353r24 356r44 357m10 357r19 361r21 365r24 367r33
+. 374r38 381r24 384r27 385r22
+244i22 I{integer} 244r51
+245i31 I{integer} 245r60 245r68
+261i22 I{integer} 261r42
+347i11 J{integer} 349r59 356r17 362r63 365r50 372r31 373r62 378r28
+369i21 K{integer} 369r45 369r58
+X 18 s-valuti.ads
+47K16*Val_Util 13|48w13 58r42 14|153r28 18|675e20
+381M12 Uns 13|59r7
+492k12*Uns_Params 13|58r51 18|597e18
+

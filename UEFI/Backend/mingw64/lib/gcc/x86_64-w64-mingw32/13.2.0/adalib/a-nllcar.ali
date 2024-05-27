@@ -1,0 +1,418 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U ada.numerics.long_long_complex_arrays%b  a-nllcar.ads  3b23743c NE OL PU PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.generic_complex_arrays%s
+Z ada.numerics.generic_complex_types%s
+Z ada.numerics.generic_real_arrays%s
+W ada.numerics.long_long_complex_types%s  a-nllcty.ads  a-nllcty.ali
+W ada.numerics.long_long_real_arrays%s  a-nllrar.ads  a-nllrar.ali
+W system%s		system.ads		system.ali
+Z system.exn_llf%s	s-exnllf.ads		s-exnllf.ali
+Z system.fat_llf%s	s-fatllf.ads		s-fatllf.ali
+Z system.generic_array_operations%s  s-gearop.adb  s-gearop.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U ada.numerics.long_long_complex_arrays%s  a-nllcar.ads  73a0481a EB NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.generic_complex_arrays%s
+Z ada.numerics.generic_complex_types%s
+Z ada.numerics.generic_real_arrays%s
+W ada.numerics.long_long_complex_types%s  a-nllcty.ads  a-nllcty.ali
+W ada.numerics.long_long_real_arrays%s  a-nllrar.ads  a-nllrar.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-ngcoar.ads		20230727081304 2168fecb ada.numerics.generic_complex_arrays%s
+D a-ngcoar.adb		20230727081304 8b9495a7 ada.numerics.generic_complex_arrays%b
+D a-ngcoty.ads		20230727081304 e7845fd0 ada.numerics.generic_complex_types%s
+D a-ngrear.ads		20230727081304 86992c51 ada.numerics.generic_real_arrays%s
+D a-nllcar.ads		20230727081304 3b23743c ada.numerics.long_long_complex_arrays%s
+D a-nllcar.ads		20230727081304 3b23743c ada.numerics.long_long_complex_arrays%b
+D a-nllcty.ads		20230727081304 dc2913b4 ada.numerics.long_long_complex_types%s
+D a-nllrar.ads		20230727081304 317c76fa ada.numerics.long_long_real_arrays%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-exnllf.ads		20230727081304 17d83e5b system.exn_llf%s
+D s-exponr.ads		20230727081304 2127300b system.exponr%s
+D s-fatgen.ads		20230727081304 d28c6cfe system.fat_gen%s
+D s-fatllf.ads		20230727081304 4d5c1475 system.fat_llf%s
+D s-gearop.ads		20230727081304 f52852c9 system.generic_array_operations%s
+D s-gearop.adb		20230727081304 27a5f8c9 system.generic_array_operations%b
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s s [re ada__numerics__long_long_complex_arrays 35 13 20_1]
+G c Z s s [im ada__numerics__long_long_complex_arrays 36 13 20_1]
+G c Z s s [set_re ada__numerics__long_long_complex_arrays 38 14 20_1]
+G c Z s s [set_im ada__numerics__long_long_complex_arrays 39 14 20_1]
+G c Z s s [compose_from_cartesian ada__numerics__long_long_complex_arrays 41 13 20_1]
+G c Z s s [compose_from_cartesian ada__numerics__long_long_complex_arrays 43 13 20_1]
+G c Z s s [modulus ada__numerics__long_long_complex_arrays 46 13 20_1]
+G c Z s s [argument ada__numerics__long_long_complex_arrays 48 13 20_1]
+G c Z s s [argument ada__numerics__long_long_complex_arrays 50 13 20_1]
+G c Z s s [compose_from_polar ada__numerics__long_long_complex_arrays 54 13 20_1]
+G c Z s s [compose_from_polar ada__numerics__long_long_complex_arrays 57 13 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays 63 13 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays 64 13 20_1]
+G c Z s s [conjugate ada__numerics__long_long_complex_arrays 65 13 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays 66 13 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays 67 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 68 13 20_1]
+G c Z s s [Oabs ada__numerics__long_long_complex_arrays 69 13 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays 73 13 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays 77 13 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays 81 13 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays 85 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 89 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 90 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 94 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 98 13 20_1]
+G c Z s s [Odivide ada__numerics__long_long_complex_arrays 102 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 106 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 110 13 20_1]
+G c Z s s [Odivide ada__numerics__long_long_complex_arrays 114 13 20_1]
+G c Z s s [unit_vector ada__numerics__long_long_complex_arrays 120 13 20_1]
+G c Z s s [re ada__numerics__long_long_complex_arrays 129 13 20_1]
+G c Z s s [im ada__numerics__long_long_complex_arrays 130 13 20_1]
+G c Z s s [set_re ada__numerics__long_long_complex_arrays 132 14 20_1]
+G c Z s s [set_im ada__numerics__long_long_complex_arrays 133 14 20_1]
+G c Z s s [compose_from_cartesian ada__numerics__long_long_complex_arrays 135 13 20_1]
+G c Z s s [compose_from_cartesian ada__numerics__long_long_complex_arrays 137 13 20_1]
+G c Z s s [modulus ada__numerics__long_long_complex_arrays 140 13 20_1]
+G c Z s s [argument ada__numerics__long_long_complex_arrays 143 13 20_1]
+G c Z s s [argument ada__numerics__long_long_complex_arrays 145 13 20_1]
+G c Z s s [compose_from_polar ada__numerics__long_long_complex_arrays 149 13 20_1]
+G c Z s s [compose_from_polar ada__numerics__long_long_complex_arrays 152 13 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays 159 13 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays 160 13 20_1]
+G c Z s s [conjugate ada__numerics__long_long_complex_arrays 162 13 20_1]
+G c Z s s [transpose ada__numerics__long_long_complex_arrays 163 13 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays 165 13 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays 166 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 167 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 168 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 170 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 174 13 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays 180 13 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays 184 13 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays 188 13 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays 192 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 196 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 200 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 204 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 208 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 212 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 216 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 220 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 224 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 230 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 234 13 20_1]
+G c Z s s [Odivide ada__numerics__long_long_complex_arrays 238 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 242 13 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays 246 13 20_1]
+G c Z s s [Odivide ada__numerics__long_long_complex_arrays 250 13 20_1]
+G c Z s s [solve ada__numerics__long_long_complex_arrays 256 13 20_1]
+G c Z s s [solve ada__numerics__long_long_complex_arrays 260 13 20_1]
+G c Z s s [inverse ada__numerics__long_long_complex_arrays 262 13 20_1]
+G c Z s s [determinant ada__numerics__long_long_complex_arrays 264 13 20_1]
+G c Z s s [eigenvalues ada__numerics__long_long_complex_arrays 268 13 20_1]
+G c Z s s [eigensystem ada__numerics__long_long_complex_arrays 270 14 20_1]
+G c Z s s [unit_matrix ada__numerics__long_long_complex_arrays 277 13 20_1]
+G c Z s s [complex_vectorIP ada__numerics__long_long_complex_arrays 28 9 20_1]
+G c Z s s [complex_matrixIP ada__numerics__long_long_complex_arrays 29 9 20_1]
+G c Z s s [is_non_zero ada__numerics__long_long_complex_arrays 56 13 20_1]
+G c Z s s [back_substituteR ada__numerics__long_long_complex_arrays__back_substituteGP3464 59 14 20_1]
+G c Z s s [back_substitute ada__numerics__long_long_complex_arrays 59 14 20_1]
+G c Z s s [forward_eliminateR ada__numerics__long_long_complex_arrays__forward_eliminateGP3629 64 14 20_1]
+G c Z s s [forward_eliminate ada__numerics__long_long_complex_arrays 64 14 20_1]
+G c Z s s [transposeR ada__numerics__long_long_complex_arrays__transposeGP3861 71 14 20_1]
+G c Z s s [transpose ada__numerics__long_long_complex_arrays 71 14 20_1]
+G c Z s s [lengthR ada__numerics__long_long_complex_arrays__lengthGP4153 78 13 20_1]
+G c Z s s [length ada__numerics__long_long_complex_arrays 78 13 20_1]
+G c Z s s [sqrtR ada__numerics__long_long_complex_arrays__sqrtGP4434 84 13 20_1]
+G c Z s s [sqrt ada__numerics__long_long_complex_arrays 84 13 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP4679 95 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 95 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP5083 103 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 103 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP5489 111 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 111 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP5893 119 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 119 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP6299 127 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 127 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP6687 135 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 135 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP7075 143 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 143 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP7464 151 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 151 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP7857 159 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 159 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP8249 167 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 167 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP8641 175 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 175 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP9045 183 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 183 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP9451 191 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 191 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP9855 199 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 199 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP10261 207 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 207 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP10719 216 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 216 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP11177 225 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 225 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP11636 234 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 234 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP12094 243 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 243 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP12552 252 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 252 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP13011 261 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 261 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP13470 270 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 270 16 20_1]
+G c Z s s [OmultiplyR ada__numerics__long_long_complex_arrays__instantiations__OmultiplyGP13928 279 16 20_1]
+G c Z s s [Omultiply ada__numerics__long_long_complex_arrays__instantiations 279 16 20_1]
+G c Z s s [OaddR ada__numerics__long_long_complex_arrays__instantiations__OaddGP14435 292 16 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays__instantiations 292 16 20_1]
+G c Z s s [OaddR ada__numerics__long_long_complex_arrays__instantiations__OaddGP14777 299 16 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays__instantiations 299 16 20_1]
+G c Z s s [OaddR ada__numerics__long_long_complex_arrays__instantiations__OaddGP15243 308 16 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays__instantiations 308 16 20_1]
+G c Z s s [OaddR ada__numerics__long_long_complex_arrays__instantiations__OaddGP15708 317 16 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays__instantiations 317 16 20_1]
+G c Z s s [OaddR ada__numerics__long_long_complex_arrays__instantiations__OaddGP16173 326 16 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays__instantiations 326 16 20_1]
+G c Z s s [OaddR ada__numerics__long_long_complex_arrays__instantiations__OaddGP16515 333 16 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays__instantiations 333 16 20_1]
+G c Z s s [OaddR ada__numerics__long_long_complex_arrays__instantiations__OaddGP16981 342 16 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays__instantiations 342 16 20_1]
+G c Z s s [OaddR ada__numerics__long_long_complex_arrays__instantiations__OaddGP17446 351 16 20_1]
+G c Z s s [Oadd ada__numerics__long_long_complex_arrays__instantiations 351 16 20_1]
+G c Z s s [OsubtractR ada__numerics__long_long_complex_arrays__instantiations__OsubtractGP17960 364 16 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays__instantiations 364 16 20_1]
+G c Z s s [OsubtractR ada__numerics__long_long_complex_arrays__instantiations__OsubtractGP18302 371 16 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays__instantiations 371 16 20_1]
+G c Z s s [OsubtractR ada__numerics__long_long_complex_arrays__instantiations__OsubtractGP18768 380 16 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays__instantiations 380 16 20_1]
+G c Z s s [OsubtractR ada__numerics__long_long_complex_arrays__instantiations__OsubtractGP19233 389 16 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays__instantiations 389 16 20_1]
+G c Z s s [OsubtractR ada__numerics__long_long_complex_arrays__instantiations__OsubtractGP19698 398 16 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays__instantiations 398 16 20_1]
+G c Z s s [OsubtractR ada__numerics__long_long_complex_arrays__instantiations__OsubtractGP20040 405 16 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays__instantiations 405 16 20_1]
+G c Z s s [OsubtractR ada__numerics__long_long_complex_arrays__instantiations__OsubtractGP20506 414 16 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays__instantiations 414 16 20_1]
+G c Z s s [OsubtractR ada__numerics__long_long_complex_arrays__instantiations__OsubtractGP20971 423 16 20_1]
+G c Z s s [Osubtract ada__numerics__long_long_complex_arrays__instantiations 423 16 20_1]
+G c Z s s [OdivideR ada__numerics__long_long_complex_arrays__instantiations__OdivideGP21485 436 16 20_1]
+G c Z s s [Odivide ada__numerics__long_long_complex_arrays__instantiations 436 16 20_1]
+G c Z s s [OdivideR ada__numerics__long_long_complex_arrays__instantiations__OdivideGP21889 444 16 20_1]
+G c Z s s [Odivide ada__numerics__long_long_complex_arrays__instantiations 444 16 20_1]
+G c Z s s [OdivideR ada__numerics__long_long_complex_arrays__instantiations__OdivideGP22295 452 16 20_1]
+G c Z s s [Odivide ada__numerics__long_long_complex_arrays__instantiations 452 16 20_1]
+G c Z s s [OdivideR ada__numerics__long_long_complex_arrays__instantiations__OdivideGP22699 460 16 20_1]
+G c Z s s [Odivide ada__numerics__long_long_complex_arrays__instantiations 460 16 20_1]
+G c Z s s [OabsR ada__numerics__long_long_complex_arrays__instantiations__OabsGP23160 472 16 20_1]
+G c Z s s [Oabs ada__numerics__long_long_complex_arrays__instantiations 472 16 20_1]
+G c Z s s [argumentR ada__numerics__long_long_complex_arrays__instantiations__argumentGP23442 481 16 20_1]
+G c Z s s [argument ada__numerics__long_long_complex_arrays__instantiations 481 16 20_1]
+G c Z s s [argumentR ada__numerics__long_long_complex_arrays__instantiations__argumentGP23793 488 16 20_1]
+G c Z s s [argument ada__numerics__long_long_complex_arrays__instantiations 488 16 20_1]
+G c Z s s [argumentR ada__numerics__long_long_complex_arrays__instantiations__argumentGP24208 496 16 20_1]
+G c Z s s [argument ada__numerics__long_long_complex_arrays__instantiations 496 16 20_1]
+G c Z s s [argumentR ada__numerics__long_long_complex_arrays__instantiations__argumentGP24559 503 16 20_1]
+G c Z s s [argument ada__numerics__long_long_complex_arrays__instantiations 503 16 20_1]
+G c Z s s [compose_from_cartesianR ada__numerics__long_long_complex_arrays__instantiations__compose_from_cartesianGP25080 515 16 20_1]
+G c Z s s [compose_from_cartesian ada__numerics__long_long_complex_arrays__instantiations 515 16 20_1]
+G c Z s s [compose_from_cartesianR ada__numerics__long_long_complex_arrays__instantiations__compose_from_cartesianGP25459 522 16 20_1]
+G c Z s s [compose_from_cartesian ada__numerics__long_long_complex_arrays__instantiations 522 16 20_1]
+G c Z s s [compose_from_cartesianR ada__numerics__long_long_complex_arrays__instantiations__compose_from_cartesianGP25970 532 16 20_1]
+G c Z s s [compose_from_cartesian ada__numerics__long_long_complex_arrays__instantiations 532 16 20_1]
+G c Z s s [compose_from_cartesianR ada__numerics__long_long_complex_arrays__instantiations__compose_from_cartesianGP26349 539 16 20_1]
+G c Z s s [compose_from_cartesian ada__numerics__long_long_complex_arrays__instantiations 539 16 20_1]
+G c Z s s [compose_from_polarR ada__numerics__long_long_complex_arrays__instantiations__compose_from_polarGP26954 553 16 20_1]
+G c Z s s [compose_from_polar ada__numerics__long_long_complex_arrays__instantiations 553 16 20_1]
+G c Z s s [compose_from_polarR ada__numerics__long_long_complex_arrays__instantiations__compose_from_polarGP27456 563 16 20_1]
+G c Z s s [compose_from_polar ada__numerics__long_long_complex_arrays__instantiations 563 16 20_1]
+G c Z s s [compose_from_polarR ada__numerics__long_long_complex_arrays__instantiations__compose_from_polarGP28022 574 16 20_1]
+G c Z s s [compose_from_polar ada__numerics__long_long_complex_arrays__instantiations 574 16 20_1]
+G c Z s s [compose_from_polarR ada__numerics__long_long_complex_arrays__instantiations__compose_from_polarGP28524 584 16 20_1]
+G c Z s s [compose_from_polar ada__numerics__long_long_complex_arrays__instantiations 584 16 20_1]
+G c Z s s [conjugateR ada__numerics__long_long_complex_arrays__instantiations__conjugateGP29157 599 16 20_1]
+G c Z s s [conjugate ada__numerics__long_long_complex_arrays__instantiations 599 16 20_1]
+G c Z s s [conjugateR ada__numerics__long_long_complex_arrays__instantiations__conjugateGP29511 606 16 20_1]
+G c Z s s [conjugate ada__numerics__long_long_complex_arrays__instantiations 606 16 20_1]
+G c Z s s [imR ada__numerics__long_long_complex_arrays__instantiations__imGP29911 617 16 20_1]
+G c Z s s [im ada__numerics__long_long_complex_arrays__instantiations 617 16 20_1]
+G c Z s s [imR ada__numerics__long_long_complex_arrays__instantiations__imGP30250 624 16 20_1]
+G c Z s s [im ada__numerics__long_long_complex_arrays__instantiations 624 16 20_1]
+G c Z s s [modulusR ada__numerics__long_long_complex_arrays__instantiations__modulusGP30650 635 16 20_1]
+G c Z s s [modulus ada__numerics__long_long_complex_arrays__instantiations 635 16 20_1]
+G c Z s s [modulusR ada__numerics__long_long_complex_arrays__instantiations__modulusGP30999 642 16 20_1]
+G c Z s s [modulus ada__numerics__long_long_complex_arrays__instantiations 642 16 20_1]
+G c Z s s [reR ada__numerics__long_long_complex_arrays__instantiations__reGP31394 653 16 20_1]
+G c Z s s [re ada__numerics__long_long_complex_arrays__instantiations 653 16 20_1]
+G c Z s s [reR ada__numerics__long_long_complex_arrays__instantiations__reGP31733 660 16 20_1]
+G c Z s s [re ada__numerics__long_long_complex_arrays__instantiations 660 16 20_1]
+G c Z s s [set_imR ada__numerics__long_long_complex_arrays__instantiations__set_imGP32131 671 17 20_1]
+G c Z s s [set_im ada__numerics__long_long_complex_arrays__instantiations 671 17 20_1]
+G c Z s s [set_imR ada__numerics__long_long_complex_arrays__instantiations__set_imGP32476 678 17 20_1]
+G c Z s s [set_im ada__numerics__long_long_complex_arrays__instantiations 678 17 20_1]
+G c Z s s [set_reR ada__numerics__long_long_complex_arrays__instantiations__set_reGP32879 689 17 20_1]
+G c Z s s [set_re ada__numerics__long_long_complex_arrays__instantiations 689 17 20_1]
+G c Z s s [set_reR ada__numerics__long_long_complex_arrays__instantiations__set_reGP33224 696 17 20_1]
+G c Z s s [set_re ada__numerics__long_long_complex_arrays__instantiations 696 17 20_1]
+G c Z s s [solveR ada__numerics__long_long_complex_arrays__instantiations__solveGP33623 707 16 20_1]
+G c Z s s [solve ada__numerics__long_long_complex_arrays__instantiations 707 16 20_1]
+G c Z s s [solveR ada__numerics__long_long_complex_arrays__instantiations__solveGP33738 710 16 20_1]
+G c Z s s [solve ada__numerics__long_long_complex_arrays__instantiations 710 16 20_1]
+G c Z s s [unit_matrixR ada__numerics__long_long_complex_arrays__instantiations__unit_matrixGP33910 717 16 20_1]
+G c Z s s [unit_matrix ada__numerics__long_long_complex_arrays__instantiations 717 16 20_1]
+G c Z s s [unit_vectorR ada__numerics__long_long_complex_arrays__instantiations__unit_vectorGP34223 723 16 20_1]
+G c Z s s [unit_vector ada__numerics__long_long_complex_arrays__instantiations 723 16 20_1]
+X 1 ada.ads
+16K9*Ada 20e8 9|16r6 17r6 18r6 20r9 21r8
+X 3 a-numeri.ads
+16K13*Numerics 1|16k9 3|35e17 9|16r10 17r10 18r10 20r13 21r12
+X 4 a-ngcoar.ads
+23k22*Generic_Complex_Arrays 281e40 9|16w19 21r21
+28A9*Complex_Vector(6|42R9[10|18])<integer>
+29A9*Complex_Matrix(6|42R9[10|18])<integer><integer>
+X 5 a-ngcoar.adb
+59U14 Back_Substitute[19|61] 19|492i22 516i22[9|20] 20|135b14[9|20]
+64U14 Forward_Eliminate[19|101] 19|493i22 517i22[9|20] 20|225b14[9|20]
+71U14 Transpose[19|559] 20|1147b14[9|20]
+78V13 Length[19|116]{natural} 20|100b13[9|20]
+84V13 Sqrt[19|538]{long_long_float} 19|372i21[9|20] 20|799b13[9|20]
+95V16*"*"[19|277]{4|28A9[9|20]} 20|730b13[9|20]
+103V16*"*"[19|277]{4|28A9[9|20]} 20|730b13[9|20]
+111V16*"*"[19|313]{4|28A9[9|20]} 20|783b13[9|20]
+119V16*"*"[19|313]{4|28A9[9|20]} 20|783b13[9|20]
+127V16*"*"[19|353]{6|42R9[10|18]} 20|456b13[9|20]
+135V16*"*"[19|353]{6|42R9[10|18]} 20|456b13[9|20]
+143V16*"*"[19|353]{6|42R9[10|18]} 20|456b13[9|20]
+151V16*"*"[19|390]{4|29A9[9|20]} 20|1096b13[9|20]
+159V16*"*"[19|390]{4|29A9[9|20]} 20|1096b13[9|20]
+167V16*"*"[19|390]{4|29A9[9|20]} 20|1096b13[9|20]
+175V16*"*"[19|296]{4|29A9[9|20]} 20|693b13[9|20]
+183V16*"*"[19|296]{4|29A9[9|20]} 20|693b13[9|20]
+191V16*"*"[19|332]{4|29A9[9|20]} 20|746b13[9|20]
+199V16*"*"[19|332]{4|29A9[9|20]} 20|746b13[9|20]
+207V16*"*"[19|413]{4|28A9[9|20]} 20|1065b13[9|20]
+216V16*"*"[19|413]{4|28A9[9|20]} 20|1065b13[9|20]
+225V16*"*"[19|413]{4|28A9[9|20]} 20|1065b13[9|20]
+234V16*"*"[19|442]{4|28A9[9|20]} 20|1251b13[9|20]
+243V16*"*"[19|442]{4|28A9[9|20]} 20|1251b13[9|20]
+252V16*"*"[19|442]{4|28A9[9|20]} 20|1251b13[9|20]
+261V16*"*"[19|473]{4|29A9[9|20]} 20|857b13[9|20]
+270V16*"*"[19|473]{4|29A9[9|20]} 20|857b13[9|20]
+279V16*"*"[19|473]{4|29A9[9|20]} 20|857b13[9|20]
+292V16*"+"[19|135]{4|28A9[9|20]} 20|537b13[9|20]
+299V16*"+"[19|164]{4|28A9[9|20]} 20|651b13[9|20]
+308V16*"+"[19|164]{4|28A9[9|20]} 20|651b13[9|20]
+317V16*"+"[19|164]{4|28A9[9|20]} 20|651b13[9|20]
+326V16*"+"[19|148]{4|29A9[9|20]} 20|503b13[9|20]
+333V16*"+"[19|216]{4|29A9[9|20]} 20|550b13[9|20]
+342V16*"+"[19|216]{4|29A9[9|20]} 20|550b13[9|20]
+351V16*"+"[19|216]{4|29A9[9|20]} 20|550b13[9|20]
+364V16*"-"[19|135]{4|28A9[9|20]} 20|537b13[9|20]
+371V16*"-"[19|164]{4|28A9[9|20]} 20|651b13[9|20]
+380V16*"-"[19|164]{4|28A9[9|20]} 20|651b13[9|20]
+389V16*"-"[19|164]{4|28A9[9|20]} 20|651b13[9|20]
+398V16*"-"[19|148]{4|29A9[9|20]} 20|503b13[9|20]
+405V16*"-"[19|216]{4|29A9[9|20]} 20|550b13[9|20]
+414V16*"-"[19|216]{4|29A9[9|20]} 20|550b13[9|20]
+423V16*"-"[19|216]{4|29A9[9|20]} 20|550b13[9|20]
+436V16*"/"[19|277]{4|28A9[9|20]} 20|730b13[9|20]
+444V16*"/"[19|277]{4|28A9[9|20]} 20|730b13[9|20]
+452V16*"/"[19|296]{4|29A9[9|20]} 20|693b13[9|20]
+460V16*"/"[19|296]{4|29A9[9|20]} 20|693b13[9|20]
+472V16*"abs"[19|373]{long_long_float} 20|479b13[9|20]
+481V16*Argument[19|135]{7|43A9[11|18]} 20|537b13[9|20]
+488V16*Argument[19|277]{7|43A9[11|18]} 20|730b13[9|20]
+496V16*Argument[19|148]{7|44A9[11|18]} 20|503b13[9|20]
+503V16*Argument[19|296]{7|44A9[11|18]} 20|693b13[9|20]
+515V16*Compose_From_Cartesian[19|135]{4|28A9[9|20]} 20|537b13[9|20]
+522V16*Compose_From_Cartesian[19|164]{4|28A9[9|20]} 20|651b13[9|20]
+532V16*Compose_From_Cartesian[19|148]{4|29A9[9|20]} 20|503b13[9|20]
+539V16*Compose_From_Cartesian[19|216]{4|29A9[9|20]} 20|550b13[9|20]
+553V16*Compose_From_Polar[19|164]{4|28A9[9|20]} 20|651b13[9|20]
+563V16*Compose_From_Polar[19|190]{4|28A9[9|20]} 20|672b13[9|20]
+574V16*Compose_From_Polar[19|216]{4|29A9[9|20]} 20|550b13[9|20]
+584V16*Compose_From_Polar[19|248]{4|29A9[9|20]} 20|600b13[9|20]
+599V16*Conjugate[19|135]{4|28A9[9|20]} 20|537b13[9|20]
+606V16*Conjugate[19|148]{4|29A9[9|20]} 20|503b13[9|20]
+617V16*Im[19|135]{7|43A9[11|18]} 20|537b13[9|20]
+624V16*Im[19|148]{7|44A9[11|18]} 20|503b13[9|20]
+635V16*Modulus[19|135]{7|43A9[11|18]} 20|537b13[9|20]
+642V16*Modulus[19|148]{7|44A9[11|18]} 20|503b13[9|20]
+653V16*Re[19|135]{7|43A9[11|18]} 20|537b13[9|20]
+660V16*Re[19|148]{7|44A9[11|18]} 20|503b13[9|20]
+671U17*Set_Im[19|582] 20|1198b14[9|20]
+678U17*Set_Im[19|600] 20|1176b14[9|20]
+689U17*Set_Re[19|582] 20|1198b14[9|20]
+696U17*Set_Re[19|600] 20|1176b14[9|20]
+707V16*Solve[19|497]{4|28A9[9|20]} 20|910b13[9|20]
+710V16*Solve[19|521]{4|29A9[9|20]} 20|976b13[9|20]
+717V16*Unit_Matrix[19|622]{4|29A9[9|20]} 20|1214b13[9|20]
+723V16*Unit_Vector[19|639]{4|28A9[9|20]} 20|1235b13[9|20]
+X 6 a-ngcoty.ads
+42R9 Complex
+67V14 "abs"=67:64 19|95i22[4|21] 371i22[4|21]
+84V14 "+"{42R9[4|21]} 19|350i22[4|21] 410i22[4|21] 439i22[4|21] 470i22[4|21]
+85V14 "-"{42R9[4|21]} 19|57i22[4|21] 96i22[4|21]
+86V14 "*"{42R9[4|21]} 19|58i22[4|21] 97i22[4|21] 347i22[4|21] 387i22[4|21]
+. 407i22[4|21] 436i22[4|21] 467i22[4|21]
+87V14 "/"{42R9[4|21]} 19|59i22[4|21] 98i22[4|21]
+112V14 "*"{42R9[4|21]} 19|347i22[4|21] 387i22[4|21] 407i22[4|21] 436i22[4|21]
+. 467i22[4|21]
+113V14 "*"{42R9[4|21]} 19|347i22[4|21] 387i22[4|21] 407i22[4|21] 436i22[4|21]
+. 467i22[4|21]
+X 7 a-ngrear.ads
+43A9*Real_Vector(long_long_float)<integer>
+44A9*Real_Matrix(long_long_float)<integer><integer>
+X 9 a-nllcar.ads
+20K22*Long_Long_Complex_Arrays[4|23] 3|16k13 9|24r14
+X 10 a-nllcty.ads
+18K22*Long_Long_Complex_Types[6|39] 9|18w19 22r45
+X 11 a-nllrar.ads
+18K22*Long_Long_Real_Arrays[7|38] 9|17w19 21r45
+

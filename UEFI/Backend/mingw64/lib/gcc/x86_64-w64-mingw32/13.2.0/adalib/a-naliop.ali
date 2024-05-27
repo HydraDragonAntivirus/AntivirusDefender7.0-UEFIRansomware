@@ -1,0 +1,34 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U ada.numerics.aux_linker_options%s  a-naliop.ads  effcb9fc NE OL PU PK
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+L "-lm"
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-naliop.ads		20230727081304 6b421e5f ada.numerics.aux_linker_options%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 3|42r9 45r5
+X 2 a-numeri.ads
+16K13*Numerics 1|16k9 2|35e17 3|42r13 45r9
+X 3 a-naliop.ads
+42K22*Aux_Linker_Options 2|16k13 3|45l18 45e36
+

@@ -1,0 +1,140 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_LONG_LONG_INTEGERS
+
+U system.atomic_primitives%b  s-atopri.adb	29cc6115 NE OL PK
+Z system%s		system.ads		system.ali
+
+U system.atomic_primitives%s  s-atopri.ads	b719d7c7 BN NE OL PU PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atopri.ads		20230727081304 1b132436 system.atomic_primitives%s
+D s-atopri.adb		20230727081304 32df4523 system.atomic_primitives%b
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+G c Z s s [atomic_load_8 system__atomic_primitives 76 13 none]
+G c Z s s [atomic_load_16 system__atomic_primitives 77 13 none]
+G c Z s s [atomic_load_32 system__atomic_primitives 78 13 none]
+G c Z s s [atomic_load_64 system__atomic_primitives 79 13 none]
+G c Z s s [atomic_compare_exchange_8 system__atomic_primitives 93 13 none]
+G c Z s s [atomic_compare_exchange_16 system__atomic_primitives 94 13 none]
+G c Z s s [atomic_compare_exchange_32 system__atomic_primitives 95 13 none]
+G c Z s s [atomic_compare_exchange_64 system__atomic_primitives 96 13 none]
+G c Z s s [atomic_test_and_set system__atomic_primitives 98 13 none]
+G c Z s s [atomic_clear system__atomic_primitives 103 14 none]
+G c Z s s [atomic_always_lock_free system__atomic_primitives 108 13 none]
+G c Z s s [lock_free_read_8R system__atomic_primitives__lock_free_read_8GP5823 134 13 none]
+G c Z s s [lock_free_read_8 system__atomic_primitives 134 13 none]
+G c Z s s [lock_free_read_16R system__atomic_primitives__lock_free_read_16GP5884 135 13 none]
+G c Z s s [lock_free_read_16 system__atomic_primitives 135 13 none]
+G c Z s s [lock_free_read_32R system__atomic_primitives__lock_free_read_32GP5946 136 13 none]
+G c Z s s [lock_free_read_32 system__atomic_primitives 136 13 none]
+G c Z s s [lock_free_read_64R system__atomic_primitives__lock_free_read_64GP6008 137 13 none]
+G c Z s s [lock_free_read_64 system__atomic_primitives 137 13 none]
+G c Z s s [lock_free_try_write_8R system__atomic_primitives__lock_free_try_write_8GP6258 146 13 none]
+G c Z s s [lock_free_try_write_8 system__atomic_primitives 146 13 none]
+G c Z s s [lock_free_try_write_16R system__atomic_primitives__lock_free_try_write_16GP6329 147 13 none]
+G c Z s s [lock_free_try_write_16 system__atomic_primitives 147 13 none]
+G c Z s s [lock_free_try_write_32R system__atomic_primitives__lock_free_try_write_32GP6401 148 13 none]
+G c Z s s [lock_free_try_write_32 system__atomic_primitives 148 13 none]
+G c Z s s [lock_free_try_write_64R system__atomic_primitives__lock_free_try_write_64GP6473 149 13 none]
+G c Z s s [lock_free_try_write_64 system__atomic_primitives 149 13 none]
+X 3 interfac.ads
+38K9*Interfaces 232e15 6|36r6 109r14
+X 4 i-c.ads
+29K20*C 597e17 6|36w17 109r25
+88M9*size_t 6|109r27
+X 5 system.ads
+37K9*System 192e11 6|38r9 99r15 104r15 110r14 110r32 154r5 7|32r14 73r5
+67M9*Address 6|72r15 84r23 85r23 99r22 104r22 110r21 132r35 142r18 7|38r35
+. 54r19
+69m4*Null_Address{67M9} 6|110r39
+X 6 s-atopri.ads
+38K16*Atomic_Primitives 5|37k9 6|154l12 154e29 7|32b21 73l12 73t29
+41M9*uint
+43M9*uint8 76r48 93r72 134r54 146r64
+46M9*uint16 77r48 94r72 135r54 147r64
+49M9*uint32 78r48 95r72 136r54 148r64
+52M9*uint64 79r48 96r72 137r54 149r64
+55N4*Relaxed 63r39
+56N4*Consume
+57N4*Acquire 7|43r38
+58N4*Release
+59N4*Acq_Rel
+60N4*Seq_Cst 73r28 88r36 89r36 100r28 105r28
+61N4*Last 63r50
+63I12*Mem_Model{integer} 73r15 88r23 89r23 100r15 105r15
+70M12 Atomic_Type 73r44
+71v13*Atomic_Load 72>7 73>7 74b30 76r35 77r35 78r35 79r35 7|39r38
+72m7 Ptr{5|67M9}
+73i7 Model{63I12}
+76V13*Atomic_Load_8[71]{43M9}
+77V13*Atomic_Load_16[71]{46M9}
+78V13*Atomic_Load_32[71]{49M9}
+79V13*Atomic_Load_64[71]{52M9}
+82M12 Atomic_Type 86r23
+83v13*Atomic_Compare_Exchange 84>7 85>7 86>7 87>7 88>7 89>7 91b18 93r47 94r47
+. 95r47 96r47 7|59r13
+84m7 Ptr{5|67M9}
+85m7 Expected{5|67M9}
+86*7 Desired{82M12}
+87b7 Weak{boolean}
+88i7 Success_Model{63I12}
+89i7 Failure_Model{63I12}
+93V13*Atomic_Compare_Exchange_8[83]{boolean}
+94V13*Atomic_Compare_Exchange_16[83]{boolean}
+95V13*Atomic_Compare_Exchange_32[83]{boolean}
+96V13*Atomic_Compare_Exchange_64[83]{boolean}
+98V13*Atomic_Test_And_Set{boolean} 99>7 100>7 101b30
+99m7 Ptr{5|67M9}
+100i7 Model{63I12}
+103U14*Atomic_Clear 104>7 105>7 106b30
+104m7 Ptr{5|67M9}
+105i7 Model{63I12}
+108V13*Atomic_Always_Lock_Free{boolean} 109>7 110>7 112b18
+109m7 Size{4|88M9}
+110m7 Ptr{5|67M9}
+131M12 Atomic_Type 132r51 7|38r51 39r51 42r10
+132v13*Lock_Free_Read 132>29 134r38 135r38 136r38 137r38 152r19 7|38b13 47l8
+. 47t22
+132m29 Ptr{5|67M9} 7|38b29 43r33
+134V13*Lock_Free_Read_8[132]{43M9} 7|38b13
+135V13*Lock_Free_Read_16[132]{46M9} 7|38b13
+136V13*Lock_Free_Read_32[132]{49M9} 7|38b13
+137V13*Lock_Free_Read_64[132]{52M9} 7|38b13
+140M12 Atomic_Type 143r25 144r18 7|55r26 56r19 59r38 63r13
+141v13*Lock_Free_Try_Write 142>7 143=7 144>7 146r43 147r43 148r43 149r43
+. 153r19 7|53b13 71l8 71t27
+142m7 Ptr{5|67M9} 7|54b8 64r48
+143*7 Expected{140M12} 7|55b8 62r10 64m53 64r53
+144*7 Desired{140M12} 7|56b8 62r22 64r71
+146V13*Lock_Free_Try_Write_8[141]{boolean} 7|53b13
+147V13*Lock_Free_Try_Write_16[141]{boolean} 7|53b13
+148V13*Lock_Free_Try_Write_32[141]{boolean} 7|53b13
+149V13*Lock_Free_Try_Write_64[141]{boolean} 7|53b13
+X 7 s-atopri.adb
+39V16 My_Atomic_Load[6|71]{6|131M12} 43s17
+58V16 My_Atomic_Compare_Exchange[6|83]{boolean} 64s20
+

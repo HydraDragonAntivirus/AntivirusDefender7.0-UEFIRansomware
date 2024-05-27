@@ -1,0 +1,27 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U ada.wide_characters%s	a-widcha.ads		d4c0c09c NE OL PU PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-widcha.ads		20230727081304 a2b85d3d ada.wide_characters%s
+D system.ads		20230727081304 f0509fe6 system%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 2|19r9 21r5
+X 2 a-widcha.ads
+19K13*Wide_Characters 1|16k9 2|21l9 21e24
+

@@ -1,0 +1,182 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.strings.text_buffers.formatting%b  a-stbufo.adb  dbeb29dd NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.text_buffers.files%s  a-stbufi.adb  a-stbufi.ali
+W ada.strings.text_buffers.unbounded%s  a-stbuun.adb  a-stbuun.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U ada.strings.text_buffers.formatting%s  a-stbufo.ads  2f1ec70e NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.text_buffers.utils%s  a-stbuut.adb  a-stbuut.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stbufi.ads		20230727081304 b367051f ada.strings.text_buffers.files%s
+D a-stbufo.ads		20230727081304 b7790e3b ada.strings.text_buffers.formatting%s
+D a-stbufo.adb		20230727081304 a53b7284 ada.strings.text_buffers.formatting%b
+D a-stbuun.ads		20230727081304 7ace507d ada.strings.text_buffers.unbounded%s
+D a-stbuut.ads		20230727081304 69caae97 ada.strings.text_buffers.utils%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-suezst.ads		20230727081304 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finmas.ads		20230727081304 bd688734 system.finalization_masters%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-memory.ads		20230727081304 5b8432d0 system.memory%s
+D s-os_lib.ads		20230727081304 a2467c22 system.os_lib%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stalib.adb		20230727081304 eb464a47 system.standard_library%b
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20230727081304 e9fa2dd8 system.storage_pools%s
+D s-string.ads		20230727081304 582aac7d system.strings%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [put ada__strings__text_buffers__formatting 43 14 none]
+G c Z s b [put ada__strings__text_buffers__formatting 57 14 none]
+G c Z s b [err ada__strings__text_buffers__formatting 62 14 none]
+G c Z s b [format ada__strings__text_buffers__formatting 67 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 8|32r6 34r9 73r5 9|32r6 33r6 35r14 37r8 38r8 158r5
+X 5 a-string.ads
+16K13*Strings 1|16k9 5|35e16 8|32r10 34r13 73r9 9|32r10 33r10 35r18 37r12
+. 38r12 158r9
+X 6 a-sttebu.ads
+17K21*Text_Buffers 5|16k13 6|152e29 8|32r18 34r21 73r17 9|32r18 33r18 35r26
+. 37r20 38r20 158r17
+26H9*Root_Buffer_Type 104e14 8|44r18 9|41r18
+45x14*New_Line 9|52R19
+52U14*Increase_Indent 9|56R19 60R19
+58U14*Decrease_Indent 9|58R19 62R19
+X 7 a-stbufi.ads
+35K34*Files 77e35 9|33w31 37r33
+37R9*File_Buffer<6|26R9> 75e14 9|145r16 153r16
+49V13*Create_Standard_Output_Buffer{37R9} 9|145s31
+52V13*Create_Standard_Error_Buffer{37R9} 9|153s31
+X 8 a-stbufo.ads
+34K34*Formatting 6|17k21 8|73l30 73e40 9|35b39 158l30 158t40
+41A9*Template<string>(character)<integer> 44r46 58r11 63r11 68r11 9|41r46
+. 132r11 143r11 151r11
+43U14*Put 44=7 44>42 45>7 45>11 45>15 45>19 45>23 45>27 45>31 45>35 45>39
+. 9|40b14 129l8 129t11 138s7 147s7 155s7
+44c7 S<6|26R9> 9|41b7 52m29 54m29 56m36 58m36 60m36 62m36 66m36 69m36 72m36
+. 75m36 78m36 81m36 84m36 87m36 90m36 96m23
+44a42 T{41A9} 9|41b42 44r23 47r18 48r13 50r18 96r26
+45a7 X1{11|68A12} 9|42b7 66r39 103r25
+45a11 X2{11|68A12} 9|42b11 69r39 106r25
+45a15 X3{11|68A12} 9|42b15 72r39 109r25
+45a19 X4{11|68A12} 9|42b19 75r39 112r25
+45a23 X5{11|68A12} 9|42b23 78r39 115r25
+45a27 X6{11|68A12} 9|42b27 81r39 118r25
+45a31 X7{11|68A12} 9|42b31 84r39 121r25
+45a35 X8{11|68A12} 9|42b35 87r39 124r25
+45a39 X9{11|68A12} 9|42b39 90r39 127r25
+57U14*Put 58>7 59>7 59>11 59>15 59>19 59>23 59>27 59>31 59>35 59>39 9|142b14
+. 148l8 148t11
+58a7 T{41A9} 9|143b7 147r20
+59a7 X1{11|68A12} 9|144b7 147r23
+59a11 X2{11|68A12} 9|144b11 147r27
+59a15 X3{11|68A12} 9|144b15 147r31
+59a19 X4{11|68A12} 9|144b19 147r35
+59a23 X5{11|68A12} 9|144b23 147r39
+59a27 X6{11|68A12} 9|144b27 147r43
+59a31 X7{11|68A12} 9|144b31 147r47
+59a35 X8{11|68A12} 9|144b35 147r51
+59a39 X9{11|68A12} 9|144b39 147r55
+62U14*Err 63>7 64>7 64>11 64>15 64>19 64>23 64>27 64>31 64>35 64>39 9|150b14
+. 156l8 156t11
+63a7 T{41A9} 9|151b7 155r20
+64a7 X1{11|68A12} 9|152b7 155r23
+64a11 X2{11|68A12} 9|152b11 155r27
+64a15 X3{11|68A12} 9|152b15 155r31
+64a19 X4{11|68A12} 9|152b19 155r35
+64a23 X5{11|68A12} 9|152b23 155r39
+64a27 X6{11|68A12} 9|152b27 155r43
+64a31 X7{11|68A12} 9|152b31 155r47
+64a35 X8{11|68A12} 9|152b35 155r51
+64a39 X9{11|68A12} 9|152b39 155r55
+67V13*Format{11|68A12} 68>7 69>7 69>11 69>15 69>19 69>23 69>27 69>31 69>35
+. 69>39 9|131b13 140l8 140t14
+68a7 T{41A9} 9|132b7 138r20
+69a7 X1{11|68A12} 9|133b7 138r23
+69a11 X2{11|68A12} 9|133b11 138r27
+69a15 X3{11|68A12} 9|133b15 138r31
+69a19 X4{11|68A12} 9|133b19 138r35
+69a23 X5{11|68A12} 9|133b23 138r39
+69a27 X6{11|68A12} 9|133b27 138r43
+69a31 X7{11|68A12} 9|133b31 138r47
+69a35 X8{11|68A12} 9|133b35 138r51
+69a39 X9{11|68A12} 9|133b39 138r55
+X 9 a-stbufo.adb
+44i7 J{positive} 47r13 48r16 49m13 49r18 50r21 96r29 99m10 99r15
+45a7 Used(boolean) 65m19 68m19 71m19 74m19 77m19 80m19 83m19 86m19 89m19
+. 102r14 105r14 108r14 111r14 114r14 117r14 120r14 123r14 126r14
+136r7 Buffer{10|23R9} 138m12 138r12 139m14 139r14
+145r7 Buffer{7|37R9} 147m12 147r12
+153r7 Buffer{7|37R9} 155m12 155r12
+X 10 a-stbuun.ads
+17K34*Unbounded 9|32w31 136r16 10|87e39
+23R9*Buffer_Type<6|26R9> 9|136r26 10|85e14
+37V13*Get_UTF_8{12|59A12} 9|139s21
+X 11 a-stbuut.ads
+34K34*Utils 8|32w31 41r25 45r44 59r44 64r44 69r44 70r13 9|38r33 42r44 133r44
+. 134r13 144r44 152r44 11|82e35
+42U14*Put_7bit 9|54s19 96s13
+68A12*UTF_8_Lines{12|59A12}<integer> 8|45r50 59r50 64r50 69r50 70r19 9|42r50
+. 133r50 134r19 144r50 152r50
+73A12*UTF_8{68A12}<integer> 8|41r31
+76U14*Put_UTF_8_Lines 9|66s19 69s19 72s19 75s19 78s19 81s19 84s19 87s19 90s19
+X 12 a-stuten.ads
+59A12*UTF_8_String{string}<integer>
+X 18 system.ads
+67M9*Address
+X 22 s-memory.ads
+51V13*Alloc{18|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{18|67M9} 103i<c,__gnat_realloc>22
+X 30 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+

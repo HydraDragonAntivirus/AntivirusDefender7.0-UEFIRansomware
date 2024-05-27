@@ -1,0 +1,114 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U system.rpc%b		s-rpc.adb		7f24ba31 NE OL PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+
+U system.rpc%s		s-rpc.ads		81d6cec9 EE OL PF PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-rpc.ads		20230727081304 601dde9c system.rpc%s
+D s-rpc.adb		20230727081304 1f3964ad system.rpc%b
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [read system__rpc 52 25 none]
+G c Z s b [write system__rpc 57 25 none]
+G c Z s b [do_rpc system__rpc 63 14 none]
+G c Z s b [do_apc system__rpc 70 14 none]
+G c Z s b [establish_rpc_receiver system__rpc 81 14 none]
+G c Z s s [params_stream_typeDF system__rpc 87 9 none]
+G c Z s s [params_stream_typeIP system__rpc 87 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|40r6 49r22 50r8 54r20 55r20 59r16 88r22 89r8 15|54r20 55r20
+. 67r16
+X 3 a-stream.ads
+36K13*Streams 87e16 14|40w10 49r26 50r12 54r24 55r24 59r20 88r26 89r12 15|54r24
+. 55r24 67r20
+39H9*Root_Stream_Type 70e64 14|50r20 89r20
+42M9*Stream_Element
+44I9*Stream_Element_Offset<long_long_integer> 14|55r32 15|55r32
+51I12*Stream_Element_Count{44I9} 14|49r34 88r34
+54A9*Stream_Element_Array(42M9)<44I9> 14|54r32 59r28 15|54r32 67r28
+X 10 system.ads
+37K9*System 192e11 14|42r9 91r5 15|40r14 111r5
+X 14 s-rpc.ads
+42K16*RPC 10|37k9 14|87E9 91l12 91e15 15|40b21 111l12 111t15
+44I9*Partition_ID<integer> 64r20 71r20 82r19 15|78r19 91r19 103r19
+46X4*Communication_Error
+48R9*Params_Stream_Type<3|39R9> 49d7 52P25 53r23 57P25 58r23 63p14 65r27
+. 66r27 70p14 72r27 78r29 79r29 87c9 89e53 15|53r23 66r23 79r26 80r26 92r26
+49i7*Initial_Size{3|51I12} 88r7
+52U25*Read<3|57p14> 53=7 54<7 55<7 15|52b14 59l8 59t12
+53r7 Stream{48R9} 15|53b7
+54a7 Item{3|54A9} 15|54b7
+55i7 Last{3|44I9} 15|55b7
+57U25*Write<3|63p14> 58=7 59>7 15|65b14 71l8 71t13
+58r7 Stream{48R9} 15|66b7
+59a7 Item{3|54A9} 15|67b7
+63U14*Do_RPC 64>7 65^7 66^7 15|77b14 84l8 84t14
+64i7 Partition{44I9} 15|78b7
+65p7 Params(48R9) 15|79b7
+66p7 Result(48R9) 15|80b7
+70U14*Do_APC 71>7 72^7 15|90b14 96l8 96t14
+71i7 Partition{44I9} 15|91b7
+72p7 Params(48R9) 15|92b7
+76P9*RPC_Receiver 78^9 79^9 83r19 15|104r19
+78p9 Params(48R9)
+79p9 Result(48R9)
+81U14*Establish_RPC_Receiver 82>7 83>7 15|102b14 109l8 109t30
+82i7 Partition{44I9} 15|103b7 106r28
+83p7 Receiver{76P9} 15|104b7 106r39
+X 15 s-rpc.adb
+42a4 CRLF{string} 45r12 46r12
+44a4 Msg{string} 58r32 70r32 83r32 95r32
+

@@ -1,0 +1,61 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_RECURSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.image_b%b	s-imageb.adb		ce0eb183 NE OL PK GE
+W system%s		system.ads		system.ali
+
+U system.image_b%s	s-imageb.ads		c9037f00 BN NE OL PU PK GE
+W system%s		system.ads		system.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-imageb.ads		20230727081304 3953e0e6 system.image_b%s
+D s-imageb.adb		20230727081304 f75d5165 system.image_b%b
+G a e
+G c Z s b [image_b system 41 16 none]
+X 1 system.ads
+37K9*System 192e11 2|41r9 75r5 3|32r14 156r5
+X 2 s-imageb.ads
+37I9 Int 45r11 3|39r11
+39M9 Uns 61r11 3|51r36 65r39 85r11 93r24 93r31 95r18 97r33 104r33
+41k16*Image_B 1|37k9 2|37z9 39z9 75l12 75e19 3|32b21 156l12 156t19
+44U14*Set_Image_Based_Integer 45>7 46>7 47>7 48<7 49=7 3|38b14 78l8 78t31
+45*7 V{37I9} 3|39b7 50r10 51r41 65r45
+46i7 B{natural} 3|40b7 51r45 65r49
+47i7 W{integer} 3|41b7 51r48 65r52
+48a7 S{string} 3|42b7 51m51 58m10 65m59 71r16 75m10
+49i7 P{natural} 3|43b7 51m54 57m10 57r15 58r13 59r19 65m62
+60U14*Set_Image_Based_Unsigned 61>7 62>7 63>7 64<7 65=7 3|51s10 65s13 84b14
+. 154l8 154t32
+61*7 V{39M9} 3|85b7 131r19
+62i7 B{natural} 3|86b7 93r36 120r10 126r53
+63i7 W{integer} 3|87b7 138r22 140r23
+64a7 S{string} 3|88b7 109m13 112m13 122m10 126m7 129m7 134m7 144m13 144r22
+. 150m13
+65i7 P{natural} 3|89b7 91r35 108m13 108r18 109r16 111m13 111r18 112r16 121m10
+. 121r15 122r13 125m7 125r12 126r10 128m7 128r12 129r10 133m7 133r12 134r10
+. 138r10 139r15 140m10 141r15
+X 3 s-imageb.adb
+45i7 Start{natural} 59m10 71r19 72m13 72r22 75r13
+91i7 Start{natural} 138r14 140r15 143r20 149r19
+92i7 F{natural} 139m10 143r16 144r25 146m13 146r18
+92i10 T{natural} 141m10 144r16 145m13 145r18 149r32
+93*7 BU{2|39M9} 106r18 107r29 109r33
+94a7 Hex(character) 109r22 112r22
+97U17 Set_Digits 97>29 104b17 107s13 114l11 114t21 131s7
+97*29 T{2|39M9} 104b29 106r13 107r25 109r27 112r27
+149i14 J{integer} 150r16
+

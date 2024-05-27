@@ -1,0 +1,42 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ELABORATION_CODE
+
+U ada.io_exceptions%s	a-ioexce.ads		367911c4 EE OL PU PK
+W ada%s			ada.ads			ada.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-ioexce.ads		20230727081304 40018c65 ada.io_exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 2|16r9 28r5
+X 2 a-ioexce.ads
+16K13*IO_Exceptions 1|16k9 2|28l9 28e22
+19X4*Status_Error
+20X4*Mode_Error
+21X4*Name_Error
+22X4*Use_Error
+23X4*Device_Error
+24X4*End_Error
+25X4*Data_Error
+26X4*Layout_Error
+

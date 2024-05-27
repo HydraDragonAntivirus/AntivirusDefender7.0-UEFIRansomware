@@ -1,0 +1,430 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U ada.numerics.big_numbers.big_reals%b  a-nbnbre.adb  c35a2cc8 NE OL PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+
+U ada.numerics.big_numbers.big_reals%s  a-nbnbre.ads  92e24be2 BN NE OL PR PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W ada.numerics.big_numbers.big_integers%s  a-nbnbin.adb  a-nbnbin.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system%s		system.ads		system.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+N A23:4 gnatprove always_return big_reals
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-assert.ads		20230727081304 ba465f5c ada.assertions%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-numeri.ads		20230727081304 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230727081304 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbin.ads		20230727081304 0a41d613 ada.numerics.big_numbers.big_integers%s
+D a-nbnbin.adb		20230727081304 2ddf371c ada.numerics.big_numbers.big_integers%b
+D a-nbnbig.ads		20230727081304 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbre.ads		20230727081304 faff0982 ada.numerics.big_numbers.big_reals%s
+D a-nbnbre.adb		20230727081304 c38f5a13 ada.numerics.big_numbers.big_reals%b
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20230727081304 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-assert.ads		20230727081304 9c4520c7 system.assertions%s
+D s-casuti.ads		20230727081304 cf13d755 system.case_util%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-genbig.ads		20230727081304 47a8367c system.generic_bignums%s
+D s-imagei.ads		20230727081304 c707dfd0 system.image_i%s
+D s-imgint.ads		20230727081304 d4a52a9b system.img_int%s
+D s-memory.ads		20230727081304 5b8432d0 system.memory%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-retsta.ads		20230727081304 0f6b06cb system.return_stack%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-shabig.ads		20230727081304 5417e075 system.shared_bignums%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stalib.adb		20230727081304 eb464a47 system.standard_library%b
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20230727081304 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20230727081304 1f610d7a system.val_int%s
+D s-valllli.ads		20230727081304 bf3121bd system.val_llli%s
+D s-vallllu.ads		20230727081304 fcd04714 system.val_lllu%s
+D s-valuns.ads		20230727081304 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230727081304 fcd603d8 system.val_util%s
+D s-valuei.ads		20230727081304 11081e09 system.value_i%s
+D s-vaispe.ads		20230727081304 44130d39 system.value_i_spec%s
+D s-valueu.ads		20230727081304 18770347 system.value_u%s
+D s-vauspe.ads		20230727081304 a67b2f28 system.value_u_spec%s
+D s-widuns.ads		20230727081304 866a5800 system.wid_uns%s
+D s-widthu.ads		20230727081304 b32f15e2 system.width_u%s
+G a e
+G c Z s b [is_valid ada__numerics__big_numbers__big_reals 29 13 none]
+G c Z s b [Odivide ada__numerics__big_numbers__big_reals 38 13 none]
+G c Z s b [numerator ada__numerics__big_numbers__big_reals 44 13 none]
+G c Z s b [denominator ada__numerics__big_numbers__big_reals 48 13 none]
+G c Z s s [to_big_real ada__numerics__big_numbers__big_reals 60 13 none]
+G c Z s s [to_real ada__numerics__big_numbers__big_reals 65 13 none]
+G c Z s b [Oeq ada__numerics__big_numbers__big_reals 69 13 none]
+G c Z s b [Olt ada__numerics__big_numbers__big_reals 71 13 none]
+G c Z s b [Ole ada__numerics__big_numbers__big_reals 73 13 none]
+G c Z s b [Ogt ada__numerics__big_numbers__big_reals 75 13 none]
+G c Z s b [Oge ada__numerics__big_numbers__big_reals 77 13 none]
+G c Z s s [in_range ada__numerics__big_numbers__big_reals 79 13 none]
+G c Z s b [to_string ada__numerics__big_numbers__big_reals 117 13 none]
+G c Z s b [from_string ada__numerics__big_numbers__big_reals 125 13 none]
+G c Z s s [from_universal_image ada__numerics__big_numbers__big_reals 130 13 none]
+G c Z s s [to_quotient_string ada__numerics__big_numbers__big_reals 135 13 none]
+G c Z s b [from_quotient_string ada__numerics__big_numbers__big_reals 140 13 none]
+G c Z s b [put_image ada__numerics__big_numbers__big_reals 143 14 none]
+G c Z s b [Oadd ada__numerics__big_numbers__big_reals 145 13 none]
+G c Z s b [Osubtract ada__numerics__big_numbers__big_reals 148 13 none]
+G c Z s b [Oabs ada__numerics__big_numbers__big_reals 151 13 none]
+G c Z s b [Oadd ada__numerics__big_numbers__big_reals 154 13 none]
+G c Z s b [Osubtract ada__numerics__big_numbers__big_reals 157 13 none]
+G c Z s b [Omultiply ada__numerics__big_numbers__big_reals 160 13 none]
+G c Z s b [Odivide ada__numerics__big_numbers__big_reals 163 13 none]
+G c Z s b [Oexpon ada__numerics__big_numbers__big_reals 166 13 none]
+G c Z s b [min ada__numerics__big_numbers__big_reals 169 13 none]
+G c Z s b [max ada__numerics__big_numbers__big_reals 172 13 none]
+G c Z s s [big_realDI ada__numerics__big_numbers__big_reals 177 9 none]
+G c Z s s [big_realDA ada__numerics__big_numbers__big_reals 177 9 none]
+G c Z s s [big_realDF ada__numerics__big_numbers__big_reals 177 9 none]
+G c Z s s [big_realIP ada__numerics__big_numbers__big_reals 177 9 none]
+G c Z b b [normalize ada__numerics__big_numbers__big_reals 38 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|16r6 18r6 18r36 20r9 181r5 11|34r14 771r5
+X 5 a-numeri.ads
+16K13*Numerics 1|16k9 5|35e17 10|16r10 20r13 181r9 11|34r18 771r9
+X 6 a-nubinu.ads
+16K22*Big_Numbers 5|16k13 6|21e29 10|16r19 20r22 181r18 11|34r27 771r18
+19I12*Field{integer} 10|118r31 119r31 120r31 11|391r14 392r14 393r14 400r23
+. 407r19 438r23 455r19
+X 7 a-nbnbin.ads
+21K34*Big_Integers 182e42 10|16w31 39r18 45r36 48r55 52r14 53r32 54r14 55r17
+. 57r17 61r13 62r38 66r7 66r43 131r7 132r7 136r7 137r9 178r18 11|36r8 121r9
+. 320r29 321r29 613r14 614r9
+26R9*Big_Integer 180e14 10|61r26 178r31 11|140r17 188r26 236r23 332r20 355r29
+. 395r23 396r23 417r18 481r18 541r24 542r15 751r23 762r28
+30V13*Is_Valid{boolean} 11|47s7 47s30
+35R12*Valid_Big_Integer{26R9} 10|39r31 45r49 11|53r29 70r53
+39V14*"="{boolean} 10|52s28 54s28 11|56s14 85s13 85s36 249s27 285s30 758s18
+41V14*"<"{boolean} 11|92s21 510s18 578s24 753s18
+43V14*"<="{boolean} 11|376s18
+45V14*">"{boolean} 11|285s15
+47V14*">="{boolean} 11|298s37 373s15
+49V13*To_Big_Integer{35R12} 10|53s45 57s30 62s51 66s20 66s56 11|56s16 154s18
+. 159s22 160s18 165s18 188s41 249s29 298s40 371s29 374s22 377s22 395s38 396s38
+. 541s39 578s26 715s24 716s24 751s38 759s21
+52R12*Big_Positive{26R9} 10|48r68 11|77r55
+80k12*Signed_Conversions 92e26 11|320r42
+82V16 To_Big_Integer{35R12} 11|341s22[320]
+85V16 From_Big_Integer{long_long_long_integer} 11|380s41[320]
+96k12*Unsigned_Conversions 109e28 11|121r22 321r42
+98V16 To_Big_Integer{35R12} 11|149s20[120] 339s22[321] 340s22[321] 362s22[321]
+. 363s22[321]
+101V16 From_Big_Integer{42|46M9} 11|279s20[120]
+111V13*To_String{string} 10|136s20 137s22 11|484s37
+118V13*From_String{35R12} 11|575s24 576s18 613s27 614s22
+121V13*From_Universal_Image=122:14{35R12} 10|131s20 132s20
+129V14*"-"{35R12} 11|376s21 646s14 754s21 755s21
+132V14*"abs"{35R12} 11|653s14
+135V14*"+"{35R12} 11|374s20 581s38 662s35
+138V14*"-"{35R12} 11|283s18 371s18 377s20 579s38 675s35
+141V14*"*"{35R12} 11|92s13 92s29 159s20 283s22 283s27 343s19 364s31 365s33
+. 371s22 371s27 532s22 575s63 585s38 587s38 662s27 662s43 663s27 675s27 675s43
+. 676s27 688s27 689s27 701s27 702s27
+144V14*"/"{35R12} 11|278s17 367s17 532s36 765s32 766s32
+153V14*"**"{35R12} 11|154s37 159s41 271s37 532s28 574s28 585s44 587s44 719s33
+. 720s33 722s33 723s33
+162V13*Greatest_Common_Divisor{52R12} 10|55s30 11|763s15
+X 10 a-nbnbre.ads
+20K34*Big_Reals 6|16k22 10|23r47 177E9 181l30 181e39 11|34b39 771l30 771t39
+25R9*Big_Real 29r29 34r30 79r40 90r37 107r37 135r39 143r64 177c9 179e14 11|38r38
+. 46r29 54r16 182r37 185r26 186r26 187r26 190r38 193r44 200r38 202r19 217r44
+. 219r19 232r14 354r37 572r19 621r64 634r16 660r16 673r16 686r16 699r16 712r16
+. 750r38
+29V13*Is_Valid{boolean} 29>23 35s32 11|46b13
+29r23 Arg{25R9} 11|47r17 47r40
+34R12*Valid_Big_Real{25R9} 39r57 45r13 48r32 62r13 65r44 69r25 71r25 73r26
+. 75r25 77r26 87r47 104r47 117r31 125r47 128r56 130r61 140r56 145r22 145r45
+. 148r22 148r45 151r24 151r47 154r25 154r48 157r25 157r48 160r25 160r48 163r25
+. 163r48 166r23 166r59 169r25 169r48 172r25 172r48 11|53r55 70r30 77r32 84r25
+. 91r25 100r26 106r25 112r26 133r47 331r47 390r14 540r47 599r56 633r22 633r45
+. 645r22 645r45 652r24 652r47 659r25 659r48 672r25 672r48 685r25 685r48 698r25
+. 698r48 711r23 711r59 736r25 736r48 743r25 743r48
+38V14*"/"{34R12} 39>7 39>12 62s36 66s41 131s47 11|53b14 64l9 64t11 168s39
+. 168s51 343s23 613s70
+39r7 Num{7|35R12} 11|53b18 60r21
+39r12 Den{7|35R12} 11|53b23 56r10 61r21
+44V13*Numerator{7|35R12} 45>7 56s19 136s31 11|70b13 249s13 275s15 298s21
+. 364s15
+45r7 Arg{34R12} 11|71r7
+48V13*Denominator{7|52R12} 48>26 52r32 56r36 137s33 11|77b13 276s15 365s15
+48r26 Arg{34R12} 51r12 56r30 11|78r7
+60V13*To_Big_Real{34R12} 61>7 11|271s19
+61r7 Arg{7|26R9} 62r32
+65V13*To_Real{34R12} 51s18 65>22 11|185s41 186s41
+65i22 Arg{integer} 66r36
+69V14*"="{boolean} 51s16 69>18 69>21 11|84b14
+69r18 L{34R12} 11|85r7 85r30
+69r21 R{34R12} 11|85r15 85r38
+71V14*"<"{boolean} 71>18 71>21 11|91b14 100s68 106s62 112s68 255s18 737s12
+71r18 L{34R12} 11|92r7 92r31
+71r21 R{34R12} 11|92r15 92r23
+73V14*"<="{boolean} 73>19 73>22 80s11 80s31 11|100b14 222s21
+73r19 L{34R12} 11|100r70
+73r22 R{34R12} 11|100r66
+75V14*">"{boolean} 75>18 75>21 11|106b14 744s12
+75r18 L{34R12} 11|106r64
+75r21 R{34R12} 11|106r60
+77V14*">="{boolean} 77>19 77>22 11|112b14 205s21 263s18
+77r19 L{34R12} 11|112r66
+77r22 R{34R12} 11|112r70
+79V13*In_Range{boolean} 79>23 79>28 79>33 92s19 109s19
+79r23 Arg{25R9} 80r14 80r27
+79r28 Low{25R9} 80r7 93r29 110r29
+79r33 High{25R9} 80r34 94r29 111r29
+84F12 Num 87r35 90r54 93r50 94r50 11|133r35 135r23 136r35 137r23 137r35 138r35
+. 143r25 182r54 184r41 238r23 241r25 296r15 296r28
+85k12*Float_Conversions 84z12 98l8 98e25 11|118b17 301l8 301t25 309r32
+87V16*To_Big_Real{34R12} 87>29 93s37 94s37 11|133b16 169l11 169t22 336s30[309]
+87*29 Arg{84F12} 11|133b29 135r40 168r21
+90V16*From_Big_Real{84F12} 90>31 11|182b16 299l11 299t24 359s35[309]
+90r31 Arg{25R9} 92r29 11|182b31 232r31 298r32
+101O12 Num 104r35 107r54 110r50 111r50 11|315r21 316r31 331r35 339r38 340r38
+. 354r54 359r20 362r38 363r38 380r17
+102k12*Fixed_Conversions 101z12 115l8 115e25 11|307b17 383l8 383t25
+104V16*To_Big_Real{34R12} 104>29 110s37 111s37 11|331b16 344l11 344t22
+104*29 Arg{101O12} 11|331b29 336r55 341r58
+107V16*From_Big_Real{101O12} 107>31 11|354b16 381l11 381t24
+107r31 Arg{25R9} 109r29 11|354b31 359r50 364r26 365r28
+117V13*To_String{string} 117>24 118>24 119>24 120>24 122r16 11|389b13 512s29
+. 534l8 534t17 626s42
+117r24 Arg{34R12} 11|390b7 510r10 512r41 532r14 532r38
+118i24 Fore{6|19I12} 11|391b7 490r42 496r45 501r66 512r46
+119i24 Aft{6|19I12} 11|392b7 491r45 498r66 503r67 512r52 532r31 532r62
+120i24 Exp{6|19I12} 11|393b7 499r24 499r68 504r24 504r68 512r57 532r56
+125V13*From_String{34R12} 125>26 129r14 11|540b13 593l8 593t19
+125a26 Arg{string} 11|540b26 546r26 549r24 550r13 551r24 556r35 556r49 559r16
+. 562r16 575r37 575r42 576r31
+128V13*From_Universal_Image=129:14{34R12}
+128a35 Arg{string}
+130V13*From_Universal_Image{34R12} 130>35 130>40
+130a35 Num{string} 131r42
+130a40 Den{string} 132r42
+135V13*To_Quotient_String{string} 135>33
+135r33 Arg{25R9} 136r42 137r46
+140V13*From_Quotient_String{34R12} 140>35 11|599b13 615l8 615t28
+140a35 Arg{string} 11|599b35 602r16 602r33 603r13 613r40 613r45 614r35 614r53
+143U14*Put_Image 27r22 143=25 143>60 11|621b14 627l8 627t17
+143c25 S<14|26R9> 11|621b25 626m39
+143r60 V{25R9} 11|621b60 626r53
+145V14*"+"{34R12} 145>18 11|633b14 639l9 639t11
+145r18 L{34R12} 11|633b18 636r21 637r21
+148V14*"-"{34R12} 148>18 11|168s48 512s40 645b14
+148r18 L{34R12} 11|646r15 646r29
+151V14*"abs"{34R12} 151>20 11|232s26 652b14
+151r20 L{34R12} 11|653r18 653r32
+154V14*"+"{34R12} 154>18 154>21 11|659b14 666l9 666t11
+154r18 L{34R12} 11|659b18 662r21 662r45 663r21
+154r21 R{34R12} 11|659b21 662r29 662r37 663r29
+157V14*"-"{34R12} 157>18 157>21 11|672b14 679l9 679t11
+157r18 L{34R12} 11|672b18 675r21 675r45 676r21
+157r21 R{34R12} 11|672b21 675r29 675r37 676r29
+160V14*"*"{34R12} 160>18 160>21 11|206s27 223s27 257s20 271s17 685b14 692l9
+. 692t11
+160r18 L{34R12} 11|685b18 688r21 689r21
+160r21 R{34R12} 11|685b21 688r29 689r29
+163V14*"/"{34R12} 163>18 163>21 11|187s45 265s20 698b14 705l9 705t11
+163r18 L{34R12} 11|698b18 701r21 702r21
+163r21 R{34R12} 11|698b21 701r29 702r29
+166V14*"**"{34R12} 166>19 166>39 11|257s27 265s27 711b14 730l9 730t12
+166r19 L{34R12} 11|711b19 719r27 720r27 722r27 723r27
+166i39 R{integer} 11|711b39 714r10 718r13 719r38 720r38 722r36 723r36
+169V13*Min{34R12} 169>18 169>21 11|736b13
+169r18 L{34R12} 11|737r10 737r21
+169r21 R{34R12} 11|737r14 737r28
+172V13*Max{34R12} 172>18 172>21 11|743b13
+172r18 L{34R12} 11|744r10 744r21
+172r21 R{34R12} 11|744r14 744r28
+178r7*Num{7|26R9} 11|47r21 60m14 71r11 85r9 85r17 92r9 92r25 510r14 532r18
+. 575m17 578r20 579m20 579r34 581m20 581r34 585m20 585r34 636m14 636r23 646m7
+. 646r17 653m7 653r20 662m14 662r23 662r39 675m14 675r23 675r39 688m14 688r23
+. 688r31 701m14 701r23 702r31 715m17 719m20 720r29 722m20 722r29 754m14 754r26
+. 758r14 763r44 765m17 765r28
+178r12*Den{7|26R9} 11|47r44 61m14 78r11 85r32 85r40 92r17 92r33 532r42 574m17
+. 575r72 587m20 587r34 637m14 637r23 646m22 646r31 653m25 653r34 662r31 662r47
+. 663m14 663r23 663r31 675r31 675r47 676m14 676r23 676r31 689m14 689r23 689r31
+. 701r31 702m14 702r23 716m17 719r29 720m20 723m20 723r29 753r14 755m14 755r26
+. 759m14 763r53 766m17 766r28
+X 11 a-nbnbre.adb
+38U14 Normalize 38=25 62s7 590s10 664s7 677s7 690s7 703s7 726s10 750b14 769l8
+. 769t17
+38r25 Arg{10|25R9} 750b25 753r10 754m10 754r22 755m10 755r22 758r10 759m10
+. 763r40 763r49 765m13 765r24 766m13 766r24
+54r7 Result{10|25R9} 60m7 61m7 62m18 62r18 63r14
+120K15 Conv[7|96] 149r15 279r15
+135*10 A 136r49 137r49
+136i10 E{integer} 153r13 154r45 158r16 159r45
+137*10 F 149r56
+138i10 M{natural} 146r25 149r65 153r17 154r41 158r20 159r49
+140r10 N{7|26R9} 149m10 159m13 159r18 168r37 168r49
+140r13 D{7|26R9} 154m13 160m13 165m13 168r41 168r53
+184i10 M{natural} 244r25 271r40 290r23
+185r10 One{10|25R9} 187r41 263r21
+186r10 Two{10|25R9} 187r47 202r31 257r23 265r23
+187r10 Half{10|25R9} 219r31 255r20
+188r10 TwoI{7|26R9} 271r32 283r29
+190V19 Log2_Estimate{natural} 190>34 200b19 211l14 211t27 264s18
+190r34 V{10|25R9} 200b34 205r19
+193V19 Minus_Log2_Estimate{natural} 193>40 217b19 228l14 228t33 256s18
+193r40 V{10|25R9} 217b40 222r19
+201i13 Log{natural} 207m16 207r23 207r29 210r20
+202r13 Pow{10|25R9} 205r24 206m16 206r23 206r29
+218i13 Log{natural} 224m16 224r23 224r29 227r20
+219r13 Pow{10|25R9} 222r24 223m16 223r23 223r29
+232r10 V{10|25R9} 249r24 255r16 256r39 257m13 257r18 263r16 264r33 265m13
+. 265r18 271m10 271r15 275r26 276r28
+233i10 E{integer} 258m13 258r18 266m13 266r18 292m16 292r21 296r42
+234i10 L{integer} 256m13 257r30 258r22 264m13 265r30 266r22
+236r10 A{7|26R9} 275m10 278r15 283r16
+236r13 B{7|26R9} 276m10 278r19 283r24 285r17 285r32
+236r16 Q{7|26R9} 278m10 279r38 283r20
+236r19 X{7|26R9} 283m10 285r13 285r28
+237m10 N{42|46M9} 279m10 285r44 286m13 286r18 290r16 291m16 296r38
+238*10 R 296m10 298r64 298r72
+309K15 Float_Aux[10|85] 336r20 359r25
+311I15 LLLI{long_long_long_integer} 320r62 341r38
+312M15 LLLU{42|47M9} 315r43 316r55 321r64
+314b7 Too_Large{boolean} 335r13 358r13
+320K15 Conv_I[7|80] 341r15 380r34
+321K15 Conv_U[7|96] 339r15 340r15 362r15 363r15
+332r10 N{7|26R9} 339m10 343r21
+332r13 D{7|26R9} 340m10 343r25
+332r16 V{7|26R9} 341m10 343r17
+355r10 N{7|26R9} 362m10 365r35
+355r13 D{7|26R9} 363m10 364r33
+355r16 A{7|26R9} 364m10 367r15 371r16
+355r19 B{7|26R9} 365m10 367r19 371r24 373r18 376r22
+355r22 Q{7|26R9} 367m10 371r20 374m13 374r18 377m13 377r18 380r59
+355r25 X{7|26R9} 371m10 373r13 376r16
+395r7 Zero{7|26R9} 510r20
+396r7 Ten{7|26R9} 532r24
+398V16 Leading_Padding{string} 399>10 400>10 401>10 436b16 442s20 447l11
+. 447t26 490s20 496s23 501s23
+399a10 Str{string} 437b10 441r13 444r62 445r39
+400i10 Min_Length{6|19I12} 438b10 442r42 444r48
+401e10 Char{character} 439b10 442r54 445r31
+405V16 Trailing_Padding{string} 406>10 407>10 408>10 453b16 461s26 474l11
+. 474t27 491s22 498s20 503s20
+406a10 Str{string} 454b10 458r13 458r37 458r42 459r30 460r19 462r22 462r27
+. 467r13 468r20 468r25 468r38 470r20 471r53
+407i10 Length{6|19I12} 455b10 462r44 467r27 468r50 471r43
+408e10 Char{character} 456b10 458r54 462r52 472r26
+413V16 Image{string} 413>23 426b16 430l11 430t16 499s52 504s52
+413i23 N{natural} 426b23 427r48
+416V16 Numerator_Image{string} 417>10 418>10 480b16 507l11 507t26 531s17
+417r10 Num{7|26R9} 481b10 484r48
+418i10 After{natural} 482b10 489r13 493r33 532r47
+427a10 S{string} 429r17 429r25
+459i17 J{integer} 460r24 462r40
+484a10 Tmp{string} 485r40 485r57 485r67
+485a10 Str{string} 490r37 493r22 498r61 501r40 501r45 503r38 503r56
+486i10 Index{integer} 493m13 495r16 498r45 501r58 503r43
+512a13 Str{string} 514r16 515r30 516r22 517r22 522r23 524r29
+515i20 J{integer} 516r27 517r27
+541r7 Ten{7|26R9} 574r24 585r40 587r40
+542r7 Frac{7|26R9} 576m10 576r10 579r40 581r40
+543i7 Exp{integer} 556m13 584r13 585r47 586r16 587r49
+544i7 Pow{natural} 557m13 563m13 563r20 574r31
+545i7 Index{natural} 560m13 567r10 575r55 576r36
+546i7 Last{natural} 551r16 555m13 576r49
+549i11 J{integer} 550r18 555r21 556r40 559r21 560r22 562r21
+572r10 Result{10|25R9} 574m10 575m10 575r65 578r13 579m13 579r27 581m13 581r27
+. 585m13 585r27 587m13 587r27 590m21 590r21 591r17
+600i7 Index{natural} 604m13 609r10 613r58 614r40
+602i11 J{integer} 603r18 604r22
+634r7 Result{10|25R9} 636m7 637m7 638r14
+660r7 Result{10|25R9} 662m7 663m7 664m18 664r18 665r14
+673r7 Result{10|25R9} 675m7 676m7 677m18 677r18 678r14
+686r7 Result{10|25R9} 688m7 689m7 690m18 690r18 691r14
+699r7 Result{10|25R9} 701m7 702m7 703m18 703r18 704r14
+712r7 Result{10|25R9} 715m10 716m10 719m13 720m13 722m13 723m13 726m21 726r21
+. 729r14
+751r7 Zero{7|26R9} 753r20 758r20
+762r13 GCD{7|26R9} 765r34 766r34
+X 13 a-string.ads
+16K13*Strings 10|18r10 18r40 11|626r7 13|35e16
+X 14 a-sttebu.ads
+17K21*Text_Buffers 10|18w18 18r48 11|626r15 14|152e29
+26H9*Root_Buffer_Type 10|143r36 11|621r36 14|104e14
+37x14*Put_UTF_8 11|626R28
+X 20 system.ads
+37K9*System 11|32r6 32r33 20|192e11
+67M9*Address
+X 28 s-memory.ads
+51V13*Alloc{20|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{20|67M9} 103i<c,__gnat_realloc>22
+X 37 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 42 s-unstyp.ads
+38K16*Unsigned_Types 11|32w13 32r40 42|249e26
+46M9*Long_Long_Unsigned 11|121r44 149r36 237r23
+47M9*Long_Long_Long_Unsigned 11|312r23
+

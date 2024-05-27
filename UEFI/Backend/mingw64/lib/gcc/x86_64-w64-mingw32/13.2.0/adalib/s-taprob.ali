@@ -1,0 +1,164 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U system.tasking.protected_objects%b  s-taprob.adb  22d1a9c4 OL PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali  EA
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.soft_links.tasking%s  s-solita.adb	s-solita.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+W system.task_primitives.operations%s  s-taprop.adb  s-taprop.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+U system.tasking.protected_objects%s  s-taprob.ads  a211a246 EB EE NE OL PK
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20230727081304 f40c8db4 interfaces.c.strings%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atacco.ads		20230727081304 903317eb system.address_to_access_conversions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-multip.ads		20230727081304 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20230727081304 97504df8 system.os_interface%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-solita.ads		20230727081304 4e08c3ec system.soft_links.tasking%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20230727081304 5be75682 system.stack_usage%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-tasinf.ads		20230727081304 601f6b72 system.task_info%s
+D s-taspri.ads		20230727081304 a1350802 system.task_primitives%s
+D s-taprop.ads		20230727081304 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20230727081304 0ec7ab0b system.tasking%s
+D s-taprob.ads		20230727081304 acd6094d system.tasking.protected_objects%s
+D s-taprob.adb		20230727081304 f962a482 system.tasking.protected_objects%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20230727081304 15ac53fb system.win32%s
+G a e
+G c Z s b [get_ceiling system__tasking__protected_objects 172 13 none]
+G c Z s b [initialize_protection system__tasking__protected_objects 176 14 none]
+G c Z s b [lock system__tasking__protected_objects 182 14 none]
+G c Z s b [lock_read_only system__tasking__protected_objects 188 14 none]
+G c Z s b [set_ceiling system__tasking__protected_objects 196 14 none]
+G c Z s b [unlock system__tasking__protected_objects 201 14 none]
+G c Z s b [finalize_protection system__tasking__protected_objects 236 14 none]
+G c Z s s [entry_bodyIP system__tasking__protected_objects 150 9 none]
+G c Z s s [protectionIP system__tasking__protected_objects 210 9 none]
+X 7 system.ads
+37K9*System 192e11 24|48r9 131r16 141r13 142r13 173r42 198r16 214r17 217r21
+. 241r5 25|33r6 34r6 36r6 42r14 44r8 74r27 78r25 79r29 88r42 206r16 250r13
+. 266r4 267r5
+67M9*Address 24|131r23 141r20 142r20
+100I12*Any_Priority{integer} 24|173r49 198r23 214r24 217r28 25|78r32 79r36
+. 88r49 206r23
+101I12*Priority{100I12} 25|74r34
+X 13 s-secsta.ads
+35K16*Secondary_Stack 429e27 25|36w13 37r30 38r29
+X 14 s-soflin.ads
+45K16*Soft_Links 414e22 25|34r13 266r11
+X 15 s-solita.ads
+37K27*Tasking 44e30 25|34w24 266r22
+39U14*Init_Tasking_Soft_Links 25|266s30
+X 17 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 21 s-taspri.ads
+37K16*Task_Primitives 115e27 24|211r19 25|33r13 44r15 250r20
+40R9*Lock 73e14 24|211r35
+X 22 s-taprop.ads
+39K32*Operations 556e38 25|33w29 44r31 250r36
+148U14*Initialize_Lock 25|77s7
+175U14*Finalize_Lock 25|59s7
+181U14*Write_Lock 25|122s7
+206U14*Read_Lock 25|175s7
+230U14*Unlock 25|257s7
+290U14*Set_Ceiling 25|250s47
+X 23 s-taskin.ads
+47K16*Tasking 7|37k9 23|1221e19 24|48r16 241r12 25|42r21 265r4 267r12
+109P9*Task_Id(107R9) 24|227r15 25|134r32 186r32 223r32
+112p4*Null_Task{109P9} 25|80r23 235r29
+116V13*Self{109P9} 25|118s50 134s43 171s50 186s43 223s43
+223N4*Null_Entry 24|122r39
+225N4*Max_Entry 24|124r38
+231I9*Entry_Index<integer> 24|126r38
+447V13*Detect_Blocking{boolean} 25|118s10 132s10 171s10 184s10 221s10
+549i7*Protected_Action_Nesting{natural} 25|142m28 143r30 194m28 195r30 230r43
+. 240m28 241r30
+776i4*Unspecified_Priority{integer} 25|73r26
+978r7*Common{502R9} 25|142m21 143r23 194m21 195r23 230r36 240m21 241r23
+1177U14*Initialize 25|265s12
+X 24 s-taprob.ads
+48K24*Protected_Objects 23|47k16 24|126E4 241l20 241e37 25|42b29 267l20 267t37
+122N4*Null_Protected_Entry 127r12
+124N4*Max_Protected_Entry 127r36
+126I9*Protected_Entry_Index<23|231I9> 132r16 143r13
+129P9*Barrier_Function_Pointer(boolean) 131>9 132>9 151r17
+131m9 O{7|67M9}
+132i9 E{126I9}
+139P9*Entry_Action_Pointer 141>9 142>9 143>9 152r17
+141m9 O{7|67M9}
+142m9 P{7|67M9}
+143i9 E{126I9}
+150R9*Entry_Body 153e14
+151p7*Barrier{129P9}
+152p7*Action{139P9}
+158R9*Protection 168r41 210c9 234e14 236r51 25|57r51
+168P9*Protection_Access(158R9) 170r23 173r16 177r26 182r29 188r39 197r16
+. 201r31 25|67r26 88r16 97r29 152r39 205r16 215r31
+170p4*Null_PO{168P9}
+172V13*Get_Ceiling{7|100I12} 173>7 25|87b13 91l8 91t19
+173p7 Object{168P9} 25|88b7 90r14
+176U14*Initialize_Protection 177>7 178>7 25|66b14 81l8 81t29
+177p7 Object{168P9} 25|67b7 77r39 78r7 79r7 80r7
+178i7 Ceiling_Priority{integer} 25|68b7 70r34
+182U14*Lock 182>20 25|97b14 146l8 146t12
+182p20 Object{168P9} 25|97b20 118r35 122r19 138r13
+188U14*Lock_Read_Only 188>30 25|152b14 198l8 198t22
+188p30 Object{168P9} 25|152b30 171r35 175r18 190r13
+196U14*Set_Ceiling 197>7 198>7 25|204b14 209l8 209t19
+197p7 Object{168P9} 25|205b7 208r7
+198i7 Prio{7|100I12} 25|206b7 208r29
+201U14*Unlock 201>22 25|215b14 259l8 259t14
+201p22 Object{168P9} 25|215b22 231r39 235r13 248r10 248r32 251r16 251r33
+. 254r10 254r28 257r15
+211r7*L{21|40R9} 25|59m29 77m46 122m26 175m25 251m23 257m22
+214i7*Ceiling{7|100I12} 25|78m14 248r39 254m17
+217i7*New_Ceiling{7|100I12} 25|79m14 90r21 208m14 248r17 251r40 254r35
+227p7*Owner{23|109P9} 25|80m14 118r42 138m20 171r42 190m20 231r46 235m20
+236U14 Finalize_Protection 236=35 25|57b14 60l8 60t27
+236r35 Object{158R9} 25|57b35 59m22 59r22
+X 25 s-taprob.adb
+50e4 Locking_Policy{character} 51r22 249r13
+70i7 Init_Priority{integer} 73r10 74m10 77r24 78r46 79r50
+98b7 Ceiling_Violation{boolean} 122m36 124r10
+134p13 Self_Id{23|109P9} 138r29 142r13 143r15
+153b7 Ceiling_Violation{boolean} 175m35 177r10
+186p13 Self_Id{23|109P9} 190r29 194r13 195r15
+223p13 Self_Id{23|109P9} 230r28 231r54 240r13 241r15
+

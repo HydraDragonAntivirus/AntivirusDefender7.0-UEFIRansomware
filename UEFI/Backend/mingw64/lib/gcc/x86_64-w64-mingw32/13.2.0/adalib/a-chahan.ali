@@ -1,0 +1,451 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.characters.handling%b  a-chahan.adb	f70a517e NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+W ada.strings.maps.constants%s  a-stmaco.ads	a-stmaco.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U ada.characters.handling%s  a-chahan.ads	ea6baced BN NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+N A49:4 gnatprove always_return handling
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-charac.ads		20230727081304 2d3ec45b ada.characters%s
+D a-chahan.ads		20230727081304 278246c0 ada.characters.handling%s
+D a-chahan.adb		20230727081304 96cadc18 ada.characters.handling%b
+D a-chlat1.ads		20230727081304 e0d72e76 ada.characters.latin_1%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-strmap.ads		20230727081304 ed8acfdb ada.strings.maps%s
+D a-stmaco.ads		20230727081304 4b1f2a0b ada.strings.maps.constants%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [is_control ada__characters__handling 63 13 none]
+G c Z s b [is_graphic ada__characters__handling 70 13 none]
+G c Z s b [is_letter ada__characters__handling 77 13 none]
+G c Z s b [is_lower ada__characters__handling 86 13 none]
+G c Z s b [is_upper ada__characters__handling 95 13 none]
+G c Z s b [is_basic ada__characters__handling 104 13 none]
+G c Z s b [is_digit ada__characters__handling 122 13 none]
+G c Z s b [is_hexadecimal_digit ada__characters__handling 131 13 none]
+G c Z s b [is_alphanumeric ada__characters__handling 139 13 none]
+G c Z s b [is_special ada__characters__handling 146 13 none]
+G c Z s b [is_line_terminator ada__characters__handling 153 13 none]
+G c Z s b [is_mark ada__characters__handling 160 13 none]
+G c Z s b [is_other_format ada__characters__handling 166 13 none]
+G c Z s b [is_punctuation_connector ada__characters__handling 171 13 none]
+G c Z s b [is_space ada__characters__handling 178 13 none]
+G c Z s b [is_nfkc ada__characters__handling 184 13 none]
+G c Z s b [to_lower ada__characters__handling 210 13 none]
+G c Z s b [to_upper ada__characters__handling 225 13 none]
+G c Z s b [to_basic ada__characters__handling 245 13 none]
+G c Z s b [to_lower ada__characters__handling 275 13 none]
+G c Z s b [to_upper ada__characters__handling 283 13 none]
+G c Z s b [to_basic ada__characters__handling 291 13 none]
+G c Z s b [is_iso_646 ada__characters__handling 309 13 none]
+G c Z s b [is_iso_646 ada__characters__handling 315 13 none]
+G c Z s b [to_iso_646 ada__characters__handling 322 13 none]
+G c Z s b [to_iso_646 ada__characters__handling 332 13 none]
+G c Z s b [is_character ada__characters__handling 359 13 none]
+G c Z s b [is_string ada__characters__handling 366 13 none]
+G c Z s b [to_character ada__characters__handling 385 13 none]
+G c Z s b [to_string ada__characters__handling 397 13 none]
+G c Z s b [to_wide_character ada__characters__handling 410 13 none]
+G c Z s b [to_wide_string ada__characters__handling 418 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|41r6 43r9 455r5 4|38r6 38r38 39r6 39r38 40r6 40r38 42r14
+. 646r5
+X 2 a-charac.ads
+16K13*Characters 1|16k9 2|18e19 3|41r10 43r13 455r9 4|38r10 38r42 42r18 646r9
+X 3 a-chahan.ads
+43K24*Handling 2|16k13 3|49r47 455l20 455e28 4|42b29 646l20 646t28
+63V13*Is_Control{boolean} 63>39 65r14 435r19 4|316b13 319l8 319t18
+63e39 Item{character} 66r24 4|316b25 318r25
+70V13*Is_Graphic{boolean} 70>39 72r14 149s9 437r19 4|334b13 337l8 337t18
+70e39 Item{character} 73r24 4|334b25 336r25
+77V13*Is_Letter{boolean} 77>39 79r14 142s9 248s16 440r19 4|375b13 378l8 378t17
+77e39 Item{character} 80r9 81r33 4|375b24 377r25
+86V13*Is_Lower{boolean} 86>39 88r14 228s12 442r19 4|393b13 396l8 396t16
+86e39 Item{character} 89r9 90r33 4|393b23 395r25
+95V13*Is_Upper{boolean} 95>39 97r14 213s12 448r19 4|476b13 479l8 479t16
+95e39 Item{character} 98r9 99r33 4|476b23 478r25
+104V13*Is_Basic{boolean} 104>39 106r14 248s41 433r19 4|300b13 303l8 303t16
+104e39 Item{character} 107r9 4|300b23 302r25
+122V13*Is_Digit{boolean} 122>39 124r14 129r14 436r19 4|325b13 328l8 328t16
+122e39 Item{character} 124r33 4|325b23 327r14
+128V13*Is_Decimal_Digit=129:14{boolean} 134s9 142s29
+128e39 Item{character}
+131V13*Is_Hexadecimal_Digit{boolean} 131>39 133r14 438r19 4|343b13 346l8
+. 346t28
+131e39 Item{character} 134r27 134r36 4|343b35 345r25
+139V13*Is_Alphanumeric{boolean} 139>39 141r14 149s35 432r19 4|291b13 294l8
+. 294t23
+139e39 Item{character} 142r20 142r47 4|291b30 293r25
+146V13*Is_Special{boolean} 146>39 148r14 447r19 4|450b13 453l8 453t18
+146e39 Item{character} 149r21 149r52 4|450b25 452r25
+153V13*Is_Line_Terminator{boolean} 153>39 155r14 441r19 4|384b13 387l8 387t26
+153e39 Item{character} 156r24 4|384b33 386r25
+160V13*Is_Mark{boolean} 160>39 162r14 443r19 4|402b13 406l8 406t15
+160e39 Item{character} 4|402b22 403r28
+166V13*Is_Other_Format{boolean} 166>39 168r14 444r19 4|423b13 426l8 426t23
+166e39 Item{character} 168r55 4|423b30 425r14
+171V13*Is_Punctuation_Connector{boolean} 171>39 173r14 445r19 4|432b13 435l8
+. 435t32
+171e39 Item{character} 174r24 4|432b39 434r14
+178V13*Is_Space{boolean} 178>39 180r14 446r19 4|441b13 444l8 444t16
+178e39 Item{character} 180r48 4|441b23 443r14 443r33
+184V13*Is_NFKC{boolean} 184>39 186r14 4|412b13 417l8 417t15
+184e39 Item{character} 187r24 4|412b22 414r29
+210V13*To_Lower{character} 210>23 281s35 4|550b13 562s50
+210e23 Item{character} 213r22 214r41 215r17 221r11 4|551r30
+225V13*To_Upper{character} 225>23 289s35 4|594b13 608s50
+225e23 Item{character} 228r22 229r20 232r41 233r17 239r11 4|595r30
+245V13*To_Basic{character} 245>23 297s35 4|485b13 497s50
+245e23 Item{character} 248r27 248r51 249r11 251r17 4|486r26
+275V13*To_Lower{string} 275>23 4|553b13 565l8 565t16
+275a23 Item{string} 278r42 281r45 281r51 4|553b23 555r36
+280i19 J{integer} 281r30 281r65
+283V13*To_Upper{string} 283>23 4|597b13 611l8 611t16
+283a23 Item{string} 286r42 289r45 289r51 4|598b7 601r36
+288i19 J{integer} 289r30 289r65
+291V13*To_Basic{string} 291>23 4|488b13 500l8 500t16
+291a23 Item{string} 294r42 297r45 297r51 4|488b23 490r36
+296i19 J{integer} 297r30 297r65
+306E12*ISO_646{character} 311r43 324r20 324r43 334r20 4|353r15 361r29 524r20
+. 524r43 525r19 529r20 535r31
+309V13*Is_ISO_646{boolean} 309>25 318s36 327s12 4|352b13 365s45
+309e25 Item{character} 311r35 4|353r7
+315V13*Is_ISO_646{boolean} 315>25 4|358b13 369l8 369t18
+315a25 Item{string} 318r22 318r48 4|358b25 360r16 361r13 365r26 365r57
+318i17 J{integer} 318r54
+322V13*To_ISO_646{306E12} 323>7 324>7 341s15 4|522b13 541s20
+323e7 Item{character} 327r24 327r35 4|525r11 525r32
+324e7 Substitute{306E12} 327r45 4|525r42
+332V13*To_ISO_646{string} 333>7 334>7 4|527b13 544l8 544t18
+333a7 Item{string} 337r44 341r27 341r33 4|528b7 532r36 533r19 534r26 535r19
+. 535r44 537r33 539r29 540r31 541r32
+334e7 Substitute{306E12} 341r56 4|529b7 535r58 541r42
+339i19 J{integer} 340r32 341r47
+359V13*Is_Character{boolean} 359>27 361r14 369s36 390s12 434r19 4|309b13
+. 466s45 511s10
+359e27 Item{wide_character} 362r29 4|310r27
+366V13*Is_String{boolean} 366>27 368r14 4|459b13 470l8 470t17
+366a27 Item{wide_string} 369r22 369r50 4|459b24 461r16 462r33 466r26 466r59
+369i17 I{integer} 369r56
+385V13*To_Character{character} 386>7 387>7 389r14 406s15 450r19 4|506b13
+. 516l8 516t20 579s15 585s20
+386e7 Item{wide_character} 390r26 391r46 4|507b7 511r24 512r52
+387e7 Substitute{character} 393r11 4|508b7 514r17
+397V13*To_String{string} 398>7 399>7 401r14 402r17 404r24 405r13 4|571b13
+. 588l8 588t17
+398a7 Item{wide_string} 402r43 406r29 406r35 4|572b7 576r36 577r19 578r26
+. 579r29 581r34 583r29 584r31 585r34
+399e7 Substitute{character} 406r58 4|573b7 579r39 585r44
+404i19 J{integer} 405r31 406r49
+410V13*To_Wide_Character{wide_character} 411>7 413r14 426s15 453r19 4|617b13
+. 622l8 622t25 636s46 641s50
+411e7 Item{character} 414r43 4|618b7 621r49
+418V13*To_Wide_String{wide_string} 419>7 421r14 422r17 424r24 425r13 4|628b13
+. 644l8 644t22
+419a7 Item{string} 422r48 426r34 426r40 4|629b7 632r41 635r19 636r26 636r65
+. 638r34 640r29 641r31 641r69
+424i19 J{integer} 425r36 426r54
+X 4 a-chahan.adb
+50M9 Character_Flags 51r8 53r26 54r26 55r26 56r26 57r26 58r26 59r26 60r26
+. 62r26 63r26 64r26 66r45
+53m4 Control{50M9} 68r37 69r37 70r37 71r37 72r37 73r37 74r37 75r37 76r37
+. 77r37 78r37 79r37 80r37 81r37 82r37 83r37 85r37 86r37 87r37 88r37 89r37
+. 90r37 91r37 92r37 93r37 94r37 95r37 96r37 97r37 98r37 99r37 100r37 147r37
+. 148r37 149r37 150r37 151r37 152r37 153r37 154r37 155r37 156r37 157r37 158r37
+. 159r37 160r37 161r37 162r37 163r37 165r37 166r37 167r37 168r37 169r37 170r37
+. 171r37 172r37 174r37 175r37 176r37 177r37 178r37 179r37 180r37 181r37 318r35
+54m4 Lower{50M9} 62r45 139r37 140r37 250r37 251r37 252r37 253r37 254r37 255r37
+. 256r37 257r37 258r37 259r37 260r37 261r37 262r37 263r37 264r37 265r37 266r37
+. 267r37 268r37 269r37 270r37 271r37 272r37 273r37 277r37 278r37 279r37 280r37
+. 281r37 282r37 283r37 284r37 395r35
+55m4 Upper{50M9} 62r54 129r37 130r37 216r37 217r37 218r37 219r37 220r37 221r37
+. 222r37 223r37 224r37 225r37 226r37 227r37 228r37 229r37 230r37 231r37 232r37
+. 233r37 234r37 235r37 236r37 237r37 238r37 242r37 243r37 244r37 245r37 246r37
+. 247r37 248r37 478r35
+56m4 Basic{50M9} 129r45 130r45 139r45 140r45 222r45 232r45 248r45 250r45
+. 257r45 267r45 283r45 302r35
+57m4 Hex_Digit{50M9} 119r45 129r53 139r53 345r35
+58m4 Digit{50M9} 63r55 119r37
+59m4 Special{50M9} 64r57 102r37 103r37 104r37 105r37 106r37 107r37 108r37
+. 109r37 110r37 111r37 112r37 113r37 114r37 115r37 116r37 117r37 121r37 122r37
+. 123r37 124r37 125r37 126r37 127r37 132r37 133r37 134r37 135r37 136r37 137r37
+. 142r37 143r37 144r37 145r37 183r37 184r37 185r37 186r37 187r37 188r37 189r37
+. 190r37 191r37 192r37 193r37 194r37 195r37 196r37 197r37 198r37 199r37 200r37
+. 201r37 202r37 203r37 204r37 205r37 206r37 207r37 208r37 209r37 210r37 211r37
+. 212r37 213r37 214r37 240r37 275r37 452r35
+60m4 Line_Term{50M9} 78r47 79r47 80r47 81r47 153r47 386r35
+62m4 Letter{50M9} 63r45 377r35
+63m4 Alphanum{50M9} 64r45 293r35
+64m4 Graphic{50M9} 336r35
+66a4 Char_Map(50M9) 293r15 302r15 318r15 336r15 345r15 377r15 386r15 395r15
+. 452r15 478r15
+360i11 J{integer} 361r19 365r40
+365i21 K{integer} 365r63
+461i11 J{integer} 462r39 466r40
+466i21 K{integer} 466r65
+491i14 J{integer} 492r21 492r70 494r29 496r43
+496i24 K{integer} 497r26 497r66
+532a14 Result{string} 534r13 537r16 540r18
+533i14 J{integer} 534r21 535r25 535r50 537r29 539r43
+539i24 K{integer} 540r26 541r38
+556i14 J{integer} 557r21 557r75 559r29 561r43
+561i24 K{integer} 562r26 562r66
+576a14 Result{string} 578r13 581r16 584r18
+577i14 J{integer} 578r21 579r35 581r29 583r43
+583i24 K{integer} 584r26 585r40
+602i14 J{integer} 603r21 603r75 605r29 607r43
+607i24 K{integer} 608r26 608r66
+632a14 Result{wide_string} 636r13 638r16 641r18
+635i14 J{integer} 636r21 636r71 638r29 640r43
+640i24 K{integer} 641r26 641r75
+X 5 a-chlat1.ads
+16K24*Latin_1 3|41w21 109r13 110r13 111r13 112r13 113r13 114r13 115r13 218r31
+. 219r35 229r32 230r32 236r31 237r35 252r19 252r41 253r19 254r19 254r41 255r19
+. 255r41 256r19 257r19 257r41 258r19 259r19 259r41 260r19 261r19 261r41 262r19
+. 263r19 263r41 264r19 264r41 265r19 266r19 266r41 267r19 268r19 268r41 269r19
+. 270r19 4|38w21 38r53 5|294e27
+23e4*NUL{character} 4|68r6
+24e4*SOH{character} 4|69r6
+25e4*STX{character} 4|70r6
+26e4*ETX{character} 4|71r6
+27e4*EOT{character} 4|72r6
+28e4*ENQ{character} 4|73r6
+29e4*ACK{character} 4|74r6
+30e4*BEL{character} 4|75r6
+31e4*BS{character} 4|76r6
+32e4*HT{character} 4|77r6
+33e4*LF{character} 4|78r6
+34e4*VT{character} 4|79r6
+35e4*FF{character} 4|80r6
+36e4*CR{character} 4|81r6
+37e4*SO{character} 4|82r6
+38e4*SI{character} 4|83r6
+40e4*DLE{character} 4|85r6
+41e4*DC1{character} 4|86r6
+42e4*DC2{character} 4|87r6
+43e4*DC3{character} 4|88r6
+44e4*DC4{character} 4|89r6
+45e4*NAK{character} 4|90r6
+46e4*SYN{character} 4|91r6
+47e4*ETB{character} 4|92r6
+48e4*CAN{character} 4|93r6
+49e4*EM{character} 4|94r6
+50e4*SUB{character} 4|95r6
+51e4*ESC{character} 4|96r6
+52e4*FS{character} 4|97r6
+53e4*GS{character} 4|98r6
+54e4*RS{character} 4|99r6
+55e4*US{character} 4|100r6
+61e4*Space{character} 4|102r6
+62e4*Exclamation{character} 4|103r6
+63e4*Quotation{character} 4|104r6
+64e4*Number_Sign{character} 4|105r6
+65e4*Dollar_Sign{character} 4|106r6
+66e4*Percent_Sign{character} 4|107r6
+67e4*Ampersand{character} 4|108r6
+68e4*Apostrophe{character} 4|109r6
+69e4*Left_Parenthesis{character} 4|110r6
+70e4*Right_Parenthesis{character} 4|111r6
+71e4*Asterisk{character} 4|112r6
+72e4*Plus_Sign{character} 4|113r6
+73e4*Comma{character} 4|114r6
+74e4*Hyphen{character} 4|115r6
+76e4*Full_Stop{character} 4|116r6
+77e4*Solidus{character} 4|117r6
+81e4*Colon{character} 4|121r6
+82e4*Semicolon{character} 4|122r6
+83e4*Less_Than_Sign{character} 4|123r6
+84e4*Equals_Sign{character} 4|124r6
+85e4*Greater_Than_Sign{character} 4|125r6
+86e4*Question{character} 4|126r6
+87e4*Commercial_At{character} 4|127r6
+91e4*Left_Square_Bracket{character} 4|132r6
+92e4*Reverse_Solidus{character} 4|133r6
+93e4*Right_Square_Bracket{character} 4|134r6
+94e4*Circumflex{character} 4|135r6
+95e4*Low_Line{character} 4|136r6
+97e4*Grave{character} 4|137r6
+124e4*Left_Curly_Bracket{character} 4|142r6
+125e4*Vertical_Line{character} 4|143r6
+126e4*Right_Curly_Bracket{character} 4|144r6
+127e4*Tilde{character} 4|145r6
+128e4*DEL{character} 4|147r6
+139e4*Reserved_128{character} 4|148r6
+140e4*Reserved_129{character} 4|149r6
+141e4*BPH{character} 4|150r6
+142e4*NBH{character} 4|151r6
+143e4*Reserved_132{character} 4|152r6
+144e4*NEL{character} 4|153r6
+145e4*SSA{character} 4|154r6
+146e4*ESA{character} 4|155r6
+147e4*HTS{character} 4|156r6
+148e4*HTJ{character} 4|157r6
+149e4*VTS{character} 4|158r6
+150e4*PLD{character} 4|159r6
+151e4*PLU{character} 4|160r6
+152e4*RI{character} 4|161r6
+153e4*SS2{character} 4|162r6
+154e4*SS3{character} 4|163r6
+156e4*DCS{character} 4|165r6
+157e4*PU1{character} 4|166r6
+158e4*PU2{character} 4|167r6
+159e4*STS{character} 4|168r6
+160e4*CCH{character} 4|169r6
+161e4*MW{character} 4|170r6
+162e4*SPA{character} 4|171r6
+163e4*EPA{character} 4|172r6
+165e4*SOS{character} 4|174r6
+166e4*Reserved_153{character} 4|175r6
+167e4*SCI{character} 4|176r6
+168e4*CSI{character} 4|177r6
+169e4*ST{character} 4|178r6
+170e4*OSC{character} 4|179r6
+171e4*PM{character} 4|180r6
+172e4*APC{character} 4|181r6
+180e4*No_Break_Space{character} 4|183r6 443r40
+182e4*Inverted_Exclamation{character} 4|184r6
+183e4*Cent_Sign{character} 4|185r6
+184e4*Pound_Sign{character} 4|186r6
+185e4*Currency_Sign{character} 4|187r6
+186e4*Yen_Sign{character} 4|188r6
+187e4*Broken_Bar{character} 4|189r6
+188e4*Section_Sign{character} 4|190r6
+189e4*Diaeresis{character} 4|191r6
+190e4*Copyright_Sign{character} 4|192r6
+191e4*Feminine_Ordinal_Indicator{character} 4|193r6
+192e4*Left_Angle_Quotation{character} 4|194r6
+193e4*Not_Sign{character} 4|195r6
+194e4*Soft_Hyphen{character} 4|196r6 425r21
+195e4*Registered_Trade_Mark_Sign{character} 4|197r6
+196e4*Macron{character} 4|198r6
+200e4*Degree_Sign{character} 4|199r6
+202e4*Plus_Minus_Sign{character} 4|200r6
+203e4*Superscript_Two{character} 4|201r6
+204e4*Superscript_Three{character} 4|202r6
+205e4*Acute{character} 4|203r6
+206e4*Micro_Sign{character} 4|204r6
+207e4*Pilcrow_Sign{character} 4|205r6
+209e4*Middle_Dot{character} 4|206r6
+210e4*Cedilla{character} 4|207r6
+211e4*Superscript_One{character} 4|208r6
+212e4*Masculine_Ordinal_Indicator{character} 4|209r6
+213e4*Right_Angle_Quotation{character} 4|210r6
+214e4*Fraction_One_Quarter{character} 4|211r6
+215e4*Fraction_One_Half{character} 4|212r6
+216e4*Fraction_Three_Quarters{character} 4|213r6
+217e4*Inverted_Question{character} 4|214r6
+221e4*UC_A_Grave{character} 3|219r43 236r39 252r27 4|216r6
+222e4*UC_A_Acute{character} 4|217r6
+223e4*UC_A_Circumflex{character} 4|218r6
+224e4*UC_A_Tilde{character} 4|219r6
+225e4*UC_A_Diaeresis{character} 4|220r6
+226e4*UC_A_Ring{character} 3|252r49 4|221r6
+227e4*UC_AE_Diphthong{character} 3|109r21 4|222r6
+228e4*UC_C_Cedilla{character} 3|253r27 4|223r6
+229e4*UC_E_Grave{character} 3|254r27 4|224r6
+230e4*UC_E_Acute{character} 4|225r6
+231e4*UC_E_Circumflex{character} 4|226r6
+232e4*UC_E_Diaeresis{character} 3|254r49 4|227r6
+233e4*UC_I_Grave{character} 3|255r27 4|228r6
+234e4*UC_I_Acute{character} 4|229r6
+235e4*UC_I_Circumflex{character} 4|230r6
+236e4*UC_I_Diaeresis{character} 3|255r49 4|231r6
+240e4*UC_Icelandic_Eth{character} 3|111r21 4|232r6
+241e4*UC_N_Tilde{character} 3|256r27 4|233r6
+242e4*UC_O_Grave{character} 3|257r27 4|234r6
+243e4*UC_O_Acute{character} 4|235r6
+244e4*UC_O_Circumflex{character} 4|236r6
+245e4*UC_O_Tilde{character} 4|237r6
+246e4*UC_O_Diaeresis{character} 3|257r49 4|238r6
+247e4*Multiplication_Sign{character} 4|240r6
+248e4*UC_O_Oblique_Stroke{character} 3|258r27 4|242r6
+249e4*UC_U_Grave{character} 3|259r27 4|243r6
+250e4*UC_U_Acute{character} 4|244r6
+251e4*UC_U_Circumflex{character} 4|245r6
+252e4*UC_U_Diaeresis{character} 3|259r49 4|246r6
+253e4*UC_Y_Acute{character} 3|260r27 4|247r6
+254e4*UC_Icelandic_Thorn{character} 3|113r21 4|248r6
+255e4*LC_German_Sharp_S{character} 3|115r21 229r40 4|250r6
+259e4*LC_A_Grave{character} 3|218r39 237r43 261r27 4|251r6
+260e4*LC_A_Acute{character} 4|252r6
+261e4*LC_A_Circumflex{character} 4|253r6
+262e4*LC_A_Tilde{character} 4|254r6
+263e4*LC_A_Diaeresis{character} 4|255r6
+264e4*LC_A_Ring{character} 3|261r49 4|256r6
+265e4*LC_AE_Diphthong{character} 3|110r21 4|257r6
+266e4*LC_C_Cedilla{character} 3|262r27 4|258r6
+267e4*LC_E_Grave{character} 3|263r27 4|259r6
+268e4*LC_E_Acute{character} 4|260r6
+269e4*LC_E_Circumflex{character} 4|261r6
+270e4*LC_E_Diaeresis{character} 3|263r49 4|262r6
+271e4*LC_I_Grave{character} 3|264r27 4|263r6
+272e4*LC_I_Acute{character} 4|264r6
+273e4*LC_I_Circumflex{character} 4|265r6
+274e4*LC_I_Diaeresis{character} 3|264r49 4|266r6
+277e4*LC_Icelandic_Eth{character} 3|112r21 4|267r6
+278e4*LC_N_Tilde{character} 3|265r27 4|268r6
+279e4*LC_O_Grave{character} 3|266r27 4|269r6
+280e4*LC_O_Acute{character} 4|270r6
+281e4*LC_O_Circumflex{character} 4|271r6
+282e4*LC_O_Tilde{character} 4|272r6
+283e4*LC_O_Diaeresis{character} 3|266r49 4|273r6
+284e4*Division_Sign{character} 4|275r6
+285e4*LC_O_Oblique_Stroke{character} 3|267r27 4|277r6
+286e4*LC_U_Grave{character} 3|268r27 4|278r6
+287e4*LC_U_Acute{character} 4|279r6
+288e4*LC_U_Circumflex{character} 4|280r6
+289e4*LC_U_Diaeresis{character} 3|268r49 4|281r6
+290e4*LC_Y_Acute{character} 3|269r27 4|282r6
+291e4*LC_Icelandic_Thorn{character} 3|114r21 4|283r6
+292e4*LC_Y_Diaeresis{character} 3|230r40 270r27 4|284r6
+X 6 a-string.ads
+16K13*Strings 4|39r10 39r42 40r10 40r42 6|35e16
+X 7 a-strmap.ads
+51K21*Maps 4|39w18 39r50 40r18 40r50 7|651e21
+260A9*Character_Mapping(character)
+276V13*Value{character} 4|486s8 492s46 551s7 557s46 595s7 603s46
+X 8 a-stmaco.ads
+38K26*Constants 4|40w23 40r55 8|915e31
+54a4*Lower_Case_Map{7|260A9} 4|551r14 557r53
+57a4*Upper_Case_Map{7|260A9} 4|595r14 603r53
+60a4*Basic_Map{7|260A9} 4|486r15 492r53
+

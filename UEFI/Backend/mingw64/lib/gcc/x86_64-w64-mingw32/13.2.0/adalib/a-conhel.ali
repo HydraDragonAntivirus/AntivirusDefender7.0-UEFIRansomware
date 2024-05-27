@@ -1,0 +1,134 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.containers.helpers%b  a-conhel.adb	c3b32edd NE OL PK
+W ada.containers%s	a-contai.ads		a-contai.ali
+
+U ada.containers.helpers%s  a-conhel.ads	444c93c2 BN NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+W system%s		system.ads		system.ali
+W system.atomic_counters%s  s-atocou.adb	s-atocou.ali
+N A32:4 codepeer skip_analysis
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-contai.ads		20230727081304 61e5e089 ada.containers%s
+D a-conhel.ads		20230727081304 46fe1ce3 ada.containers.helpers%s
+D a-conhel.adb		20230727081304 854d323e ada.containers.helpers%b
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atocou.ads		20230727081304 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [tamper_countsIP ada__containers__helpers 43 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|28r6 31r9 181r5 4|28r14 200r5
+X 2 a-contai.ads
+16K13*Containers 1|16k9 2|28e19 3|31r13 181r9 4|28r18 200r9
+22I9*Count_Type<integer> 3|39r34
+X 3 a-conhel.ads
+31K24*Helpers 2|16k13 3|181l20 181e27 4|28b29 200l20 200t27
+37K12*SAC=37:31 44r22 45r22 130r16 4|57r13 120r13 122r13 168r13 180r13 182r13
+39N4*Count_Type_Last
+43R9*Tamper_Counts 46e14 51r44 96r45 100r41 104r43 108r41 112r43 116r38 120r38
+. 136r36 140r38 158r50 164r50 4|54r41 117r41 131r38 153r38 165r43 177r43
+. 191r45
+44m7*Busy{15|77M9} 137r35 4|57m37 58r37 122m37 123r37 168m37 169r37 182m37
+. 183r37
+45m7*Lock{15|77M9} 141r35 4|120m37 121r37 180m37 181r37
+51P9*Tamper_Counts_Access(43R9) 52r8 86r24
+55k12*Generic_Implementation 179l8 179e30 4|37b17 102r10 110r10 198l8 198t30
+77b7*Checks{boolean}
+78b7*T_Check{boolean} 88r43 137r13 141r13 160r42 166r42 4|56r13 79r25 87r25
+. 99r25 107r25 119r13 133r13 155r13 167r13 179r13 193r13
+84R12*Reference_Control_Type<6|43R9> 88e12 90P28 90r53 93P28 93r55 4|43r42
+. 66r44 6|46P14
+86p13 T_Counts{51P9} 4|45r21 46r27 68r21 69r29 70m21
+90U28*Adjust<6|47p14> 90=36 91r22 4|43b17 48l11 48t17
+90r36 Control{84R12} 4|43b25 45r13 46r19
+93U28*Finalize<6|48p14> 93=38 94r22 4|66b17 72l11 72t19
+93r38 Control{84R12} 4|66b27 68r13 69r21 70m13
+96U17*Zero_Counts 96<30 97r22 4|191b17 196l11 196t22
+96r30 T_Counts{43R9} 4|191b30 194m13
+100U17*Busy 100=23 101r22 4|46s13 54b17 60l11 60t15 102s33
+100r23 T_Counts{43R9} 4|54b23 57m28 57r28 58r28
+104U17*Unbusy 104=25 105r22 4|69s13 82s10 165b17 171l11 171t17
+104r25 T_Counts{43R9} 4|165b25 168m28 168r28 169r28
+108U17*Lock 108=23 109r22 4|110s33 117b17 125l11 125t15
+108r23 T_Counts{43R9} 4|117b23 120m28 120r28 121r28 122m28 122r28 123r28
+112U17*Unlock 112=25 113r22 4|90s10 177b17 185l11 185t17
+112r25 T_Counts{43R9} 4|177b25 180m28 180r28 181r28 182m28 182r28 183r28
+116U17*TC_Check 116>27 117r22 4|131b17 147l11 147t19
+116r27 T_Counts{43R9} 4|131b27 134r25 145r43
+120U17*TE_Check 120>27 121r22 4|153b17 159l11 159t19
+120r27 T_Counts{43R9} 4|153b27 155r41
+136V16*Is_Busy{boolean} 136>25 138r22 4|134s16
+136r25 T_Counts{43R9} 137r26
+140V16*Is_Locked{boolean} 140>27 142r22 4|145s32 155s30
+140r27 T_Counts{43R9} 141r26
+158R12*With_Busy<6|50R9> 158d23 160e11 161P28 161r54 162P28 162r52 4|77r41
+. 97r43 17|42p14
+161U28*Initialize<6|53p14> 161=40 4|97b17 103l11 103t21
+161r40 Busy{158R12} 4|97b29 102r39
+162U28*Finalize<6|54p14> 162=38 4|77b17 83l11 83t19
+162r38 Busy{158R12} 4|77b27 82r18
+164R12*With_Lock<6|50R9> 164d23 166e11 167P28 167r54 168P28 168r52 4|85r41
+. 105r43 17|42p14
+167U28*Initialize<6|53p14> 167=40 4|105b17 111l11 111t21
+167r40 Lock{164R12} 4|105b29 110r39
+168U28*Finalize<6|54p14> 168=38 4|85b17 91l11 91t19
+168r38 Lock{164R12} 4|85b27 90r18
+X 4 a-conhel.adb
+30N4 Max_Count 58r45 121r45 123r45 169r45 181r45 183r45
+X 6 a-finali.ads
+40K13*Finalization 3|28w10 85r14 159r13 165r13 6|68e21
+43H9*Controlled<17|40R9> 3|85r27 6|59e72
+46U14*Initialize<17|44p14>
+50H9*Limited_Controlled<17|40R9> 3|159r26 165r26 6|66e55
+X 14 system.ads
+37K9*System 3|29r6 37r24 14|192e11
+X 15 s-atocou.ads
+42K16*Atomic_Counters 3|29w13 37r31 15|108e27
+77M9*Atomic_Unsigned 3|44r26 45r26 130r20
+82U14*Increment 4|57s17 120s17 122s17
+89U14*Decrement 4|168s17 180s17 182s17
+X 17 s-finroo.ads
+42U14*Adjust
+

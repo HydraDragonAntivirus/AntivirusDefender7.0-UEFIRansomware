@@ -1,0 +1,104 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U ada.synchronous_barriers%b  a-synbar.adb	11f59dac NE OL PK
+W ada%s			ada.ads			ada.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U ada.synchronous_barriers%s  a-synbar.ads	d8452619 NE OL PR PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z system%s		system.ads		system.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-synbar.ads		20230727081304 ae3dbbb8 ada.synchronous_barriers%s
+D a-synbar.adb		20230727081304 bfc82614 ada.synchronous_barriers%b
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D i-c.ads		20230727081304 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20230727081304 f40c8db4 interfaces.c.strings%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atacco.ads		20230727081304 903317eb system.address_to_access_conversions%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-multip.ads		20230727081304 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20230727081304 97504df8 system.os_interface%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20230727081304 5be75682 system.stack_usage%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-tasinf.ads		20230727081304 601f6b72 system.task_info%s
+D s-taspri.ads		20230727081304 a1350802 system.task_primitives%s
+D s-taskin.ads		20230727081304 0ec7ab0b system.tasking%s
+D s-taprob.ads		20230727081304 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20230727081304 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20230727081304 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20230727081304 15ac53fb system.win32%s
+G a e
+G c Z s b [wait_for_release ada__synchronous_barriers 44 14 none]
+G c Z s b [wait ada__synchronous_barriers__synchronous_barrier 50 13 none]
+G c Z s s [synchronous_barrierVDI ada__synchronous_barriers 49 4 none]
+G c Z s s [synchronous_barrierVDF ada__synchronous_barriers 49 4 none]
+G c Z s s [synchronous_barrierVIP ada__synchronous_barriers 49 4 none]
+G c Z s s [P2sIP ada__synchronous_barriers 50 7 none]
+X 1 ada.ads
+16K9*Ada 20e8 8|36r9 54r5 9|36r14 78r5
+X 8 a-synbar.ads
+36K13*Synchronous_Barriers 1|16k9 8|37r25 49E19 54l9 54e29 9|36b18 78l9 78t29
+39I12*Barrier_Limit{positive} 41r50 49r60
+41W9*Synchronous_Barrier 41d30 45r28 52E7 53l8 53e27 9|38b19 64l8 64t27 71r28
+41i30 Release_Threshold{39I12} 49r40 9|50r45
+44U14*Wait_For_Release 45=7 46<7 9|70b14 76l8 76t24
+45w7 The_Barrier{41W9} 9|71b7 75r7
+46b7 Notified{boolean} 9|72b7 75m25
+50Y13 Wait 50<19 9|49b13 50r32 57r23 62r22 63l11 63t15 75s19
+50b19 Notified{boolean} 9|62m10
+52b7 Keep_Open{boolean} 9|50r14 57r10
+X 9 a-synbar.adb
+49b19 Notified{boolean}
+X 26 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+

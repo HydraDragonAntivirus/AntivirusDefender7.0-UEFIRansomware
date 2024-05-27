@@ -1,0 +1,58 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_LONG_LONG_INTEGERS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+
+U system.shared_bignums%s  s-shabig.ads		bf2bc13e NE OL PR PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-shabig.ads		20230727081304 5417e075 system.shared_bignums%s
+G a e
+G c Z s s [to_bignum system__shared_bignums 75 13 none]
+G c Z s s [to_address system__shared_bignums 77 13 none]
+G c Z s s [digit_vectorIP system__shared_bignums 55 9 none]
+G c Z s s [bignum_dataIP system__shared_bignums 58 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 5|35r6 75r30 78r6
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 5|35w10 75r34 78r10
+X 3 interfac.ads
+38K9*Interfaces 232e15 5|36w6 52r18
+80M9*Unsigned_32 5|52r29
+X 4 system.ads
+37K9*System 192e11 5|38r9 75r56 78r40 80r5
+67M9*Address 5|75r63 78r47
+X 5 s-shabig.ads
+38K16*Shared_Bignums 4|37k9 5|80l12 80e26
+46I12*Length{natural} 55r32 58r28
+49N4*Base
+52M12*SD{3|80M9} 55r52
+55A9*Digit_Vector(52M12)<integer> 62r11
+58R9*Bignum_Data 58d22 66e14 68r8 73r30
+58i22*Len{46I12} 62r30 69r7
+59b7*Neg{boolean} 70r7
+62a7*D{55A9}
+73P9*Bignum(58R9) 75r72 78r32
+75V13*To_Bignum[2|20]{73P9}
+77V13*To_Address[2|20]{4|67M9}
+

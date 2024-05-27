@@ -1,0 +1,39 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+
+U system.return_stack%s	s-retsta.ads		546ff1c9 NE OL PR PK
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D system.ads		20230727081304 f0509fe6 system%s
+D s-retsta.ads		20230727081304 0f6b06cb system.return_stack%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+G a e
+G c Z s s [rs_allocate system__return_stack 44 14 none]
+X 1 system.ads
+37K9*System 192e11 2|37r6 39r9 42r24 57r5
+67M9*Address 2|45r26
+X 2 s-retsta.ads
+39K16*Return_Stack 1|37k9 2|53E4 57l12 57e24
+42K12*SSE=42:31 46r22
+44U14*RS_Allocate 45<7 46>7 47b30
+45m7 Addr{1|67M9}
+46i7 Storage_Size{3|61I12}
+53i4 RS_Pool{integer}
+X 3 s-stoele.ads
+40K16*Storage_Elements 2|37w13 42r31 3|116e28
+54I9*Storage_Offset<long_long_integer>
+61I12*Storage_Count{54I9} 2|46r26
+

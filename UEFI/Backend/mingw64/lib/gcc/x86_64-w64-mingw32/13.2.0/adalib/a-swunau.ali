@@ -1,0 +1,90 @@
+V "GNAT Lib v13"
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -gnatwa
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.strings.wide_unbounded.aux%b  a-swunau.adb  014f3844 NE OL PK
+W ada.strings.wide_unbounded%s  a-stwiun.adb	a-stwiun.ali
+Z system%s		system.ads		system.ali
+
+U ada.strings.wide_unbounded.aux%s  a-swunau.ads  4b4d925b BN NE OL PR PK
+W ada.strings.wide_unbounded%s  a-stwiun.adb	a-stwiun.ali
+
+D ada.ads		20230727081304 76789da1 ada%s
+D a-except.ads		20230727081304 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230727081304 bf4f806b ada.finalization%s
+D a-stream.ads		20230727081304 119b8fb3 ada.streams%s
+D a-string.ads		20230727081304 90ac6797 ada.strings%s
+D a-sttebu.ads		20230727081304 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230727081304 c6ced0ae ada.strings.utf_encoding%s
+D a-stwima.ads		20230727081304 ef3e9671 ada.strings.wide_maps%s
+D a-stwiun.ads		20230727081304 6663e96a ada.strings.wide_unbounded%s
+D a-swunau.ads		20230727081304 2d2e7b31 ada.strings.wide_unbounded.aux%s
+D a-swunau.adb		20230727081304 2c614375 ada.strings.wide_unbounded.aux%b
+D a-tags.ads		20230727081304 9eaa38c6 ada.tags%s
+D a-unccon.ads		20230727081304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230727081304 15f799c2 interfaces%s
+D system.ads		20230727081304 f0509fe6 system%s
+D s-atocou.ads		20230727081304 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20230727081304 91bef6ef system.exception_table%s
+D s-finroo.ads		20230727081304 4ff27390 system.finalization_root%s
+D s-parame.ads		20230727081304 d494a4a6 system.parameters%s
+D s-putima.ads		20230727081304 17291fe4 system.put_images%s
+D s-retsta.ads		20230727081304 0f6b06cb system.return_stack%s
+D s-secsta.ads		20230727081304 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230727081304 df77073e system.soft_links%s
+D s-stache.ads		20230727081304 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230727081304 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230727081304 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230727081304 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20230727081304 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20230727081304 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230727081304 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [get_wide_string ada__strings__wide_unbounded__aux 43 14 none]
+G c Z s b [set_wide_string ada__strings__wide_unbounded__aux 68 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|37r9 76r5 11|32r14 65r5
+X 5 a-string.ads
+16K13*Strings 1|16k9 5|35e16 10|37r13 76r9 11|32r18 65r9
+X 9 a-stwiun.ads
+48K21*Wide_Unbounded 5|16k13 9|495e31 10|37r21 76r17 11|32r26 65r17
+51R9*Unbounded_Wide_String<3|43R9> 451e14 10|44r11 60r40 69r19 11|39r11 55r19
+58P9*Wide_String_Access(wide_string) 10|70r12 11|56r12 58r11
+60U14*Free 11|62s7
+75U14*Set_Unbounded_Wide_String 10|61r14 11|61s7
+415i7*Last{natural} 11|47r24
+416a7*Data{wide_string} 11|44m37
+421P9 Shared_Wide_String_Access(411R9)
+450p7*Reference{421P9} 11|44r27 47r14
+X 10 a-swunau.ads
+37K36*Aux 9|48k21 10|76l32 76e35 11|32b41 65l32 65t35
+40A12*Big_Wide_String{wide_string}<integer> 41r46 11|43r19
+41P9*Big_Wide_String_Access(40A12) 45r15 11|40r15
+43U14*Get_Wide_String 44>7 45<7 46<7 47r19 11|38b14 48l8 48t23
+44r7 U{9|51R9} 11|39b7 44r25 47r12
+45p7 S{41P9} 11|40b7 46m7
+46i7 L{natural} 11|41b7 47m7
+60U14*Set_Wide_String=61:14
+60r31 UP{9|51R9}
+60a63 S{wide_string}
+68U14*Set_Wide_String 69=7 70>7 11|54b14 63l8 63t23
+69r7 UP{9|51R9} 11|55b7 61m34
+70p7 S{9|58P9} 11|56b7 58r33 61r38
+X 11 a-swunau.adb
+43a7 X{10|40A12} 44m11 44r11 46m12 46r12
+58p7 X{9|58P9} 62m13 62r13
+
